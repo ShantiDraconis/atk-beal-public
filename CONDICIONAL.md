@@ -20,6 +20,17 @@ Mesmo formato do Navier–Stokes (`clayC_of_fc : FCBreakdownR3 → ClayC`):
 | Falsificador de H | `producer_refuted_by`: um dado de Beal com `gcd = 1` |
 | Kernel | **7/7 CERTIFIED** — Lean 4.34.1 + Mathlib v4.34.1, só `propext`/`Classical.choice`/`Quot.sound` (workflow `audit-kernel`) |
 
+## 0b. Linha de explosão — certificada no kernel
+
+| Peça | Declaração (`audit/lean/ATK/BealExplosion.lean`) |
+|---|---|
+| Testemunha de explosão | `PrimitiveSolution`: `Aˣ+Bʸ=Cᶻ`, `x,y,z > 2`, `gcd = 1` (certificado finito) |
+| Refutação | `explosion_refutes`, `refute_of_numbers` (basta a aritmética de números explícitos) |
+| Dicotomia | `beal_iff_no_explosion : Beal ↔ IsEmpty PrimitiveSolution` |
+| Obstrução por descida infinita | `descent_iff_no_explosion : Nonempty WFDescent ↔ IsEmpty PrimitiveSolution` |
+| Fronteira | `boundary_explosion`: com expoente 2 a explosão existe (`3²+4²=5²`) |
+| Estado | **nenhuma testemunha conhecida** (buscas computacionais, inclusive a do programa) |
+
 Nota: Beal **não** é um dos 7 problemas do Milênio; o prêmio é da AMS (Beal Prize), com regras
 próprias de publicação e aceitação.
 
