@@ -1,0 +1,7 @@
+ATK.BealBridge.beal_of_producer
+ATK.BealBridge.producer_of_beal
+ATK.BealBridge.producer_iff_beal
+ATK.BealBridge.isPrime_iff
+ATK.BealBridge.commonPrime_iff_gcd
+ATK.BealBridge.bealConjecture_iff_exact
+ATK.BealBridge.producer_refuted_by
