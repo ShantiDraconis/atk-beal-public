@@ -10,3 +10,6 @@ ATK.BealExplosion.beal_iff_no_explosion
 ATK.BealExplosion.descent_iff_no_explosion
 ATK.BealExplosion.refute_of_numbers
 ATK.BealExplosion.boundary_explosion
+ATK.BealReduction.reducedExp_gt_two
+ATK.BealReduction.exists_reduced_dvd
+ATK.BealReduction.beal_iff_reduced
