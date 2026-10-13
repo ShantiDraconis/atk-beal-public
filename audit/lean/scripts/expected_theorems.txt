@@ -13,3 +13,7 @@ ATK.BealExplosion.boundary_explosion
 ATK.BealReduction.reducedExp_gt_two
 ATK.BealReduction.exists_reduced_dvd
 ATK.BealReduction.beal_iff_reduced
+ATK.BealSmooth.exponent_ineq
+ATK.BealSmooth.beal_poly
+ATK.BealSmooth.beal_poly_common_factor
+ATK.BealSmooth.beal_diagonal
