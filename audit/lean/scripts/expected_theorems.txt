@@ -5,3 +5,8 @@ ATK.BealBridge.isPrime_iff
 ATK.BealBridge.commonPrime_iff_gcd
 ATK.BealBridge.bealConjecture_iff_exact
 ATK.BealBridge.producer_refuted_by
+ATK.BealExplosion.explosion_refutes
+ATK.BealExplosion.beal_iff_no_explosion
+ATK.BealExplosion.descent_iff_no_explosion
+ATK.BealExplosion.refute_of_numbers
+ATK.BealExplosion.boundary_explosion
