@@ -1,0 +1,46 @@
+{
+  "_doc": "Linha de fechamento: CLOSED_MATH é calculado por scripts/closure_gate.py a partir destas entradas. Um certificado é uma declaração SEM hipóteses de tipo exatamente um dos alvos. Pontes e explosões são rotas.",
+  "problem": "Beal",
+  "imports": [
+    "ATK"
+  ],
+  "main_claim": "Beal",
+  "targets": {
+    "Beal": "ATK.Exact.Beal",
+    "¬Beal": "¬ ATK.Exact.Beal"
+  },
+  "negations": {
+    "Beal": "¬Beal"
+  },
+  "closures": [],
+  "bridges": [
+    {
+      "claim": "Beal",
+      "decl": "ATK.BealBridge.beal_of_producer",
+      "hypothesis": "ATK.BealBridge.GCDLowerBoundProducer",
+      "status": "aberta (equivalente ao alvo)"
+    }
+  ],
+  "explosions": [
+    {
+      "claim": "¬Beal",
+      "decl": "ATK.BealExplosion.explosion_refutes",
+      "hypothesis": "ATK.BealDescent.PrimitiveSolution",
+      "status": "nenhuma testemunha conhecida"
+    }
+  ],
+  "subtargets": [
+    {
+      "name": "Beal sobre ℚ[X] (polinômios)",
+      "term": "ATK.BealSmooth.beal_poly ℚ",
+      "type": "∀ (a b c : Polynomial ℚ) (x y z : ℕ), a ≠ 0 → b ≠ 0 → c ≠ 0 → 2 < x → 2 < y → 2 < z → a ^ x + b ^ y = c ^ z → IsCoprime a b → a.natDegree = 0 ∧ b.natDegree = 0 ∧ c.natDegree = 0",
+      "relation": "análogo de corpo de funções (Mason–Stothers); não implica Beal nos inteiros"
+    },
+    {
+      "name": "Beal na diagonal x=y=z=n, 3∣n ou 4∣n",
+      "decl": "ATK.BealSmooth.beal_diagonal",
+      "type": "∀ n : ℕ, (3 ∣ n ∨ 4 ∣ n) → ∀ A B C : ℕ, 0 < A → 0 < B → 0 < C → A ^ n + B ^ n = C ^ n → 1 < Nat.gcd A (Nat.gcd B C)",
+      "relation": "caso particular do alvo (Fermat 3 e 4 da Mathlib)"
+    }
+  ]
+}
