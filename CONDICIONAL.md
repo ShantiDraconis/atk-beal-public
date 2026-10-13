@@ -31,6 +31,25 @@ Mesmo formato do Navier–Stokes (`clayC_of_fc : FCBreakdownR3 → ClayC`):
 | Fronteira | `boundary_explosion`: com expoente 2 a explosão existe (`3²+4²=5²`) |
 | Estado | **nenhuma testemunha conhecida** (buscas computacionais, inclusive a do programa) |
 
+## 0c. Linha de fechamento — CLOSED_MATH calculado pelo kernel
+
+Mesmo formato das linhas condicional e de explosão: **alvo exato** → **certificado** (declaração
+sem hipóteses, de tipo exatamente o alvo) → **portão** (`audit/lean/scripts/closure_gate.py`:
+kernel + axiomas padrão + controles) → **bandeira** calculada, nunca escrita à mão.
+
+| Alegação | Alvo exato | CLOSED_MATH | Certificado | Rotas certificadas até ela |
+|---|---|---|---|---|
+| Beal | `ATK.Exact.Beal` | **false** | — | ponte `beal_of_producer` (H aberta) |
+| ¬Beal | `¬ ATK.Exact.Beal` | **false** | — | explosão `explosion_refutes` (sem testemunha) |
+
+Controles do portão (todos OK, run `38387838118`): aceita uma decisão verdadeira de problema-brinquedo;
+recusa alvo como `axiom`; recusa `sorry`; recusa a ponte e a linha de explosão oferecidas como
+certificado (falta H / falta a testemunha); recusa `alvo ∨ ¬alvo` (teorema vazio).
+
+Para mudar uma bandeira para `true`, basta acrescentar a `audit/lean/closure/registry.json`
+uma declaração que o kernel aceite com o tipo exato — vinda de uma prova de H (pela ponte) ou de
+uma testemunha (pela explosão). Nenhuma outra edição altera o resultado.
+
 Nota: Beal **não** é um dos 7 problemas do Milênio; o prêmio é da AMS (Beal Prize), com regras
 próprias de publicação e aceitação.
 
