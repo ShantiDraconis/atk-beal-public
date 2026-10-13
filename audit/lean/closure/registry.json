@@ -1,0 +1,32 @@
+{
+  "_doc": "Linha de fechamento: CLOSED_MATH é calculado por scripts/closure_gate.py a partir destas entradas. Um certificado é uma declaração SEM hipóteses de tipo exatamente um dos alvos. Pontes e explosões são rotas.",
+  "problem": "Beal",
+  "imports": [
+    "ATK"
+  ],
+  "main_claim": "Beal",
+  "targets": {
+    "Beal": "ATK.Exact.Beal",
+    "¬Beal": "¬ ATK.Exact.Beal"
+  },
+  "negations": {
+    "Beal": "¬Beal"
+  },
+  "closures": [],
+  "bridges": [
+    {
+      "claim": "Beal",
+      "decl": "ATK.BealBridge.beal_of_producer",
+      "hypothesis": "ATK.BealBridge.GCDLowerBoundProducer",
+      "status": "aberta (equivalente ao alvo)"
+    }
+  ],
+  "explosions": [
+    {
+      "claim": "¬Beal",
+      "decl": "ATK.BealExplosion.explosion_refutes",
+      "hypothesis": "ATK.BealDescent.PrimitiveSolution",
+      "status": "nenhuma testemunha conhecida"
+    }
+  ]
+}
