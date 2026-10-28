@@ -1,0 +1,166 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-beal",
+ "branch": "atk/power-sum-balance-identity-20261008",
+ "branch_state": "parada",
+ "head_commit": "2154fb46d3ada6d972e9de124b3c157c13b5a3e3",
+ "head_commit_date": "2026-10-08T12:08:34+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "2154fb46d3ada6d972e9de124b3c157c13b5a3e3",
+   "date": "2026-10-08T12:08:34+02:00",
+   "subject": "add targeted Lean compile for Beal state iteration and exponent obstruction"
+  },
+  {
+   "commit": "759b8895dc8056bdf6c7fb9c00a5229bdc0e3c7c",
+   "date": "2026-10-08T11:22:23+02:00",
+   "subject": "record exponent divisibility obstruction to universal modular lowering"
+  },
+  {
+   "commit": "906e9e0d9633f994704fd3f45bef62654c940344",
+   "date": "2026-10-08T11:01:55+02:00",
+   "subject": "remove forbidden hygiene token from descent docstring"
+  },
+  {
+   "commit": "4b83863a8d7362bf450520f6e181b6ff8fbd0246",
+   "date": "2026-10-08T11:00:41+02:00",
+   "subject": "fix hygiene false positive in descent documentation"
+  },
+  {
+   "commit": "b72f6ce73c44e449b7c2b9be7cec9b65d0c9a1d3",
+   "date": "2026-10-08T01:52:59+02:00",
+   "subject": "formalize N-to-N^n well-founded descent scaffold"
+  },
+  {
+   "commit": "c1b9232a2ab0dd43c9ae81fa4d8f5b52a92586ec",
+   "date": "2026-10-08T01:44:13+02:00",
+   "subject": "formalize power-sum signed balance identity"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Material.inhabited_forbids_global_nat_descent",
+   "file": "lean/MCore/Material/StateIteration.lean",
+   "line": 41,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{α : Type} [Nonempty α] (T : α → α) (μ : α → Nat) : ¬ (∀ s, μ (T s) < μ s)"
+  },
+  {
+   "name": "MCore.Material.no_global_nat_descent",
+   "file": "lean/MCore/Material/StateIteration.lean",
+   "line": 23,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{α : Type} (T : α → α) (μ : α → Nat) (hdec : ∀ s, μ (T s) < μ s) : IsEmpty α"
+  },
+  {
+   "name": "MCore.Material.stateIter_measure_strict",
+   "file": "lean/MCore/Material/StateIteration.lean",
+   "line": 15,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{α : Type} (T : α → α) (μ : α → Nat) (hdec : ∀ s, μ (T s) < μ s) (n : Nat) (s : α) : μ (stateIter T (n + 1) s) < μ (stateIter T n s)"
+  },
+  {
+   "name": "MCore.Material.stateIter_succ",
+   "file": "lean/MCore/Material/StateIteration.lean",
+   "line": 12,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{α : Type} (T : α → α) (n : Nat) (s : α) : stateIter T (n + 1) s = T (stateIter T n s)"
+  },
+  {
+   "name": "MCore.Material.stateIter_zero",
+   "file": "lean/MCore/Material/StateIteration.lean",
+   "line": 9,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{α : Type} (T : α → α) (s : α) : stateIter T 0 s = s"
+  },
+  {
+   "name": "MCore.commonExponentPrime_dvd_weighted",
+   "file": "lean/MCore/Material/ModularExponentObstruction.lean",
+   "line": 4,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(p x y z va vb vc : Nat) (hx : p ∣ x) (hy : p ∣ y) (hz : p ∣ z) : p ∣ 2 * x * va ∧ p ∣ 2 * y * vb ∧ p ∣ 2 * z * vc"
+  },
+  {
+   "name": "MCore.powerSum_X_ne_zero_int",
+   "file": "lean/MCore/PowerSumBalance.lean",
+   "line": 23,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(d : BealData) : (d.a ^ d.x : Int) ≠ 0"
+  },
+  {
+   "name": "MCore.powerSum_balance_int",
+   "file": "lean/MCore/PowerSumBalance.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : BealData) : (d.a ^ d.x : Int) + ((d.b ^ d.y : Int) - (d.c ^ d.z : Int)) = 0"
+  },
+  {
+   "name": "MCore.powerSum_signed_ratio_numerator_int",
+   "file": "lean/MCore/PowerSumBalance.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : BealData) : (d.b ^ d.y : Int) - (d.c ^ d.z : Int) = -(d.a ^ d.x : Int)"
+  },
+  {
+   "name": "MCore.productExponentPrime_not_universal",
+   "file": "lean/MCore/Material/ModularExponentObstruction.lean",
+   "line": 16,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": ∃ p x y z : Nat, Nat.Prime p ∧ 2 < x ∧ 2 < y ∧ 2 < z ∧ p ∣ x * y * z ∧ ¬ (p ∣ x ∧ p ∣ y ∧ p ∣ z)"
+  }
+ ],
+ "closed": 2,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "ff71024013d8f21b4908035d9c3296be64c19b1a54ade041a62e9d7264a1a741",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BealSpecification.lean": "6f880a8c71b13e46cfd2783a8d236ec03818ab7f379d0246dd2e5dfdfaf3a80a",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/GCDLowerBoundProducer.lean": "524c340829ede7037786a269987fd32587c5d22a7fed98078a3e4d3644fa34c8",
+  "lean/MCore/GCDSignature.lean": "3b763f780c5bbdd68b01acb1d233732448d38dfccda92339202b670a3dbcf0c7",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "f943d2541202fd0eecd99ae2539ca70ddbd59a9fd8438c2ed81046aa7e2441fb",
+  "lean/MCore/K10.lean": "53437ddea05e8fe41c63ebccba8211036998cab7b7ad3bb2bbb28b540ddc7f0c",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "0238d3ccaf8586df995d581e1b5528e362248b3cf570ce215cf9c7e5b5f3995e",
+  "lean/MCore/K8.lean": "b54676410879afbd8896e8196df63cd511c29973229010596e362e3bdecbf4cd",
+  "lean/MCore/K9.lean": "959c7c05f5c913be70bfc2ac6cc09c768f46b02dc9a82cec214363a7249b0975",
+  "lean/MCore/K9/Core/Arith.lean": "8b5e0a520afdec6b8a57e302ae16bac0ed24e874e8e775fb327cd7445abfac03",
+  "lean/MCore/PowerSumBalance.lean": "62ad8bef379e45bc1349efee101e2614a62c93d794357fa83ff4bba81279daf9",
+  "lean/MCore/Signature.lean": "b295056afe7d8b4832377e0cbc67ceede72688c344705474d3803dba5a0d15ad"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "665b188a3b4d7bb6dad7bfb51401ee502cad82b21fdbafc6421f8c7d14d4b057"
+}

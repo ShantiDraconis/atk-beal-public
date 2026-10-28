@@ -1,0 +1,4775 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-beal",
+ "branch": "atk/beal-full-toolchain-20261006",
+ "branch_state": "parada",
+ "head_commit": "ad3da0781b68ccb60696b87f4c016dd5e3808466",
+ "head_commit_date": "2026-10-07T05:46:17+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "ad3da0781b68ccb60696b87f4c016dd5e3808466",
+   "date": "2026-10-07T05:46:17+02:00",
+   "subject": "Disable incompatible mathlib cache during dependency update"
+  },
+  {
+   "commit": "e3a6b5b4eccee72d4c544b62da85ac3ad6f3aa6c",
+   "date": "2026-10-07T05:40:09+02:00",
+   "subject": "Avoid incompatible mathlib binary cache on Lean 4.33.1"
+  },
+  {
+   "commit": "8abd968bb6f4d08e44ff6962ddac0de1ce1b22cd",
+   "date": "2026-10-07T05:34:58+02:00",
+   "subject": "Prime mathlib cache after dependency resolution"
+  },
+  {
+   "commit": "bb10406459f36a07f8be6488830f8ff7c468fd4d",
+   "date": "2026-10-07T05:33:06+02:00",
+   "subject": "Cache Lean dependencies for structural kernel"
+  },
+  {
+   "commit": "aab494b249ffebec8c658084279600219a4009bb",
+   "date": "2026-10-07T02:58:07+02:00",
+   "subject": "ci: disable mathlib post-update cache hook in BEAL"
+  },
+  {
+   "commit": "984ccfdf5581dcba8f25090f35564f4c01a3e8c7",
+   "date": "2026-10-07T02:57:34+02:00",
+   "subject": "ci: disable mathlib post-update cache fetch in BEAL gate"
+  },
+  {
+   "commit": "496eb0c23c57f04a92b3250ca0cbcac0668a7796",
+   "date": "2026-10-07T02:35:57+02:00",
+   "subject": "ci: tolerate BEAL cache hook while requiring pinned packages"
+  },
+  {
+   "commit": "050a05ca8b756cd63bebc102296a2a85c3396114",
+   "date": "2026-10-07T02:26:33+02:00",
+   "subject": "ci: remove fragile BEAL cache fetch"
+  },
+  {
+   "commit": "2e2d1c228aef3bb58472a32635b6d962a6ad476d",
+   "date": "2026-10-07T01:42:28+02:00",
+   "subject": "ci: speed BEAL structural gate with explicit dependency cache"
+  },
+  {
+   "commit": "4bcb325a2d32da643b9797ba98957b5d96103fb2",
+   "date": "2026-10-07T01:22:44+02:00",
+   "subject": "ci: make legacy BEAL workflow manual-only"
+  },
+  {
+   "commit": "eb3fc89a45b468c2d808781f479e2687b374aa22",
+   "date": "2026-10-07T01:22:38+02:00",
+   "subject": "ci: make legacy BEAL workflow manual-only"
+  },
+  {
+   "commit": "4db9115f6c843462811f778af29948eb9e99c095",
+   "date": "2026-10-07T01:22:31+02:00",
+   "subject": "ci: make legacy BEAL workflow manual-only"
+  },
+  {
+   "commit": "eb61ed634fe8cb7e8e86d948e207d59bb9aabb49",
+   "date": "2026-10-07T01:22:09+02:00",
+   "subject": "ci: harden BEAL runner policy to one 45m lane"
+  },
+  {
+   "commit": "8b112408f22aa16ee1000016c77292c235106a91",
+   "date": "2026-10-07T01:22:03+02:00",
+   "subject": "ci: harden BEAL runner policy to one 45m lane"
+  },
+  {
+   "commit": "3a9c3ba9904f7b69e3c87c97426312c08256bcf9",
+   "date": "2026-10-06T23:18:34+02:00",
+   "subject": "ci: unify BEAL build, axiom audit and non-promotion guard"
+  },
+  {
+   "commit": "c96836458c09b0b30227b92b0ea6b1319039b80b",
+   "date": "2026-10-06T22:38:30+02:00",
+   "subject": "ci: unify BEAL structural build, axiom audit and non-promotion guard"
+  },
+  {
+   "commit": "cfea5423859c24fa8c9267119088a8f707281939",
+   "date": "2026-10-06T22:38:14+02:00",
+   "subject": "open-math: unify terminal cycle into BEAL structural aggregate"
+  },
+  {
+   "commit": "a0d2d965418a4ce4fc1b6b996fae709dcf3ac121",
+   "date": "2026-10-06T22:05:19+02:00",
+   "subject": "ci: add unified BEAL structural kernel gate"
+  },
+  {
+   "commit": "36e9322fd02286e4ecd916f018bde7b193b19424",
+   "date": "2026-10-06T22:05:06+02:00",
+   "subject": "open-math: aggregate complete BEAL structural lattice certificate"
+  },
+  {
+   "commit": "e67ab744fa4f892af3e03ed2243fc14693dc4dbd",
+   "date": "2026-10-06T21:03:01+02:00",
+   "subject": "cert: publish complete ordered endpoint cube through length three"
+  },
+  {
+   "commit": "a15a5d2da34b2ee5c687a45b681014e0d27b471d",
+   "date": "2026-10-06T21:02:50+02:00",
+   "subject": "ci: compile complete ordered endpoint cube through length three"
+  },
+  {
+   "commit": "be4792bc79af565bc2853f85e1b55773db41b238",
+   "date": "2026-10-06T21:02:43+02:00",
+   "subject": "fix: make FULL-to-global certificate definitionally exact"
+  },
+  {
+   "commit": "38e219fe11560763161de9fbd0e2b12475110339",
+   "date": "2026-10-06T21:02:30+02:00",
+   "subject": "open-math: complete ordered endpoint cube through length three and FULL"
+  },
+  {
+   "commit": "4a857d9524274e2490a5ffca646286a88638addb",
+   "date": "2026-10-06T20:59:30+02:00",
+   "subject": "cert: publish endpoint lattice and FULL maximal-state model"
+  },
+  {
+   "commit": "425e2df5086a8a44f50617686aecd008f68ce914",
+   "date": "2026-10-06T20:59:19+02:00",
+   "subject": "ci: compile endpoint lattice and FULL-state certificate"
+  },
+  {
+   "commit": "abe92eb361091bd21aba8835b25ba895b003f9fa",
+   "date": "2026-10-06T20:59:10+02:00",
+   "subject": "open-math: formalize free endpoint lattice and idempotent four-state collapse"
+  },
+  {
+   "commit": "dc627edf9c40200610c6f81cfe2fac0a27657e80",
+   "date": "2026-10-06T20:56:06+02:00",
+   "subject": "cert: publish corrected dual-endpoint RPA model"
+  },
+  {
+   "commit": "832fd9671132045ff41f8feb36491f39b9d61bc2",
+   "date": "2026-10-06T20:55:56+02:00",
+   "subject": "ci: compile corrected RPA dual endpoint state"
+  },
+  {
+   "commit": "e23ab2a45f921e687118fcd1647f1936248007a2",
+   "date": "2026-10-06T20:55:47+02:00",
+   "subject": "open-math: formalize distinct open/closed endpoints in one RPA state"
+  },
+  {
+   "commit": "e02044b7b651c5c15e9fe84b8b2a8b6adda89874",
+   "date": "2026-10-06T20:51:58+02:00",
+   "subject": "cert: publish RPA dual confirmation five-view identity"
+  },
+  {
+   "commit": "c8152b7845216453150fbe8b378b98888d1367bc",
+   "date": "2026-10-06T20:51:49+02:00",
+   "subject": "ci: compile RPA five-view confirmation certificate"
+  },
+  {
+   "commit": "1421c86b65201362222961a3eebf8be94d871cda",
+   "date": "2026-10-06T20:51:42+02:00",
+   "subject": "open-math: formalize RPA dual confirmation and five-view identity"
+  },
+  {
+   "commit": "6cf9e95f4012e90855f8d132e7cc7352b9d96c18",
+   "date": "2026-10-06T19:56:52+02:00",
+   "subject": "cert: publish OpenMath-to-ClosedMath transition"
+  },
+  {
+   "commit": "d1c14d107379e66d6066988a6afaeae5ca0c3c79",
+   "date": "2026-10-06T19:56:43+02:00",
+   "subject": "ci: compile OpenMath-to-ClosedMath terminal transition"
+  },
+  {
+   "commit": "2c4c1c998dd0fbbea96c06e5325bad8b07e9629d",
+   "date": "2026-10-06T19:56:29+02:00",
+   "subject": "open-math: formalize OpenMath to ClosedMath terminal transition"
+  },
+  {
+   "commit": "0939e0338ea349c0e3193ffe5cc197fa21192b00",
+   "date": "2026-10-06T19:55:17+02:00",
+   "subject": "cert: publish terminal reflexivity result"
+  },
+  {
+   "commit": "231e0ed15a09277c542d93ac8a7dcfc8117790f4",
+   "date": "2026-10-06T19:55:11+02:00",
+   "subject": "ci: compile terminal reflexivity certificate"
+  },
+  {
+   "commit": "dfef8a20bbce136936cf7317e67b857db7a39305",
+   "date": "2026-10-06T19:55:04+02:00",
+   "subject": "open-math: formalize terminal self-reflexivity and reject self-inequality"
+  },
+  {
+   "commit": "314781b314b65cc2fa202f85b57e6c755d96e9e7",
+   "date": "2026-10-06T19:53:54+02:00",
+   "subject": "cert: publish final open/closed polarity result"
+  },
+  {
+   "commit": "1cbb1d64d311178d189538b9acba0aebcdcedad7",
+   "date": "2026-10-06T19:53:41+02:00",
+   "subject": "ci: compile final open/closed polarity certificate"
+  },
+  {
+   "commit": "87b36f0ba978bf349d28fff23b1af172b8cc5290",
+   "date": "2026-10-06T19:53:32+02:00",
+   "subject": "open-math: test final open/closed polarity identities"
+  },
+  {
+   "commit": "7becc6ef584be76c22e0f136852da8b2d478d510",
+   "date": "2026-10-06T19:48:59+02:00",
+   "subject": "ci: compile terminal pair normalization certificate"
+  },
+  {
+   "commit": "7c311a44eb7bc1d2b6191e37bbb167b0747cd10a",
+   "date": "2026-10-06T19:48:47+02:00",
+   "subject": "open-math: formalize 0/1→1/1 and 0/2→2/2 terminal normalization"
+  },
+  {
+   "commit": "fdddb6c7b39f590dd383e9c6baf5bef8de80993e",
+   "date": "2026-10-06T19:45:40+02:00",
+   "subject": "cert: publish 0-1-2 terminal core dynamics"
+  },
+  {
+   "commit": "df442c08fb5d4329096272c0747c6f96fd6f176d",
+   "date": "2026-10-06T19:45:19+02:00",
+   "subject": "ci: compile 0-1-2 terminal core dynamics"
+  },
+  {
+   "commit": "8ca35b0fe6e2c489d9b7fcde203f9883677c2ca4",
+   "date": "2026-10-06T19:45:11+02:00",
+   "subject": "open-math: formalize 0-1-2 terminal core dynamics"
+  },
+  {
+   "commit": "cadcad55ddfea5a6e72846fbefb54f4bbd306bb8",
+   "date": "2026-10-06T19:41:30+02:00",
+   "subject": "ci: test whether terminal cycle alone inhabits endpoint"
+  },
+  {
+   "commit": "08944f825d77f5359ca16675972c5620beb0fcef",
+   "date": "2026-10-06T19:41:05+02:00",
+   "subject": "ci: compile terminal cycle equivalence certificate"
+  },
+  {
+   "commit": "78822610b735c0882a86d67aeb6b075673c8d8a2",
+   "date": "2026-10-06T19:40:55+02:00",
+   "subject": "open-math: formalize endpoint-gap-habitant-inhabitant terminal cycle"
+  },
+  {
+   "commit": "f354e99ca9d4d5d560cd260c9d7d6c51ea23b7e3",
+   "date": "2026-10-06T19:35:11+02:00",
+   "subject": "cert: publish terminal inhabitant-behavior structure"
+  },
+  {
+   "commit": "8dce92956386c6bcacf84b0d73aa98082b1c203d",
+   "date": "2026-10-06T19:35:01+02:00",
+   "subject": "ci: compile terminal inhabitant-behavior certificate"
+  },
+  {
+   "commit": "10fd887fb307275c71845f4b2439d6a39a3a9ce9",
+   "date": "2026-10-06T19:34:52+02:00",
+   "subject": "open-math: formalize behavioral structure of terminal inhabitant signature"
+  },
+  {
+   "commit": "145c740300ca955aa110472a310377ce0d1b3677",
+   "date": "2026-10-06T19:24:22+02:00",
+   "subject": "cert: publish terminal orbit and reverse-collapse closure"
+  },
+  {
+   "commit": "6b9a7a2398784fae6f62c3ef68fcba65cbfad1c9",
+   "date": "2026-10-06T19:24:10+02:00",
+   "subject": "ci: compile terminal orbit and reverse-collapse certificate"
+  },
+  {
+   "commit": "c6672898a63021813d90a29363dbbc82fddb33fb",
+   "date": "2026-10-06T19:24:00+02:00",
+   "subject": "open-math: formalize terminal reopening orbit and reverse collapse"
+  },
+  {
+   "commit": "844882399c0376b48c95753fd1dc576805573c47",
+   "date": "2026-10-06T19:22:09+02:00",
+   "subject": "cert: publish endpoint-gap fixed-point signature"
+  },
+  {
+   "commit": "843e880196d028e6edd898248ed0bf5c4d082a37",
+   "date": "2026-10-06T19:21:58+02:00",
+   "subject": "ci: compile endpoint-gap fixed-point certificate"
+  },
+  {
+   "commit": "805eb4dbba08cdf0adbb5c4ffb28d55c2e09aecf",
+   "date": "2026-10-06T19:21:48+02:00",
+   "subject": "open-math: identify terminal gap with final endpoint signature"
+  },
+  {
+   "commit": "acc803c4c7dd4fe9c245c89d18c98a17a7a341b4",
+   "date": "2026-10-06T19:19:11+02:00",
+   "subject": "cert: publish Beal terminal fixed-point closure"
+  },
+  {
+   "commit": "02526d37d8bc7ce3310bae7592fb724f128ecfed",
+   "date": "2026-10-06T19:19:00+02:00",
+   "subject": "ci: compile terminal fixed-point truncation certificate"
+  },
+  {
+   "commit": "18e4f22a2646cb64d9f5d37b26c5d820dbbcdcb4",
+   "date": "2026-10-06T19:18:48+02:00",
+   "subject": "open-math: formalize terminal fixed-point and truncation signature"
+  },
+  {
+   "commit": "1b7a6e5ffa7fe2f44ca99a7777062ec8cbbe838f",
+   "date": "2026-10-06T18:45:16+02:00",
+   "subject": "frontier: freeze Beal structure and expose single terminal open-math leaf"
+  },
+  {
+   "commit": "d748b515c444749ff26187677728064210c8225b",
+   "date": "2026-10-06T18:45:00+02:00",
+   "subject": "policy: freeze Beal OPEN_MATH at the single terminal leaf"
+  },
+  {
+   "commit": "5f8bf29b40fb09dd91c10c2927362b6b85634781",
+   "date": "2026-10-06T18:44:57+02:00",
+   "subject": "cert: publish Beal final-root structural closure frontier"
+  },
+  {
+   "commit": "216539380aee6bf09a754f36bf2f42e2ba34dfd9",
+   "date": "2026-10-06T18:43:19+02:00",
+   "subject": "ci: compile Beal FINAL_ROOT and GLOBAL_EXTERNAL bridge"
+  },
+  {
+   "commit": "af41d43bb6d9c75799e9a96aa7bf763d1b6cb6b1",
+   "date": "2026-10-06T18:43:12+02:00",
+   "subject": "open-math: bind single terminal root directly to Beal endpoint"
+  },
+  {
+   "commit": "825e5e8024f41c018a4ddcd39c357e604970f790",
+   "date": "2026-10-06T18:41:33+02:00",
+   "subject": "ci: remove hygiene-trigger words from terminal leaf documentation"
+  },
+  {
+   "commit": "7838ca5e87c838f6599497a103ca966d090c92e7",
+   "date": "2026-10-06T18:40:07+02:00",
+   "subject": "ci: compile single terminal Beal OPEN_MATH leaf"
+  },
+  {
+   "commit": "72706de7414965726ee2894b1df8b0de0a25cab2",
+   "date": "2026-10-06T18:39:55+02:00",
+   "subject": "open-math: freeze five mixed Beal families as one terminal leaf"
+  },
+  {
+   "commit": "eed4c6b6616cadbbeb3635ec366cdb26e953acfc",
+   "date": "2026-10-06T18:38:32+02:00",
+   "subject": "ci: tolerate cache mismatch on full FLT source build"
+  },
+  {
+   "commit": "5456b7c2f4ba6180817f19143d5e91c4b558871d",
+   "date": "2026-10-06T18:38:29+02:00",
+   "subject": "ci: bypass incompatible Mathlib cache and build FLT dependencies from source"
+  },
+  {
+   "commit": "d5879447236f447dc982728cb4de0ac03429324c",
+   "date": "2026-10-06T18:34:58+02:00",
+   "subject": "ci: add full FLT toolchain gate for Beal open math"
+  },
+  {
+   "commit": "54ee06eb72f814ad56007717ea0b9258a6bb43b4",
+   "date": "2026-10-06T18:34:43+02:00",
+   "subject": "ci: certify Beal full-toolchain lane on Lean 4.33.1"
+  },
+  {
+   "commit": "ca2b6e6a00ba7489d81ff2e0fe73900ecfd82d6b",
+   "date": "2026-10-06T18:34:41+02:00",
+   "subject": "ci: compile full-FLT Beal five-family min-cut"
+  },
+  {
+   "commit": "a35f272d601f71bc6eec6a3d6949ad54092ac2d2",
+   "date": "2026-10-06T18:34:21+02:00",
+   "subject": "open-math: eliminate equal-prime Beal family using pinned full FLT"
+  },
+  {
+   "commit": "640ca9880ec0ffb463b436d57797bce2402b85a6",
+   "date": "2026-10-06T18:33:49+02:00",
+   "subject": "build: pin Mathlib and full FLT formalization"
+  },
+  {
+   "commit": "ab8190260cf02b5f21fc3004532d18f8a03989cb",
+   "date": "2026-10-06T18:33:32+02:00",
+   "subject": "build: migrate Beal full-toolchain lane to Lean 4.33.1"
+  },
+  {
+   "commit": "f8c00bc1cae711696d721fbba992aa0c6c9aab68",
+   "date": "2026-10-06T18:26:36+02:00",
+   "subject": "ci: compile primitive-preserving Beal reduction"
+  },
+  {
+   "commit": "3272a0adb0fe8311a4dd7ec5363cadff9a1fecdc",
+   "date": "2026-10-06T18:26:28+02:00",
+   "subject": "open-math: preserve primitivity through Beal exponent reduction"
+  },
+  {
+   "commit": "fe4266c46512fc1447a637ff2a58f4c7f393fdd8",
+   "date": "2026-10-06T18:08:57+02:00",
+   "subject": "fix(open-math): qualify Q10 material primitive exclusion endpoint"
+  },
+  {
+   "commit": "a402518f5a3923b30eb8e11e753ac957f5e47933",
+   "date": "2026-10-06T17:27:13+02:00",
+   "subject": "fix(open-math): reuse GREEN exponent reduction and repair seven-family constructors"
+  },
+  {
+   "commit": "b9c446fda140388ef1b3d850df41d1213873d3ca",
+   "date": "2026-10-06T16:28:32+02:00",
+   "subject": "ci: compile exact six-family Beal min-cut"
+  },
+  {
+   "commit": "f4d7fb65f7ab7dd57c2c05c8c0946abca057350c",
+   "date": "2026-10-06T16:28:23+02:00",
+   "subject": "open-math: compress Beal Q10 to exact six-family min-cut"
+  },
+  {
+   "commit": "81f64fdf83c59589a196a88181ea266b27ef286d",
+   "date": "2026-10-06T16:27:46+02:00",
+   "subject": "ci: compile Beal Q10 seven-family reduction"
+  },
+  {
+   "commit": "3e077a0d8c8b8a385643701af2cfb3201deadf93",
+   "date": "2026-10-06T16:27:37+02:00",
+   "subject": "open-math: reduce primitive Beal Q10 to seven exponent families"
+  },
+  {
+   "commit": "33ff7236df358418c3d413cc2b93564000d17e1c",
+   "date": "2026-10-06T16:22:29+02:00",
+   "subject": "ci: resolve Mathlib dependency before certificate gates"
+  },
+  {
+   "commit": "824f8306a8e768e8e3b793daa2c6f15f7dd6019c",
+   "date": "2026-10-06T16:21:49+02:00",
+   "subject": "ci: compile Mathlib-backed FLT4 Beal elimination"
+  },
+  {
+   "commit": "7d48ae01f795e9237b33c5a49baf132984ad58b4",
+   "date": "2026-10-06T16:21:38+02:00",
+   "subject": "open-math: eliminate all-four Beal signature via Mathlib FLT4"
+  },
+  {
+   "commit": "5a8a2b2930b5157723c9dfd8d8c7d69127ee7634",
+   "date": "2026-10-06T16:21:15+02:00",
+   "subject": "build: add mathlib v4.19.0 for formal FLT4 reuse"
+  },
+  {
+   "commit": "a78cbbcb46ad746d1123b93168adb1d567fe42ef",
+   "date": "2026-10-06T16:01:42+02:00",
+   "subject": "ci: compile Beal Q10 exponent reduction"
+  },
+  {
+   "commit": "dff69f5b5cb61442894af14e42109290ab83c3e3",
+   "date": "2026-10-06T16:01:34+02:00",
+   "subject": "open-math: reduce Beal Q10 exponents to 4 or odd-prime divisors"
+  },
+  {
+   "commit": "a31c7dd4ae2c3d96cfc3137a1e88c303f2551089",
+   "date": "2026-10-06T15:11:23+02:00",
+   "subject": "ci: compile primitive Beal parity pressure"
+  },
+  {
+   "commit": "89ad25c39e3b4982085bfd61a00d0d044ea0a348",
+   "date": "2026-10-06T15:11:13+02:00",
+   "subject": "open-math: derive exactly-one-even pressure from primitive Beal solution"
+  },
+  {
+   "commit": "a8a5dd25546f80271bf41d43797ba1c97fbc360d",
+   "date": "2026-10-06T15:06:51+02:00",
+   "subject": "ci: run forcing kernel on Beal Q10 attack branch"
+  },
+  {
+   "commit": "cb009f7027499d09496e8c0390c365a1c26aa72e",
+   "date": "2026-10-06T15:06:26+02:00",
+   "subject": "ci: compile Beal Q10 primitive-exclusion frontier"
+  },
+  {
+   "commit": "16e6408be45e7a59eaf411cb150e0b3fa12aa502",
+   "date": "2026-10-06T15:06:17+02:00",
+   "subject": "open-math: expose exact Beal Q10 primitive-exclusion frontier"
+  },
+  {
+   "commit": "9863145b13f3803213b0987cabbc648b4e54f2d9",
+   "date": "2026-10-06T14:31:56+02:00",
+   "subject": "ci: compile corrected Beal invariant probe in forcing kernel"
+  },
+  {
+   "commit": "01200a25a277286f26cd2b5d77b246ba63dbebe0",
+   "date": "2026-10-06T14:31:46+02:00",
+   "subject": "open-math: add compiled Beal rejection invariant probe"
+  },
+  {
+   "commit": "40384d1bd9d701ab1501882c728d0fc2aa1ee9dc",
+   "date": "2026-10-06T14:30:56+02:00",
+   "subject": "open-math: add corrected Beal rejection invariant probe"
+  },
+  {
+   "commit": "4b7ead78ea2cda67d4867ff4595dd9ae2849057b",
+   "date": "2026-10-05T13:11:59+02:00",
+   "subject": "ci: build forcing module through Lake library path"
+  },
+  {
+   "commit": "494d0dc6cdeab929b9eb9d054d388b561eda98bf",
+   "date": "2026-10-05T13:10:53+02:00",
+   "subject": "ci: run first-real-open-math forcing kernel"
+  },
+  {
+   "commit": "ac405998f98521650fc3241c60c743f0ebe4aab5",
+   "date": "2026-10-05T13:10:29+02:00",
+   "subject": "forcing: expose first real open-math target"
+  },
+  {
+   "commit": "cdac34c68eb500330f2aa5be66ae3a646ad12006",
+   "date": "2026-09-20T22:07:07+01:00",
+   "subject": "wire(T60): candidate odd-local arithmetic packet"
+  },
+  {
+   "commit": "b7d2b99389c3c23fe8b63a2e4480abefe4fda4ab",
+   "date": "2026-09-20T22:07:02+01:00",
+   "subject": "feat(T60): package odd-prime local arithmetic per residual candidate"
+  },
+  {
+   "commit": "489977197a82f867b34d63c23015e688d6dac6c9",
+   "date": "2026-09-20T22:06:27+01:00",
+   "subject": "wire(T59): candidate-keyed level table frontier"
+  },
+  {
+   "commit": "110df453a2c766b5596f3666cf258ca5cff046c2",
+   "date": "2026-09-20T22:06:21+01:00",
+   "subject": "feat(T59): key modular level tables by concrete residual candidate"
+  },
+  {
+   "commit": "b9e77ce6600a1d5af808f87ca04f0784b9478de9",
+   "date": "2026-09-20T21:04:55+01:00",
+   "subject": "wire(T52-T58): certified level interface and five-family elimination bundle"
+  },
+  {
+   "commit": "a01fa0f4c4fab302ba47a3835bea3e94d0cd54c6",
+   "date": "2026-09-20T21:04:48+01:00",
+   "subject": "feat(T58): aggregate five residual mixed-family eliminations"
+  },
+  {
+   "commit": "f8c5d904baa40d167f68090af3e44ac40ef8f5da",
+   "date": "2026-09-20T21:04:37+01:00",
+   "subject": "feat(T57): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "abd881ceaff4b4082d98b506e83cca9c0c036bee",
+   "date": "2026-09-20T21:04:35+01:00",
+   "subject": "feat(T56): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "38a4b4313551f450f10e5e59d7a67f114bcf9dd0",
+   "date": "2026-09-20T21:04:33+01:00",
+   "subject": "feat(T55): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "cc604e5993d19c9d68cbabe8df9efbe4b88c9b28",
+   "date": "2026-09-20T21:04:31+01:00",
+   "subject": "feat(T54): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "830d8919f024cf034fdc6d2057009ee400cd75de",
+   "date": "2026-09-20T21:04:29+01:00",
+   "subject": "feat(T53): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "961ea5ba613ec85e65f676df396b78cb5c91f4c3",
+   "date": "2026-09-20T21:04:08+01:00",
+   "subject": "feat(T52): certify signature-to-level table interface fail-closed"
+  },
+  {
+   "commit": "bc6e0f6a9f38a1a71d8a76d9ba0a261dcd2861a4",
+   "date": "2026-09-20T18:15:10+01:00",
+   "subject": "wire(T51): include five mixed signature families"
+  },
+  {
+   "commit": "facb71b1d2b35e3c6f02de31fce6839b6e7b0458",
+   "date": "2026-09-20T18:14:58+01:00",
+   "subject": "feat(T51): classify remaining mixed signatures into five families"
+  },
+  {
+   "commit": "ae7c3bc9475134a81a8715c57913c11e45997325",
+   "date": "2026-09-20T18:13:52+01:00",
+   "subject": "fix(T49): make FLT4 contract branch-local"
+  },
+  {
+   "commit": "bc161172fe78f980ad2521834ea721b621670240",
+   "date": "2026-09-20T18:11:47+01:00",
+   "subject": "wire(T49): include contains-four signature split"
+  },
+  {
+   "commit": "d598103d040055b29473cf859e49088bcfcbdd1b",
+   "date": "2026-09-20T18:11:40+01:00",
+   "subject": "feat(T49): split contains-four signatures and isolate FLT4 branch"
+  },
+  {
+   "commit": "88ea971cdb00fa7bba8307ab2217c7792c55d18c",
+   "date": "2026-09-20T18:08:56+01:00",
+   "subject": "wire(T48): include mixed signature family classification"
+  },
+  {
+   "commit": "163a540948adcbc4c7b1cc1437defe33bff2d494",
+   "date": "2026-09-20T18:08:45+01:00",
+   "subject": "feat(T48): classify mixed reduced signatures into three families"
+  },
+  {
+   "commit": "427cd1e5e1f63a8085ea26879d47c94f9be0a8b5",
+   "date": "2026-09-20T18:05:57+01:00",
+   "subject": "fix(T45): make signature router classical only"
+  },
+  {
+   "commit": "22bf6a3f3d10455ccb755102df8cdb74ba74927f",
+   "date": "2026-09-20T18:04:45+01:00",
+   "subject": "wire(T45): include residual signature classification"
+  },
+  {
+   "commit": "ea7b5887bb0de5eb7d0984b0e65fb1be9f07ea77",
+   "date": "2026-09-20T18:04:36+01:00",
+   "subject": "feat(T45): classify single-residual route as equal-prime signatures"
+  },
+  {
+   "commit": "cd9d99990170e351e8c4b69bff4a60fc7580ffed",
+   "date": "2026-09-20T18:02:05+01:00",
+   "subject": "wire(T43-T44): include residual and newform fail-proof frontiers"
+  },
+  {
+   "commit": "07271ed519b389f772a04b25dab5d8fc3808cfc9",
+   "date": "2026-09-20T18:01:57+01:00",
+   "subject": "feat(T44): split newform elimination into coverage and exclusion"
+  },
+  {
+   "commit": "97652f2f4d008beaedb5c7b7acf46010e5cc440c",
+   "date": "2026-09-20T18:01:33+01:00",
+   "subject": "feat(T43): isolate residual-prime compatibility and irreducibility frontier"
+  },
+  {
+   "commit": "5f2e37823d44362415d852eea509c00809499aa3",
+   "date": "2026-09-20T17:53:21+01:00",
+   "subject": "T36-T42: type every remaining fail-closed bridge"
+  },
+  {
+   "commit": "d9b294c8c77172ba3bab7a7fd077d55f1fcfd302",
+   "date": "2026-09-20T17:29:54+01:00",
+   "subject": "T35: certify all-gaps fail-proof ledger"
+  },
+  {
+   "commit": "02d65b72e24dcc5cf596fb0cfa53e196e010a1c8",
+   "date": "2026-09-20T16:54:03+01:00",
+   "subject": "T34: formalize Frey nodal root-collision pattern"
+  },
+  {
+   "commit": "d7228bdb7ea6236eedb131e96050d0dc02854a2b",
+   "date": "2026-09-20T16:51:16+01:00",
+   "subject": "T33: isolate odd-prime local reduction input contract"
+  },
+  {
+   "commit": "be1461c5e089f3dce2834f193ced3f11dd520459",
+   "date": "2026-09-20T16:48:18+01:00",
+   "subject": "fix(T32): make Nat subtraction cancellations explicit"
+  },
+  {
+   "commit": "26c53cbe85f2949373940161dbfb719b78a82e1f",
+   "date": "2026-09-20T16:46:42+01:00",
+   "subject": "T32: certify odd-prime Delta-c4 separation"
+  },
+  {
+   "commit": "7b3c0045326f5886bb545428a605b05c16ce6d7f",
+   "date": "2026-09-20T16:43:31+01:00",
+   "subject": "T31: sharpen Frey support to 2 and Beal bases"
+  },
+  {
+   "commit": "194b84d53c2e528160b8f0a1643fa6353bbf1117",
+   "date": "2026-09-20T16:41:17+01:00",
+   "subject": "T30: descend Frey prime support to Beal bases"
+  },
+  {
+   "commit": "96536b03001fb53e065ec05b40be48832b94590b",
+   "date": "2026-09-20T16:38:46+01:00",
+   "subject": "T29: prove local Euclid prime-product lemma"
+  },
+  {
+   "commit": "e5fa7d2a9319a887178f44a7e6ebf46dd370ef11",
+   "date": "2026-09-20T16:36:42+01:00",
+   "subject": "T28: isolate conditional prime-support frontier"
+  },
+  {
+   "commit": "0c84b8622dcc1ea2690e593c82f71b8be7c41811",
+   "date": "2026-09-20T16:34:47+01:00",
+   "subject": "T27: generalize Frey divisor-depth transport"
+  },
+  {
+   "commit": "24ccf11b75560cc6bc09828b9f61f2d02e3f0240",
+   "date": "2026-09-20T16:21:14+01:00",
+   "subject": "T26: certify fail-closed 38970-to-Beal bridge equivalence"
+  },
+  {
+   "commit": "80ca07f854c2522cb30a6f6ccc09ecb4259cc038",
+   "date": "2026-09-20T16:18:28+01:00",
+   "subject": "T25: add exact Frey two-adic depth transport"
+  },
+  {
+   "commit": "e01b67c3c77489f30b6357f4c0a22fb214af9bb1",
+   "date": "2026-09-20T16:16:16+01:00",
+   "subject": "wire(T24): include Frey discriminant frontier"
+  },
+  {
+   "commit": "2c7c931e122a4a352d54a3e3c489571cdbaa5444",
+   "date": "2026-09-20T16:16:05+01:00",
+   "subject": "feat(T24): formalize exact Frey discriminant bridge"
+  },
+  {
+   "commit": "9adaa8234023537c8536342f50bac86219e45de3",
+   "date": "2026-09-20T13:25:28+01:00",
+   "subject": "wire(T23): include equal-power gap depth frontier"
+  },
+  {
+   "commit": "9ccf52b2e39cdb560ffa918f56f470d32560b8b4",
+   "date": "2026-09-20T13:25:26+01:00",
+   "subject": "feat(T23): transfer two-adic exponent depth into equal-power gaps"
+  },
+  {
+   "commit": "0f5b5e11bbc48fd3ff6e133dcab3e506735eb3eb",
+   "date": "2026-09-20T13:23:40+01:00",
+   "subject": "fix(T22): generalize cancellation induction and remove solved goal"
+  },
+  {
+   "commit": "6284e7152ec3d7a2eb2e53930a67d5442aa8e08c",
+   "date": "2026-09-20T13:22:34+01:00",
+   "subject": "wire(T22): include LTE-like exactness frontier"
+  },
+  {
+   "commit": "41d04dbcb5cff6a59bc12ca60f54b66462dd70e7",
+   "date": "2026-09-20T13:22:32+01:00",
+   "subject": "feat(T22): prove elementary LTE-like two-adic exactness"
+  },
+  {
+   "commit": "e6955cfc82e72783581eb9992b45f46acbe37408",
+   "date": "2026-09-20T13:19:50+01:00",
+   "subject": "fix(T21): normalize additive terms in difference factorization"
+  },
+  {
+   "commit": "90079efac6a01a56712b4965736aeafd675823ad",
+   "date": "2026-09-20T13:18:57+01:00",
+   "subject": "wire(T21): include equal-exponent factor frontier"
+  },
+  {
+   "commit": "06db987708e941b601273c336516bf7d139aef72",
+   "date": "2026-09-20T13:18:54+01:00",
+   "subject": "feat(T21): factor equal-exponent difference branches"
+  },
+  {
+   "commit": "6d1a195b32281ca6e9d2092ad5c0bbe6c1cd4a42",
+   "date": "2026-09-20T13:15:17+01:00",
+   "subject": "wire(T20): include full two-adic depth scaling"
+  },
+  {
+   "commit": "30b4b52f848863d37de7713796a61bf31d793d9a",
+   "date": "2026-09-20T13:15:15+01:00",
+   "subject": "feat(T20): scale arbitrary two-adic depth through exponents"
+  },
+  {
+   "commit": "53e91b7927fdb6cbaa94135d94d9ba4f2d3dcafb",
+   "date": "2026-09-20T13:13:59+01:00",
+   "subject": "wire(T19): include variable two-adic frontier"
+  },
+  {
+   "commit": "7464a9f169701d581d175b9f9afcaf5b1d5db008",
+   "date": "2026-09-20T13:13:57+01:00",
+   "subject": "feat(T19): lift parity layer to variable two-adic divisibility"
+  },
+  {
+   "commit": "59c9e889aaadfa1aca54d1e78bdeaf8272b8c242",
+   "date": "2026-09-20T12:50:11+01:00",
+   "subject": "wire(T18): include full parity classifier"
+  },
+  {
+   "commit": "5390239cf1aa670194e461196c7116468a758463",
+   "date": "2026-09-20T12:50:07+01:00",
+   "subject": "feat(T18): complete exactly-one-even modulo-eight classification"
+  },
+  {
+   "commit": "d0284fcfacb55fa6640fd664413210dc8f536d9f",
+   "date": "2026-09-20T12:48:19+01:00",
+   "subject": "wire(T17): include classified C-even frontier"
+  },
+  {
+   "commit": "fc6b8b19acc8f7b723aa54e23e7fa1f7a985ca57",
+   "date": "2026-09-20T12:48:17+01:00",
+   "subject": "feat(T17): classify the C-even modulo-eight survivor"
+  },
+  {
+   "commit": "2e86aaf0f298ef0f0cf1b5314c4ba98937904ac2",
+   "date": "2026-09-20T12:46:51+01:00",
+   "subject": "fix(T16): classify odd residues mod eight constructively"
+  },
+  {
+   "commit": "044be86f1b58813549d5c6cb0d648f158a69bc08",
+   "date": "2026-09-20T12:44:36+01:00",
+   "subject": "wire(T16): include modulo-eight residual in aggregate build"
+  },
+  {
+   "commit": "393b6776a9972971eb97cef6d7f908207fb3dafd",
+   "date": "2026-09-20T12:44:34+01:00",
+   "subject": "feat(T16): add modulo-eight C-even residual constraints"
+  },
+  {
+   "commit": "7a1c6523346f85de92739867161ba3ceed44c59b",
+   "date": "2026-09-20T12:38:08+01:00",
+   "subject": "fix(T15): remove solved-goal residue simplification"
+  },
+  {
+   "commit": "2d55057b504725e2e6d0ed81fb929785a2b998d5",
+   "date": "2026-09-20T12:37:06+01:00",
+   "subject": "wire(T15): include base-residue frontier in aggregate build"
+  },
+  {
+   "commit": "9c6925b754b71cee3553951d1bac134f9cf62445",
+   "date": "2026-09-20T12:37:03+01:00",
+   "subject": "feat(T15): reduce C-even mixed-four branch to base residues"
+  },
+  {
+   "commit": "2f91f5fdc399f608e1f341547bc9be86902a4226",
+   "date": "2026-09-20T12:34:53+01:00",
+   "subject": "fix(T14): close bounded residue branches constructively"
+  },
+  {
+   "commit": "410bd124052c803bbb0be2b9cdaec0087ee9b179",
+   "date": "2026-09-20T12:33:35+01:00",
+   "subject": "wire(T14): include residue frontier in aggregate build"
+  },
+  {
+   "commit": "5828b3a4107992af36924c2358a657ca22144846",
+   "date": "2026-09-20T12:33:32+01:00",
+   "subject": "feat(T14): expose C-even mixed-four residue constraints"
+  },
+  {
+   "commit": "640073462f3329bb63d89742179e89d78cd95150",
+   "date": "2026-09-20T12:19:41+01:00",
+   "subject": "fix(T13): use core modulo simplification and mul divisibility"
+  },
+  {
+   "commit": "71272a0b77deea65cf2cf4718e9f810d4776bc97",
+   "date": "2026-09-20T12:18:24+01:00",
+   "subject": "fix(T13): use explicit modular forms and divisibility witness"
+  },
+  {
+   "commit": "f29813e811c0213cd64e69ceb47bc50805212deb",
+   "date": "2026-09-20T12:16:48+01:00",
+   "subject": "ATK wire T13 modular residual into MCore build"
+  },
+  {
+   "commit": "53371f297d3b4116b257149e17baaabf441fd77b",
+   "date": "2026-09-20T12:16:41+01:00",
+   "subject": "ATK T13: exclude C-even double-four signature modulo four"
+  },
+  {
+   "commit": "999bf7c8ec4b0e7f2f73b6740137f5a7c7e239d5",
+   "date": "2026-09-20T12:12:57+01:00",
+   "subject": "fix(T12): provide explicit constructive evenness decider"
+  },
+  {
+   "commit": "efe4fef064273971a3e5182be560c7efe186cde7",
+   "date": "2026-09-20T12:11:58+01:00",
+   "subject": "fix(T12): use constructive divisibility decisions"
+  },
+  {
+   "commit": "e91fe27c82d610b6fbd37279b8fbf2e6baf45b93",
+   "date": "2026-09-20T12:10:59+01:00",
+   "subject": "fix(T12): remove omega and keep parity proof constructive"
+  },
+  {
+   "commit": "bbd7455efec20e0a4a663ea06db2457000f5ba3f",
+   "date": "2026-09-20T12:09:55+01:00",
+   "subject": "ATK wire T12 parity residual into MCore build"
+  },
+  {
+   "commit": "4c3991c1c88cba64785b2feeff52bb0e3df0d1b6",
+   "date": "2026-09-20T12:09:47+01:00",
+   "subject": "ATK T12: expose exactly-one-even parity residual"
+  },
+  {
+   "commit": "d830ece3c1589ef63c2055af319fe6a64a623165",
+   "date": "2026-09-20T11:22:53+01:00",
+   "subject": "fix(T11): make Nat subtraction identities explicit"
+  },
+  {
+   "commit": "13f0146472c48709e77be681cda8a5be7eaad864",
+   "date": "2026-09-20T11:21:56+01:00",
+   "subject": "ATK wire T11 pairwise residual into MCore build"
+  },
+  {
+   "commit": "84bb450f991ec39e1af42f9bc07c217e096c3c96",
+   "date": "2026-09-20T11:21:48+01:00",
+   "subject": "ATK T11: strengthen reduced Beal residual to pairwise primitive bases"
+  },
+  {
+   "commit": "67e64379c4e93df6187597819115ead0550bf0ab",
+   "date": "2026-09-20T11:16:47+01:00",
+   "subject": "fix(T10): replace unavailable congrArg₂ with rw"
+  },
+  {
+   "commit": "4094b7098bc1ea766c6eec86fd9a8d26f25a1bd6",
+   "date": "2026-09-20T10:44:50+01:00",
+   "subject": "fix(T10): keep reduced candidate in Prop to avoid choice"
+  },
+  {
+   "commit": "136d81ac0303d0000efcedb0cc4d1b5b79d62509",
+   "date": "2026-09-20T10:43:42+01:00",
+   "subject": "ATK wire T10 reduced-signature normalization into MCore build"
+  },
+  {
+   "commit": "3371223ff10d790a2e148ec9da897cc260ed995c",
+   "date": "2026-09-20T10:43:34+01:00",
+   "subject": "ATK T10: normalize primitive Beal candidates to 4-or-prime signatures"
+  },
+  {
+   "commit": "cf7279eed0a306e298c777913b09acbcc9d3bd3d",
+   "date": "2026-09-20T10:42:57+01:00",
+   "subject": "cert: freeze T9 Euclid and prime-power closure"
+  },
+  {
+   "commit": "02477296f24b8a6fdd00c0e28a037f7da2b7072b",
+   "date": "2026-09-20T10:41:57+01:00",
+   "subject": "ATK wire T9 Euclid and prime-power closure into MCore build"
+  },
+  {
+   "commit": "d37ded73997e6d4f68a755f7f80addfcaa8dd97b",
+   "date": "2026-09-20T10:41:50+01:00",
+   "subject": "ATK T9: prove local Euclid kernel and prime-power reflection"
+  },
+  {
+   "commit": "782386cfce3b34366f4fbe1fe123432c444bf9e4",
+   "date": "2026-09-20T10:41:09+01:00",
+   "subject": "cert: freeze T8 powered-primitivity transport"
+  },
+  {
+   "commit": "53576120987c557bd86f5ee7730cf4b6ee19607f",
+   "date": "2026-09-20T10:40:19+01:00",
+   "subject": "ATK wire T8 powered-primitivity bridge into MCore build"
+  },
+  {
+   "commit": "8135c35a52e347e27e325921d8006420f1757282",
+   "date": "2026-09-20T10:40:12+01:00",
+   "subject": "ATK T8: isolate prime-power reflection and powered primitiveness"
+  },
+  {
+   "commit": "3774159e72ff1b2d9bed3a96c76e67239d5e7ad0",
+   "date": "2026-09-20T10:38:30+01:00",
+   "subject": "cert: freeze T7 exponent normalization"
+  },
+  {
+   "commit": "278ead2946e422708a465e2a9fe31332b0574446",
+   "date": "2026-09-20T10:37:36+01:00",
+   "subject": "ATK wire T7 exponent reduction into MCore build"
+  },
+  {
+   "commit": "f6ff2dd765997215ceb3542fca39ddd9a922d94c",
+   "date": "2026-09-20T10:37:30+01:00",
+   "subject": "ATK T7: reduce every exponent above two to 4 or a prime factor"
+  },
+  {
+   "commit": "3016cc9c919cdf0db50a7b72d8a79c6f62efee27",
+   "date": "2026-09-20T10:36:03+01:00",
+   "subject": "cert: freeze exact T6 primitive scientific frontier"
+  },
+  {
+   "commit": "466a6ec4cc3afe367408c76c5d085c42ee36c093",
+   "date": "2026-09-20T10:34:58+01:00",
+   "subject": "ATK T6: package exact primitive Beal scientific frontier"
+  },
+  {
+   "commit": "65e25ce22ab78a05f32dc354a4a936472a54420f",
+   "date": "2026-09-20T10:34:19+01:00",
+   "subject": "cert: freeze Beal T5 constructive equivalence"
+  },
+  {
+   "commit": "c836311f12b5e3570d251d41c449dc5889224b2f",
+   "date": "2026-09-20T10:33:22+01:00",
+   "subject": "fix(T5): expose bounded divisor predicate for decidability"
+  },
+  {
+   "commit": "eb182eaded66cd84d5c35f6d83566a9c4e2dfc50",
+   "date": "2026-09-20T10:32:21+01:00",
+   "subject": "ATK T5: constructively equate raw bridge with no-primitive-solution obstruction"
+  },
+  {
+   "commit": "58181aaee7ed231962e8cc0227235fa63f7d1890",
+   "date": "2026-09-20T10:31:49+01:00",
+   "subject": "cert: freeze Beal T3/T4 green checkpoint"
+  },
+  {
+   "commit": "d5689d11b8445ff902ba413431f739c2276b67a0",
+   "date": "2026-09-20T10:30:31+01:00",
+   "subject": "ATK T3/T4: expose raw Diophantine bridge and primitive obstruction"
+  },
+  {
+   "commit": "5f436b1dea00670fc41c776909a9ca1db2f24ab5",
+   "date": "2026-09-20T10:29:19+01:00",
+   "subject": "cert: freeze Beal V012/T012 green checkpoint"
+  },
+  {
+   "commit": "3dc9b61e579b131ed45d5d71e6d290459594d868",
+   "date": "2026-09-20T10:28:17+01:00",
+   "subject": "ATK wire V012 residue into MCore build"
+  },
+  {
+   "commit": "68418d9c238866f0ab98ce765d981c6602304667",
+   "date": "2026-09-20T10:28:09+01:00",
+   "subject": "ATK Beal V0/V1/V2: isolate exact common-divisor residue"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.33.1"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Beal.materialPrimitiveExclusion_eliminates",
+   "file": "open_math/P02RejectionBealInvariantProbe.lean",
+   "line": 121,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : MaterialPrimitiveExclusion) (d : MCore.BealData) (hd : observedDefect d = 1) : False"
+  },
+  {
+   "name": "MCore.Beal.observedDefect_swap",
+   "file": "open_math/P02RejectionBealInvariantProbe.lean",
+   "line": 44,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : MCore.BealData) : observedDefect (swapAB d) = observedDefect d"
+  },
+  {
+   "name": "MCore.Beal.primitive_swap_iff",
+   "file": "open_math/P02RejectionBealInvariantProbe.lean",
+   "line": 132,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : MCore.BealData) : observedDefect (swapAB d) = 1 ↔ observedDefect d = 1"
+  },
+  {
+   "name": "MCore.Beal.structural_schema_allows_defect_one",
+   "file": "open_math/P02RejectionBealInvariantProbe.lean",
+   "line": 101,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ∃ (M : BealRejectionModel) (x : M.Point), M.defect x = 1"
+  },
+  {
+   "name": "MCore.Beal.swapAB_involutive",
+   "file": "open_math/P02RejectionBealInvariantProbe.lean",
+   "line": 38,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : MCore.BealData) : swapAB (swapAB d) = d"
+  },
+  {
+   "name": "MCore.Beal.toyCoprime_has_defect_one",
+   "file": "open_math/P02RejectionBealInvariantProbe.lean",
+   "line": 97,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ∃ x : toyCoprime.Point, toyCoprime.defect x = 1"
+  },
+  {
+   "name": "MCore.OpenMath.Beal.close_from_first_real_open_math",
+   "file": "lean/MCore/OpenMath/ForcingKernel.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : FirstRealOpenMath) : MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.OpenMath.Beal.first_real_open_math_iff_beal",
+   "file": "lean/MCore/OpenMath/ForcingKernel.lean",
+   "line": 33,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": FirstRealOpenMath ↔ MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.OpenMath.BealProbe.materialPrimitiveExclusion_eliminates",
+   "file": "lean/MCore/OpenMath/P02RejectionBealInvariantProbe.lean",
+   "line": 73,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.OpenMath.BealProbe.MaterialPrimitiveExclusion →   ∀ (d : MCore.BealData), MCore.OpenMath.BealProbe.observedDefect d = 1 → False"
+  },
+  {
+   "name": "MCore.OpenMath.BealProbe.observedDefect_swap",
+   "file": "lean/MCore/OpenMath/P02RejectionBealInvariantProbe.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData),   MCore.OpenMath.BealProbe.observedDefect (MCore.OpenMath.BealProbe.swapAB d) =     MCore.OpenMath.BealProbe.observedDefect d"
+  },
+  {
+   "name": "MCore.OpenMath.BealProbe.primitive_swap_iff",
+   "file": "lean/MCore/OpenMath/P02RejectionBealInvariantProbe.lean",
+   "line": 80,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData),   MCore.OpenMath.BealProbe.observedDefect (MCore.OpenMath.BealProbe.swapAB d) = 1 ↔     MCore.OpenMath.BealProbe.observedDefect d = 1"
+  },
+  {
+   "name": "MCore.OpenMath.BealProbe.structural_schema_allows_defect_one",
+   "file": "lean/MCore/OpenMath/P02RejectionBealInvariantProbe.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∃ M x, M.defect x = 1"
+  },
+  {
+   "name": "MCore.OpenMath.BealProbe.swapAB_involutive",
+   "file": "lean/MCore/OpenMath/P02RejectionBealInvariantProbe.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), MCore.OpenMath.BealProbe.swapAB (MCore.OpenMath.BealProbe.swapAB d) = d"
+  },
+  {
+   "name": "MCore.OpenMath.BealProbe.toyCoprime_has_defect_one",
+   "file": "lean/MCore/OpenMath/P02RejectionBealInvariantProbe.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∃ x, MCore.OpenMath.BealProbe.toyCoprime.defect x = 1"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.SixFamilyMinCut.eliminates_seven",
+   "file": "lean/MCore/OpenMath/BealQ10SixFamilyMinCut.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.OpenMath.BealQ10.SixFamilyMinCut →   ∀ (r : MCore.OpenMath.BealQ10.ReducedCandidate), MCore.OpenMath.BealQ10.SevenFamilySplit r.x r.y r.z → False"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.ab_not_both_even",
+   "file": "lean/MCore/OpenMath/BealQ10Parity.lean",
+   "line": 58,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : MCore.BealData) (hd : PrimitiveBealSolution d) : ¬ (Even d.a ∧ Even d.b)"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.ac_not_both_even",
+   "file": "lean/MCore/OpenMath/BealQ10Parity.lean",
+   "line": 76,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : MCore.BealData) (hd : PrimitiveBealSolution d) : ¬ (Even d.a ∧ Even d.c)"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.allFour_eliminated_mathlib",
+   "file": "lean/MCore/OpenMath/BealQ10SixFamilyMinCut.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.OpenMath.BealQ10.AllFourEliminated"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.all_even_contradicts_primitive",
+   "file": "lean/MCore/OpenMath/BealQ10Parity.lean",
+   "line": 44,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : MCore.BealData) (hd : PrimitiveBealSolution d) (ha : Even d.a) (hb : Even d.b) (hc : Even d.c) : False"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.bc_not_both_even",
+   "file": "lean/MCore/OpenMath/BealQ10Parity.lean",
+   "line": 94,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : MCore.BealData) (hd : PrimitiveBealSolution d) : ¬ (Even d.b ∧ Even d.c)"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.beal_exponents_reduce",
+   "file": "lean/MCore/OpenMath/BealQ10ExponentReduction.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData),   MCore.OpenMath.BealQ10.ExponentReduces d.x ∧     MCore.OpenMath.BealQ10.ExponentReduces d.y ∧ MCore.OpenMath.BealQ10.ExponentReduces d.z"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.canonJoin_closed_idempotent",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 77,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": canonJoin .closedOnly .closedOnly = .closedOnly"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.canonJoin_full_absorbing_left",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 85,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(x : CanonicalEndpointState) : canonJoin .full x = .full"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.canonJoin_full_absorbing_right",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 90,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(x : CanonicalEndpointState) : canonJoin x .full = .full"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.canonJoin_open_closed_full",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 81,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": canonJoin .openOnly .closedOnly = .full"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.canonJoin_open_idempotent",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 73,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": canonJoin .openOnly .openOnly = .openOnly"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.close_Q10_from_arithmetic_frontier",
+   "file": "lean/MCore/OpenMath/BealQ10PrimitiveExclusion.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (F : MCore.OpenMath.BealQ10.ArithmeticFrontier), MCore.OpenMath.BealProbe.MaterialPrimitiveExclusion"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.close_Q10_from_route",
+   "file": "lean/MCore/OpenMath/BealQ10PrimitiveExclusion.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (R : MCore.OpenMath.BealQ10.PrimitiveExclusionRoute), MCore.OpenMath.BealProbe.MaterialPrimitiveExclusion"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.closedBridge_iff_mathRoot",
+   "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ClosedBridge ↔ MathRoot"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.closedMath_iff_closedBridge",
+   "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
+   "line": 15,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ClosedMath ↔ ClosedBridge"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.closedMath_iff_notOpenMath_iff_endpoint_self_negation",
+   "file": "lean/MCore/OpenMath/BealQ10FinalPolarity.lean",
+   "line": 15,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": (ClosedMath ↔ ¬ OpenMath) ↔ (Endpoint ↔ ¬ Endpoint)"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.closedMath_to_openMath",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalClosureTransition.lean",
+   "line": 10,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ClosedMath → OpenMath"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.closed_add_closed",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": EndpointMultiset.add CLOSED1 CLOSED1 = ⟨0, 2⟩"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.closed_self_inequality_collapses",
+   "file": "lean/MCore/OpenMath/BealQ10FinalReflexivity.lean",
+   "line": 24,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hC : ClosedMath ≠ ClosedMath) : False"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_CLOSED",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 61,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_CLOSED = .closedOnly"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_CLOSED_CLOSED",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 66,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_CLOSED_CLOSED = .closedOnly"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_CLOSED_CLOSED_CLOSED",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 69,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_CLOSED_CLOSED_CLOSED = .closedOnly"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_CLOSED_CLOSED_OPEN",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 75,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_CLOSED_CLOSED_OPEN = .full"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_CLOSED_OPEN",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 64,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_CLOSED_OPEN = .full"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_CLOSED_OPEN_CLOSED",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 74,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_CLOSED_OPEN_CLOSED = .full"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_CLOSED_OPEN_OPEN",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 72,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_CLOSED_OPEN_OPEN = .full"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_FULL",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 76,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_FULL = .full"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_OPEN",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 59,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_OPEN = .openOnly"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_OPEN_CLOSED",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 62,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_OPEN_CLOSED = .full"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_OPEN_CLOSED_CLOSED",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 73,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_OPEN_CLOSED_CLOSED = .full"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_OPEN_CLOSED_OPEN",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 71,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_OPEN_CLOSED_OPEN = .full"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_OPEN_OPEN",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 65,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_OPEN_OPEN = .openOnly"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_OPEN_OPEN_CLOSED",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 70,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_OPEN_OPEN_CLOSED = .full"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_W_OPEN_OPEN_OPEN",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 67,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": wordCollapse W_OPEN_OPEN_OPEN = .openOnly"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_closed",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 53,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": EndpointMultiset.collapse ⟨0, 1⟩ = .closedOnly"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_full",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 57,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": EndpointMultiset.collapse ⟨1, 1⟩ = .full"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_open",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 49,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": EndpointMultiset.collapse ⟨1, 0⟩ = .openOnly"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.collapse_zero_zero",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 45,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": EndpointMultiset.collapse ⟨0, 0⟩ = .empty"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.core012Certificate",
+   "file": "lean/MCore/OpenMath/BealQ10Core012Dynamics.lean",
+   "line": 75,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Core012Certificate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.cycle_inhabited_iff_endpoint",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
+   "line": 26,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty Endpoint ↔ Nonempty Inhabitant"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.dualEndpointState_iff_endpoint",
+   "file": "lean/MCore/OpenMath/BealQ10DualEndpointState.lean",
+   "line": 75,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty DualEndpointState ↔ Nonempty Endpoint"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.dualEndpointState_to_endpoint",
+   "file": "lean/MCore/OpenMath/BealQ10DualEndpointState.lean",
+   "line": 68,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(D : DualEndpointState) : Endpoint"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.endpointCube3Certificate",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 107,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": EndpointCube3Certificate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.endpointGapFixedPointCertificate",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointGapFixedPoint.lean",
+   "line": 46,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": EndpointGapFixedPointCertificate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.endpointLatticeCertificate",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 128,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": EndpointLatticeCertificate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.endpoint_gap_iff",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
+   "line": 14,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Endpoint ↔ Gap"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.endpoint_payload_equiv",
+   "file": "lean/MCore/OpenMath/BealQ10DualEndpointState.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": OpenMath ↔ ClosedMath"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.endpoint_tags_distinct",
+   "file": "lean/MCore/OpenMath/BealQ10DualEndpointState.lean",
+   "line": 24,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": OpenEndpoint.tag ≠ ClosedEndpoint.tag"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.endpoint_to_dualEndpointState",
+   "file": "lean/MCore/OpenMath/BealQ10DualEndpointState.lean",
+   "line": 54,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : Endpoint) : DualEndpointState"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.endpoint_to_gap",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
+   "line": 9,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Endpoint → Gap"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.endpoint_to_rpaDualConfirmation",
+   "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
+   "line": 42,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : Endpoint) : RPADualConfirmation"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.equalOddPrime_eliminated_external",
+   "file": "lean/MCore/OpenMath/BealQ10ExternalFLT.lean",
+   "line": 5,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": EqualOddPrimeEliminated"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.exponent_reduction",
+   "file": "lean/MCore/OpenMath/BealQ10ExponentReduction.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {n : ℕ}, 2 < n → MCore.OpenMath.BealQ10.ExponentReduces n"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.finalMixedExclusion_closes_Q10",
+   "file": "lean/MCore/OpenMath/BealQ10FinalMixedLeaf.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : FinalMixedExclusion) : MCore.OpenMath.BealProbe.MaterialPrimitiveExclusion"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.finalMixedProducer_closes_Q10",
+   "file": "lean/MCore/OpenMath/BealQ10FinalMixedLeaf.lean",
+   "line": 28,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(P : FinalMixedProducer) : MCore.OpenMath.BealProbe.MaterialPrimitiveExclusion"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.finalPolarityCertificate",
+   "file": "lean/MCore/OpenMath/BealQ10FinalPolarity.lean",
+   "line": 50,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": FinalPolarityCertificate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.finalReflexivityCertificate",
+   "file": "lean/MCore/OpenMath/BealQ10FinalReflexivity.lean",
+   "line": 35,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": FinalReflexivityCertificate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.finalRoot_closes_beal",
+   "file": "lean/MCore/OpenMath/BealQ10FinalRoot.lean",
+   "line": 46,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : FinalRoot) : MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.finalRoot_iff_globalExternal",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 111,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": FinalRootState ↔ GlobalExternalCertificateState"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.finalRoot_iff_globalExternalCertificate",
+   "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
+   "line": 27,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": FinalRootView ↔ GlobalExternalCertificate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.fiveMixedFamilyMinCut_closes_Q10",
+   "file": "lean/MCore/OpenMath/BealQ10ExternalFLT.lean",
+   "line": 31,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(K : FiveMixedFamilyMinCut) : MCore.OpenMath.BealProbe.MaterialPrimitiveExclusion"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.fullMaterial_iff_endpoint",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 114,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty FullMaterialState ↔ Nonempty Endpoint"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.full_iff_math",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 105,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": FullMaterialState ↔ MathState"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.gap_habitant_iff",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Gap ↔ Habitant"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.gap_to_habitant",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
+   "line": 11,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Gap → Habitant"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.globalExternalRoot_closes_beal",
+   "file": "lean/MCore/OpenMath/BealQ10FinalRoot.lean",
+   "line": 55,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : GlobalExternalRoot) : MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.habitant_inhabitant_iff",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
+   "line": 17,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Habitant ↔ Inhabitant"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.habitant_to_inhabitant",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
+   "line": 12,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Habitant → Inhabitant"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.inhabitantBehavior_of_orbit",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalInhabitantBehavior.lean",
+   "line": 45,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(_ : TerminalOrbitCertificate) : TerminalInhabitantBehavior"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.inhabitant_endpoint_iff",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
+   "line": 18,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Inhabitant ↔ Endpoint"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.inhabitant_to_endpoint",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
+   "line": 13,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Inhabitant → Endpoint"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.materialPrimitiveExclusion_closes_beal",
+   "file": "lean/MCore/OpenMath/BealQ10FinalRoot.lean",
+   "line": 25,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : MaterialPrimitiveExclusion) : MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.materialPrimitiveExclusion_iff_noPrimitive",
+   "file": "lean/MCore/OpenMath/BealQ10PrimitiveExclusion.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.OpenMath.BealProbe.MaterialPrimitiveExclusion ↔ ¬MCore.OpenMath.BealQ10.PrimitiveCounterexampleExists"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.mathRoot_iff_finalRoot",
+   "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
+   "line": 24,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": MathRoot ↔ FinalRootView"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.math_iff_finalRoot",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 108,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": MathState ↔ FinalRootState"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.normalizePair_01",
+   "file": "lean/MCore/OpenMath/BealQ10PairNormalization.lean",
+   "line": 29,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalizePair ⟨0, 1⟩ = ⟨1, 1⟩"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.normalizePair_02",
+   "file": "lean/MCore/OpenMath/BealQ10PairNormalization.lean",
+   "line": 33,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalizePair ⟨0, 2⟩ = ⟨2, 2⟩"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.normalizePair_11_fixed",
+   "file": "lean/MCore/OpenMath/BealQ10PairNormalization.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalizePair ⟨1, 1⟩ = ⟨1, 1⟩"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.normalizePair_22_fixed",
+   "file": "lean/MCore/OpenMath/BealQ10PairNormalization.lean",
+   "line": 41,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalizePair ⟨2, 2⟩ = ⟨2, 2⟩"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.normalizeTerminal_idempotent",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalFixedPoint.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": normalizeTerminal (normalizeTerminal FinalRoot) = normalizeTerminal FinalRoot"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.not_closedMath_iff_notOpenMath",
+   "file": "lean/MCore/OpenMath/BealQ10FinalPolarity.lean",
+   "line": 35,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ (ClosedMath ↔ ¬ OpenMath)"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.not_closedMath_ne_self",
+   "file": "lean/MCore/OpenMath/BealQ10FinalReflexivity.lean",
+   "line": 10,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ (ClosedMath ≠ ClosedMath)"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.not_endpoint_iff_not_endpoint",
+   "file": "lean/MCore/OpenMath/BealQ10FinalPolarity.lean",
+   "line": 24,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ (Endpoint ↔ ¬ Endpoint)"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.not_even_iff_mod_two_eq_one",
+   "file": "lean/MCore/OpenMath/BealQ10Parity.lean",
+   "line": 14,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : (¬ Even n) ↔ n % 2 = 1"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.not_openMath_ne_self",
+   "file": "lean/MCore/OpenMath/BealQ10FinalReflexivity.lean",
+   "line": 4,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ (OpenMath ≠ OpenMath)"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.observedDefect_commonDivisor",
+   "file": "lean/MCore/OpenMath/BealQ10FinalRoot.lean",
+   "line": 12,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : MCore.BealData) (hgt : 1 < observedDefect d) : MCore.CommonDivisor (observedDefect d) d.a d.b d.c"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.observedDefect_pos",
+   "file": "lean/MCore/OpenMath/BealQ10FinalRoot.lean",
+   "line": 7,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : MCore.BealData) : 0 < observedDefect d"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.oddPrime_of_reduced_ne_four",
+   "file": "lean/MCore/OpenMath/BealQ10SevenFamilies.lean",
+   "line": 108,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{r : Nat} (hr : ReducedExponent r) (hne : r ≠ 4) : OddPrimeExponent r"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.openBridge_iff_mathRoot",
+   "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
+   "line": 18,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": OpenBridge ↔ MathRoot"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.openMath_iff_closedMath",
+   "file": "lean/MCore/OpenMath/BealQ10FinalPolarity.lean",
+   "line": 11,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": OpenMath ↔ ClosedMath"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.openMath_iff_openBridge",
+   "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
+   "line": 12,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": OpenMath ↔ OpenBridge"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.openMath_to_closedMath",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalClosureTransition.lean",
+   "line": 4,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": OpenMath → ClosedMath"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.open_add_closed",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 25,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": EndpointMultiset.add OPEN1 CLOSED1 = ⟨1, 1⟩"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.open_add_open",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
+   "line": 17,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": EndpointMultiset.add OPEN1 OPEN1 = ⟨2, 0⟩"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.open_closed_equiv",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalClosureTransition.lean",
+   "line": 13,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": OpenMath ↔ ClosedMath"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.open_closed_order_distinct",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 78,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_OPEN_CLOSED ≠ W_CLOSED_OPEN"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.pairNormalizationCertificate",
+   "file": "lean/MCore/OpenMath/BealQ10PairNormalization.lean",
+   "line": 51,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": PairNormalizationCertificate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.pow_mod_two_one",
+   "file": "lean/MCore/OpenMath/BealQ10Parity.lean",
+   "line": 26,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{a n : Nat} (ha : a % 2 = 1) : a ^ n % 2 = 1"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.pow_mod_two_zero",
+   "file": "lean/MCore/OpenMath/BealQ10Parity.lean",
+   "line": 34,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{a n : Nat} (hn : 0 < n) (ha : Even a) : a ^ n % 2 = 0"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.pow_mul_outer",
+   "file": "lean/MCore/OpenMath/BealQ10SevenFamilies.lean",
+   "line": 4,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(a k r : Nat) : (a ^ k) ^ r = a ^ (k * r)"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.powered_no_common",
+   "file": "lean/MCore/OpenMath/BealQ10PrimitiveReduced.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c ka kb kc : ℕ},   MCore.OpenMath.BealQ10.NoCommonDivisor a b c → MCore.OpenMath.BealQ10.NoCommonDivisor (a ^ ka) (b ^ kb) (c ^ kc)"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.prime_dvd_mul_local",
+   "file": "lean/MCore/OpenMath/BealQ10PrimitiveReduced.lean",
+   "line": 10,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{p a b : Nat} (hp : MCore.IsPrime p) (hab : p ∣ a * b) : p ∣ a ∨ p ∣ b"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.prime_dvd_pow_reflect",
+   "file": "lean/MCore/OpenMath/BealQ10PrimitiveReduced.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p a n : ℕ}, MCore.IsPrime p → p ∣ a ^ n → p ∣ a"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.prime_not_dvd_one",
+   "file": "lean/MCore/OpenMath/BealQ10PrimitiveReduced.lean",
+   "line": 25,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{p : Nat} (hp : MCore.IsPrime p) : ¬ p ∣ 1"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.primitiveReduced_seven_family",
+   "file": "lean/MCore/OpenMath/BealQ10PrimitiveReduced.lean",
+   "line": 126,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (r : MCore.OpenMath.BealQ10.PrimitiveReducedCandidate), MCore.OpenMath.BealQ10.SevenFamilySplit r.x r.y r.z"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.primitive_allFour_impossible",
+   "file": "lean/MCore/OpenMath/BealQ10FLT4.lean",
+   "line": 5,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), MCore.OpenMath.BealQ10.PrimitiveBealSolution d → d.x = 4 → d.y = 4 → d.z = 4 → False"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.primitive_exactlyOneEven",
+   "file": "lean/MCore/OpenMath/BealQ10Parity.lean",
+   "line": 131,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData),   MCore.OpenMath.BealQ10.PrimitiveBealSolution d → MCore.OpenMath.BealQ10.ExactlyOneEven d.a d.b d.c"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.primitive_exponents_reduce",
+   "file": "lean/MCore/OpenMath/BealQ10ExponentReduction.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData),   MCore.OpenMath.BealQ10.PrimitiveBealSolution d →     MCore.OpenMath.BealQ10.ExponentReduces d.x ∧       MCore.OpenMath.BealQ10.ExponentReduces d.y ∧ MCore.OpenMath.BealQ10.ExponentReduces d.z"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.primitive_no_common",
+   "file": "lean/MCore/OpenMath/BealQ10PrimitiveReduced.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData),   MCore.OpenMath.BealQ10.PrimitiveBealSolution d → MCore.OpenMath.BealQ10.NoCommonDivisor d.a d.b d.c"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.primitive_seven_family",
+   "file": "lean/MCore/OpenMath/BealQ10SevenFamilies.lean",
+   "line": 214,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData),   MCore.OpenMath.BealQ10.PrimitiveBealSolution d → ∃ r, MCore.OpenMath.BealQ10.SevenFamilySplit r.x r.y r.z"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.primitive_swap",
+   "file": "lean/MCore/OpenMath/BealQ10PrimitiveExclusion.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData),   MCore.OpenMath.BealQ10.PrimitiveBealSolution (MCore.OpenMath.BealProbe.swapAB d) ↔     MCore.OpenMath.BealQ10.PrimitiveBealSolution d"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.primitive_to_primitiveReduced",
+   "file": "lean/MCore/OpenMath/BealQ10PrimitiveReduced.lean",
+   "line": 80,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData),   MCore.OpenMath.BealQ10.PrimitiveBealSolution d → Nonempty MCore.OpenMath.BealQ10.PrimitiveReducedCandidate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.primitive_to_reduced",
+   "file": "lean/MCore/OpenMath/BealQ10SevenFamilies.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData),   MCore.OpenMath.BealQ10.PrimitiveBealSolution d → Nonempty MCore.OpenMath.BealQ10.ReducedCandidate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.reduced_signature_seven_family",
+   "file": "lean/MCore/OpenMath/BealQ10SevenFamilies.lean",
+   "line": 115,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x y z : ℕ},   MCore.OpenMath.BealQ10.ReducedExponent x →     MCore.OpenMath.BealQ10.ReducedExponent y →       MCore.OpenMath.BealQ10.ReducedExponent z → MCore.OpenMath.BealQ10.SevenFamilySplit x y z"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.reopenIter_succ_terminal",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalOrbit.lean",
+   "line": 27,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) (P : Prop) : reopenIter (n + 1) P = TerminalGapSignature"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.reopenStep_idempotent",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalOrbit.lean",
+   "line": 10,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(P : Prop) : reopenStep (reopenStep P) = reopenStep P"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.reopenTerminal_no_new_information",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointGapFixedPoint.lean",
+   "line": 28,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : TerminalGapSignature) : reopenTerminal h ↔ TerminalGapSignature"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.repulsion_collapses",
+   "file": "lean/MCore/OpenMath/BealQ10Core012Dynamics.lean",
+   "line": 52,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : CoreState) : CoreState.repulseThenTension s = .core"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.reverse_core",
+   "file": "lean/MCore/OpenMath/BealQ10Core012Dynamics.lean",
+   "line": 48,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": CoreState.reverse .core = .core"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.reverse_involutive",
+   "file": "lean/MCore/OpenMath/BealQ10Core012Dynamics.lean",
+   "line": 36,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : CoreState) : CoreState.reverse (CoreState.reverse s) = s"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.rpaDualConfirmation_iff_endpoint",
+   "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
+   "line": 67,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty RPADualConfirmation ↔ Nonempty Endpoint"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.rpaDualConfirmation_to_endpoint",
+   "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
+   "line": 57,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(R : RPADualConfirmation) : Endpoint"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.rpaEndpointCertificate_of_endpoint",
+   "file": "lean/MCore/OpenMath/BealQ10DualEndpointState.lean",
+   "line": 93,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : Endpoint) : RPAEndpointCertificate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.rpaEndpointCertificate_to_endpoint",
+   "file": "lean/MCore/OpenMath/BealQ10DualEndpointState.lean",
+   "line": 103,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(C : RPAEndpointCertificate) : Endpoint"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.rpaFiveViewCertificate",
+   "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
+   "line": 88,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": RPAFiveViewCertificate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.self_inequality_collapses",
+   "file": "lean/MCore/OpenMath/BealQ10FinalReflexivity.lean",
+   "line": 15,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hO : OpenMath ≠ OpenMath) : False"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.sixFamilyMinCut_closes_Q10",
+   "file": "lean/MCore/OpenMath/BealQ10SixFamilyMinCut.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.OpenMath.BealQ10.SixFamilyMinCut → MCore.OpenMath.BealProbe.MaterialPrimitiveExclusion"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.some_base_even",
+   "file": "lean/MCore/OpenMath/BealQ10Parity.lean",
+   "line": 112,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : MCore.BealData) : Even d.a ∨ Even d.b ∨ Even d.c"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.structuralAllCertificate",
+   "file": "lean/MCore/OpenMath/BealQ10StructuralAll.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": StructuralAllCertificate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.swap_cannot_change_primitive_status",
+   "file": "lean/MCore/OpenMath/BealQ10PrimitiveExclusion.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData),   MCore.OpenMath.BealQ10.PrimitiveBealSolution d →     MCore.OpenMath.BealQ10.PrimitiveBealSolution (MCore.OpenMath.BealProbe.swapAB d)"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.tension_idempotent",
+   "file": "lean/MCore/OpenMath/BealQ10Core012Dynamics.lean",
+   "line": 44,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : CoreState) : CoreState.tension (CoreState.tension s) = CoreState.tension s"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.tension_to_core",
+   "file": "lean/MCore/OpenMath/BealQ10Core012Dynamics.lean",
+   "line": 40,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : CoreState) : CoreState.tension s = .core"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminalClosureCertificate",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalClosureTransition.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalClosureCertificate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminalClosureTransition",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalClosureTransition.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalClosureTransition"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminalClosure_idempotent",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalClosureTransition.lean",
+   "line": 25,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : OpenMath) : openMath_to_closedMath h = h"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminalCycleClosed",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
+   "line": 47,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalCycleClosed"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminalInhabitantBehavior",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalInhabitantBehavior.lean",
+   "line": 26,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalInhabitantBehavior"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminalInhabitantBehavior_minimal",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalInhabitantBehavior.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty TerminalInhabitantBehavior"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminalOrbitCertificate",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalOrbit.lean",
+   "line": 63,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalOrbitCertificate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminalTruncationCertificate",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalFixedPoint.lean",
+   "line": 51,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalTruncationCertificate"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminal_cycle",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
+   "line": 19,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": (Endpoint ↔ Gap) ∧ (Gap ↔ Habitant) ∧ (Habitant ↔ Inhabitant) ∧ (Inhabitant ↔ Endpoint)"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminal_gap_eq_final_root",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointGapFixedPoint.lean",
+   "line": 10,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalGapSignature ↔ FinalRoot"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminal_gap_eq_global_external",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointGapFixedPoint.lean",
+   "line": 18,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalGapSignature ↔ GlobalExternalRoot"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminal_gap_eq_terminal_signature",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointGapFixedPoint.lean",
+   "line": 14,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalGapSignature ↔ TerminalSignature"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminal_global_fixed_point",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalFixedPoint.lean",
+   "line": 19,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": GlobalExternalRoot ↔ TerminalSignature"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminal_meets_reverse",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalOrbit.lean",
+   "line": 38,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": reopenStep TerminalGapSignature = reverseTerminal TerminalGapSignature"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminal_orbit_collapses",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalOrbit.lean",
+   "line": 42,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": reopenStep TerminalGapSignature = TerminalGapSignature ∧ reverseTerminal TerminalGapSignature = TerminalGapSignature ∧ reopenStep (reverseTerminal TerminalGapSignature) = TerminalGapSignature"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.terminal_signature_fixed_point",
+   "file": "lean/MCore/OpenMath/BealQ10TerminalFixedPoint.lean",
+   "line": 10,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalSignature ↔ FinalRoot"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.torsion_collapses",
+   "file": "lean/MCore/OpenMath/BealQ10Core012Dynamics.lean",
+   "line": 56,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : CoreState) : CoreState.torsion s = .core"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.triple_mixed_words_pairwise_examples",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 81,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_OPEN_OPEN_CLOSED ≠ W_OPEN_CLOSED_OPEN ∧ W_OPEN_CLOSED_OPEN ≠ W_CLOSED_OPEN_OPEN ∧ W_OPEN_CLOSED_CLOSED ≠ W_CLOSED_OPEN_CLOSED ∧ W_CLOSED_OPEN_CLOSED ≠ W_CLOSED_CLOSED_OPEN"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.two_factor_gt_one",
+   "file": "lean/MCore/OpenMath/BealQ10ExponentReduction.lean",
+   "line": 12,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n k : Nat} (hk : n = 2 * k) (hn : 2 < n) : 1 < k"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_closed",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 32,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_CLOSED = [.closed]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_closed_closed",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_CLOSED_CLOSED = [.closed, .closed]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_closed_closed_closed",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 40,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_CLOSED_CLOSED_CLOSED = [.closed, .closed, .closed]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_closed_closed_open",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 46,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_CLOSED_CLOSED_OPEN = [.closed, .closed, .open]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_closed_open",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 35,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_CLOSED_OPEN = [.closed, .open]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_closed_open_closed",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 45,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_CLOSED_OPEN_CLOSED = [.closed, .open, .closed]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_closed_open_open",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 43,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_CLOSED_OPEN_OPEN = [.closed, .open, .open]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_full",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 47,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_FULL = [.open, .open, .closed, .closed]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_open",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 30,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_OPEN = [.open]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_open_closed",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 33,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_OPEN_CLOSED = [.open, .closed]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_open_closed_closed",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 44,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_OPEN_CLOSED_CLOSED = [.open, .closed, .closed]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_open_closed_open",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 42,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_OPEN_CLOSED_OPEN = [.open, .closed, .open]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_open_open",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 36,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_OPEN_OPEN = [.open, .open]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_open_open_closed",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 41,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_OPEN_OPEN_CLOSED = [.open, .open, .closed]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.word_open_open_open",
+   "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
+   "line": 38,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": W_OPEN_OPEN_OPEN = [.open, .open, .open]"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.zero_one_tends_one_one",
+   "file": "lean/MCore/OpenMath/BealQ10PairNormalization.lean",
+   "line": 13,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": (CorePair.mk 0 1) ≠ normalize01 ∧ normalize01 = CorePair.mk 1 1"
+  },
+  {
+   "name": "MCore.OpenMath.BealQ10.zero_two_tends_two_two",
+   "file": "lean/MCore/OpenMath/BealQ10PairNormalization.lean",
+   "line": 18,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": (CorePair.mk 0 2) ≠ normalize02 ∧ normalize02 = CorePair.mk 2 2"
+  },
+  {
+   "name": "MCore.T0_beal_to_v0",
+   "file": "lean/MCore/V012.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture → MCore.V0EquationToCommonDivisor"
+  },
+  {
+   "name": "MCore.T10_beal_iff_reduced_frontier",
+   "file": "lean/MCore/T10.lean",
+   "line": 103,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T10ReducedScientificFrontier"
+  },
+  {
+   "name": "MCore.T10_candidate_iff_reduced",
+   "file": "lean/MCore/T10.lean",
+   "line": 92,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Nonempty MCore.T6PrimitiveSolution ↔ MCore.T10ReducedCandidate"
+  },
+  {
+   "name": "MCore.T10_candidate_to_reduced",
+   "file": "lean/MCore/T10.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Nonempty MCore.T6PrimitiveSolution → MCore.T10ReducedCandidate"
+  },
+  {
+   "name": "MCore.T10_frontier_iff_reduced",
+   "file": "lean/MCore/T10.lean",
+   "line": 98,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T6ScientificFrontier ↔ MCore.T10ReducedScientificFrontier"
+  },
+  {
+   "name": "MCore.T10_pow_add",
+   "file": "lean/MCore/T10.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (a m n : ℕ), a ^ (m + n) = a ^ m * a ^ n"
+  },
+  {
+   "name": "MCore.T10_pow_mul_outer",
+   "file": "lean/MCore/T10.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (a k r : ℕ), (a ^ k) ^ r = a ^ (k * r)"
+  },
+  {
+   "name": "MCore.T10_reduced_to_candidate",
+   "file": "lean/MCore/T10.lean",
+   "line": 71,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T10ReducedCandidate → Nonempty MCore.T6PrimitiveSolution"
+  },
+  {
+   "name": "MCore.T11_T10_to_pairwise",
+   "file": "lean/MCore/T11.lean",
+   "line": 135,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T10ReducedCandidate → MCore.T11PairwiseReducedCandidate"
+  },
+  {
+   "name": "MCore.T11_ab_pair_forces_common",
+   "file": "lean/MCore/T11.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   0 < x →     0 < y → 0 < z → a ^ x + b ^ y = c ^ z → (∃ q, MCore.T11PairCommonDivisor q a b) → ∃ p, MCore.CommonDivisor p a b c"
+  },
+  {
+   "name": "MCore.T11_ac_pair_forces_common",
+   "file": "lean/MCore/T11.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   0 < x →     0 < y → 0 < z → a ^ x + b ^ y = c ^ z → (∃ q, MCore.T11PairCommonDivisor q a c) → ∃ p, MCore.CommonDivisor p a b c"
+  },
+  {
+   "name": "MCore.T11_bc_pair_forces_common",
+   "file": "lean/MCore/T11.lean",
+   "line": 75,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   0 < x →     0 < y → 0 < z → a ^ x + b ^ y = c ^ z → (∃ q, MCore.T11PairCommonDivisor q b c) → ∃ p, MCore.CommonDivisor p a b c"
+  },
+  {
+   "name": "MCore.T11_beal_iff_pairwise_frontier",
+   "file": "lean/MCore/T11.lean",
+   "line": 160,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T11PairwiseScientificFrontier"
+  },
+  {
+   "name": "MCore.T11_candidate_iff_pairwise",
+   "file": "lean/MCore/T11.lean",
+   "line": 153,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T10ReducedCandidate ↔ MCore.T11PairwiseReducedCandidate"
+  },
+  {
+   "name": "MCore.T11_dvd_add",
+   "file": "lean/MCore/T11.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p u v : ℕ}, p ∣ u → p ∣ v → p ∣ u + v"
+  },
+  {
+   "name": "MCore.T11_dvd_pow_of_dvd",
+   "file": "lean/MCore/T11.lean",
+   "line": 8,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p a n : ℕ}, 0 < n → p ∣ a → p ∣ a ^ n"
+  },
+  {
+   "name": "MCore.T11_pairwise_of_primitive_equation",
+   "file": "lean/MCore/T11.lean",
+   "line": 107,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   0 < x → 0 < y → 0 < z → a ^ x + b ^ y = c ^ z → (¬∃ q, MCore.CommonDivisor q a b c) → MCore.T11PairwisePrimitive a b c"
+  },
+  {
+   "name": "MCore.T11_pairwise_to_T10",
+   "file": "lean/MCore/T11.lean",
+   "line": 144,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T11PairwiseReducedCandidate → MCore.T10ReducedCandidate"
+  },
+  {
+   "name": "MCore.T12_T11_to_parity",
+   "file": "lean/MCore/T12.lean",
+   "line": 126,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T11PairwiseReducedCandidate → MCore.T12ParityReducedCandidate"
+  },
+  {
+   "name": "MCore.T12_beal_iff_parity_frontier",
+   "file": "lean/MCore/T12.lean",
+   "line": 144,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T12ParityScientificFrontier"
+  },
+  {
+   "name": "MCore.T12_candidate_iff_parity",
+   "file": "lean/MCore/T12.lean",
+   "line": 137,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T11PairwiseReducedCandidate ↔ MCore.T12ParityReducedCandidate"
+  },
+  {
+   "name": "MCore.T12_exactly_one_even_of_pairwise",
+   "file": "lean/MCore/T12.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ}, a ^ x + b ^ y = c ^ z → MCore.T11PairwisePrimitive a b c → MCore.T12ExactlyOneEven a b c"
+  },
+  {
+   "name": "MCore.T12_not_even_iff_odd",
+   "file": "lean/MCore/T12.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : ℕ), ¬MCore.T12Even n ↔ MCore.T12Odd n"
+  },
+  {
+   "name": "MCore.T12_odd_pow_mod_two",
+   "file": "lean/MCore/T12.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a n : ℕ}, MCore.T12Odd a → a ^ n % 2 = 1"
+  },
+  {
+   "name": "MCore.T12_parity_to_T11",
+   "file": "lean/MCore/T12.lean",
+   "line": 132,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T12ParityReducedCandidate → MCore.T11PairwiseReducedCandidate"
+  },
+  {
+   "name": "MCore.T12_some_base_even",
+   "file": "lean/MCore/T12.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ}, a ^ x + b ^ y = c ^ z → MCore.T12Even a ∨ MCore.T12Even b ∨ MCore.T12Even c"
+  },
+  {
+   "name": "MCore.T13_T12_to_modular",
+   "file": "lean/MCore/T13.lean",
+   "line": 110,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T12ParityReducedCandidate → MCore.T13ModularReducedCandidate"
+  },
+  {
+   "name": "MCore.T13_beal_iff_modular_frontier",
+   "file": "lean/MCore/T13.lean",
+   "line": 128,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T13ModularScientificFrontier"
+  },
+  {
+   "name": "MCore.T13_c_even_excludes_double_four",
+   "file": "lean/MCore/T13.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y →       MCore.T7ReducedExponent z →         a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even c → ¬(x = 4 ∧ y = 4)"
+  },
+  {
+   "name": "MCore.T13_candidate_iff_modular",
+   "file": "lean/MCore/T13.lean",
+   "line": 121,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T12ParityReducedCandidate ↔ MCore.T13ModularReducedCandidate"
+  },
+  {
+   "name": "MCore.T13_even_pow_mod_four",
+   "file": "lean/MCore/T13.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {c z : ℕ}, MCore.T12Even c → 2 < z → c ^ z % 4 = 0"
+  },
+  {
+   "name": "MCore.T13_modular_to_T12",
+   "file": "lean/MCore/T13.lean",
+   "line": 116,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T13ModularReducedCandidate → MCore.T12ParityReducedCandidate"
+  },
+  {
+   "name": "MCore.T13_odd_fourth_mod_four",
+   "file": "lean/MCore/T13.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a : ℕ}, MCore.T12Odd a → a ^ 4 % 4 = 1"
+  },
+  {
+   "name": "MCore.T13_odd_mod_four",
+   "file": "lean/MCore/T13.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a : ℕ}, MCore.T12Odd a → a % 4 = 1 ∨ a % 4 = 3"
+  },
+  {
+   "name": "MCore.T13_odd_representation",
+   "file": "lean/MCore/T13.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a : ℕ}, MCore.T12Odd a → ∃ k, a = 2 * k + 1"
+  },
+  {
+   "name": "MCore.T14_T13_to_residue",
+   "file": "lean/MCore/T14.lean",
+   "line": 113,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T13ModularReducedCandidate → MCore.T14ResidueReducedCandidate"
+  },
+  {
+   "name": "MCore.T14_beal_iff_residue_frontier",
+   "file": "lean/MCore/T14.lean",
+   "line": 136,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T14ResidueScientificFrontier"
+  },
+  {
+   "name": "MCore.T14_c_even_left_four_forces_right_three",
+   "file": "lean/MCore/T14.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent z →     a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even c → x = 4 → b ^ y % 4 = 3"
+  },
+  {
+   "name": "MCore.T14_c_even_right_four_forces_left_three",
+   "file": "lean/MCore/T14.lean",
+   "line": 49,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent z →     a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even c → y = 4 → a ^ x % 4 = 3"
+  },
+  {
+   "name": "MCore.T14_candidate_iff_residue",
+   "file": "lean/MCore/T14.lean",
+   "line": 129,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T13ModularReducedCandidate ↔ MCore.T14ResidueReducedCandidate"
+  },
+  {
+   "name": "MCore.T14_residue_to_T13",
+   "file": "lean/MCore/T14.lean",
+   "line": 124,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T14ResidueReducedCandidate → MCore.T13ModularReducedCandidate"
+  },
+  {
+   "name": "MCore.T15_T14_to_base_residue",
+   "file": "lean/MCore/T15.lean",
+   "line": 135,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T14ResidueReducedCandidate → MCore.T15BaseResidueReducedCandidate"
+  },
+  {
+   "name": "MCore.T15_base_residue_to_T14",
+   "file": "lean/MCore/T15.lean",
+   "line": 146,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T15BaseResidueReducedCandidate → MCore.T14ResidueReducedCandidate"
+  },
+  {
+   "name": "MCore.T15_beal_iff_base_residue_frontier",
+   "file": "lean/MCore/T15.lean",
+   "line": 158,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T15BaseResidueScientificFrontier"
+  },
+  {
+   "name": "MCore.T15_c_even_left_four_forces_right_base_three",
+   "file": "lean/MCore/T15.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y →       MCore.T7ReducedExponent z →         a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even c → x = 4 → b % 4 = 3"
+  },
+  {
+   "name": "MCore.T15_c_even_right_four_forces_left_base_three",
+   "file": "lean/MCore/T15.lean",
+   "line": 81,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y →       MCore.T7ReducedExponent z →         a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even c → y = 4 → a % 4 = 3"
+  },
+  {
+   "name": "MCore.T15_candidate_iff_base_residue",
+   "file": "lean/MCore/T15.lean",
+   "line": 151,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T14ResidueReducedCandidate ↔ MCore.T15BaseResidueReducedCandidate"
+  },
+  {
+   "name": "MCore.T15_odd_pow_mod_four_eq_base",
+   "file": "lean/MCore/T15.lean",
+   "line": 20,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a n : ℕ}, MCore.T12Odd a → MCore.T12Odd n → a ^ n % 4 = a % 4"
+  },
+  {
+   "name": "MCore.T15_odd_square_mod_four",
+   "file": "lean/MCore/T15.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a : ℕ}, MCore.T12Odd a → a ^ 2 % 4 = 1"
+  },
+  {
+   "name": "MCore.T15_one_mod_four_pow",
+   "file": "lean/MCore/T15.lean",
+   "line": 11,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {u k : ℕ}, u % 4 = 1 → u ^ k % 4 = 1"
+  },
+  {
+   "name": "MCore.T15_prime_gt_two_odd",
+   "file": "lean/MCore/T15.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p : ℕ}, MCore.IsPrime p → 2 < p → MCore.T12Odd p"
+  },
+  {
+   "name": "MCore.T16_T15_to_eight",
+   "file": "lean/MCore/T16.lean",
+   "line": 213,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T15BaseResidueReducedCandidate → MCore.T16EightReducedCandidate"
+  },
+  {
+   "name": "MCore.T16_beal_iff_eight_frontier",
+   "file": "lean/MCore/T16.lean",
+   "line": 236,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T16EightScientificFrontier"
+  },
+  {
+   "name": "MCore.T16_c_even_left_four_forces_right_seven",
+   "file": "lean/MCore/T16.lean",
+   "line": 144,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent z →     a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even c → x = 4 → b ^ y % 8 = 7"
+  },
+  {
+   "name": "MCore.T16_c_even_right_four_forces_left_seven",
+   "file": "lean/MCore/T16.lean",
+   "line": 167,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent z →     a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even c → y = 4 → a ^ x % 8 = 7"
+  },
+  {
+   "name": "MCore.T16_candidate_iff_eight",
+   "file": "lean/MCore/T16.lean",
+   "line": 229,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T15BaseResidueReducedCandidate ↔ MCore.T16EightReducedCandidate"
+  },
+  {
+   "name": "MCore.T16_eight_to_T15",
+   "file": "lean/MCore/T16.lean",
+   "line": 224,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T16EightReducedCandidate → MCore.T15BaseResidueReducedCandidate"
+  },
+  {
+   "name": "MCore.T16_even_pow_mod_eight",
+   "file": "lean/MCore/T16.lean",
+   "line": 72,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {c z : ℕ}, MCore.T12Even c → 2 < z → c ^ z % 8 = 0"
+  },
+  {
+   "name": "MCore.T16_mod_eight_succ_zero_forces_seven",
+   "file": "lean/MCore/T16.lean",
+   "line": 98,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{r : Nat} (hlt : r < 8) (hzero : (1 + r) % 8 = 0) : r = 7"
+  },
+  {
+   "name": "MCore.T16_odd_fourth_mod_eight",
+   "file": "lean/MCore/T16.lean",
+   "line": 61,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a : ℕ}, MCore.T12Odd a → a ^ 4 % 8 = 1"
+  },
+  {
+   "name": "MCore.T16_odd_mod_eight",
+   "file": "lean/MCore/T16.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a : ℕ}, MCore.T12Odd a → a % 8 = 1 ∨ a % 8 = 3 ∨ a % 8 = 5 ∨ a % 8 = 7"
+  },
+  {
+   "name": "MCore.T16_odd_square_mod_eight",
+   "file": "lean/MCore/T16.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a : ℕ}, MCore.T12Odd a → a ^ 2 % 8 = 1"
+  },
+  {
+   "name": "MCore.T17_T16_to_classified",
+   "file": "lean/MCore/T17.lean",
+   "line": 153,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T16EightReducedCandidate → MCore.T17ClassifiedReducedCandidate"
+  },
+  {
+   "name": "MCore.T17_beal_iff_classified_frontier",
+   "file": "lean/MCore/T17.lean",
+   "line": 183,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T17ClassifiedScientificFrontier"
+  },
+  {
+   "name": "MCore.T17_c_even_left_four_forces_right_base_seven",
+   "file": "lean/MCore/T17.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y →       MCore.T7ReducedExponent z →         a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even c → x = 4 → b % 8 = 7"
+  },
+  {
+   "name": "MCore.T17_c_even_odd_odd_sum_zero",
+   "file": "lean/MCore/T17.lean",
+   "line": 96,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y →       MCore.T7ReducedExponent z →         a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even c → x ≠ 4 → y ≠ 4 → (a + b) % 8 = 0"
+  },
+  {
+   "name": "MCore.T17_c_even_right_four_forces_left_base_seven",
+   "file": "lean/MCore/T17.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y →       MCore.T7ReducedExponent z →         a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even c → y = 4 → a % 8 = 7"
+  },
+  {
+   "name": "MCore.T17_candidate_iff_classified",
+   "file": "lean/MCore/T17.lean",
+   "line": 176,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T16EightReducedCandidate ↔ MCore.T17ClassifiedReducedCandidate"
+  },
+  {
+   "name": "MCore.T17_classified_to_T16",
+   "file": "lean/MCore/T17.lean",
+   "line": 169,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T17ClassifiedReducedCandidate → MCore.T16EightReducedCandidate"
+  },
+  {
+   "name": "MCore.T17_odd_pow_mod_eight_eq_base",
+   "file": "lean/MCore/T17.lean",
+   "line": 13,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a n : ℕ}, MCore.T12Odd a → MCore.T12Odd n → a ^ n % 8 = a % 8"
+  },
+  {
+   "name": "MCore.T17_one_mod_eight_pow",
+   "file": "lean/MCore/T17.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {u k : ℕ}, u % 8 = 1 → u ^ k % 8 = 1"
+  },
+  {
+   "name": "MCore.T17_reduced_ne_four_odd",
+   "file": "lean/MCore/T17.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {n : ℕ}, MCore.T7ReducedExponent n → n ≠ 4 → MCore.T12Odd n"
+  },
+  {
+   "name": "MCore.T18_T17_to_full",
+   "file": "lean/MCore/T18.lean",
+   "line": 223,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T17ClassifiedReducedCandidate → MCore.T18FullParityClassifiedCandidate"
+  },
+  {
+   "name": "MCore.T18_a_even_odd_odd_residues_eq",
+   "file": "lean/MCore/T18.lean",
+   "line": 104,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y →       MCore.T7ReducedExponent z →         a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even a → y ≠ 4 → z ≠ 4 → b % 8 = c % 8"
+  },
+  {
+   "name": "MCore.T18_a_even_other_odd",
+   "file": "lean/MCore/T18.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c : ℕ}, MCore.T12ExactlyOneEven a b c → MCore.T12Even a → MCore.T12Odd b ∧ MCore.T12Odd c"
+  },
+  {
+   "name": "MCore.T18_a_even_power_residue_eq",
+   "file": "lean/MCore/T18.lean",
+   "line": 38,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ}, MCore.T7ReducedExponent x → a ^ x + b ^ y = c ^ z → MCore.T12Even a → b ^ y % 8 = c ^ z % 8"
+  },
+  {
+   "name": "MCore.T18_a_even_y_four_z_odd",
+   "file": "lean/MCore/T18.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent z →       a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even a → y = 4 → z ≠ 4 → c % 8 = 1"
+  },
+  {
+   "name": "MCore.T18_a_even_y_odd_z_four",
+   "file": "lean/MCore/T18.lean",
+   "line": 83,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y →       a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even a → y ≠ 4 → z = 4 → b % 8 = 1"
+  },
+  {
+   "name": "MCore.T18_b_even_odd_odd_residues_eq",
+   "file": "lean/MCore/T18.lean",
+   "line": 169,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y →       MCore.T7ReducedExponent z →         a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even b → x ≠ 4 → z ≠ 4 → a % 8 = c % 8"
+  },
+  {
+   "name": "MCore.T18_b_even_other_odd",
+   "file": "lean/MCore/T18.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c : ℕ}, MCore.T12ExactlyOneEven a b c → MCore.T12Even b → MCore.T12Odd a ∧ MCore.T12Odd c"
+  },
+  {
+   "name": "MCore.T18_b_even_power_residue_eq",
+   "file": "lean/MCore/T18.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ}, MCore.T7ReducedExponent y → a ^ x + b ^ y = c ^ z → MCore.T12Even b → a ^ x % 8 = c ^ z % 8"
+  },
+  {
+   "name": "MCore.T18_b_even_x_four_z_odd",
+   "file": "lean/MCore/T18.lean",
+   "line": 127,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent y →     MCore.T7ReducedExponent z →       a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even b → x = 4 → z ≠ 4 → c % 8 = 1"
+  },
+  {
+   "name": "MCore.T18_b_even_x_odd_z_four",
+   "file": "lean/MCore/T18.lean",
+   "line": 148,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y →       a ^ x + b ^ y = c ^ z → MCore.T12ExactlyOneEven a b c → MCore.T12Even b → x ≠ 4 → z = 4 → a % 8 = 1"
+  },
+  {
+   "name": "MCore.T18_beal_iff_full_parity_frontier",
+   "file": "lean/MCore/T18.lean",
+   "line": 262,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T18FullParityScientificFrontier"
+  },
+  {
+   "name": "MCore.T18_candidate_iff_full",
+   "file": "lean/MCore/T18.lean",
+   "line": 255,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T17ClassifiedReducedCandidate ↔ MCore.T18FullParityClassifiedCandidate"
+  },
+  {
+   "name": "MCore.T18_full_to_T17",
+   "file": "lean/MCore/T18.lean",
+   "line": 248,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T18FullParityClassifiedCandidate → MCore.T17ClassifiedReducedCandidate"
+  },
+  {
+   "name": "MCore.T19_T18_to_variable_two_adic",
+   "file": "lean/MCore/T19.lean",
+   "line": 88,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T18FullParityClassifiedCandidate → MCore.T19VariableTwoAdicCandidate"
+  },
+  {
+   "name": "MCore.T19_a_even_variable_two_adic",
+   "file": "lean/MCore/T19.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ}, a ^ x + b ^ y = c ^ z → MCore.T12Even a → ∃ k, c ^ z = 2 ^ x * k + b ^ y"
+  },
+  {
+   "name": "MCore.T19_b_even_variable_two_adic",
+   "file": "lean/MCore/T19.lean",
+   "line": 38,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ}, a ^ x + b ^ y = c ^ z → MCore.T12Even b → ∃ k, c ^ z = a ^ x + 2 ^ y * k"
+  },
+  {
+   "name": "MCore.T19_beal_iff_variable_two_adic_frontier",
+   "file": "lean/MCore/T19.lean",
+   "line": 117,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T19VariableTwoAdicScientificFrontier"
+  },
+  {
+   "name": "MCore.T19_c_even_variable_two_adic",
+   "file": "lean/MCore/T19.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ}, a ^ x + b ^ y = c ^ z → MCore.T12Even c → ∃ k, a ^ x + b ^ y = 2 ^ z * k"
+  },
+  {
+   "name": "MCore.T19_candidate_iff_variable_two_adic",
+   "file": "lean/MCore/T19.lean",
+   "line": 110,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T18FullParityClassifiedCandidate ↔ MCore.T19VariableTwoAdicCandidate"
+  },
+  {
+   "name": "MCore.T19_even_power_factor",
+   "file": "lean/MCore/T19.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a n : ℕ}, MCore.T12Even a → ∃ k, a ^ n = 2 ^ n * k"
+  },
+  {
+   "name": "MCore.T19_mul_pow",
+   "file": "lean/MCore/T19.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (a b n : ℕ), (a * b) ^ n = a ^ n * b ^ n"
+  },
+  {
+   "name": "MCore.T19_variable_two_adic_to_T18",
+   "file": "lean/MCore/T19.lean",
+   "line": 103,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T19VariableTwoAdicCandidate → MCore.T18FullParityClassifiedCandidate"
+  },
+  {
+   "name": "MCore.T1_v0_to_beal",
+   "file": "lean/MCore/V012.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.V0EquationToCommonDivisor → MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.T20_T19_to_depth",
+   "file": "lean/MCore/T20.lean",
+   "line": 79,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T19VariableTwoAdicCandidate → MCore.T20TwoAdicDepthCandidate"
+  },
+  {
+   "name": "MCore.T20_a_depth_constraint",
+   "file": "lean/MCore/T20.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z r : ℕ}, a ^ x + b ^ y = c ^ z → 2 ^ r ∣ a → ∃ k, c ^ z = 2 ^ (r * x) * k + b ^ y"
+  },
+  {
+   "name": "MCore.T20_b_depth_constraint",
+   "file": "lean/MCore/T20.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z r : ℕ}, a ^ x + b ^ y = c ^ z → 2 ^ r ∣ b → ∃ k, c ^ z = a ^ x + 2 ^ (r * y) * k"
+  },
+  {
+   "name": "MCore.T20_beal_iff_two_adic_depth_frontier",
+   "file": "lean/MCore/T20.lean",
+   "line": 108,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T20TwoAdicDepthScientificFrontier"
+  },
+  {
+   "name": "MCore.T20_c_depth_constraint",
+   "file": "lean/MCore/T20.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z r : ℕ}, a ^ x + b ^ y = c ^ z → 2 ^ r ∣ c → ∃ k, a ^ x + b ^ y = 2 ^ (r * z) * k"
+  },
+  {
+   "name": "MCore.T20_candidate_iff_depth",
+   "file": "lean/MCore/T20.lean",
+   "line": 101,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T19VariableTwoAdicCandidate ↔ MCore.T20TwoAdicDepthCandidate"
+  },
+  {
+   "name": "MCore.T20_depth_to_T19",
+   "file": "lean/MCore/T20.lean",
+   "line": 94,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T20TwoAdicDepthCandidate → MCore.T19VariableTwoAdicCandidate"
+  },
+  {
+   "name": "MCore.T20_two_power_depth_scales",
+   "file": "lean/MCore/T20.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a r n : ℕ}, 2 ^ r ∣ a → ∃ k, a ^ n = 2 ^ (r * n) * k"
+  },
+  {
+   "name": "MCore.T21_T20_to_equal_exponent_factor",
+   "file": "lean/MCore/T21.lean",
+   "line": 116,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T20TwoAdicDepthCandidate → MCore.T21EqualExponentFactorCandidate"
+  },
+  {
+   "name": "MCore.T21_beal_iff_equal_exponent_factor_frontier",
+   "file": "lean/MCore/T21.lean",
+   "line": 142,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T21EqualExponentFactorScientificFrontier"
+  },
+  {
+   "name": "MCore.T21_candidate_iff_equal_exponent_factor",
+   "file": "lean/MCore/T21.lean",
+   "line": 135,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T20TwoAdicDepthCandidate ↔ MCore.T21EqualExponentFactorCandidate"
+  },
+  {
+   "name": "MCore.T21_diff_factorization",
+   "file": "lean/MCore/T21.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {b c : ℕ}, b ≤ c → ∀ (n : ℕ), b ^ n + (c - b) * MCore.T21DiffQuot c b n = c ^ n"
+  },
+  {
+   "name": "MCore.T21_equal_exponent_factor_to_T20",
+   "file": "lean/MCore/T21.lean",
+   "line": 128,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T21EqualExponentFactorCandidate → MCore.T20TwoAdicDepthCandidate"
+  },
+  {
+   "name": "MCore.T21_right_same_exponent_gap",
+   "file": "lean/MCore/T21.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x n : ℕ}, 0 < a → a ^ x + b ^ n = c ^ n → b < c"
+  },
+  {
+   "name": "MCore.T21_x_eq_z_gap_divides_b_power",
+   "file": "lean/MCore/T21.lean",
+   "line": 69,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ}, 0 < b → a ^ x + b ^ y = c ^ z → x = z → 0 < c - a ∧ c - a ∣ b ^ y"
+  },
+  {
+   "name": "MCore.T21_y_eq_z_gap_divides_a_power",
+   "file": "lean/MCore/T21.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ}, 0 < a → a ^ x + b ^ y = c ^ z → y = z → 0 < c - b ∧ c - b ∣ a ^ x"
+  },
+  {
+   "name": "MCore.T22_T21_to_two_adic_exact",
+   "file": "lean/MCore/T22.lean",
+   "line": 194,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T21EqualExponentFactorCandidate → MCore.T22EqualOddExponentTwoAdicCandidate"
+  },
+  {
+   "name": "MCore.T22_a_even_equal_odd_exponent_two_adic_exact",
+   "file": "lean/MCore/T22.lean",
+   "line": 121,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z r : ℕ},   0 < a →     MCore.T7ReducedExponent y →       a ^ x + b ^ y = c ^ z →         MCore.T12ExactlyOneEven a b c → MCore.T12Even a → y = z → y ≠ 4 → (2 ^ r ∣ a ^ x ↔ 2 ^ r ∣ c - b)"
+  },
+  {
+   "name": "MCore.T22_b_even_equal_odd_exponent_two_adic_exact",
+   "file": "lean/MCore/T22.lean",
+   "line": 144,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z r : ℕ},   0 < b →     MCore.T7ReducedExponent x →       a ^ x + b ^ y = c ^ z →         MCore.T12ExactlyOneEven a b c → MCore.T12Even b → x = z → x ≠ 4 → (2 ^ r ∣ b ^ y ↔ 2 ^ r ∣ c - a)"
+  },
+  {
+   "name": "MCore.T22_beal_iff_equal_odd_exponent_two_adic_frontier",
+   "file": "lean/MCore/T22.lean",
+   "line": 222,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T22EqualOddExponentTwoAdicScientificFrontier"
+  },
+  {
+   "name": "MCore.T22_candidate_iff_two_adic_exact",
+   "file": "lean/MCore/T22.lean",
+   "line": 215,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T21EqualExponentFactorCandidate ↔ MCore.T22EqualOddExponentTwoAdicCandidate"
+  },
+  {
+   "name": "MCore.T22_diff_quot_mod_two",
+   "file": "lean/MCore/T22.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {b c : ℕ}, MCore.T12Odd b → MCore.T12Odd c → ∀ (n : ℕ), MCore.T21DiffQuot c b n % 2 = n % 2"
+  },
+  {
+   "name": "MCore.T22_diff_quot_odd",
+   "file": "lean/MCore/T22.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {b c n : ℕ}, MCore.T12Odd b → MCore.T12Odd c → MCore.T12Odd n → MCore.T12Odd (MCore.T21DiffQuot c b n)"
+  },
+  {
+   "name": "MCore.T22_two_adic_exact_to_T21",
+   "file": "lean/MCore/T22.lean",
+   "line": 208,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T22EqualOddExponentTwoAdicCandidate → MCore.T21EqualExponentFactorCandidate"
+  },
+  {
+   "name": "MCore.T22_two_pow_dvd_mul_odd_iff_left",
+   "file": "lean/MCore/T22.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {d q r : ℕ}, MCore.T12Odd q → (2 ^ r ∣ d * q ↔ 2 ^ r ∣ d)"
+  },
+  {
+   "name": "MCore.T22_two_pow_dvd_mul_odd_left",
+   "file": "lean/MCore/T22.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {d q : ℕ}, MCore.T12Odd q → ∀ (r : ℕ), 2 ^ r ∣ d * q → 2 ^ r ∣ d"
+  },
+  {
+   "name": "MCore.T22_x_eq_z_exact_factor",
+   "file": "lean/MCore/T22.lean",
+   "line": 103,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ}, 0 < b → a ^ x + b ^ y = c ^ z → x = z → b ^ y = (c - a) * MCore.T21DiffQuot c a x"
+  },
+  {
+   "name": "MCore.T22_y_eq_z_exact_factor",
+   "file": "lean/MCore/T22.lean",
+   "line": 85,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ}, 0 < a → a ^ x + b ^ y = c ^ z → y = z → a ^ x = (c - b) * MCore.T21DiffQuot c b y"
+  },
+  {
+   "name": "MCore.T23_T22_to_gap_depth",
+   "file": "lean/MCore/T23.lean",
+   "line": 73,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T22EqualOddExponentTwoAdicCandidate → MCore.T23EqualOddGapDepthCandidate"
+  },
+  {
+   "name": "MCore.T23_a_even_equal_odd_gap_depth",
+   "file": "lean/MCore/T23.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z s : ℕ},   0 < a →     MCore.T7ReducedExponent y →       a ^ x + b ^ y = c ^ z →         MCore.T12ExactlyOneEven a b c → MCore.T12Even a → y = z → y ≠ 4 → 2 ^ s ∣ a → 2 ^ (s * x) ∣ c - b"
+  },
+  {
+   "name": "MCore.T23_b_even_equal_odd_gap_depth",
+   "file": "lean/MCore/T23.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z s : ℕ},   0 < b →     MCore.T7ReducedExponent x →       a ^ x + b ^ y = c ^ z →         MCore.T12ExactlyOneEven a b c → MCore.T12Even b → x = z → x ≠ 4 → 2 ^ s ∣ b → 2 ^ (s * y) ∣ c - a"
+  },
+  {
+   "name": "MCore.T23_beal_iff_equal_odd_gap_depth_frontier",
+   "file": "lean/MCore/T23.lean",
+   "line": 101,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T23EqualOddGapDepthScientificFrontier"
+  },
+  {
+   "name": "MCore.T23_candidate_iff_gap_depth",
+   "file": "lean/MCore/T23.lean",
+   "line": 94,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T22EqualOddExponentTwoAdicCandidate ↔ MCore.T23EqualOddGapDepthCandidate"
+  },
+  {
+   "name": "MCore.T23_gap_depth_to_T22",
+   "file": "lean/MCore/T23.lean",
+   "line": 87,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T23EqualOddGapDepthCandidate → MCore.T22EqualOddExponentTwoAdicCandidate"
+  },
+  {
+   "name": "MCore.T24_T23_to_frey_discriminant",
+   "file": "lean/MCore/T24.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T23EqualOddGapDepthCandidate → MCore.T24FreyDiscriminantCandidate"
+  },
+  {
+   "name": "MCore.T24_beal_iff_frey_discriminant_frontier",
+   "file": "lean/MCore/T24.lean",
+   "line": 88,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T24FreyDiscriminantScientificFrontier"
+  },
+  {
+   "name": "MCore.T24_candidate_iff_frey_discriminant",
+   "file": "lean/MCore/T24.lean",
+   "line": 81,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T23EqualOddGapDepthCandidate ↔ MCore.T24FreyDiscriminantCandidate"
+  },
+  {
+   "name": "MCore.T24_frey_discriminant_rewrite",
+   "file": "lean/MCore/T24.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   a ^ x + b ^ y = c ^ z → MCore.T24FreyDiscriminantKernel a b x y = MCore.T24FreyDiscriminantBeal a b c x y z"
+  },
+  {
+   "name": "MCore.T24_frey_discriminant_to_T23",
+   "file": "lean/MCore/T24.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T24FreyDiscriminantCandidate → MCore.T23EqualOddGapDepthCandidate"
+  },
+  {
+   "name": "MCore.T25_T24_to_frey_two_adic_depth",
+   "file": "lean/MCore/T25.lean",
+   "line": 91,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T24FreyDiscriminantCandidate → MCore.T25FreyTwoAdicDepthCandidate"
+  },
+  {
+   "name": "MCore.T25_beal_iff_frey_two_adic_depth_frontier",
+   "file": "lean/MCore/T25.lean",
+   "line": 120,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T25FreyTwoAdicDepthScientificFrontier"
+  },
+  {
+   "name": "MCore.T25_candidate_iff_frey_two_adic_depth",
+   "file": "lean/MCore/T25.lean",
+   "line": 113,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T24FreyDiscriminantCandidate ↔ MCore.T25FreyTwoAdicDepthCandidate"
+  },
+  {
+   "name": "MCore.T25_frey_a_two_adic_factorization",
+   "file": "lean/MCore/T25.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z s : ℕ},   2 ^ s ∣ a → ∃ k, MCore.T24FreyDiscriminantBeal a b c x y z = 16 * (2 ^ (s * x) * k) ^ 2 * (b ^ y) ^ 2 * (c ^ z) ^ 2"
+  },
+  {
+   "name": "MCore.T25_frey_b_two_adic_factorization",
+   "file": "lean/MCore/T25.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z s : ℕ},   2 ^ s ∣ b → ∃ k, MCore.T24FreyDiscriminantBeal a b c x y z = 16 * (a ^ x) ^ 2 * (2 ^ (s * y) * k) ^ 2 * (c ^ z) ^ 2"
+  },
+  {
+   "name": "MCore.T25_frey_c_two_adic_factorization",
+   "file": "lean/MCore/T25.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z s : ℕ},   2 ^ s ∣ c → ∃ k, MCore.T24FreyDiscriminantBeal a b c x y z = 16 * (a ^ x) ^ 2 * (b ^ y) ^ 2 * (2 ^ (s * z) * k) ^ 2"
+  },
+  {
+   "name": "MCore.T25_frey_two_adic_depth_to_T24",
+   "file": "lean/MCore/T25.lean",
+   "line": 106,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T25FreyTwoAdicDepthCandidate → MCore.T24FreyDiscriminantCandidate"
+  },
+  {
+   "name": "MCore.T26_base_38970_certified",
+   "file": "lean/MCore/T26.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T26Base38970Certified"
+  },
+  {
+   "name": "MCore.T26_beal_iff_certified_base_frey_bridge",
+   "file": "lean/MCore/T26.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T26CertifiedBaseToFreyBridge"
+  },
+  {
+   "name": "MCore.T26_beal_to_missing_bridge",
+   "file": "lean/MCore/T26.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture → MCore.T26CertifiedBaseToFreyBridge"
+  },
+  {
+   "name": "MCore.T26_certified_base_bridge_iff_frey_bridge",
+   "file": "lean/MCore/T26.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T26CertifiedBaseToFreyBridge ↔ MCore.T26FreyContradictionBridge"
+  },
+  {
+   "name": "MCore.T26_frey_bridge_iff_T25_frontier",
+   "file": "lean/MCore/T26.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T26FreyContradictionBridge ↔ MCore.T25FreyTwoAdicDepthScientificFrontier"
+  },
+  {
+   "name": "MCore.T26_missing_bridge_to_beal",
+   "file": "lean/MCore/T26.lean",
+   "line": 71,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T26CertifiedBaseToFreyBridge → MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.T26_unrestricted_cross_domain_promotion_refuted",
+   "file": "lean/MCore/T26.lean",
+   "line": 82,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬MCore.T26UnrestrictedCrossDomainPromotion"
+  },
+  {
+   "name": "MCore.T27_T25_to_frey_divisor_depth",
+   "file": "lean/MCore/T27.lean",
+   "line": 97,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T25FreyTwoAdicDepthCandidate → MCore.T27FreyDivisorDepthCandidate"
+  },
+  {
+   "name": "MCore.T27_beal_iff_frey_divisor_depth_frontier",
+   "file": "lean/MCore/T27.lean",
+   "line": 126,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T27FreyDivisorDepthScientificFrontier"
+  },
+  {
+   "name": "MCore.T27_candidate_iff_frey_divisor_depth",
+   "file": "lean/MCore/T27.lean",
+   "line": 119,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T25FreyTwoAdicDepthCandidate ↔ MCore.T27FreyDivisorDepthCandidate"
+  },
+  {
+   "name": "MCore.T27_divisor_power_depth_scales",
+   "file": "lean/MCore/T27.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a d s n : ℕ}, d ^ s ∣ a → ∃ k, a ^ n = d ^ (s * n) * k"
+  },
+  {
+   "name": "MCore.T27_frey_a_divisor_depth",
+   "file": "lean/MCore/T27.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z d s : ℕ},   d ^ s ∣ a → ∃ k, MCore.T24FreyDiscriminantBeal a b c x y z = 16 * (d ^ (s * x) * k) ^ 2 * (b ^ y) ^ 2 * (c ^ z) ^ 2"
+  },
+  {
+   "name": "MCore.T27_frey_b_divisor_depth",
+   "file": "lean/MCore/T27.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z d s : ℕ},   d ^ s ∣ b → ∃ k, MCore.T24FreyDiscriminantBeal a b c x y z = 16 * (a ^ x) ^ 2 * (d ^ (s * y) * k) ^ 2 * (c ^ z) ^ 2"
+  },
+  {
+   "name": "MCore.T27_frey_c_divisor_depth",
+   "file": "lean/MCore/T27.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z d s : ℕ},   d ^ s ∣ c → ∃ k, MCore.T24FreyDiscriminantBeal a b c x y z = 16 * (a ^ x) ^ 2 * (b ^ y) ^ 2 * (d ^ (s * z) * k) ^ 2"
+  },
+  {
+   "name": "MCore.T27_frey_divisor_depth_to_T25",
+   "file": "lean/MCore/T27.lean",
+   "line": 112,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T27FreyDivisorDepthCandidate → MCore.T25FreyTwoAdicDepthCandidate"
+  },
+  {
+   "name": "MCore.T28_T27_to_prime_support",
+   "file": "lean/MCore/T28.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T27FreyDivisorDepthCandidate → MCore.T28FreyPrimeSupportCandidate"
+  },
+  {
+   "name": "MCore.T28_beal_iff_prime_support_frontier",
+   "file": "lean/MCore/T28.lean",
+   "line": 90,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T28FreyPrimeSupportScientificFrontier"
+  },
+  {
+   "name": "MCore.T28_candidate_iff_prime_support",
+   "file": "lean/MCore/T28.lean",
+   "line": 83,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T27FreyDivisorDepthCandidate ↔ MCore.T28FreyPrimeSupportCandidate"
+  },
+  {
+   "name": "MCore.T28_frey_prime_support_of_product_property",
+   "file": "lean/MCore/T28.lean",
+   "line": 8,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T28PrimeProductProperty →   ∀ {a b c x y z p : ℕ},     MCore.IsPrime p →       p ∣ MCore.T24FreyDiscriminantBeal a b c x y z → p ∣ 16 ∨ p ∣ (a ^ x) ^ 2 ∨ p ∣ (b ^ y) ^ 2 ∨ p ∣ (c ^ z) ^ 2"
+  },
+  {
+   "name": "MCore.T28_prime_support_to_T27",
+   "file": "lean/MCore/T28.lean",
+   "line": 76,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T28FreyPrimeSupportCandidate → MCore.T27FreyDivisorDepthCandidate"
+  },
+  {
+   "name": "MCore.T29_frey_prime_support",
+   "file": "lean/MCore/T29.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z p : ℕ},   MCore.IsPrime p →     p ∣ MCore.T24FreyDiscriminantBeal a b c x y z → p ∣ 16 ∨ p ∣ (a ^ x) ^ 2 ∨ p ∣ (b ^ y) ^ 2 ∨ p ∣ (c ^ z) ^ 2"
+  },
+  {
+   "name": "MCore.T29_gcd_eq_one_of_prime_not_dvd",
+   "file": "lean/MCore/T29.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p m : ℕ}, MCore.IsPrime p → ¬p ∣ m → p.gcd m = 1"
+  },
+  {
+   "name": "MCore.T29_prime_dvd_mul",
+   "file": "lean/MCore/T29.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p m n : ℕ}, MCore.IsPrime p → p ∣ m * n → p ∣ m ∨ p ∣ n"
+  },
+  {
+   "name": "MCore.T29_prime_product_property_proved",
+   "file": "lean/MCore/T29.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T28PrimeProductProperty"
+  },
+  {
+   "name": "MCore.T2_v2_collision",
+   "file": "lean/MCore/V012.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.V0EquationToCommonDivisor"
+  },
+  {
+   "name": "MCore.T30_T28_to_base_prime_support",
+   "file": "lean/MCore/T30.lean",
+   "line": 89,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T28FreyPrimeSupportCandidate → MCore.T30FreyBasePrimeSupportCandidate"
+  },
+  {
+   "name": "MCore.T30_base_prime_support_to_T28",
+   "file": "lean/MCore/T30.lean",
+   "line": 101,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T30FreyBasePrimeSupportCandidate → MCore.T28FreyPrimeSupportCandidate"
+  },
+  {
+   "name": "MCore.T30_beal_iff_base_prime_support_frontier",
+   "file": "lean/MCore/T30.lean",
+   "line": 115,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T30FreyBasePrimeSupportScientificFrontier"
+  },
+  {
+   "name": "MCore.T30_candidate_iff_base_prime_support",
+   "file": "lean/MCore/T30.lean",
+   "line": 108,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T28FreyPrimeSupportCandidate ↔ MCore.T30FreyBasePrimeSupportCandidate"
+  },
+  {
+   "name": "MCore.T30_frey_base_prime_support",
+   "file": "lean/MCore/T30.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z p : ℕ},   0 < x →     0 < y → 0 < z → MCore.IsPrime p → p ∣ MCore.T24FreyDiscriminantBeal a b c x y z → p ∣ 16 ∨ p ∣ a ∨ p ∣ b ∨ p ∣ c"
+  },
+  {
+   "name": "MCore.T30_prime_dvd_pow_of_pos",
+   "file": "lean/MCore/T30.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p a n : ℕ}, MCore.IsPrime p → 0 < n → p ∣ a ^ n → p ∣ a"
+  },
+  {
+   "name": "MCore.T30_prime_dvd_pow_succ",
+   "file": "lean/MCore/T30.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p a n : ℕ}, MCore.IsPrime p → p ∣ a ^ (n + 1) → p ∣ a"
+  },
+  {
+   "name": "MCore.T30_prime_dvd_power_square_to_base",
+   "file": "lean/MCore/T30.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p a n : ℕ}, MCore.IsPrime p → 0 < n → p ∣ (a ^ n) ^ 2 → p ∣ a"
+  },
+  {
+   "name": "MCore.T31_T30_to_radical_support",
+   "file": "lean/MCore/T31.lean",
+   "line": 78,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T30FreyBasePrimeSupportCandidate → MCore.T31FreyRadicalSupportCandidate"
+  },
+  {
+   "name": "MCore.T31_beal_iff_radical_support_frontier",
+   "file": "lean/MCore/T31.lean",
+   "line": 108,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T31FreyRadicalSupportScientificFrontier"
+  },
+  {
+   "name": "MCore.T31_candidate_iff_radical_support",
+   "file": "lean/MCore/T31.lean",
+   "line": 101,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T30FreyBasePrimeSupportCandidate ↔ MCore.T31FreyRadicalSupportCandidate"
+  },
+  {
+   "name": "MCore.T31_frey_radical_prime_support",
+   "file": "lean/MCore/T31.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z p : ℕ},   0 < x →     0 < y → 0 < z → MCore.IsPrime p → p ∣ MCore.T24FreyDiscriminantBeal a b c x y z → p = 2 ∨ p ∣ a ∨ p ∣ b ∨ p ∣ c"
+  },
+  {
+   "name": "MCore.T31_prime_dvd_sixteen_eq_two",
+   "file": "lean/MCore/T31.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p : ℕ}, MCore.IsPrime p → p ∣ 16 → p = 2"
+  },
+  {
+   "name": "MCore.T31_prime_dvd_two_eq_two",
+   "file": "lean/MCore/T31.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p : ℕ}, MCore.IsPrime p → p ∣ 2 → p = 2"
+  },
+  {
+   "name": "MCore.T31_radical_support_to_T30",
+   "file": "lean/MCore/T31.lean",
+   "line": 92,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T31FreyRadicalSupportCandidate → MCore.T30FreyBasePrimeSupportCandidate"
+  },
+  {
+   "name": "MCore.T32_T31_to_c4_coprime",
+   "file": "lean/MCore/T32.lean",
+   "line": 156,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T31FreyRadicalSupportCandidate → MCore.T32FreyC4CoprimeCandidate"
+  },
+  {
+   "name": "MCore.T32_beal_iff_c4_coprime_frontier",
+   "file": "lean/MCore/T32.lean",
+   "line": 186,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T32FreyC4CoprimeScientificFrontier"
+  },
+  {
+   "name": "MCore.T32_c4_coprime_to_T31",
+   "file": "lean/MCore/T32.lean",
+   "line": 170,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T32FreyC4CoprimeCandidate → MCore.T31FreyRadicalSupportCandidate"
+  },
+  {
+   "name": "MCore.T32_candidate_iff_c4_coprime",
+   "file": "lean/MCore/T32.lean",
+   "line": 179,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T31FreyRadicalSupportCandidate ↔ MCore.T32FreyC4CoprimeCandidate"
+  },
+  {
+   "name": "MCore.T32_dvd_mul_of_dvd_left",
+   "file": "lean/MCore/T32.lean",
+   "line": 11,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p u v : ℕ}, p ∣ u → p ∣ u * v"
+  },
+  {
+   "name": "MCore.T32_dvd_mul_of_dvd_right",
+   "file": "lean/MCore/T32.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p u v : ℕ}, p ∣ v → p ∣ u * v"
+  },
+  {
+   "name": "MCore.T32_no_odd_common_prime_delta_c4",
+   "file": "lean/MCore/T32.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z p : ℕ},   0 < x →     0 < y →       0 < z →         a ^ x + b ^ y = c ^ z →           MCore.T11PairwisePrimitive a b c →             MCore.IsPrime p → p ≠ 2 → p ∣ MCore.T24FreyDiscriminantBeal a b c x y z → ¬p ∣ MCore.T32FreyC4Kernel a b x y"
+  },
+  {
+   "name": "MCore.T32_quadratic_decompose",
+   "file": "lean/MCore/T32.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (X Y : ℕ), X ^ 2 + X * Y + Y ^ 2 = X * (X + Y) + Y ^ 2"
+  },
+  {
+   "name": "MCore.T33_T32_to_reduction_input",
+   "file": "lean/MCore/T33.lean",
+   "line": 114,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T32FreyC4CoprimeCandidate → MCore.T33OddPrimeReductionInputCandidate"
+  },
+  {
+   "name": "MCore.T33_beal_iff_reduction_input_frontier",
+   "file": "lean/MCore/T33.lean",
+   "line": 145,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T33OddPrimeReductionInputScientificFrontier"
+  },
+  {
+   "name": "MCore.T33_candidate_iff_reduction_input",
+   "file": "lean/MCore/T33.lean",
+   "line": 138,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T32FreyC4CoprimeCandidate ↔ MCore.T33OddPrimeReductionInputCandidate"
+  },
+  {
+   "name": "MCore.T33_odd_delta_prime_has_reduction_input",
+   "file": "lean/MCore/T33.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z p : ℕ},   0 < x →     0 < y →       0 < z →         a ^ x + b ^ y = c ^ z →           MCore.T11PairwisePrimitive a b c →             MCore.IsPrime p →               p ≠ 2 → p ∣ MCore.T24FreyDiscriminantBeal a b c x y z → MCore.T33OddPrimeReductionInput a b c x y z p"
+  },
+  {
+   "name": "MCore.T33_reduction_goal_iff_local_contract",
+   "file": "lean/MCore/T33.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ},   0 < x →     0 < y →       0 < z →         a ^ x + b ^ y = c ^ z →           MCore.T11PairwisePrimitive a b c →             ∀ (ReductionAt : ℕ → Prop),               MCore.T33OddDeltaReductionGoal ReductionAt a b c x y z ↔                 MCore.T33LocalReductionContract ReductionAt a b c x y z"
+  },
+  {
+   "name": "MCore.T33_reduction_input_to_T32",
+   "file": "lean/MCore/T33.lean",
+   "line": 129,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T33OddPrimeReductionInputCandidate → MCore.T32FreyC4CoprimeCandidate"
+  },
+  {
+   "name": "MCore.T34_T33_to_nodal_collision",
+   "file": "lean/MCore/T34.lean",
+   "line": 140,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T33OddPrimeReductionInputCandidate → MCore.T34FreyNodalCollisionCandidate"
+  },
+  {
+   "name": "MCore.T34_beal_iff_nodal_collision_frontier",
+   "file": "lean/MCore/T34.lean",
+   "line": 171,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T34FreyNodalCollisionScientificFrontier"
+  },
+  {
+   "name": "MCore.T34_candidate_iff_nodal_collision",
+   "file": "lean/MCore/T34.lean",
+   "line": 164,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T33OddPrimeReductionInputCandidate ↔ MCore.T34FreyNodalCollisionCandidate"
+  },
+  {
+   "name": "MCore.T34_nodal_collision_to_T33",
+   "file": "lean/MCore/T34.lean",
+   "line": 155,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T34FreyNodalCollisionCandidate → MCore.T33OddPrimeReductionInputCandidate"
+  },
+  {
+   "name": "MCore.T34_not_dvd_pow_of_not_dvd",
+   "file": "lean/MCore/T34.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p a n : ℕ}, MCore.IsPrime p → 0 < n → ¬p ∣ a → ¬p ∣ a ^ n"
+  },
+  {
+   "name": "MCore.T34_reduction_input_to_nodal_collision",
+   "file": "lean/MCore/T34.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z p : ℕ},   0 < x →     0 < y →       0 < z →         a ^ x + b ^ y = c ^ z →           MCore.T11PairwisePrimitive a b c →             MCore.T33OddPrimeReductionInput a b c x y z p → MCore.T34FreyNodalCollision a b x y p"
+  },
+  {
+   "name": "MCore.T35_all_gaps_to_beal",
+   "file": "lean/MCore/T35.lean",
+   "line": 93,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.T35GapLedger}, MCore.T35AllGapContracts G → MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.T35_all_gaps_to_global_elimination",
+   "file": "lean/MCore/T35.lean",
+   "line": 72,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.T35GapLedger}, MCore.T35AllGapContracts G → MCore.T35GlobalEliminationBridge"
+  },
+  {
+   "name": "MCore.T35_beal_iff_global_elimination_bridge",
+   "file": "lean/MCore/T35.lean",
+   "line": 82,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T35GlobalEliminationBridge"
+  },
+  {
+   "name": "MCore.T35_universal_gap_skip_refuted",
+   "file": "lean/MCore/T35.lean",
+   "line": 107,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬MCore.T35UniversalGapSkip"
+  },
+  {
+   "name": "MCore.T36_certificate_discharges_odd_local",
+   "file": "lean/MCore/T36.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.T35GapLedger}, MCore.T36OddLocalReductionCertificate G → MCore.T35OddLocalReductionBridge G"
+  },
+  {
+   "name": "MCore.T37_certificate_discharges_two_adic",
+   "file": "lean/MCore/T37.lean",
+   "line": 8,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.T35GapLedger}, MCore.T37TwoAdicReductionCertificate G → MCore.T35TwoAdicReductionBridge G"
+  },
+  {
+   "name": "MCore.T38_certificate_discharges_global_conductor",
+   "file": "lean/MCore/T38.lean",
+   "line": 9,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.T35GapLedger}, MCore.T38GlobalConductorCertificate G → MCore.T35GlobalConductorBridge G"
+  },
+  {
+   "name": "MCore.T39_certificate_discharges_modularity",
+   "file": "lean/MCore/T39.lean",
+   "line": 9,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.T35GapLedger}, MCore.T39ModularityCertificate G → MCore.T35ModularityBridge G"
+  },
+  {
+   "name": "MCore.T3_closes_beal",
+   "file": "lean/MCore/V012.lean",
+   "line": 182,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T3RawEquationDivisorBridge → MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.T3_v0_iff_raw",
+   "file": "lean/MCore/V012.lean",
+   "line": 38,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.V0EquationToCommonDivisor ↔ MCore.T3RawEquationDivisorBridge"
+  },
+  {
+   "name": "MCore.T40_certificate_discharges_level_lowering",
+   "file": "lean/MCore/T40.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.T35GapLedger}, MCore.T40LevelLoweringCertificate G → MCore.T35LevelLoweringBridge G"
+  },
+  {
+   "name": "MCore.T41_certificate_discharges_newform_elimination",
+   "file": "lean/MCore/T41.lean",
+   "line": 9,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.T35GapLedger}, MCore.T41NewformEliminationCertificate G → MCore.T35NewformEliminationBridge G"
+  },
+  {
+   "name": "MCore.T42_bundle_to_all_gap_contracts",
+   "file": "lean/MCore/T42.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.T35GapLedger}, MCore.T42FinalProofBundle G → MCore.T35AllGapContracts G"
+  },
+  {
+   "name": "MCore.T42_certificate_discharges_final_contradiction",
+   "file": "lean/MCore/T42.lean",
+   "line": 8,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.T35GapLedger}, MCore.T42FinalContradictionCertificate G → MCore.T35FinalContradictionBridge G"
+  },
+  {
+   "name": "MCore.T42_final_bundle_exports_beal",
+   "file": "lean/MCore/T42.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {G : MCore.T35GapLedger}, MCore.T42FinalProofBundle G → MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.T43_certificate_supplies_irreducible_residual_prime",
+   "file": "lean/MCore/T43.lean",
+   "line": 98,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ResidualIrreducibleAt : ℕ → Prop} {x y z : ℕ}   (c : MCore.T43ResidualIrreducibilityCertificate ResidualIrreducibleAt x y z),   ∃ ell, MCore.T43SingleResidualPrimeCompatible ell x y z ∧ ResidualIrreducibleAt ell"
+  },
+  {
+   "name": "MCore.T43_no_single_residual_prime_345",
+   "file": "lean/MCore/T43.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬∃ ell, MCore.T43SingleResidualPrimeCompatible ell 3 4 5"
+  },
+  {
+   "name": "MCore.T43_single_residual_prime_controls_raw_delta_exponents",
+   "file": "lean/MCore/T43.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ell x y z : ℕ}, MCore.T43SingleResidualPrimeCompatible ell x y z → MCore.T43RawDeltaExponentCompatible ell x y z"
+  },
+  {
+   "name": "MCore.T43_universal_single_residual_prime_rule_refuted",
+   "file": "lean/MCore/T43.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬MCore.T43UniversalSingleResidualPrimeRule"
+  },
+  {
+   "name": "MCore.T44_certificate_closes_step8",
+   "file": "lean/MCore/T44.lean",
+   "line": 102,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Survives Covered : MCore.T44LoweredNewformCase → Prop},   MCore.T44NewformEliminationCertificate Survives Covered → MCore.T44AllNewformsEliminated Survives"
+  },
+  {
+   "name": "MCore.T44_coverage_and_elimination_close_step8",
+   "file": "lean/MCore/T44.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Survives Covered : MCore.T44LoweredNewformCase → Prop},   MCore.T44NewformCoverage Survives Covered →     MCore.T44CoveredNewformElimination Survives Covered → MCore.T44AllNewformsEliminated Survives"
+  },
+  {
+   "name": "MCore.T44_level_two_endgame_closes_if_coverage_is_proved",
+   "file": "lean/MCore/T44.lean",
+   "line": 61,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Survives : MCore.T44LoweredNewformCase → Prop},   MCore.T44AllSurvivorsLowerToTwo Survives →     MCore.T44LevelTwoNewformElimination Survives → MCore.T44AllNewformsEliminated Survives"
+  },
+  {
+   "name": "MCore.T44_universal_level_two_promotion_refuted",
+   "file": "lean/MCore/T44.lean",
+   "line": 75,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬MCore.T44UniversalLevelTwoPromotion"
+  },
+  {
+   "name": "MCore.T45_equal_signature_supplies_single_residual_prime",
+   "file": "lean/MCore/T45.lean",
+   "line": 70,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x y z : ℕ}, MCore.T45EqualOddPrimeSignature x y z → ∃ ell, MCore.T43SingleResidualPrimeCompatible ell x y z"
+  },
+  {
+   "name": "MCore.T45_mixed_signature_has_no_single_residual_prime",
+   "file": "lean/MCore/T45.lean",
+   "line": 105,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x y z : ℕ}, MCore.T45MixedReducedSignature x y z → ¬∃ ell, MCore.T43SingleResidualPrimeCompatible ell x y z"
+  },
+  {
+   "name": "MCore.T45_odd_prime_not_dvd_four",
+   "file": "lean/MCore/T45.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ell : ℕ}, MCore.IsPrime ell → 2 < ell → ¬ell ∣ 4"
+  },
+  {
+   "name": "MCore.T45_reduced_exponent_eq_residual_prime",
+   "file": "lean/MCore/T45.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ell r : ℕ}, MCore.IsPrime ell → 2 < ell → MCore.T7ReducedExponent r → ell ∣ r → r = ell"
+  },
+  {
+   "name": "MCore.T45_single_residual_prime_for_reduced_signature_is_equal",
+   "file": "lean/MCore/T45.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {ell x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y →       MCore.T7ReducedExponent z → MCore.T43SingleResidualPrimeCompatible ell x y z → x = ell ∧ y = ell ∧ z = ell"
+  },
+  {
+   "name": "MCore.T45_single_residual_prime_iff_equal_prime_signature",
+   "file": "lean/MCore/T45.lean",
+   "line": 81,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y →       MCore.T7ReducedExponent z →         ((∃ ell, MCore.T43SingleResidualPrimeCompatible ell x y z) ↔ MCore.T45EqualOddPrimeSignature x y z)"
+  },
+  {
+   "name": "MCore.T48_mixed_coarse_split",
+   "file": "lean/MCore/T48.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x y z : ℕ},   MCore.T45MixedReducedSignature x y z → MCore.T48ContainsFour x y z ∨ MCore.T48AllPrime x y z ∧ ¬(x = y ∧ y = z)"
+  },
+  {
+   "name": "MCore.T48_mixed_signature_three_family_split",
+   "file": "lean/MCore/T48.lean",
+   "line": 93,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x y z : ℕ},   MCore.T45MixedReducedSignature x y z →     MCore.T48ContainsFour x y z ∨       MCore.T48AllPrime x y z ∧ MCore.T48ExactlyTwoEqual x y z ∨ MCore.T48AllPrime x y z ∧ MCore.T48AllDistinct x y z"
+  },
+  {
+   "name": "MCore.T48_not_all_equal_split",
+   "file": "lean/MCore/T48.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x y z : ℕ}, ¬(x = y ∧ y = z) → MCore.T48ExactlyTwoEqual x y z ∨ MCore.T48AllDistinct x y z"
+  },
+  {
+   "name": "MCore.T48_reduced_four_or_all_prime",
+   "file": "lean/MCore/T48.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y → MCore.T7ReducedExponent z → MCore.T48ContainsFour x y z ∨ MCore.T48AllPrime x y z"
+  },
+  {
+   "name": "MCore.T49_all_four_beal_equation_is_flt4",
+   "file": "lean/MCore/T49.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ}, MCore.T49AllFour x y z → a ^ x + b ^ y = c ^ z → a ^ 4 + b ^ 4 = c ^ 4"
+  },
+  {
+   "name": "MCore.T49_contains_four_reduced_by_flt4",
+   "file": "lean/MCore/T49.lean",
+   "line": 87,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x y z : ℕ}, MCore.T48ContainsFour x y z → ¬MCore.T49AllFour x y z → MCore.T49ContainsFourResidual x y z"
+  },
+  {
+   "name": "MCore.T49_contains_four_trichotomy",
+   "file": "lean/MCore/T49.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x y z : ℕ},   MCore.T48ContainsFour x y z → MCore.T49AllFour x y z ∨ MCore.T49ExactlyTwoFour x y z ∨ MCore.T49ExactlyOneFour x y z"
+  },
+  {
+   "name": "MCore.T49_flt4_eliminates_all_four",
+   "file": "lean/MCore/T49.lean",
+   "line": 71,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c x y z : ℕ}, 0 < a → 0 < b → 0 < c → MCore.T49AllFour x y z → a ^ x + b ^ y = c ^ z → MCore.T49FLTAt 4 → False"
+  },
+  {
+   "name": "MCore.T4_from_T3",
+   "file": "lean/MCore/V012.lean",
+   "line": 70,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T3RawEquationDivisorBridge → MCore.T4NoPrimitiveEquation"
+  },
+  {
+   "name": "MCore.T51_exactly_one_four_split",
+   "file": "lean/MCore/T51.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y →       MCore.T7ReducedExponent z →         MCore.T49ExactlyOneFour x y z → MCore.T51OneFourEqualPrimes x y z ∨ MCore.T51OneFourDistinctPrimes x y z"
+  },
+  {
+   "name": "MCore.T51_exactly_two_four_to_prime_family",
+   "file": "lean/MCore/T51.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x y z : ℕ},   MCore.T7ReducedExponent x →     MCore.T7ReducedExponent y → MCore.T7ReducedExponent z → MCore.T49ExactlyTwoFour x y z → MCore.T51TwoFourPrime x y z"
+  },
+  {
+   "name": "MCore.T51_mixed_reduced_five_family_split",
+   "file": "lean/MCore/T51.lean",
+   "line": 101,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x y z : ℕ}, MCore.T45MixedReducedSignature x y z → ¬MCore.T49AllFour x y z → MCore.T51MixedFiveFamilySplit x y z"
+  },
+  {
+   "name": "MCore.T51_prime_of_reduced_ne_four",
+   "file": "lean/MCore/T51.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {r : ℕ}, MCore.T7ReducedExponent r → r ≠ 4 → MCore.T51OddPrimeExponent r"
+  },
+  {
+   "name": "MCore.T52_nonempty_only_is_insufficient",
+   "file": "lean/MCore/T52.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬MCore.T52UniversalNonemptyPromotion"
+  },
+  {
+   "name": "MCore.T52_residual_signature_five_family_coverage",
+   "file": "lean/MCore/T52.lean",
+   "line": 26,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (s : MCore.T52ResidualSignature), MCore.T51MixedFiveFamilySplit s.x s.y s.z"
+  },
+  {
+   "name": "MCore.T52_table_exact_iff",
+   "file": "lean/MCore/T52.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {AdmissibleLevel : MCore.T52AdmissibleLevel} (cert : MCore.T52CertifiedLevelTable AdmissibleLevel)   (s : MCore.T52ResidualSignature) (N : ℕ), N ∈ cert.levels s ↔ AdmissibleLevel s N"
+  },
+  {
+   "name": "MCore.T53_certificate_eliminates",
+   "file": "lean/MCore/T53.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Survives : MCore.T44LoweredNewformCase → Prop},   MCore.T53TwoFourPrimeEliminationCertificate Survives →     ∀ {c : MCore.T44LoweredNewformCase}, Survives c → MCore.T53TwoFourPrimeCase c → False"
+  },
+  {
+   "name": "MCore.T54_certificate_eliminates",
+   "file": "lean/MCore/T54.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Survives : MCore.T44LoweredNewformCase → Prop},   MCore.T54OneFourEqualPrimesEliminationCertificate Survives →     ∀ {c : MCore.T44LoweredNewformCase}, Survives c → MCore.T54OneFourEqualPrimesCase c → False"
+  },
+  {
+   "name": "MCore.T55_certificate_eliminates",
+   "file": "lean/MCore/T55.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Survives : MCore.T44LoweredNewformCase → Prop},   MCore.T55OneFourDistinctPrimesEliminationCertificate Survives →     ∀ {c : MCore.T44LoweredNewformCase}, Survives c → MCore.T55OneFourDistinctPrimesCase c → False"
+  },
+  {
+   "name": "MCore.T56_certificate_eliminates",
+   "file": "lean/MCore/T56.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Survives : MCore.T44LoweredNewformCase → Prop},   MCore.T56TwoEqualOddPrimesEliminationCertificate Survives →     ∀ {c : MCore.T44LoweredNewformCase}, Survives c → MCore.T56TwoEqualOddPrimesCase c → False"
+  },
+  {
+   "name": "MCore.T57_certificate_eliminates",
+   "file": "lean/MCore/T57.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Survives : MCore.T44LoweredNewformCase → Prop},   MCore.T57ThreeDistinctOddPrimesEliminationCertificate Survives →     ∀ {c : MCore.T44LoweredNewformCase}, Survives c → MCore.T57ThreeDistinctOddPrimesCase c → False"
+  },
+  {
+   "name": "MCore.T58_five_family_bundle_eliminates_residual_survivors",
+   "file": "lean/MCore/T58.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Survives : MCore.T44LoweredNewformCase → Prop},   MCore.T58ResidualSurvivorDomain Survives →     MCore.T58MixedEliminationBundle Survives → MCore.T44AllNewformsEliminated Survives"
+  },
+  {
+   "name": "MCore.T59_candidate_has_five_family_signature",
+   "file": "lean/MCore/T59.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.T59ResidualCandidate), MCore.T51MixedFiveFamilySplit d.x d.y d.z"
+  },
+  {
+   "name": "MCore.T59_candidate_table_exact_iff",
+   "file": "lean/MCore/T59.lean",
+   "line": 81,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {AdmissibleLevel : MCore.T59CandidateAdmissibleLevel} (cert : MCore.T59CertifiedCandidateLevelTable AdmissibleLevel)   (d : MCore.T59ResidualCandidate) (N : ℕ), N ∈ cert.levels d ↔ AdmissibleLevel d N"
+  },
+  {
+   "name": "MCore.T59_signature_only_exact_impossible_of_local_variation",
+   "file": "lean/MCore/T59.lean",
+   "line": 97,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {AdmissibleLevel : MCore.T59CandidateAdmissibleLevel} {levels : MCore.T52ListLevel}   {d₁ d₂ : MCore.T59ResidualCandidate} {N : ℕ},   d₁.signature = d₂.signature →     AdmissibleLevel d₁ N → ¬AdmissibleLevel d₂ N → ¬MCore.T59SignatureOnlyExact AdmissibleLevel levels"
+  },
+  {
+   "name": "MCore.T5_T3_iff_T4",
+   "file": "lean/MCore/V012.lean",
+   "line": 118,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T3RawEquationDivisorBridge ↔ MCore.T4NoPrimitiveEquation"
+  },
+  {
+   "name": "MCore.T5_T4_to_T3",
+   "file": "lean/MCore/V012.lean",
+   "line": 110,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T4NoPrimitiveEquation → MCore.T3RawEquationDivisorBridge"
+  },
+  {
+   "name": "MCore.T5_commonDivisor_exists_stable",
+   "file": "lean/MCore/V012.lean",
+   "line": 75,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c : ℕ}, 0 < a → (¬¬∃ q, MCore.CommonDivisor q a b c) → ∃ q, MCore.CommonDivisor q a b c"
+  },
+  {
+   "name": "MCore.T60_candidate_odd_prime_has_arithmetic_packet",
+   "file": "lean/MCore/T60.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.T59ResidualCandidate) {p : ℕ},   MCore.IsPrime p →     p ≠ 2 → p ∣ MCore.T24FreyDiscriminantBeal d.a d.b d.c d.x d.y d.z → MCore.T60OddLocalArithmeticPacket d p"
+  },
+  {
+   "name": "MCore.T60_every_candidate_satisfies_odd_local_arithmetic",
+   "file": "lean/MCore/T60.lean",
+   "line": 70,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.T59ResidualCandidate), MCore.T60OddLocalArithmeticConstraint d"
+  },
+  {
+   "name": "MCore.T60_odd_bad_prime_base_support",
+   "file": "lean/MCore/T60.lean",
+   "line": 86,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.T59ResidualCandidate) {p : ℕ}, MCore.T60OddLocalArithmeticPacket d p → p ∣ d.a ∨ p ∣ d.b ∨ p ∣ d.c"
+  },
+  {
+   "name": "MCore.T60_odd_bad_prime_not_dvd_c4",
+   "file": "lean/MCore/T60.lean",
+   "line": 77,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.T59ResidualCandidate) {p : ℕ},   MCore.T60OddLocalArithmeticPacket d p → ¬p ∣ MCore.T32FreyC4Kernel d.a d.b d.x d.y"
+  },
+  {
+   "name": "MCore.T6_T4_iff_no_primitive",
+   "file": "lean/MCore/V012.lean",
+   "line": 144,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T4NoPrimitiveEquation ↔ MCore.T6ScientificFrontier"
+  },
+  {
+   "name": "MCore.T6_beal_iff_frontier",
+   "file": "lean/MCore/V012.lean",
+   "line": 172,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.T6ScientificFrontier"
+  },
+  {
+   "name": "MCore.T7_exponent_reduction",
+   "file": "lean/MCore/T7.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {n : ℕ}, 2 < n → MCore.T7ExponentReduces n"
+  },
+  {
+   "name": "MCore.T7_two_factor_gt_one",
+   "file": "lean/MCore/T7.lean",
+   "line": 12,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n k : Nat} (hk : n = 2 * k) (hn : 2 < n) : 1 < k"
+  },
+  {
+   "name": "MCore.T8_powered_primitive",
+   "file": "lean/MCore/T8.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T8PrimePowerReflection →   ∀ {a b c ka kb kc : ℕ}, (¬∃ q, MCore.CommonDivisor q a b c) → ¬∃ q, MCore.CommonDivisor q (a ^ ka) (b ^ kb) (c ^ kc)"
+  },
+  {
+   "name": "MCore.T8_transport_reduces_to_reflection",
+   "file": "lean/MCore/T8.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T8PrimePowerReflection →   ∀ {a b c ka kb kc : ℕ}, (¬∃ q, MCore.CommonDivisor q a b c) → ¬∃ q, MCore.CommonDivisor q (a ^ ka) (b ^ kb) (c ^ kc)"
+  },
+  {
+   "name": "MCore.T9_euclidKernel_proved",
+   "file": "lean/MCore/T9.lean",
+   "line": 5,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T8EuclidKernel"
+  },
+  {
+   "name": "MCore.T9_powered_primitive_unconditional",
+   "file": "lean/MCore/T9.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c ka kb kc : ℕ}, (¬∃ q, MCore.CommonDivisor q a b c) → ¬∃ q, MCore.CommonDivisor q (a ^ ka) (b ^ kb) (c ^ kc)"
+  },
+  {
+   "name": "MCore.T9_primePowerReflection_of_euclid",
+   "file": "lean/MCore/T9.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T8EuclidKernel → MCore.T8PrimePowerReflection"
+  },
+  {
+   "name": "MCore.T9_primePowerReflection_proved",
+   "file": "lean/MCore/T9.lean",
+   "line": 49,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.T8PrimePowerReflection"
+  },
+  {
+   "name": "MCore.T9_prime_not_dvd_one",
+   "file": "lean/MCore/T9.lean",
+   "line": 20,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{p : Nat} (hp : IsPrime p) : ¬ p ∣ 1"
+  }
+ ],
+ "closed": 304,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "5fd758300206a4dcc8c225ff796c563ca0a82d67d9f6c06a9a9a29c59cfc2080",
+  "lean-toolchain": "3aac669c7a910ec2389f4e4f921b605adf6ebf2d1e0c9b9cd0be4d33f3f5db71",
+  "lean/MCore/BealSpecification.lean": "6f880a8c71b13e46cfd2783a8d236ec03818ab7f379d0246dd2e5dfdfaf3a80a",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/GCDSignature.lean": "3b763f780c5bbdd68b01acb1d233732448d38dfccda92339202b670a3dbcf0c7",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "f943d2541202fd0eecd99ae2539ca70ddbd59a9fd8438c2ed81046aa7e2441fb",
+  "lean/MCore/K10.lean": "53437ddea05e8fe41c63ebccba8211036998cab7b7ad3bb2bbb28b540ddc7f0c",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "0238d3ccaf8586df995d581e1b5528e362248b3cf570ce215cf9c7e5b5f3995e",
+  "lean/MCore/K8.lean": "b54676410879afbd8896e8196df63cd511c29973229010596e362e3bdecbf4cd",
+  "lean/MCore/K9.lean": "959c7c05f5c913be70bfc2ac6cc09c768f46b02dc9a82cec214363a7249b0975",
+  "lean/MCore/K9/Core/Arith.lean": "8b5e0a520afdec6b8a57e302ae16bac0ed24e874e8e775fb327cd7445abfac03",
+  "lean/MCore/OpenMath/BealQ10ExponentReduction.lean": "8a2cc75737c9b5204380c8a8b270dd60641daaed149c3b546c4b98dd63c3463e",
+  "lean/MCore/OpenMath/BealQ10FLT4.lean": "5253bb0d9139a68ca6223b12ac856e0f7c413d2d27d790163634ffeee77d16b3",
+  "lean/MCore/OpenMath/BealQ10Parity.lean": "8cce263946c6019b4c20fb2199f12c37d5601b1149765995c636c67c983762f5",
+  "lean/MCore/OpenMath/BealQ10PrimitiveExclusion.lean": "ed80a13190c2b447f0fc0a7d30cb9fce1b3df7176f8b942e8765884d4ad930dc",
+  "lean/MCore/OpenMath/BealQ10PrimitiveReduced.lean": "123dbe68b9fb38ded97b3f24c4a53f705f3a0163dce464b48376ba6027bea8ca",
+  "lean/MCore/OpenMath/BealQ10SevenFamilies.lean": "c66868d12a811874eb627e9631fcdf36c00f8103f6d50722f2c1404c100fa2db",
+  "lean/MCore/OpenMath/BealQ10SixFamilyMinCut.lean": "5e3280a405afbd366f30919be88bed3d566b6be42a4cd471ae71bcc549a2d443",
+  "lean/MCore/OpenMath/P02RejectionBealInvariantProbe.lean": "1fa41bfd33f1b5d2024d84a05ead642ac0a2edc4a432fb0edd0c3e4b065e9217",
+  "lean/MCore/Signature.lean": "b295056afe7d8b4832377e0cbc67ceede72688c344705474d3803dba5a0d15ad",
+  "lean/MCore/T10.lean": "7e63f4efcf0a4e379df608f489dff5b0524f3d7df1007eb7842a7e636b57ee23",
+  "lean/MCore/T11.lean": "61c75714abb7b3dcf9713192cfd446f6c68b7e30d7a3812bb6a72318f0f66a81",
+  "lean/MCore/T12.lean": "29c98b0401673e26e25652291b491af2e9a5bc33b4b7f32ad4c74800af37b20b",
+  "lean/MCore/T13.lean": "c7de4641f573d21d502415495194978d2850d50def4c0b6c040014b28d2871bd",
+  "lean/MCore/T14.lean": "48b23a543d91654fe4de36f21b909f959e9eff08b264a0f2e7f4623e63c9444b",
+  "lean/MCore/T15.lean": "78d8abd46a42322cc5f38a74db0064bf667dfeb27540df7617439755e21b65f2",
+  "lean/MCore/T16.lean": "f364397b82b33fae8ca1d0bbbc0ca7a2d94f20eba65721d1d5b272271bc647ff",
+  "lean/MCore/T17.lean": "61dae6a185a47c991383c0b27195638269aa60463d735ea8a5d25ce641c7d74d",
+  "lean/MCore/T18.lean": "9bdba3a32fc580c67f8a18113e132b589799ee76a8c2fcf5bb154690061958f7",
+  "lean/MCore/T19.lean": "5a4fcd3176fe17c710be8555b9e11918fa7deefba32f242e08e2486fb520dbf7",
+  "lean/MCore/T20.lean": "ef14b40bfe43c1f2d5ed87c0a8023b57815043e50e707bd708ffcbda1dc6c5ba",
+  "lean/MCore/T21.lean": "167d5953385e5616bacbf1337b076d26f67bf64d148169a7fe8a83e0cb09e0a9",
+  "lean/MCore/T22.lean": "58248f5949ebc7f6d28e6a92e735e10544046b25fd9d030678bede6c34fb0ab8",
+  "lean/MCore/T23.lean": "bba14d271fcb88a9073961deb5afe7f7fc0a5bad67b72efd93c4936f99c6f710",
+  "lean/MCore/T24.lean": "07945d2d11cb2722fbba3b5d7d9d9417b89436fa9956ed95785ff9f83d6b9e28",
+  "lean/MCore/T25.lean": "6958aa42ffb2cab6bf9c5186b8593ff327991916a3b51deed9294eb312a53bb8",
+  "lean/MCore/T26.lean": "2dacb545088422baa814634e1396ca1d661dfbf648ad8cca708664db8e643703",
+  "lean/MCore/T27.lean": "bb1816ad7e1e8a2533c7b5824a88a889fd09ac9b790ddefbb15549521f5618d1",
+  "lean/MCore/T28.lean": "ceaee2844bccca081e6676e55e389aefc840735ff9b0eae08a2e872f78482e82",
+  "lean/MCore/T29.lean": "e4a4bae5fd801ce9df7d5c3529d5e5b81a15109d127c1f098b59aff748c54d98",
+  "lean/MCore/T30.lean": "cbd3cb77f8bd58ea264093fe276b9a3f7aad5ae0547277404ca62e1d32d89b9b",
+  "lean/MCore/T31.lean": "8ca609e7bcad5ff43697ba842a12676314d210a6160724db78baff1d03b3ebd5",
+  "lean/MCore/T32.lean": "f7ed296eb04b5fce8c4c151fe8d38f0ef21966c1560da2a855d61d7c14c4dfcf",
+  "lean/MCore/T33.lean": "796230d0e8bdd8e51f66f1a847bedac4a1f7de70251e2a3edea07cf61aee8794",
+  "lean/MCore/T34.lean": "b3565f44243c0cc0315104f4998c53ad4173b0ab9517308d583c102c8bc7226a",
+  "lean/MCore/T35.lean": "6876cb2d19609753152a919ef041f7b35fc1be85007ac142985aca0a40317bf3",
+  "lean/MCore/T36.lean": "d59072d0898c51d77d8cdd2865ee0c21206543454254ffefbc440a8cbf1b3854",
+  "lean/MCore/T37.lean": "96678249a94b7bb3e0716a321c73d72b61aefedb0750775ffd9400d82d602c4f",
+  "lean/MCore/T38.lean": "3f31360c4ec89893b17bc60cb1934207325dfd73d42abbbf7fabcb5a40fbbc35",
+  "lean/MCore/T39.lean": "d149fac085699c372c5793c2e97d961d860a13e01130eb502130dd745dbf5676",
+  "lean/MCore/T40.lean": "8ac14be729b3a34afa88ec81aa6a3662ffc7cfbb4a38553dbf7e1d5e030df255",
+  "lean/MCore/T41.lean": "beefd09a0213d883077eb009c2fdab813fa8071d09f97f360fa35d21962782fb",
+  "lean/MCore/T42.lean": "f3ab16282d5acf7a6b6ec3221ccf966ab35dae8f7bc34c80464a6509b76e0475",
+  "lean/MCore/T43.lean": "ab5527d0811ff070be8a4989954daf26ffad42a77cd5fcee1f68766136c2893c",
+  "lean/MCore/T44.lean": "7fb59e5bb7f0b3f6b0e77f0b05075a923523e3f1cc30d802eafdfe1b4279edfd",
+  "lean/MCore/T45.lean": "c99190527134859c95530de9c72b45d83ad61e8ba53068305fe484b9b608ba4c",
+  "lean/MCore/T48.lean": "e9d20721d42a65bfa65c718d7843f9ed6b4d76a594839c77c4d3dd4361c1d928",
+  "lean/MCore/T49.lean": "2c5c84b86757caa198bff162fe87dad3760edeeec7df6611e3bc9b752923f62a",
+  "lean/MCore/T51.lean": "32ff9712f2d463f89f0989cfce633b164b57c7d4d6c90ee541eabd5ddf3226d2",
+  "lean/MCore/T52.lean": "282369c9aa0a615aff149f609df930076823874a12909da23ab27f06732325af",
+  "lean/MCore/T53.lean": "f84dc2d6374013a4a550e8e5d04c6297ae5db7585748eaf97cc46a4a54cb6039",
+  "lean/MCore/T54.lean": "5637d0fb9cee6d3a2b4abd93505c0c36205c417ef4dae870a02369ded5cdef58",
+  "lean/MCore/T55.lean": "53253553d9b1530077035da530bcba1808f2d9877ba78e70e9e2e53ec2d5af2f",
+  "lean/MCore/T56.lean": "6eceda88a631498d54f819cd7bb470111228f9620464f7854f2835ba9f2b3b86",
+  "lean/MCore/T57.lean": "8c6ccdb17f487309f313fda4f39f860b7ad028f385e15c36cb6da95b676fee3f",
+  "lean/MCore/T58.lean": "f71cdf94f37d47dab4fd1c2db6540bba75459ca02a792e3704491201172aaf2a",
+  "lean/MCore/T59.lean": "c789655b7dd53236539df8adef30e08cb6d5023d1d14d0bc42aff6d042393804",
+  "lean/MCore/T60.lean": "05cef6a4a563bcac7c5e62faf5339e42f632c8bae370bc03a2cdeed6c61f7171",
+  "lean/MCore/T7.lean": "db8ce8fcc174871673448c6cedfdde4660e1ca7b7c19d5ebcc36221843482062",
+  "lean/MCore/T8.lean": "8f773d2d3b81c4380559dfeaea65d017445cb1c9a6db37ffa4a42ebba6caf2ce",
+  "lean/MCore/T9.lean": "201cd28cf4ac3be419308bdc54a6266879494ad57be8247e01f1d83d824a86c9",
+  "lean/MCore/V012.lean": "7a89da38a61abb05bc5c0b774a4e1d7317d4234bedd2bcb005d9d4c34f39a188",
+  "open_math/P02RejectionBealInvariantProbe.lean": "0c91a2cc146997ae6093c79aeb3bc4eb4a6d3e25ca97c1d16683fc7b48dbfed3"
+ },
+ "published_at": "2026-10-28T19:19:15Z",
+ "certificate_sha256": "ce8a692b0cf19043100152e18f9507ec826322ab4cf7abaae7b436140fdcbb7e"
+}

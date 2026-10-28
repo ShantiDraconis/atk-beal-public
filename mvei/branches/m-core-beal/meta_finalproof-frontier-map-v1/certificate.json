@@ -1,0 +1,179 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-beal",
+ "branch": "meta/finalproof-frontier-map-v1",
+ "branch_state": "parada",
+ "head_commit": "5f12bdbe08be422c7943af1e419fb1588700bab3",
+ "head_commit_date": "2026-09-26T02:09:08+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "5f12bdbe08be422c7943af1e419fb1588700bab3",
+   "date": "2026-09-26T02:09:08+01:00",
+   "subject": "formal: add inhabited 003 assembly theorem from exact lemmas"
+  },
+  {
+   "commit": "061e13545ae864766b510b1f6053b1910541632f",
+   "date": "2026-09-26T02:08:28+01:00",
+   "subject": "formal: add 003 endpoint composition laws"
+  },
+  {
+   "commit": "d0bb79edeeece5df35842312e171e009bae902b8",
+   "date": "2026-09-26T02:07:12+01:00",
+   "subject": "restore: reinstate 003 fail-closed proof target state"
+  },
+  {
+   "commit": "1f09cc67ac437e855c3be0480f9de5ed67624530",
+   "date": "2026-09-26T02:07:09+01:00",
+   "subject": "restore: reinstate 003 fail-closed proof target state"
+  },
+  {
+   "commit": "16a82044c6ff2af79abfc77310232b60c6314106",
+   "date": "2026-09-26T02:05:48+01:00",
+   "subject": "rollback: remove uninhabited 003 claim, keep certified AXM-002"
+  },
+  {
+   "commit": "3bff7b3cf451096be620185a7efb7642701c4f8f",
+   "date": "2026-09-26T02:05:30+01:00",
+   "subject": "rollback: remove uninhabited 003 claim, keep certified AXM-002"
+  },
+  {
+   "commit": "4084bf534dfcf017da01393fa2ac13d78e12fc6d",
+   "date": "2026-09-26T02:04:37+01:00",
+   "subject": "meta: bind 003 claim to exact Lean proof target"
+  },
+  {
+   "commit": "00ac58c7f77d9559d4dd20f47f6515eed760bdcb",
+   "date": "2026-09-26T02:04:01+01:00",
+   "subject": "formal: add exact 003 endpoint proof target"
+  },
+  {
+   "commit": "f42120cd24ebb395803d360dafaf31dff5654db3",
+   "date": "2026-09-26T02:02:28+01:00",
+   "subject": "meta: anchor 003 endpoint claim on certified AXM-002 core B"
+  },
+  {
+   "commit": "d178608fb833b6e893ce8481d0925ce2920e8b06",
+   "date": "2026-09-26T01:57:42+01:00",
+   "subject": "cert: add preparatory AXM-BEAL-ENDPOINT-003"
+  },
+  {
+   "commit": "d448cad47a800b79adcfcc2b92e42d7f41383ee2",
+   "date": "2026-09-26T01:53:19+01:00",
+   "subject": "cert: bind local FinalProof to certified AXM-CROSS-SIGNATURE-002"
+  },
+  {
+   "commit": "1f6a6e06186ba669b84753191f6e0f9bbf7c4765",
+   "date": "2026-09-26T01:51:08+01:00",
+   "subject": "ledger: add local scientific RED view"
+  },
+  {
+   "commit": "8c3e348b8378eb4a9b9cdb9794747ea2cff1fd97",
+   "date": "2026-09-26T01:51:06+01:00",
+   "subject": "ledger: add local frontier RED view"
+  },
+  {
+   "commit": "5790841b6239611b8a2186743643f8e65db017cb",
+   "date": "2026-09-26T01:51:04+01:00",
+   "subject": "cert: add local AXM-CROSS-SIGNATURE-002 claim"
+  },
+  {
+   "commit": "4dc2e8a7b10b38d75edce5259053f8d3ccf1c5a8",
+   "date": "2026-09-26T01:16:25+01:00",
+   "subject": "formal: add FinalProof frontier theorem"
+  },
+  {
+   "commit": "bfa7d8b147a83c03a7733f05a477121b6472a176",
+   "date": "2026-09-26T01:12:56+01:00",
+   "subject": "meta: add FinalProof frontier map"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "FinalProof.beal003_all_requirements_iff",
+   "file": "FinalProof/EndpointLaws.lean",
+   "line": 20,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : Beal003Requirements) : r.closed ↔ r.PreservationOperator_P ∧ r.UniformizationOperator_N ∧ r.verified_common_prime_endpoint_producer ∧ r.exact_hypothesis_instantiation"
+  },
+  {
+   "name": "FinalProof.beal003_assemble",
+   "file": "FinalProof/EndpointProofTarget.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : Beal003Requirements) (h1 : r.PreservationOperator_P) (h2 : r.UniformizationOperator_N) (h3 : r.verified_common_prime_endpoint_producer) (h4 : r.exact_hypothesis_instantiation) : r.closed"
+  },
+  {
+   "name": "FinalProof.beal003_closes_from_requirements",
+   "file": "FinalProof/EndpointProofTarget.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : Beal003Requirements) (h : r.closed) : r.closed"
+  },
+  {
+   "name": "FinalProof.beal003_has_N",
+   "file": "FinalProof/EndpointLaws.lean",
+   "line": 8,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : Beal003Requirements) (h : r.closed) : r.UniformizationOperator_N"
+  },
+  {
+   "name": "FinalProof.beal003_has_P",
+   "file": "FinalProof/EndpointLaws.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : Beal003Requirements) (h : r.closed) : r.PreservationOperator_P"
+  },
+  {
+   "name": "FinalProof.beal003_has_endpoint_producer",
+   "file": "FinalProof/EndpointLaws.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : Beal003Requirements) (h : r.closed) : r.verified_common_prime_endpoint_producer"
+  },
+  {
+   "name": "FinalProof.beal003_has_exact_instantiation",
+   "file": "FinalProof/EndpointLaws.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : Beal003Requirements) (h : r.closed) : r.exact_hypothesis_instantiation"
+  },
+  {
+   "name": "FinalProof.beal_endpoint_unreachable",
+   "file": "FinalProof/FrontierTheorem.lean",
+   "line": 9,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{A P B : Prop} (f : BealEndpointFrontier A P B) : ¬ B"
+  }
+ ],
+ "closed": 8,
+ "files_sha256": {
+  "FinalProof/EndpointLaws.lean": "ef2b5957d2a167888f0e7b94998ac90b6a666ba9bd370f83e020d727737db62c",
+  "FinalProof/EndpointProofTarget.lean": "a846529957a74ca0b3753db49929bef8ec6284a438c7ce0266825fb8bcd3b65b",
+  "FinalProof/FrontierTheorem.lean": "3c3bc4e4ab634fd64ce44d58d07f7679f15f5b2a778c10b726599200893f5343",
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "ff71024013d8f21b4908035d9c3296be64c19b1a54ade041a62e9d7264a1a741",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+ },
+ "published_at": "2026-10-28T19:19:16Z",
+ "certificate_sha256": "4e6529b765e6f4449165d263ef0d351a69822775608a1fd61c4eb1b778b30474"
+}

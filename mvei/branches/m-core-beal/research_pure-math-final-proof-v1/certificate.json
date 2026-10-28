@@ -1,0 +1,628 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-beal",
+ "branch": "research/pure-math-final-proof-v1",
+ "branch_state": "parada",
+ "head_commit": "a592aba90040cb8dd3e1061bb0ae619218dfd9ad",
+ "head_commit_date": "2026-09-20T14:14:16+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "a592aba90040cb8dd3e1061bb0ae619218dfd9ad",
+   "date": "2026-09-20T14:14:16+01:00",
+   "subject": "V24: repair middle independence and add negative control"
+  },
+  {
+   "commit": "122203744eeea174d97245a1fa0842d5769d5b0f",
+   "date": "2026-09-20T11:03:38+01:00",
+   "subject": "fix(ci): build V24 dependency before targeted Lean check"
+  },
+  {
+   "commit": "7ebe9093d8a1a88aefe2511c8c833cf192402bd0",
+   "date": "2026-09-20T11:00:43+01:00",
+   "subject": "V24: extract common-divisor invariant"
+  },
+  {
+   "commit": "a06661426a4ad8c1ccb330905280a09c36b70edc",
+   "date": "2026-09-20T11:00:21+01:00",
+   "subject": "ci: add targeted V24 common-divisor residual gate"
+  },
+  {
+   "commit": "2803fe1fcf7ced0f50489de73d97343e60ba1bcc",
+   "date": "2026-09-20T09:03:56+01:00",
+   "subject": "audit: preserve stabilization-kernel exact-crossing line"
+  },
+  {
+   "commit": "cd35d8311a9768c91c447d26b64461eba5523c40",
+   "date": "2026-09-20T08:41:44+01:00",
+   "subject": "audit: record observed state-2 behavioral signature"
+  },
+  {
+   "commit": "f1b4354da6e0ec99a43d17628e0dd9c240d39ad5",
+   "date": "2026-09-20T08:38:19+01:00",
+   "subject": "audit: install behavioral signature calculator protocol"
+  },
+  {
+   "commit": "862173b1cf96842833d4e460f54bc510519d0036",
+   "date": "2026-09-20T04:05:49+01:00",
+   "subject": "audit: install behavioral signature calculator contract"
+  },
+  {
+   "commit": "75dec2de1b19c1d8aff9e3bdbdd56b73399db480",
+   "date": "2026-09-20T04:00:08+01:00",
+   "subject": "V23 audit behavioral signature data contract and current Beal observations"
+  },
+  {
+   "commit": "966d7914939e7f989613c45fd25b3f98a82cdffe",
+   "date": "2026-09-20T03:52:59+01:00",
+   "subject": "V23 require three independent FinalProof derivations and semantic comparison"
+  },
+  {
+   "commit": "0552c9f09db5aa40ad4d29b61d0dccd0b892353a",
+   "date": "2026-09-20T03:47:07+01:00",
+   "subject": "V23 formalize independent middle-state search without endpoint promotion"
+  },
+  {
+   "commit": "5fd21efce02e3cec1568b3c5a14b2f73f2e21472",
+   "date": "2026-09-20T03:44:41+01:00",
+   "subject": "audit proposed V23 0/1/2 center-compression model before promotion"
+  },
+  {
+   "commit": "f937a07bf93375a74c028f9faa9533c231d78a93",
+   "date": "2026-09-20T03:31:34+01:00",
+   "subject": "record V22 Beal evidence comparison and crossing audit"
+  },
+  {
+   "commit": "c7ce9daf132073df39012181fdb46b48b7027d56",
+   "date": "2026-09-20T03:29:09+01:00",
+   "subject": "certify V22 Beal M-Core residual architecture and crossing rules"
+  },
+  {
+   "commit": "636156c2a2802bf48f67c3391cba0179ed2a4293",
+   "date": "2026-09-20T03:21:34+01:00",
+   "subject": "build M-Core residual architecture for Beal"
+  },
+  {
+   "commit": "01e1b294b016247b64902b89aa9034318d526bee",
+   "date": "2026-09-20T03:21:29+01:00",
+   "subject": "build M-Core residual architecture for Beal"
+  },
+  {
+   "commit": "21b5507eca73cd4b6a758d819bd8269e57d9878c",
+   "date": "2026-09-20T03:14:27+01:00",
+   "subject": "certify green Beal negated-endpoint equivalence checkpoint"
+  },
+  {
+   "commit": "a3482ba0affb53cfef779aa5537e4eb2cd4faf93",
+   "date": "2026-09-20T03:13:20+01:00",
+   "subject": "remove unavailable by_contra tactic from Beal endpoint equivalence"
+  },
+  {
+   "commit": "916d1411b003db977c7ac9be9dd7ca654ab909fd",
+   "date": "2026-09-20T03:10:23+01:00",
+   "subject": "formalize exact negated Beal endpoint equivalence"
+  },
+  {
+   "commit": "65c2d380f95c6696c6d77f5c209df2efa606eb9a",
+   "date": "2026-09-20T01:46:32+01:00",
+   "subject": "cert: freeze GREEN a58572ac"
+  },
+  {
+   "commit": "a58572ac8f7de8a57923b83c520f37ecb8051085",
+   "date": "2026-09-20T00:51:09+01:00",
+   "subject": "research: add Lean parallel residual return interface"
+  },
+  {
+   "commit": "3c48990b00913af7fb184c0a9aa554bc6bfb3063",
+   "date": "2026-09-20T00:49:01+01:00",
+   "subject": "research: wire parallel closure chain to exact frontier"
+  },
+  {
+   "commit": "9c64bd403ac7c10c5e856a1fac15d999c14d4eed",
+   "date": "2026-09-19T17:32:47+01:00",
+   "subject": "ci(v5): audit only proved structural frontier declarations"
+  },
+  {
+   "commit": "8de380065048322c2dbe412aa1a01529c6e4fa95",
+   "date": "2026-09-19T17:32:38+01:00",
+   "subject": "fix(v5): keep arithmetic endpoint as explicit open residue"
+  },
+  {
+   "commit": "6eac8f6820f3d3d8394f91f4c9a4125298eabcf0",
+   "date": "2026-09-19T17:32:07+01:00",
+   "subject": "ci(p0): remove umbrella clean/global build from 8x5"
+  },
+  {
+   "commit": "5f241882e55f6679da9e3160a874783aae2cfa7b",
+   "date": "2026-09-19T17:31:37+01:00",
+   "subject": "ci(v5): trigger targeted structural certification"
+  },
+  {
+   "commit": "c7b9c39daf621408853aeacd87426e6078ab8bb3",
+   "date": "2026-09-19T17:31:21+01:00",
+   "subject": "v5 audit: add .github/workflows/certify-v5-structural.yml"
+  },
+  {
+   "commit": "24816c6c852864febeb7952ebde1c77b1c17afb1",
+   "date": "2026-09-19T17:31:19+01:00",
+   "subject": "v5 audit: add audit/V5_CERTIFICATE_SCHEMA.json"
+  },
+  {
+   "commit": "d6818a67ff1662af48e5cc33bb8e9c3dae23b71b",
+   "date": "2026-09-19T17:31:16+01:00",
+   "subject": "v5 audit: add audit/V5_ATTACK_MANIFEST.md"
+  },
+  {
+   "commit": "19b7df2c78dee72c4a9b0153b683391c621b8162",
+   "date": "2026-09-19T17:31:13+01:00",
+   "subject": "v5 audit: add lean/MCore/V5/ArithmeticFrontier.lean"
+  },
+  {
+   "commit": "98b837994db18b8d3c7fd61bd2dee116d57c6d59",
+   "date": "2026-09-19T17:31:05+01:00",
+   "subject": "v5 audit: add lean/MCore/V5/BealPayload.lean"
+  },
+  {
+   "commit": "67e6332fa918d75d81f781ae3df286c77716e905",
+   "date": "2026-09-19T17:27:58+01:00",
+   "subject": "ci: add fail-fast targeted V5 frontier certification"
+  },
+  {
+   "commit": "dcd4f39b5a0aadf2b3e594ee6643e22927651036",
+   "date": "2026-09-19T17:27:42+01:00",
+   "subject": "ci: remove umbrella clean rebuild from normal K10 certification"
+  },
+  {
+   "commit": "00a2b952e10de3b920473160ee6cddf074d28486",
+   "date": "2026-09-19T17:27:27+01:00",
+   "subject": "v5: keep prime-power extraction outside certified reduction until proved"
+  },
+  {
+   "commit": "bb5f92c88b5286553ebf18d4a22f362b3ad73efe",
+   "date": "2026-09-19T17:26:53+01:00",
+   "subject": "v5: add auditable payload-preserving core and Beal frontier"
+  },
+  {
+   "commit": "82d061aba5bebdb4c51019cc72c3252fde552bcc",
+   "date": "2026-09-19T17:26:45+01:00",
+   "subject": "v5: add auditable payload-preserving core and Beal frontier"
+  },
+  {
+   "commit": "e086760268be648541b0ea7e19e904454be2faca",
+   "date": "2026-09-19T17:26:37+01:00",
+   "subject": "v5: add auditable payload-preserving core and Beal frontier"
+  },
+  {
+   "commit": "fc1928c48f64fdab397987ea1c79cb81b675191a",
+   "date": "2026-09-19T17:26:29+01:00",
+   "subject": "v5: add auditable payload-preserving core and Beal frontier"
+  },
+  {
+   "commit": "b8a748ea285b494201cb69b685610c63963ac804",
+   "date": "2026-09-19T17:26:22+01:00",
+   "subject": "v5: add auditable payload-preserving core and Beal frontier"
+  },
+  {
+   "commit": "14ee75eea42fb8ff772b17c0b449139e9cf768be",
+   "date": "2026-09-19T17:26:15+01:00",
+   "subject": "v5: add auditable payload-preserving core and Beal frontier"
+  },
+  {
+   "commit": "9a6a77870699db45b5cda9843c566c850f0fb63a",
+   "date": "2026-09-19T17:26:09+01:00",
+   "subject": "v5: add auditable payload-preserving core and Beal frontier"
+  },
+  {
+   "commit": "0a6b27064d2f12b80ad3e41dd290f8e5e798ccf4",
+   "date": "2026-09-19T17:25:58+01:00",
+   "subject": "v5: add auditable payload-preserving core and Beal frontier"
+  },
+  {
+   "commit": "f6a684254ffdca0ffbe94f895e011f778b0abe15",
+   "date": "2026-09-19T17:25:51+01:00",
+   "subject": "v5: add auditable payload-preserving core and Beal frontier"
+  },
+  {
+   "commit": "6fa0934e0d7ae3947a8fd1ed8aca8eeeb7573f9c",
+   "date": "2026-09-19T10:39:36+02:00",
+   "subject": "ci: remove umbrella clean rebuild from normal certification"
+  },
+  {
+   "commit": "b85e6250d97659550a6e42b54dca47a0c5a5ec02",
+   "date": "2026-09-19T09:42:46+02:00",
+   "subject": "ci: enforce targeted fast-fail certification builds"
+  },
+  {
+   "commit": "70c71faecdacc1cd6caaa9643b3e076079ef3beb",
+   "date": "2026-09-19T09:42:44+02:00",
+   "subject": "ci: add global NO-UMBRELLA regression firewall"
+  },
+  {
+   "commit": "b8ca928dac4b82805adb4ad885f90fcd16d127c7",
+   "date": "2026-09-18T23:06:16+02:00",
+   "subject": "fix(ci): build K10 before semantic negative control"
+  },
+  {
+   "commit": "28b131eec201a7c8499eddf89b8a54ab03d4b137",
+   "date": "2026-09-18T23:04:36+02:00",
+   "subject": "ci(audit): trigger certify-k10 on audit branch push"
+  },
+  {
+   "commit": "cfb51f8473a3129d39077acf02b0de1caac5c969",
+   "date": "2026-09-18T21:10:34+02:00",
+   "subject": "freeze: LAST_REAL_CLOSED Beal K9/K10 CERTIFIED"
+  },
+  {
+   "commit": "b680d292b40c08f6fa45603745a576239ce5aef7",
+   "date": "2026-09-18T20:39:00+02:00",
+   "subject": "ci(audit): add isolated K10 build and semantic negative control"
+  },
+  {
+   "commit": "d5446efffd11c8f8e8d88966e4c08d930b54f1f0",
+   "date": "2026-09-18T19:54:47+02:00",
+   "subject": "ci: make Beal 8x5 seal checks structural after A promotion"
+  },
+  {
+   "commit": "524863161d4785d48c88a3bbd5769f3fe30cc626",
+   "date": "2026-09-18T19:51:48+02:00",
+   "subject": "audit: seal Beal 8x5 outer GREEN; certify K=MATCH and HC=BLOCKING"
+  },
+  {
+   "commit": "14d553250751522a4ce0605a58941251751a7038",
+   "date": "2026-09-18T19:49:45+02:00",
+   "subject": "build: wire Audit8x5 into Beal library root; preserve RED run 35376345056"
+  },
+  {
+   "commit": "8f577730c351e451041ef5deca63d877356661de",
+   "date": "2026-09-18T19:46:46+02:00",
+   "subject": "audit: start universal 8x5 Beal certification; isolate K as MATCH and HC as residue"
+  },
+  {
+   "commit": "5b5aa8e0ea0aef519d236422459975918d38a968",
+   "date": "2026-09-18T19:42:38+02:00",
+   "subject": "audit: exhaust K0-K8 against Beal common-divisor delta"
+  },
+  {
+   "commit": "e2bf968d879903791af7c943c2bd79baa751add5",
+   "date": "2026-09-18T19:30:22+02:00",
+   "subject": "audit: pin Beal G3 target and frozen K7"
+  },
+  {
+   "commit": "f644a89c5b4054378bb4a4cfe1fb11861f5d9963",
+   "date": "2026-09-18T19:30:10+02:00",
+   "subject": "audit: record literal Beal G3 oracle collision"
+  },
+  {
+   "commit": "bda4e3946ea2537858e372d4d837408358f40945",
+   "date": "2026-09-18T11:48:30+02:00",
+   "subject": "audit: formalize canonical 18-test backward matrix"
+  },
+  {
+   "commit": "7e1b638347934eb8f4d637195bea2266756380d5",
+   "date": "2026-09-18T11:39:58+02:00",
+   "subject": "audit: define hypothetical initial closed-system contract"
+  },
+  {
+   "commit": "ad70895d40bbd5e74510ffaca9df09c74b1871ca",
+   "date": "2026-09-18T07:11:32+02:00",
+   "subject": "audit: add isolated multistate proof/refutation certification protocol"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Audit8x5.A_axis_is_matched",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 87,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaCertified.A = MCore.Audit8x5.AxisState.matched"
+  },
+  {
+   "name": "MCore.Audit8x5.HC_axis_is_blocking",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 88,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaCertified.HC = MCore.Audit8x5.AxisState.blocking"
+  },
+  {
+   "name": "MCore.Audit8x5.K_axis_is_matched",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 83,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaCertified.K = MCore.Audit8x5.AxisState.matched"
+  },
+  {
+   "name": "MCore.Audit8x5.Q_axis_is_matched",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 85,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaCertified.Q = MCore.Audit8x5.AxisState.matched"
+  },
+  {
+   "name": "MCore.Audit8x5.S_axis_is_matched",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 86,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaCertified.S = MCore.Audit8x5.AxisState.matched"
+  },
+  {
+   "name": "MCore.Audit8x5.beal_iff_deltaStar",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealConjecture ↔ MCore.Audit8x5.DeltaStar"
+  },
+  {
+   "name": "MCore.Audit8x5.constant_match",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 49,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.ConstantMatch"
+  },
+  {
+   "name": "MCore.Audit8x5.no_placebo_endpoint",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.bealEndpointNode)"
+  },
+  {
+   "name": "MCore.Audit8x5.not_all_five_match",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 89,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaCertified.HC ≠ MCore.Audit8x5.AxisState.matched"
+  },
+  {
+   "name": "MCore.Audit8x5.quantifier_match_iff_deltaStar",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.QuantifierMatch ↔ MCore.Audit8x5.DeltaStar"
+  },
+  {
+   "name": "MCore.Audit8x5.scaling_match",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.ScalingMatch"
+  },
+  {
+   "name": "MCore.Research.return_to_primary",
+   "file": "lean/MCore/Research/ParallelClosure.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{Goal : Prop} (a : ParallelAttack Goal) (h : a.Residual) : Goal"
+  },
+  {
+   "name": "MCore.V5.S_maps_bottom_to_point",
+   "file": "lean/MCore/V5/Surgery.lean",
+   "line": 11,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(a : α) : S (omegaBottom a) = omegaPoint a"
+  },
+  {
+   "name": "MCore.V5.S_preserves_payload",
+   "file": "lean/MCore/V5/Surgery.lean",
+   "line": 14,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(b : OmegaBottom α) : (S b).payload = b.payload"
+  },
+  {
+   "name": "MCore.V5.beal_of_arithmeticResidue",
+   "file": "lean/MCore/V5/BealReduction.lean",
+   "line": 48,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hR : ArithmeticResidue) : BealConjecture"
+  },
+  {
+   "name": "MCore.V5.bot_absorbs_add",
+   "file": "lean/MCore/V5/Algebra.lean",
+   "line": 30,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(b : OmegaBottom α) (x : ExtendedElem α) : add (.bot b) x = .bot b"
+  },
+  {
+   "name": "MCore.V5.counterexample_payload_preserved",
+   "file": "lean/MCore/V5/BealPayload.lean",
+   "line": 17,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(ce : CounterexamplePayload) : (pointOfCounterexample ce).payload = ce.data"
+  },
+  {
+   "name": "MCore.V5.endpoint_hypothesis_blocks",
+   "file": "lean/MCore/V5/Firewall.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(s t : Bool) : metadataPromotion true s t = .circular"
+  },
+  {
+   "name": "MCore.V5.finalProofRequires_is_residue",
+   "file": "lean/MCore/V5/ArithmeticFrontier.lean",
+   "line": 14,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": FinalProofRequires = ArithmeticResidue"
+  },
+  {
+   "name": "MCore.V5.model_distinguishes",
+   "file": "lean/MCore/V5/Algebra.lean",
+   "line": 40,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": (ExtendedElem.ofNat 0 : WOmegaModel) ≠ .bot (omegaBottom ())"
+  },
+  {
+   "name": "MCore.V5.omegaBottom_payload",
+   "file": "lean/MCore/V5/OmegaBottom.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(a : α) : (omegaBottom a).payload = a"
+  },
+  {
+   "name": "MCore.V5.omegaPoint_payload",
+   "file": "lean/MCore/V5/OmegaPoint.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(a : α) : (omegaPoint a).payload = a"
+  },
+  {
+   "name": "MCore.V5.omega_ne_bot",
+   "file": "lean/MCore/V5/Algebra.lean",
+   "line": 33,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(a : α) : (ExtendedElem.omega (omegaPoint a) : ExtendedElem α) ≠ .bot (omegaBottom a)"
+  },
+  {
+   "name": "MCore.V5.omega_preserves_counterexample_payload",
+   "file": "lean/MCore/V5/BealReduction.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(ce : BealCounterexamplePayload) : (pointOfCounterexample ce).payload = ce.val"
+  },
+  {
+   "name": "MCore.V5.prime_dvd_cpow_of_dvd_a_b",
+   "file": "lean/MCore/V5/BealReduction.lean",
+   "line": 19,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : BealData) {p : Nat} (ha : p ∣ d.a) (hb : p ∣ d.b) : p ∣ d.c ^ d.z"
+  },
+  {
+   "name": "MCore.V5.zero_mul_omega_eq_bot",
+   "file": "lean/MCore/V5/Algebra.lean",
+   "line": 27,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(a : α) : mul (.ofNat 0) (.omega (omegaPoint a)) = .bot (omegaBottom a)"
+  },
+  {
+   "name": "MCore.commonDivisorResidual_holds",
+   "file": "lean/MCore/V24CommonDivisorResidual.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": CommonDivisorResidual"
+  },
+  {
+   "name": "MCore.noCommonPrimeCandidate_iff_not_beal",
+   "file": "lean/MCore/BealSpecification.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.NoCommonPrimeCandidate ↔ ¬MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.noCommonPrimeCandidate_iff_primitive",
+   "file": "lean/MCore/BealResidualSystem.lean",
+   "line": 9,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": NoCommonPrimeCandidate ↔ Nonempty PrimitiveBealCandidate"
+  },
+  {
+   "name": "MCore.no_independent_truth_state_v24",
+   "file": "lean/MCore/V24MiddleIndependence.lean",
+   "line": 38,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : MiddleCandidateV24) : ¬ MiddleHasIndependentWitnessV24 M"
+  },
+  {
+   "name": "MCore.normalized_has_no_common_divisor",
+   "file": "lean/MCore/V24CommonDivisorResidual.lean",
+   "line": 12,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : NormalizedBealCandidate) : ¬ ∃ k : Nat, CommonDivisor k d.data.a d.data.b d.data.c"
+  },
+  {
+   "name": "MCore.primitiveObstruction_iff_beal",
+   "file": "lean/MCore/BealResidualSystem.lean",
+   "line": 40,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": PrimitiveObstruction ↔ BealConjecture"
+  },
+  {
+   "name": "MCore.primitive_has_no_common_divisor",
+   "file": "lean/MCore/V24CommonDivisorResidual.lean",
+   "line": 4,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : PrimitiveBealCandidate) : ¬ ∃ k : Nat, CommonDivisor k d.data.a d.data.b d.data.c"
+  },
+  {
+   "name": "MCore.primitive_iff_normalized",
+   "file": "lean/MCore/BealResidualSystem.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty PrimitiveBealCandidate ↔ Nonempty NormalizedBealCandidate"
+  }
+ ],
+ "closed": 18,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "ff71024013d8f21b4908035d9c3296be64c19b1a54ade041a62e9d7264a1a741",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Audit8x5.lean": "a845342badf6bb437e1b89581946ea856d284e54d499114dd1d407ba6f150b7f",
+  "lean/MCore/BealResidualSystem.lean": "13dcf2f63407b47fb3e50613543ee2e1562e6f6f8e1cfe4110d23467f2fcefb9",
+  "lean/MCore/BealSpecification.lean": "312f1ac0cdb64d317731d11113d70203ab4de79d84d1a5fc42685617ed36b145",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/GCDSignature.lean": "3b763f780c5bbdd68b01acb1d233732448d38dfccda92339202b670a3dbcf0c7",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "f943d2541202fd0eecd99ae2539ca70ddbd59a9fd8438c2ed81046aa7e2441fb",
+  "lean/MCore/K10.lean": "53437ddea05e8fe41c63ebccba8211036998cab7b7ad3bb2bbb28b540ddc7f0c",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "0238d3ccaf8586df995d581e1b5528e362248b3cf570ce215cf9c7e5b5f3995e",
+  "lean/MCore/K8.lean": "b54676410879afbd8896e8196df63cd511c29973229010596e362e3bdecbf4cd",
+  "lean/MCore/K9.lean": "959c7c05f5c913be70bfc2ac6cc09c768f46b02dc9a82cec214363a7249b0975",
+  "lean/MCore/K9/Core/Arith.lean": "8b5e0a520afdec6b8a57e302ae16bac0ed24e874e8e775fb327cd7445abfac03",
+  "lean/MCore/Research/ParallelClosure.lean": "0f9b91a26222e1fe7299d37a24d394082889720616d5a6944d1ddacf97177b6a",
+  "lean/MCore/Signature.lean": "b295056afe7d8b4832377e0cbc67ceede72688c344705474d3803dba5a0d15ad",
+  "lean/MCore/V5/Firewall.lean": "87606a4e85eadaecaa9df97de97ae24fb1b3d4f52faa7778888a787e17537d32",
+  "lean/MCore/V5/OmegaBottom.lean": "3a79e614ec02c72391d30308bc7383fbed83c424977792f6937f4fcdaf57c0d4",
+  "lean/MCore/V5/OmegaPoint.lean": "80969b68ded4785d2606103e2b5e64ef7ba5ab5221a173a32d4b488a5d6da2a7"
+ },
+ "published_at": "2026-10-28T19:19:15Z",
+ "certificate_sha256": "37835522b723ed7ac30fab0e277ca6a8f7a19cb31ed32f6f9ca071dbeb8b2471"
+}

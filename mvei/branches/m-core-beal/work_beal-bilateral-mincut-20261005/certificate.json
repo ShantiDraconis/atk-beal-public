@@ -1,0 +1,2731 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-beal",
+ "branch": "work/beal-bilateral-mincut-20261005",
+ "branch_state": "parada",
+ "head_commit": "3f1bba17dec166f5d311d77f0a03135f5e107da4",
+ "head_commit_date": "2026-10-05T13:56:43+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "3f1bba17dec166f5d311d77f0a03135f5e107da4",
+   "date": "2026-10-05T13:56:43+02:00",
+   "subject": "forcing: use core constructor probes for Beal material fields"
+  },
+  {
+   "commit": "5de28cef839f1badf4a839736e7f56c995cc51ec",
+   "date": "2026-10-05T13:52:31+02:00",
+   "subject": "ci: force direct Beal material inhabitant search"
+  },
+  {
+   "commit": "ace2cbed619e87f2169389d7094add60976301ad",
+   "date": "2026-10-05T13:51:11+02:00",
+   "subject": "forcing: add direct material inhabitant search harness"
+  },
+  {
+   "commit": "42d59d24941afbf00f3161b4590c62f26de9ce21",
+   "date": "2026-10-05T13:51:07+02:00",
+   "subject": "forcing: remove non-proof status structure from bilateral min-cut"
+  },
+  {
+   "commit": "307e6753446b6bf84c409ba74f5eaf4fc96a8138",
+   "date": "2026-10-05T13:48:27+02:00",
+   "subject": "ci: kernel-check bilateral Beal min-cut"
+  },
+  {
+   "commit": "346e3d21c3df572b9728a0cce56daade4016c374",
+   "date": "2026-10-05T13:48:25+02:00",
+   "subject": "forcing: add bilateral Beal family search"
+  },
+  {
+   "commit": "7dd0956a1def1b97d320b60b094a844ecd0411d5",
+   "date": "2026-10-04T23:20:32+02:00",
+   "subject": "fix(open-math): make ATK terminal bridge constructive"
+  },
+  {
+   "commit": "fd7de395fe0ab335f721e50088d3bae520e7f910",
+   "date": "2026-10-04T23:19:09+02:00",
+   "subject": "cleanup(open-math): remove redundant standalone splitter scratch"
+  },
+  {
+   "commit": "8ab8ca93b381fb5922da1683b79fdfcf82d7ff71",
+   "date": "2026-10-04T23:19:00+02:00",
+   "subject": "ci(beal): remove redundant standalone splitter scratch from gate"
+  },
+  {
+   "commit": "9cee226afa05c3c281d9f3da8ff0b6030b5c8a89",
+   "date": "2026-10-04T23:17:46+02:00",
+   "subject": "fix(open-math): prove odd-prime parity from prime divisor cases"
+  },
+  {
+   "commit": "334c2e5cc13d64f6086dcdb17cd621344698a3f9",
+   "date": "2026-10-04T23:17:26+02:00",
+   "subject": "fix(open-math): derive odd exponent representation directly from mod_add_div"
+  },
+  {
+   "commit": "db38a59fe6bdcbc5ade2a6ee3051b51a609b6168",
+   "date": "2026-10-04T23:16:10+02:00",
+   "subject": "fix(open-math): normalize Beal_AllOddPrime_BasePressure.lean modulo equations"
+  },
+  {
+   "commit": "902b68c5364ea9b4ce7e5c019ae1e3bcdbb7309a",
+   "date": "2026-10-04T23:16:05+02:00",
+   "subject": "fix(open-math): normalize Beal_AllOddPrime_CorePressure.lean modulo equations"
+  },
+  {
+   "commit": "f050af49025aa919787745743a8ae0e31fe5c344",
+   "date": "2026-10-04T23:15:53+02:00",
+   "subject": "fix(open-math): normalize one-four generic modulo equations"
+  },
+  {
+   "commit": "5928cccf1a42c894b35dff3d0d9fc7e18ca15810",
+   "date": "2026-10-04T23:15:17+02:00",
+   "subject": "fix(open-math): normalize one-four-equal modulo equations"
+  },
+  {
+   "commit": "97a2e397fde61fd8235e3a6d6855ce2079ebcc70",
+   "date": "2026-10-04T23:14:56+02:00",
+   "subject": "fix(open-math): expose modular equation shape explicitly in two-four atlas"
+  },
+  {
+   "commit": "e0432be32ce334b9e1e10aee2960f69350d8ce68",
+   "date": "2026-10-04T23:13:55+02:00",
+   "subject": "fix(open-math): normalize atlas modulo equalities before rewriting"
+  },
+  {
+   "commit": "4af5cf3c2fa7736d7e0f7ff46db3c5778aa214c8",
+   "date": "2026-10-04T23:12:28+02:00",
+   "subject": "fix(open-math): make c4 divisor subtraction identities explicit"
+  },
+  {
+   "commit": "b60eca21c923144ac202eb6017445fb44f48cb77",
+   "date": "2026-10-04T23:11:35+02:00",
+   "subject": "fix(open-math): remove redundant Frey discriminant simplification"
+  },
+  {
+   "commit": "45f2ecbb92f25bad4657804cb21728348730f330",
+   "date": "2026-10-04T23:10:56+02:00",
+   "subject": "open-math(beal): derive odd bad-prime c4 exclusion for xy-four Frey packet"
+  },
+  {
+   "commit": "d11bdd33f2972c5ee245b59ed0d53518fa567183",
+   "date": "2026-10-04T23:09:53+02:00",
+   "subject": "fix(open-math): normalize Frey discriminant and odd-prime 16 support"
+  },
+  {
+   "commit": "f730658cc56a04dbce594c82bffe9650c3bc405f",
+   "date": "2026-10-04T23:09:26+02:00",
+   "subject": "fix(open-math): exclude factor two from odd Frey support directly"
+  },
+  {
+   "commit": "68dcbc048d6892edee239a116e2d06b7fbfead63",
+   "date": "2026-10-04T23:09:16+02:00",
+   "subject": "fix(open-math): prove Frey discriminant normal form explicitly"
+  },
+  {
+   "commit": "fb2f7929a284cd5f04aab109e3723cff8c6b6781",
+   "date": "2026-10-04T23:09:03+02:00",
+   "subject": "fix(open-math): use stable gcd proofs in Frey arithmetic"
+  },
+  {
+   "commit": "586c5608aa9898638a5c9f7eccc7672594bc1c52",
+   "date": "2026-10-04T23:08:51+02:00",
+   "subject": "fix(open-math): normalize orbit-C odd powers through fourth-power law"
+  },
+  {
+   "commit": "aa1b1e7829d8d808cbd1e927aca1654586bc79cf",
+   "date": "2026-10-04T23:07:59+02:00",
+   "subject": "fix(open-math): use kernel-proven gcd pattern and direct odd-prime support"
+  },
+  {
+   "commit": "f9b7c7c0547e7897a77e83d585fac0de2ce3706e",
+   "date": "2026-10-04T23:06:51+02:00",
+   "subject": "open-math(beal): normalize xy-four Frey discriminant exponents"
+  },
+  {
+   "commit": "4e48227399e2c0bf41fca3c6e335af4735826492",
+   "date": "2026-10-04T23:06:30+02:00",
+   "subject": "fix(open-math): normalize odd mod16 powers through fourth-power unit law"
+  },
+  {
+   "commit": "039c36e3dd1143a471d3a14594cea5628c9e725f",
+   "date": "2026-10-04T23:06:01+02:00",
+   "subject": "fix(open-math): reduce sharp odd powers modulo four exactly"
+  },
+  {
+   "commit": "8b442fde88c2e7329fff706596f9d301763a1435",
+   "date": "2026-10-04T23:05:08+02:00",
+   "subject": "fix(open-math): replace false odd-square mod16 helper with exact mod4 audit"
+  },
+  {
+   "commit": "5fff55522ef411a6efdb43c7286ec657658ed04c",
+   "date": "2026-10-04T23:05:05+02:00",
+   "subject": "fix(open-math): decide finite odd-square residues mod16"
+  },
+  {
+   "commit": "9e20bf8ea87a7d3e4f107628f35a8884ad8c57df",
+   "date": "2026-10-04T23:04:07+02:00",
+   "subject": "fix(open-math): keep orbit-B cubic audit core-only"
+  },
+  {
+   "commit": "d80a943b871b64c500989a806354a5703d197476",
+   "date": "2026-10-04T23:03:27+02:00",
+   "subject": "open-math(beal): sharpen orbit B cubic versus p>=5 split"
+  },
+  {
+   "commit": "ef3bdaf078d702ba488377ba0977cc721b937474",
+   "date": "2026-10-04T23:03:13+02:00",
+   "subject": "fix(open-math): derive sharp mod16 law from odd square identity"
+  },
+  {
+   "commit": "05f6b7af27e9dd4b74adfc6f86bfeaa375b308b6",
+   "date": "2026-10-04T23:02:20+02:00",
+   "subject": "open-math(beal): sharpen orbit C bases to 15 mod16"
+  },
+  {
+   "commit": "0d6d169a6ad26dd73f2e5eaa8a3bca36c1b1f166",
+   "date": "2026-10-04T23:02:13+02:00",
+   "subject": "open-math(beal): classify odd Frey bad-prime support exactly"
+  },
+  {
+   "commit": "bc56d99c43c001cea5aefb91c8a4ca57f41829bf",
+   "date": "2026-10-04T23:01:07+02:00",
+   "subject": "fix(open-math): stabilize all-odd base pressure modular API"
+  },
+  {
+   "commit": "23309a4e8b53dfdcf3d25ffc4a4ec1dd81ab4db7",
+   "date": "2026-10-04T23:00:50+02:00",
+   "subject": "fix(open-math): stabilize all-odd core pressure API"
+  },
+  {
+   "commit": "549ec45c562057d09c52fdc93f558682ca650b58",
+   "date": "2026-10-04T22:59:39+02:00",
+   "subject": "revert(open-math): remove non-material conductor wrappers"
+  },
+  {
+   "commit": "74d74b72625709be7df0b2c71ba58b5bd8692ea3",
+   "date": "2026-10-04T22:59:28+02:00",
+   "subject": "open-math(beal): isolate exact xy-four conductor and modular frontier"
+  },
+  {
+   "commit": "1744a1a7b2850b1e77775653a230fe743e9cae26",
+   "date": "2026-10-04T22:59:10+02:00",
+   "subject": "fix(open-math): stabilize Beal_OneFour_GenericPressure.lean on core API"
+  },
+  {
+   "commit": "2fd48501de2e3ff443ceb567b1c5329d10179c80",
+   "date": "2026-10-04T22:59:08+02:00",
+   "subject": "fix(open-math): stabilize Beal_OneFourEqual_CorePressure.lean on core API"
+  },
+  {
+   "commit": "28d7ae98236ece144024b3769a692b59b81d6385",
+   "date": "2026-10-04T22:58:52+02:00",
+   "subject": "fix(open-math): stabilize two-four atlas on Lean core API"
+  },
+  {
+   "commit": "573103c877035d9dd8deeef5e2cde0e300e582e3",
+   "date": "2026-10-04T22:58:46+02:00",
+   "subject": "fix(open-math): prove sharp mod16 law via exponent mod4"
+  },
+  {
+   "commit": "f045c7d6e9c10343f70edbe8607890832d6ed053",
+   "date": "2026-10-04T22:57:52+02:00",
+   "subject": "ci(beal): build xy-four Frey arithmetic packet"
+  },
+  {
+   "commit": "87ea1cb7aa23ba99be8189b1ea36ec945e2e55d3",
+   "date": "2026-10-04T22:57:41+02:00",
+   "subject": "open-math(beal): expose exact Frey arithmetic packet for xy-four orbit"
+  },
+  {
+   "commit": "66830d2e3dcec74b4d13ec3372c3a4db23406cbd",
+   "date": "2026-10-04T22:57:35+02:00",
+   "subject": "fix(open-math): prove sharp XY residue via odd-square modular law"
+  },
+  {
+   "commit": "4495a7f77c1648f71657b83e1295707d3f15b676",
+   "date": "2026-10-04T22:56:20+02:00",
+   "subject": "ci(beal): build sharp xy-four core pressure"
+  },
+  {
+   "commit": "1116aa051c6e02a844bc9851e0df8b42be36a406",
+   "date": "2026-10-04T22:55:18+02:00",
+   "subject": "fix(open-math): make XY pressure core-only and type stable"
+  },
+  {
+   "commit": "68e43298062c86dd4fb31da959dd16e4b71a88db",
+   "date": "2026-10-04T22:53:46+02:00",
+   "subject": "ci(beal): restore full open-math frontier build set"
+  },
+  {
+   "commit": "2febeaf435865a77d3982c6ca5290d321ee4c15f",
+   "date": "2026-10-04T22:53:25+02:00",
+   "subject": "ci(beal): build sharp xy-four orbit constraint"
+  },
+  {
+   "commit": "7494b0680051fc9b5fbb3905c454d5326e8670a4",
+   "date": "2026-10-04T22:53:15+02:00",
+   "subject": "open-math(beal): sharpen xy-four prime orbit to c mod16 = 1"
+  },
+  {
+   "commit": "83dc9cb8ddbd933553966445a961d832a50ffe86",
+   "date": "2026-10-04T22:21:56+02:00",
+   "subject": "fix(open-math): derive primitive gcd via existing common-divisor kernel"
+  },
+  {
+   "commit": "89db7b78174d8569f417169697950b341cdd19e9",
+   "date": "2026-10-04T22:20:37+02:00",
+   "subject": "open-math(beal): reduce Q3 to two primitive generalized-Fermat solution types"
+  },
+  {
+   "commit": "0759d3e3a060fb21d8de326e9a81653f6a1a9c46",
+   "date": "2026-10-04T22:16:52+02:00",
+   "subject": "fix(open-math): close orbit-A odd-exponent residue helpers"
+  },
+  {
+   "commit": "4cf1563d54a5e9ff58e1bc4ec5c50ce1a369a537",
+   "date": "2026-10-04T22:15:31+02:00",
+   "subject": "open-math(beal): normalize residual xy-four prime orbit to c mod8 pressure"
+  },
+  {
+   "commit": "9ddc0695519467c875482ba28f4f94370685ea0e",
+   "date": "2026-10-04T22:13:23+02:00",
+   "subject": "fix(open-math): reuse kernel-proven modular congruence pattern"
+  },
+  {
+   "commit": "2be32d419f08da9e3da257a22efd3adc8c0adfd4",
+   "date": "2026-10-04T22:08:04+02:00",
+   "subject": "fix(open-math): make xy-four parity elimination pure core arithmetic"
+  },
+  {
+   "commit": "e3111d371993d76ed6795f7f0ebfda23579c053b",
+   "date": "2026-10-04T22:06:44+02:00",
+   "subject": "fix(open-math): repair swap adapter and core mod8 xy elimination"
+  },
+  {
+   "commit": "0a8fa3ba9a85aa89fd6b0a000967ebf2c6b509df",
+   "date": "2026-10-04T22:05:30+02:00",
+   "subject": "fix(open-math): type residual TwoFour symmetry orbits on original candidate"
+  },
+  {
+   "commit": "716c6edfaaacc302aec95829f8e6075318625980",
+   "date": "2026-10-04T22:05:10+02:00",
+   "subject": "open-math(beal): compress TwoFourPrime to three residual symmetry orbits"
+  },
+  {
+   "commit": "0d4accfebbb94b157fe7046f710647fed928e5a1",
+   "date": "2026-10-04T22:04:19+02:00",
+   "subject": "open-math(beal): derive symmetric yz Denes branch by candidate swap"
+  },
+  {
+   "commit": "3510e789d58cd8378591fab0bf4b402a978c8e81",
+   "date": "2026-10-04T22:00:13+02:00",
+   "subject": "ci(beal): build exact ATK seven-question harness"
+  },
+  {
+   "commit": "47a7886c722bfcafcaf7d8ff11513658552069c0",
+   "date": "2026-10-04T22:00:05+02:00",
+   "subject": "open-math(beal): expose exact seven ATK kernel questions"
+  },
+  {
+   "commit": "aa74a4345685014f0161a0bcb2b8deff9f64eb4f",
+   "date": "2026-10-04T21:54:35+02:00",
+   "subject": "fix(open-math): use adapter definitionally without simp unfolding"
+  },
+  {
+   "commit": "bd189102b03a68fd46dcaa77c65e84fc7f07aff5",
+   "date": "2026-10-04T20:11:36+02:00",
+   "subject": "fix(open-math): close zero-base power positivity case explicitly"
+  },
+  {
+   "commit": "43b331ff85c2d622f15a39e01262ffa6874bde56",
+   "date": "2026-10-04T20:10:40+02:00",
+   "subject": "fix(open-math): require positive exponent for power positivity reflection"
+  },
+  {
+   "commit": "a97b2267c4e254cd09668eac204aacf0c2efbc00",
+   "date": "2026-10-04T20:09:40+02:00",
+   "subject": "fix(open-math): close local quartic kernel build blockers"
+  },
+  {
+   "commit": "52ea4012690896f055c54a11ab9e662dfa7f4d47",
+   "date": "2026-10-04T20:08:11+02:00",
+   "subject": "fix(open-math): restore splitter inside namespace and prune obsolete generic route"
+  },
+  {
+   "commit": "49e96a12542ef83de865b5f13af9ed87148f2818",
+   "date": "2026-10-04T20:06:12+02:00",
+   "subject": "fix(open-math): make quartic canonical frontier core-compatible"
+  },
+  {
+   "commit": "8dbdb92816c59cb2d999b258c73ed3cf2ce81c9f",
+   "date": "2026-10-04T20:02:33+02:00",
+   "subject": "ci(beal): drop superseded standalone splitter scratch from canonical gate"
+  },
+  {
+   "commit": "e929fb2ce3952212a2eb8953ae645c567747b177",
+   "date": "2026-10-04T20:01:41+02:00",
+   "subject": "fix(ci): restore newline before canonical open-math build loop"
+  },
+  {
+   "commit": "4f56dec84aa4b629cefc43e920404aef9d806c57",
+   "date": "2026-10-04T20:00:26+02:00",
+   "subject": "ci(beal): validate canonical forcing frontier only"
+  },
+  {
+   "commit": "c424a27f1aa22eb6444e985ab22f5adda6d0fca9",
+   "date": "2026-10-04T19:59:17+02:00",
+   "subject": "fix(open-math): normalize local pow-mod recursion and finite branches"
+  },
+  {
+   "commit": "33ce7f5e16f79ce78816c673b4ade15c415ee4f8",
+   "date": "2026-10-04T19:57:55+02:00",
+   "subject": "fix(open-math): remove unavailable pow-mod APIs from core mod16"
+  },
+  {
+   "commit": "38106509e6748f17209089f7c63fb144ccfa6cb1",
+   "date": "2026-10-04T19:56:07+02:00",
+   "subject": "fix(open-math): use zero equality in kernel direction"
+  },
+  {
+   "commit": "bd28566aad19941827aca3346333df415555c207",
+   "date": "2026-10-04T19:55:16+02:00",
+   "subject": "fix(open-math): prove gcd-one without by_contra or omega"
+  },
+  {
+   "commit": "03416c9b273aa4b5b361fe35a00c9914ff41759d",
+   "date": "2026-10-04T19:54:02+02:00",
+   "subject": "fix(open-math): remove omega dependency from gcd pressure"
+  },
+  {
+   "commit": "d79dae31af58db98f31bddddc912c8147d4e4645",
+   "date": "2026-10-04T19:52:58+02:00",
+   "subject": "fix(open-math): parenthesize reduced candidate adapter applications"
+  },
+  {
+   "commit": "a668dddbd373f6c2041711e085930b545142eaec",
+   "date": "2026-10-04T19:52:05+02:00",
+   "subject": "fix(open-math): use explicit reduced candidate adapter"
+  },
+  {
+   "commit": "106653631bf03a45dc4ca98a81cad0cf60e94162",
+   "date": "2026-10-04T19:51:07+02:00",
+   "subject": "ci(beal): prebuild ReducedFamilies before open-math gate"
+  },
+  {
+   "commit": "0bdf59647a8edebb175f2e5190174279f087109e",
+   "date": "2026-10-04T19:49:59+02:00",
+   "subject": "ci(beal): build and audit open-math forcing frontier"
+  },
+  {
+   "commit": "13cf958a503a000049e9584d433472abf09a1428",
+   "date": "2026-10-04T18:24:43+02:00",
+   "subject": "open-math(beal): connect resolved quartic branch to exact Denes exclusion"
+  },
+  {
+   "commit": "93c501d1e3a9982abb1cea252228c52fb95efcc3",
+   "date": "2026-10-04T18:24:11+02:00",
+   "subject": "fix(open-math): produce primitive nontrivial Denes solution with resolved splitter"
+  },
+  {
+   "commit": "b1b2b9d53104d56d38a7337165487b3b2071c9d6",
+   "date": "2026-10-04T18:21:43+02:00",
+   "subject": "open-math(beal): inhabit prime-power coprime splitter constructively"
+  },
+  {
+   "commit": "61b20be75cb167cd1a78ab5041ac5cc3c9d43f0b",
+   "date": "2026-10-04T18:20:53+02:00",
+   "subject": "fix(open-math): apply prime-power induction hypothesis correctly"
+  },
+  {
+   "commit": "bca19e51a098d5709bf21b18e07f99d747d72ad6",
+   "date": "2026-10-04T18:20:27+02:00",
+   "subject": "fix(open-math): remove fragile power-order step in splitter induction"
+  },
+  {
+   "commit": "c6545138414f605ca08485f19799c180f6dedf3f",
+   "date": "2026-10-04T18:19:31+02:00",
+   "subject": "fix(open-math): make prime-power splitter standalone and use core order API"
+  },
+  {
+   "commit": "23db3968439d7e923f4cb3d5223ae2b6a8efa8ac",
+   "date": "2026-10-04T18:18:37+02:00",
+   "subject": "open-math(beal): construct coprime prime-power splitter without factorization"
+  },
+  {
+   "commit": "9123a65d367a2e7a2d7c6df1b1b010fbdab751d4",
+   "date": "2026-10-04T17:37:00+02:00",
+   "subject": "fix(open-math): make Denes identity core algebraic"
+  },
+  {
+   "commit": "8d17c27bc5060c5c5bdc3195356116e59edbf343",
+   "date": "2026-10-04T17:36:11+02:00",
+   "subject": "open-math(beal): expose prime-power splitter and Denes equation"
+  },
+  {
+   "commit": "9fbf82e1cec565f02f33667284260a99aa9a3cba",
+   "date": "2026-10-04T17:35:24+02:00",
+   "subject": "fix(open-math): order pair-to-triple splitter after triple definition"
+  },
+  {
+   "commit": "f15069bd7b78b66ff16810c79e51e07c0d655ab5",
+   "date": "2026-10-04T17:35:08+02:00",
+   "subject": "open-math(beal): reduce quartic UFD gap to coprime pair power splitting"
+  },
+  {
+   "commit": "50885dcc5b5785f5711b7666aaed43c64713527c",
+   "date": "2026-10-04T17:30:50+02:00",
+   "subject": "open-math(beal): isolate generic coprime perfect-power splitter"
+  },
+  {
+   "commit": "cd67bfd4bd1f022b5317a4a31a948d838cfba36d",
+   "date": "2026-10-04T17:29:19+02:00",
+   "subject": "open-math(beal): derive odd pairwise-coprime quartic block packet"
+  },
+  {
+   "commit": "ec2a775ec87d5488ea0524d1b0f34296a36876d8",
+   "date": "2026-10-04T17:27:39+02:00",
+   "subject": "open-math(beal): separate all three quartic blocks at odd primes"
+  },
+  {
+   "commit": "fd22dd73d6e00371823ac583a43215500e38ea4e",
+   "date": "2026-10-04T17:26:10+02:00",
+   "subject": "open-math(beal): derive quartic prime support and linear separation"
+  },
+  {
+   "commit": "36b11d7a77591d937fe7b4931789bde21bdf58ce",
+   "date": "2026-10-04T17:24:44+02:00",
+   "subject": "fix(open-math): prove quartic quotient by explicit distributive normalization"
+  },
+  {
+   "commit": "4ac789527a5d814c5c927c6c15a8059628c95ec2",
+   "date": "2026-10-04T17:24:23+02:00",
+   "subject": "open-math(beal): port core-only equal-exponent and quartic factorization kernel"
+  },
+  {
+   "commit": "b5223e4dd504bde8031d0bdd1458942c0724ef67",
+   "date": "2026-10-04T16:45:58+02:00",
+   "subject": "open-math(beal): classify all-odd-prime base residues mod8"
+  },
+  {
+   "commit": "afdb489bcb35697a542230a998d09ae469dde583",
+   "date": "2026-10-04T16:45:18+02:00",
+   "subject": "fix(open-math): use explicit prime witnesses in odd-family pressure"
+  },
+  {
+   "commit": "b55adebc43d72c35d376650bd70e746f305c5888",
+   "date": "2026-10-04T16:44:51+02:00",
+   "subject": "open-math(beal): reduce odd-prime mixed families to base residues mod8"
+  },
+  {
+   "commit": "01b06cf190477db36e2666181a6928241e26cb18",
+   "date": "2026-10-04T16:43:31+02:00",
+   "subject": "fix(open-math): remove raw-signature mixed aggregator"
+  },
+  {
+   "commit": "2f5fb23405c6079e86d8c4c26a21d5ccc2fc6780",
+   "date": "2026-10-04T16:43:16+02:00",
+   "subject": "open-math(beal): force mod8 pressure for all-odd-prime mixed families"
+  },
+  {
+   "commit": "cc6fc1da724c4911e1e10930846b70aa65b9fa9a",
+   "date": "2026-10-04T16:41:36+02:00",
+   "subject": "open-math(beal): unify residue pressure for (4,p,p) and (4,p,q)"
+  },
+  {
+   "commit": "befe9bd87d0807ef82f0124f0064f95f0e171b1a",
+   "date": "2026-10-04T16:40:31+02:00",
+   "subject": "open-math(beal): force all (4,p,p) orientations into residue pressure"
+  },
+  {
+   "commit": "5a2c380c9fd18ef6ce75287f966cc2da7a1c0dca",
+   "date": "2026-10-04T16:39:38+02:00",
+   "subject": "fix(open-math): correct equal-prime orientation witnesses"
+  },
+  {
+   "commit": "a6a7c39d4c6c2f6abb28ff5281696a51cf0090f2",
+   "date": "2026-10-04T16:39:14+02:00",
+   "subject": "open-math(beal): force core residue pressure for (4,p,p)"
+  },
+  {
+   "commit": "af37a805ba1a1a7e71b9939f24872676b98ff418",
+   "date": "2026-10-04T16:15:02+02:00",
+   "subject": "open-math(beal): split reduced prime exponents into 3 or >=5"
+  },
+  {
+   "commit": "331c3b901f73d1393688783848bc17dd5ca3d2d8",
+   "date": "2026-10-04T16:13:14+02:00",
+   "subject": "open-math(beal): force every (4,4,p) candidate into residue payload"
+  },
+  {
+   "commit": "5ad32cdd292bc275a244953f76909685fc8215d0",
+   "date": "2026-10-04T16:12:21+02:00",
+   "subject": "open-math(beal): force core-only two-four residue atlas"
+  },
+  {
+   "commit": "778717f978d983b8cd8b3b40608ce070d916d3ac",
+   "date": "2026-10-04T16:11:12+02:00",
+   "subject": "fix(open-math): type-correct pairwise forcing in XY pressure"
+  },
+  {
+   "commit": "5dbe9888e0fa16b6e16c9da70edbbaa68f0b44a7",
+   "date": "2026-10-04T16:10:40+02:00",
+   "subject": "fix(open-math): keep only justified core (4,4,p) residue pressure"
+  },
+  {
+   "commit": "699255a717c6f93e78e093809c1a8f765a91bb08",
+   "date": "2026-10-04T16:10:04+02:00",
+   "subject": "open-math(beal): force core-only (4,4,p) XY residue pressure"
+  },
+  {
+   "commit": "a84bc77f6b2ffe57724b621643f906d8a51ceaa9",
+   "date": "2026-10-04T16:09:00+02:00",
+   "subject": "fix(open-math): use stable simp form for pow mod"
+  },
+  {
+   "commit": "17fb09498e6bd7c3ffd2f5fc9e83c99da86f258b",
+   "date": "2026-10-04T16:08:46+02:00",
+   "subject": "open-math(beal): derive core-only odd exponent and mod16 laws"
+  },
+  {
+   "commit": "b03882027acf9429dfa118213c20f0a079a100af",
+   "date": "2026-10-04T16:03:38+02:00",
+   "subject": "fix(open-math): correct reduced BealData applications"
+  },
+  {
+   "commit": "13d6ad69b466f402fcff11fa55e3ccf1a65d4c4c",
+   "date": "2026-10-04T16:03:21+02:00",
+   "subject": "fix(open-math): make reduced gcd pressure self-contained"
+  },
+  {
+   "commit": "57a5cef3496ee8b0c45a43e25b132ae0c651b94e",
+   "date": "2026-10-04T16:03:05+02:00",
+   "subject": "open-math(beal): derive pairwise gcd-one packet"
+  },
+  {
+   "commit": "2f210d87bb74c7809c18ac7f86242b1703e7d160",
+   "date": "2026-10-04T16:02:09+02:00",
+   "subject": "revert(open-math): remove unverified Mathlib-dependent mod16 pressure"
+  },
+  {
+   "commit": "4bd11a0cfe76729e3793dfe58925b33b4fc1c13d",
+   "date": "2026-10-04T15:59:23+02:00",
+   "subject": "fix(open-math): normalize module import path"
+  },
+  {
+   "commit": "4b33e8ecff4d9cd2e181f01d77b4cc34bf1b1205",
+   "date": "2026-10-04T15:59:08+02:00",
+   "subject": "open-math(beal): derive mod-16 pressure for (4,4,p)"
+  },
+  {
+   "commit": "c5c6d3547835e3e27e8fd427aa845d11a8682dca",
+   "date": "2026-10-04T15:58:08+02:00",
+   "subject": "open-math(beal): derive parity pressure on reduced candidates"
+  },
+  {
+   "commit": "f2ca61268cd9cef016ef062221e037ffa2804640",
+   "date": "2026-10-04T15:27:29+02:00",
+   "subject": "open-math(beal): expose exact seven-family material min-cut"
+  },
+  {
+   "commit": "d90dd127ae5add9c4c5bc01553c46e65ac63143d",
+   "date": "2026-10-04T01:11:19+02:00",
+   "subject": "fix(beal): type each residual family before seven-way injection"
+  },
+  {
+   "commit": "1f5257e0813c5b5c8794a30bcb9c27d7a3d6f422",
+   "date": "2026-10-04T01:09:31+02:00",
+   "subject": "fix(beal): normalize power identity and seven-family split"
+  },
+  {
+   "commit": "1c2e5c6699682b1c3ee49aaed42cdcf10065cc85",
+   "date": "2026-10-04T01:06:37+02:00",
+   "subject": "fix(beal): make primitive parity consequences constructive"
+  },
+  {
+   "commit": "44f08b22c64a1d87dceaa16b8352bfc7944d6d9d",
+   "date": "2026-10-04T01:04:42+02:00",
+   "subject": "build(beal): include reduced family split"
+  },
+  {
+   "commit": "e596bb2a0802826c0ea6518dd2e6080b62661ed0",
+   "date": "2026-10-04T01:04:37+02:00",
+   "subject": "feat(beal): reduce counterexamples into seven exponent families"
+  },
+  {
+   "commit": "9c7f6da338f8e936d80051d2d37e3118b40f1341",
+   "date": "2026-10-04T00:56:32+02:00",
+   "subject": "build(beal): include primitive consequences"
+  },
+  {
+   "commit": "381e749bc54baadd070ad844ed2c3bf7640e92fd",
+   "date": "2026-10-04T00:56:26+02:00",
+   "subject": "feat(beal): derive primitive parity profile from gcd3=1"
+  },
+  {
+   "commit": "39696f1be0f6838370e71df7cd59419d9af6d5d3",
+   "date": "2026-10-04T00:50:10+02:00",
+   "subject": "build(beal): include exact remaining obligation frontier"
+  },
+  {
+   "commit": "7adae02af7ddc0891cc0ff1f98a6c48a98dfe95f",
+   "date": "2026-10-04T00:50:04+02:00",
+   "subject": "feat(beal): isolate exact gcd3!=1 terminal frontier"
+  },
+  {
+   "commit": "71a2ff4eefa30e3590da07aa0dc1ff5660697010",
+   "date": "2026-10-04T00:14:30+02:00",
+   "subject": "build(beal): include effective kernel audit in MCore"
+  },
+  {
+   "commit": "1e23c96685f1b98b3a7755b85d8656d8ca603189",
+   "date": "2026-10-04T00:14:03+02:00",
+   "subject": "audit(beal): keep effective kernel constructive"
+  },
+  {
+   "commit": "32bba165f7d828db572e59525b15e111bd4a9935",
+   "date": "2026-10-04T00:13:29+02:00",
+   "subject": "feat(beal): add effective terminal kernel audit"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.BealEffective.OpenMath.ATK_all_answers_close_beal",
+   "file": "open_math/Beal_ATK_ForcedQuestions.lean",
+   "line": 82,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(q1 : ATK_Q1_AllFour) (q2 : ATK_Q2_EqualOddPrime) (q3 : ATK_Q3_TwoFourPrime) (q4 : ATK_Q4_OneFourEqual) (q5 : ATK_Q5_OneFourDistinct) (q6 : ATK_Q6_TwoEqualOdd) (q7 : ATK_Q7_ThreeDistinctOdd) : BealConjecture"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.ATK_all_seven_eliminate_reduced",
+   "file": "open_math/Beal_ATK_ForcedQuestions.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(q1 : ATK_Q1_AllFour) (q2 : ATK_Q2_EqualOddPrime) (q3 : ATK_Q3_TwoFourPrime) (q4 : ATK_Q4_OneFourEqual) (q5 : ATK_Q5_OneFourDistinct) (q6 : ATK_Q6_TwoEqualOdd) (q7 : ATK_Q7_ThreeDistinctOdd) : ∀ r : ReducedPrimitiveCandidate, False"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.ATK_no_reduced_closes_exact_remaining",
+   "file": "open_math/Beal_ATK_ForcedQuestions.lean",
+   "line": 69,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hNoReduced : ∀ r : ReducedPrimitiveCandidate, False) : ExactRemainingObligation"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.ReducedFamilyMinCut.eliminates_seven",
+   "file": "open_math/Beal_Fermat_Mining.lean",
+   "line": 86,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(K : ReducedFamilyMinCut) (r : ReducedPrimitiveCandidate) (hSeven : SevenFamilySplit r.x r.y r.z) : False"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.allFour_inconsistent",
+   "file": "open_math/Beal_BilateralMinCut.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hPos : ∀ r : ReducedPrimitiveCandidate, AllFour r.x r.y r.z → False) (hNeg : AntiAllFour) : False"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.allOddExactlyOneEven",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 106,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : ExactlyOneEven r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.allOddPrime_aEven_equal_residue",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 263,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : OddPrimeExponent r.x) (hy : OddPrimeExponent r.y) (hz : OddPrimeExponent r.z) (ha : Even r.a) : r.b % 8 = r.c % 8"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.allOddPrime_bEven_equal_residue",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 275,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : OddPrimeExponent r.x) (hy : OddPrimeExponent r.y) (hz : OddPrimeExponent r.z) (hb : Even r.b) : r.a % 8 = r.c % 8"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.allOddPrime_cEven_residue_pairs",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 231,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : OddPrimeExponent r.x) (hy : OddPrimeExponent r.y) (hz : OddPrimeExponent r.z) (hc : Even r.c) : (r.a % 8 = 1 ∧ r.b % 8 = 7) ∨ (r.a % 8 = 3 ∧ r.b % 8 = 5) ∨ (r.a % 8 = 5 ∧ r.b % 8 = 3) ∨ (r.a % 8 = 7 ∧ r.b % 8 = 1)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.allOddPrime_forces_base_pressure",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 141,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : OddPrimeExponent r.x) (hy : OddPrimeExponent r.y) (hz : OddPrimeExponent r.z) : AllOddPrimeBasePressure r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.aobp_pow_mod_congr",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 6,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b m e : Nat} (h : a % m = b % m) : a ^ e % m = b ^ e % m"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.atlas_exp_mod4_repr",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 320,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{e r : Nat} (hr : e % 4 = r) : ∃ k : Nat, e = r + 4 * k"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.atlas_oddPrime_mod2_one",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 297,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{p : Nat} (hp : OddPrimeExponent p) : p % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.atlas_odd_exp_mod4_split",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 311,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{e : Nat} (he : e % 2 = 1) : e % 4 = 1 ∨ e % 4 = 3"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.atlas_pow_mod_congr",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 6,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b m e : Nat} (h : a % m = b % m) : a ^ e % m = b ^ e % m"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.coprimePairPrimePowerSplitting_resolved",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 709,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": CoprimePairPrimePowerSplitting"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.coreDiffQuot_four",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 83,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(c a : Nat) : CoreDiffQuot c a 4 = (c + a) * (c ^ 2 + a ^ 2)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.coreDiffQuot_two",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 297,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(c a : Nat) : CoreDiffQuot c a 2 = c + a"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.core_diff_factorization",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 11,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{b c : Nat} (hbc : b ≤ c) : ∀ n : Nat, b ^ n + (c - b) * CoreDiffQuot c b n = c ^ n"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.core_quartic_linear_square_sum",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 844,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{a c : Nat} (hac : a ≤ c) : (c - a) ^ 2 + (c + a) ^ 2 = 2 * (c ^ 2 + a ^ 2)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.core_right_same_exponent_gap",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b c x n : Nat} (ha : 0 < a) (heq : a ^ x + b ^ n = c ^ n) : b < c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.dvd_mul_left_local",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 128,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{p a b : Nat} (h : p ∣ b) : p ∣ a * b"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.dvd_mul_right_local",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 119,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{p a b : Nat} (h : p ∣ a) : p ∣ a * b"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.equalOddPrime_inconsistent",
+   "file": "open_math/Beal_BilateralMinCut.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hPos : ∀ r : ReducedPrimitiveCandidate, EqualOddPrime r.x r.y r.z → False) (hNeg : AntiEqualOddPrime) : False"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.evenPow8",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 120,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n e : Nat} (hn : Even n) (he : 2 < e) : n ^ e % 8 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.even_cube_mod16_zero_forces_mod4_zero",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 432,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : Even n) (h3 : n ^ 3 % 16 = 0) : n % 4 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.even_fourth16",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 49,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : Even n) : n ^ 4 % 16 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.even_fourth_mod16",
+   "file": "open_math/Beal_TwoFour_XY_CorePressure.lean",
+   "line": 59,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : Even n) : n ^ 4 % 16 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.even_fourth_mod_sixteen_core",
+   "file": "open_math/Beal_Core_Mod16.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : Even n) : n ^ 4 % 16 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.even_pow8_gt_two",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 195,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n e : Nat} (hn : Even n) (he : 2 < e) : n ^ e % 8 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.even_pow_mod8_of_gt_two",
+   "file": "open_math/Beal_TwoFour_XY_CorePressure.lean",
+   "line": 67,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n e : Nat} (hn : Even n) (he : 2 < e) : n ^ e % 8 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.flt4_eliminates_allFour",
+   "file": "open_math/Beal_Fermat_Mining.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hFLT4 : FLTAt 4) : AllFourEliminated"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.gcd_eq_one_of_no_common_prime",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 507,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{u v : Nat} (huPos : 0 < u) (hNo : ∀ p : Nat, IsPrime p → ¬ (p ∣ u ∧ p ∣ v)) : Nat.gcd u v = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.gcd_mul_eq_one_of_pairwise_gcd",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 605,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{A B C : Nat} (hAB : Nat.gcd A B = 1) (hAC : Nat.gcd A C = 1) : Nat.gcd A (B * C) = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.minCut_closes_beal",
+   "file": "open_math/Beal_Fermat_Mining.lean",
+   "line": 119,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(K : ReducedFamilyMinCut) : BealConjecture"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.minCut_closes_exact_remaining",
+   "file": "open_math/Beal_Fermat_Mining.lean",
+   "line": 105,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(K : ReducedFamilyMinCut) : ExactRemainingObligation"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.mod2_one_repr",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 31,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{e : Nat} (he : e % 2 = 1) : ∃ k : Nat, e = 2 * k + 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.neven_iff_mod2_one",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 16,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : (¬ Even n) ↔ n % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.notEven_iff_modTwo_eq_one",
+   "file": "open_math/Beal_TwoFour_XY_CorePressure.lean",
+   "line": 16,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : (¬ Even n) ↔ n % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.notEven_mod2_one",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 78,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : (¬ Even n) ↔ n % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.not_even_iff_mod_two_eq_one_core",
+   "file": "open_math/Beal_Core_Mod16.lean",
+   "line": 78,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : (¬ Even n) ↔ n % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oddBase_oddExponent_pow_mod8_eq_base",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{n e : Nat} (hn : n % 2 = 1) (he : e % 2 = 1) : n ^ e % 8 = n % 8"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oddEvenPow8",
+   "file": "open_math/Beal_AllOddPrime_CorePressure.lean",
+   "line": 35,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n e : Nat} (hn : Even n) (he : 2 < e) : n ^ e % 8 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oddExactlyOneEven",
+   "file": "open_math/Beal_AllOddPrime_CorePressure.lean",
+   "line": 21,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : ExactlyOneEven r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oddPrimeExponent_mod_two_eq_one",
+   "file": "open_math/Beal_Core_Mod16.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{p : Nat} (hp : OddPrimeExponent p) : p % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oddPrimeExponent_not_even",
+   "file": "open_math/Beal_Core_Mod16.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{p : Nat} (hp : OddPrimeExponent p) : ¬ Even p"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oddPrimeExponent_three_or_ge_five",
+   "file": "open_math/Beal_PrimeExponent_Split.lean",
+   "line": 18,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{p : Nat} (hp : OddPrimeExponent p) : p = 3 ∨ 5 ≤ p"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oddPrime_mod2_one",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 16,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{p : Nat} (hp : OddPrimeExponent p) : p % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oddResidue8",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 40,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n % 8 = 1 ∨ n % 8 = 3 ∨ n % 8 = 5 ∨ n % 8 = 7"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oddSquare_mod8",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 49,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n ^ 2 % 8 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.odd_fourth16",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 38,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n ^ 4 % 16 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.odd_fourth8",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 179,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n ^ 4 % 8 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.odd_fourth_mod16",
+   "file": "open_math/Beal_TwoFour_XY_CorePressure.lean",
+   "line": 48,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n ^ 4 % 16 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.odd_fourth_mod8",
+   "file": "open_math/Beal_TwoFour_XY_CorePressure.lean",
+   "line": 80,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n ^ 4 % 8 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.odd_fourth_mod_sixteen_core",
+   "file": "open_math/Beal_Core_Mod16.lean",
+   "line": 65,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n ^ 4 % 16 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.odd_pow_mod16_eq_fifteen_forces_base_fifteen_core",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 329,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{u e : Nat} (huOdd : u % 2 = 1) (heOdd : e % 2 = 1) (hpow : u ^ e % 16 = 15) : u % 16 = 15"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.odd_pow_mod16_eq_one_forces_base_one_core",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 203,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{u e : Nat} (huOdd : u % 2 = 1) (heOdd : e % 2 = 1) (hpow : u ^ e % 16 = 1) : u % 16 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.odd_res16",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 28,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n % 16 = 1 ∨ n % 16 = 3 ∨ n % 16 = 5 ∨ n % 16 = 7 ∨ n % 16 = 9 ∨ n % 16 = 11 ∨ n % 16 = 13 ∨ n % 16 = 15"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.odd_residue16",
+   "file": "open_math/Beal_TwoFour_XY_CorePressure.lean",
+   "line": 29,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n % 16 = 1 ∨ n % 16 = 3 ∨ n % 16 = 5 ∨ n % 16 = 7 ∨ n % 16 = 9 ∨ n % 16 = 11 ∨ n % 16 = 13 ∨ n % 16 = 15"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.odd_residue8",
+   "file": "open_math/Beal_TwoFour_XY_CorePressure.lean",
+   "line": 39,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n % 8 = 1 ∨ n % 8 = 3 ∨ n % 8 = 5 ∨ n % 8 = 7"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.odd_residue_mod_sixteen_split",
+   "file": "open_math/Beal_Core_Mod16.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n % 16 = 1 ∨ n % 16 = 3 ∨ n % 16 = 5 ∨ n % 16 = 7 ∨ n % 16 = 9 ∨ n % 16 = 11 ∨ n % 16 = 13 ∨ n % 16 = 15"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.ofepEvenPow8",
+   "file": "open_math/Beal_OneFourEqual_CorePressure.lean",
+   "line": 78,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n e : Nat} (hn : Even n) (he : 2 < e) : n ^ e % 8 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.ofepExactlyOneEven",
+   "file": "open_math/Beal_OneFourEqual_CorePressure.lean",
+   "line": 31,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : ExactlyOneEven r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.ofepNotEven_mod2_one",
+   "file": "open_math/Beal_OneFourEqual_CorePressure.lean",
+   "line": 45,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : (¬ Even n) ↔ n % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.ofepOddFourth8",
+   "file": "open_math/Beal_OneFourEqual_CorePressure.lean",
+   "line": 67,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n ^ 4 % 8 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.ofepOddResidue8",
+   "file": "open_math/Beal_OneFourEqual_CorePressure.lean",
+   "line": 58,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n % 8 = 1 ∨ n % 8 = 3 ∨ n % 8 = 5 ∨ n % 8 = 7"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.ofep_pow_mod_congr",
+   "file": "open_math/Beal_OneFourEqual_CorePressure.lean",
+   "line": 6,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b m e : Nat} (h : a % m = b % m) : a ^ e % m = b ^ e % m"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.ofg_pow_mod_congr",
+   "file": "open_math/Beal_OneFour_GenericPressure.lean",
+   "line": 6,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b m e : Nat} (h : a % m = b % m) : a ^ e % m = b ^ e % m"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFourDistinct_forces_generic_pressure",
+   "file": "open_math/Beal_OneFour_GenericPressure.lean",
+   "line": 245,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (h : OneFourDistinctPrimes r.x r.y r.z) : OneFourGenericPressure r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFourDistinct_inconsistent",
+   "file": "open_math/Beal_BilateralMinCut.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hPos : ∀ r : ReducedPrimitiveCandidate, OneFourDistinctPrimes r.x r.y r.z → False) (hNeg : AntiOneFourDistinct) : False"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFourEqualPrimes_forces_residue_pressure",
+   "file": "open_math/Beal_OneFourEqual_CorePressure.lean",
+   "line": 256,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (h : OneFourEqualPrimes r.x r.y r.z) : OneFourEqualResiduePressure r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFourEqual_forces_generic_pressure",
+   "file": "open_math/Beal_OneFour_GenericPressure.lean",
+   "line": 236,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (h : OneFourEqualPrimes r.x r.y r.z) : OneFourGenericPressure r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFourEqual_inconsistent",
+   "file": "open_math/Beal_BilateralMinCut.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hPos : ∀ r : ReducedPrimitiveCandidate, OneFourEqualPrimes r.x r.y r.z → False) (hNeg : AntiOneFourEqual) : False"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFourEqual_x_pressure",
+   "file": "open_math/Beal_OneFourEqual_CorePressure.lean",
+   "line": 100,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (p : Nat) (hx : r.x = 4) (hy : r.y = p) (hz : r.z = p) (hp : OddPrimeExponent p) : OneFourEqualXPressure r p"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFourEqual_y_pressure",
+   "file": "open_math/Beal_OneFourEqual_CorePressure.lean",
+   "line": 151,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (p : Nat) (hy : r.y = 4) (hx : r.x = p) (hz : r.z = p) (hp : OddPrimeExponent p) : OneFourEqualYPressure r p"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFourEqual_z_pressure",
+   "file": "open_math/Beal_OneFourEqual_CorePressure.lean",
+   "line": 201,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (p : Nat) (hz : r.z = 4) (hx : r.x = p) (hy : r.y = p) (hp : OddPrimeExponent p) : OneFourEqualZPressure r p"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFourExactlyOneEven",
+   "file": "open_math/Beal_OneFour_GenericPressure.lean",
+   "line": 31,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : ExactlyOneEven r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFour_evenPow8",
+   "file": "open_math/Beal_OneFour_GenericPressure.lean",
+   "line": 77,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n e : Nat} (hn : Even n) (he : 2 < e) : n ^ e % 8 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFour_notEven_mod2_one",
+   "file": "open_math/Beal_OneFour_GenericPressure.lean",
+   "line": 45,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : (¬ Even n) ↔ n % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFour_oddFourth8",
+   "file": "open_math/Beal_OneFour_GenericPressure.lean",
+   "line": 66,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n ^ 4 % 8 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFour_oddResidue8",
+   "file": "open_math/Beal_OneFour_GenericPressure.lean",
+   "line": 57,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n % 8 = 1 ∨ n % 8 = 3 ∨ n % 8 = 5 ∨ n % 8 = 7"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFour_x_generic_pressure",
+   "file": "open_math/Beal_OneFour_GenericPressure.lean",
+   "line": 95,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) : OneFourXGenericPressure r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFour_y_generic_pressure",
+   "file": "open_math/Beal_OneFour_GenericPressure.lean",
+   "line": 142,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hy : r.y = 4) : OneFourYGenericPressure r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.oneFour_z_generic_pressure",
+   "file": "open_math/Beal_OneFour_GenericPressure.lean",
+   "line": 189,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hz : r.z = 4) : OneFourZGenericPressure r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.pos_of_pow_pos_local",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 957,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{u p : Nat} (hp : 0 < p) (h : 0 < u ^ p) : 0 < u"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.pow_mod_congr_local",
+   "file": "open_math/Beal_Core_Mod16.lean",
+   "line": 6,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b m e : Nat} (h : a % m = b % m) : a ^ e % m = b ^ e % m"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.pow_square_swap",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 860,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(u p : Nat) : (u ^ p) ^ 2 = (u ^ 2) ^ p"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.primeFLT_eliminates_equalOddPrime",
+   "file": "open_math/Beal_Fermat_Mining.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hPrimeFLT : ∀ p : Nat, OddPrimeExponent p → FLTAt p) : EqualOddPrimeEliminated"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.primePairSplitter_quartic_triple",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 818,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hPair : CoprimePairPrimePowerSplitting) (A B C b p : Nat) (hp : OddPrimeExponent p) (hAB : Nat.gcd A B = 1) (hAC : Nat.gcd A C = 1) (hBC : Nat.gcd B C = 1) (hpow : b ^ p = A * (B * C)) : ∃ u v w : Nat, A = u ^ p ∧ B = v ^ p ∧ C = w ^ p"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.prime_ne_two_of_odd_divisor",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 496,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{p n : Nat} (hp : IsPrime p) (hnOdd : n % 2 = 1) (hpn : p ∣ n) : p ≠ 2"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.projectPrime_ne_four",
+   "file": "open_math/Beal_PrimeExponent_Split.lean",
+   "line": 6,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{p : Nat} (hp : IsPrime p) : p ≠ 4"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.quarticExactlyOneEven",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 449,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : ExactlyOneEven r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.quarticPairwise",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 152,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : PairwisePrimitive r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.quartic_even_pow_mod8",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1206,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n e : Nat} (hn : Even n) (he : 2 < e) : n ^ e % 8 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.quartic_gcd3_eq_one",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1433,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : Nat.gcd r.a (Nat.gcd r.b r.c) = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.quartic_gcd_ac_eq_one",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1487,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : Nat.gcd r.c r.a = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.quartic_gcd_bc_eq_one",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1495,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : Nat.gcd r.c r.b = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.quartic_mod2_one_repr",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1307,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{e : Nat} (he : e % 2 = 1) : ∃ k : Nat, e = 2 * k + 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.quartic_notEven_mod2_one",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 436,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : (¬ Even n) ↔ n % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.quartic_oddPrime_mod2_one",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1293,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{p : Nat} (hp : OddPrimeExponent p) : p % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.quartic_odd_fourth_mod8",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1189,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n ^ 4 % 8 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.quartic_odd_pow_mod8_eq_base",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1333,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n e : Nat} (hn : n % 2 = 1) (he : e % 2 = 1) : n ^ e % 8 = n % 8"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.quartic_odd_square_mod8",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1316,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n ^ 2 % 8 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.quartic_pow_mod_congr_local",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1176,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b m e : Nat} (h : a % m = b % m) : a ^ e % m = b ^ e % m"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reducedCandidate_exponent_regimes",
+   "file": "open_math/Beal_PrimeExponent_Split.lean",
+   "line": 48,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(r : ReducedPrimitiveCandidate) : (r.x = 4 ∨ r.x = 3 ∨ (IsPrime r.x ∧ 5 ≤ r.x)) ∧ (r.y = 4 ∨ r.y = 3 ∨ (IsPrime r.y ∧ 5 ≤ r.y)) ∧ (r.z = 4 ∨ r.z = 3 ∨ (IsPrime r.z ∧ 5 ≤ r.z))"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reducedExactlyOneEven",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 71,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : ExactlyOneEven r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reducedExponent_trichotomy",
+   "file": "open_math/Beal_PrimeExponent_Split.lean",
+   "line": 32,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{r : Nat} (hr : ReducedExponent r) : r = 4 ∨ r = 3 ∨ (IsPrime r ∧ 5 ≤ r)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_exactlyOneEven",
+   "file": "open_math/Beal_Reduced_ParityPressure.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : ExactlyOneEven r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_forces_mod8_parity_pressure",
+   "file": "open_math/Beal_AllOddPrime_CorePressure.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : ReducedMod8ParityPressure r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_gcd_ab_eq_one",
+   "file": "open_math/Beal_Reduced_GCDPressure.lean",
+   "line": 44,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : Nat.gcd r.a r.b = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_gcd_ac_eq_one",
+   "file": "open_math/Beal_Reduced_GCDPressure.lean",
+   "line": 64,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : Nat.gcd r.a r.c = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_gcd_bc_eq_one",
+   "file": "open_math/Beal_Reduced_GCDPressure.lean",
+   "line": 84,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : Nat.gcd r.b r.c = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_noCommonPrime",
+   "file": "open_math/Beal_Reduced_ParityPressure.lean",
+   "line": 59,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : ¬ CommonPrime r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_pairwisePrimitive",
+   "file": "open_math/Beal_Reduced_ParityPressure.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : PairwisePrimitive r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_pairwisePrimitive_core",
+   "file": "open_math/Beal_Reduced_GCDPressure.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : PairwisePrimitive r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_pairwise_gcd_packet",
+   "file": "open_math/Beal_Reduced_GCDPressure.lean",
+   "line": 104,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : Nat.gcd r.a r.b = 1 ∧ Nat.gcd r.a r.c = 1 ∧ Nat.gcd r.b r.c = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_x_eq_z_exact_factor",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hxz : r.x = r.z) : r.b ^ r.y = (r.c - r.a) * CoreDiffQuot r.c r.a r.x"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xy_four_c_even_impossible",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1219,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hy : r.y = 4) (hc : Even r.c) : False"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xy_four_prime_orbit_pressure",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1368,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hy : r.y = 4) (hzPrime : OddPrimeExponent r.z) : XYFourPrimeOrbitPressure r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xy_four_prime_to_primitive_quartic_sum",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1458,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hy : r.y = 4) (hzPrime : OddPrimeExponent r.z) : Nonempty (PrimitiveQuarticSumPrimeSolution r.z)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xz_four_a_even_block_gcd_packet",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 532,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) (ha : Even r.a) : Nat.gcd (r.c - r.a) (r.c + r.a) = 1 ∧ Nat.gcd (r.c - r.a) (r.c ^ 2 + r.a ^ 2) = 1 ∧ Nat.gcd (r.c + r.a) (r.c ^ 2 + r.a ^ 2) = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xz_four_a_even_blocks_odd",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 454,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) (ha : Even r.a) : (r.c - r.a) % 2 = 1 ∧ (r.c + r.a) % 2 = 1 ∧ (r.c ^ 2 + r.a ^ 2) % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xz_four_a_even_eliminated_of_denes",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1087,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hDenes : DenesOddPrimePrimitiveExclusion) (r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) (hy : OddPrimeExponent r.y) (ha : Even r.a) : False"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xz_four_a_even_to_denes_equation",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 866,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hPair : CoprimePairPrimePowerSplitting) (r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) (hy : OddPrimeExponent r.y) (ha : Even r.a) : ∃ X Y Z : Nat, X ^ r.y + Y ^ r.y = 2 * Z ^ r.y"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xz_four_a_even_to_primitive_denes_resolved",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 986,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) (hy : OddPrimeExponent r.y) (ha : Even r.a) : Nonempty (PrimitiveDenesSolutionCore r.y)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xz_four_add_prime_supports_b",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 179,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) {p : Nat} (hp : IsPrime p) (hdiv : p ∣ r.c + r.a) : p ∣ r.b"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xz_four_add_quad_odd_prime_disjoint",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 361,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) {p : Nat} (hp : IsPrime p) (hp2 : p ≠ 2) : ¬ (p ∣ r.c + r.a ∧ p ∣ r.c ^ 2 + r.a ^ 2)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xz_four_exact_factorization",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 92,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) : r.b ^ r.y = (r.c - r.a) * ((r.c + r.a) * (r.c ^ 2 + r.a ^ 2))"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xz_four_linear_odd_prime_disjoint",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 213,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) {p : Nat} (hp : IsPrime p) (hp2 : p ≠ 2) : ¬ (p ∣ r.c - r.a ∧ p ∣ r.c + r.a)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xz_four_quad_prime_supports_b",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 196,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) {p : Nat} (hp : IsPrime p) (hdiv : p ∣ r.c ^ 2 + r.a ^ 2) : p ∣ r.b"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xz_four_sub_prime_supports_b",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 164,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) {p : Nat} (hp : IsPrime p) (hdiv : p ∣ r.c - r.a) : p ∣ r.b"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xz_four_sub_quad_odd_prime_disjoint",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 304,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) {p : Nat} (hp : IsPrime p) (hp2 : p ≠ 2) : ¬ (p ∣ r.c - r.a ∧ p ∣ r.c ^ 2 + r.a ^ 2)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xz_four_three_block_odd_prime_separation",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 417,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) {p : Nat} (hp : IsPrime p) (hp2 : p ≠ 2) : ¬ (p ∣ r.c - r.a ∧ p ∣ r.c + r.a) ∧ ¬ (p ∣ r.c - r.a ∧ p ∣ r.c ^ 2 + r.a ^ 2) ∧ ¬ (p ∣ r.c + r.a ∧ p ∣ r.c ^ 2 + r.a ^ 2)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_xz_four_to_primitive_quartic_difference",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1503,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) (hyPrime : OddPrimeExponent r.y) : Nonempty (PrimitiveQuarticDifferencePrimeSolution r.y)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_y_eq_z_exact_factor",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hyz : r.y = r.z) : r.a ^ r.x = (r.c - r.b) * CoreDiffQuot r.c r.b r.y"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_yz_four_add_prime_supports_a",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 265,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hy : r.y = 4) (hz : r.z = 4) {p : Nat} (hp : IsPrime p) (hdiv : p ∣ r.c + r.b) : p ∣ r.a"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_yz_four_b_even_eliminated_of_denes",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1161,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hDenes : DenesOddPrimePrimitiveExclusion) (r : ReducedPrimitiveCandidate) (hy : r.y = 4) (hz : r.z = 4) (hxPrime : OddPrimeExponent r.x) (hb : Even r.b) : False"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_yz_four_b_even_to_primitive_denes_resolved",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1140,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hy : r.y = 4) (hz : r.z = 4) (hxPrime : OddPrimeExponent r.x) (hb : Even r.b) : Nonempty (PrimitiveDenesSolutionCore r.x)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_yz_four_exact_factorization",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 106,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hy : r.y = 4) (hz : r.z = 4) : r.a ^ r.x = (r.c - r.b) * ((r.c + r.b) * (r.c ^ 2 + r.b ^ 2))"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_yz_four_quad_prime_supports_a",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 281,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hy : r.y = 4) (hz : r.z = 4) {p : Nat} (hp : IsPrime p) (hdiv : p ∣ r.c ^ 2 + r.b ^ 2) : p ∣ r.a"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_yz_four_sub_prime_supports_a",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 250,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hy : r.y = 4) (hz : r.z = 4) {p : Nat} (hp : IsPrime p) (hdiv : p ∣ r.c - r.b) : p ∣ r.a"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.reduced_yz_four_to_primitive_quartic_difference",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1523,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hy : r.y = 4) (hz : r.z = 4) (hxPrime : OddPrimeExponent r.x) : Nonempty (PrimitiveQuarticDifferencePrimeSolution r.x)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.splitter_gcd_one_for_divisor_left",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 691,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{A A1 B : Nat} (hA1 : A1 ∣ A) (hAB : Nat.gcd A B = 1) : Nat.gcd A1 B = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.splitter_gcd_one_of_two_divisors",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 913,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{A A' B B' : Nat} (hA : A' ∣ A) (hB : B' ∣ B) (hAB : Nat.gcd A B = 1) : Nat.gcd A' B' = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.splitter_pow_factor",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 703,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{q b b1 p : Nat} (hb : b = q * b1) : b ^ p = q ^ p * b1 ^ p"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.splitter_pow_two_dvd_pow_prime",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 903,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{u p : Nat} (hp : 2 < p) : u ^ 2 ∣ u ^ p"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.splitter_prime_pow_dvd_left",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 653,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{q A B k : Nat} (hq : IsPrime q) (hqB : ¬ q ∣ B) (h : q ^ k ∣ A * B) : q ^ k ∣ A"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.square_injective_pos",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 927,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{u v : Nat} (hu : 0 < u) (hv : 0 < v) (h : u ^ 2 = v ^ 2) : u = v"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.swapAB_a",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1127,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : (ReducedPrimitiveCandidate.swapAB r).a = r.b"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.swapAB_b",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1130,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : (ReducedPrimitiveCandidate.swapAB r).b = r.a"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.swapAB_c",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1132,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : (ReducedPrimitiveCandidate.swapAB r).c = r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.swapAB_x",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1134,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : (ReducedPrimitiveCandidate.swapAB r).x = r.y"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.swapAB_y",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1136,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : (ReducedPrimitiveCandidate.swapAB r).y = r.x"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.swapAB_z",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1138,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : (ReducedPrimitiveCandidate.swapAB r).z = r.z"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.threeDistinctOddPrimes_forces_base_pressure",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 224,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (h : ThreeDistinctOddPrimes r.x r.y r.z) : AllOddPrimeBasePressure r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.threeDistinctOddPrimes_forces_pressure",
+   "file": "open_math/Beal_AllOddPrime_CorePressure.lean",
+   "line": 103,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (h : ThreeDistinctOddPrimes r.x r.y r.z) : ThreeDistinctOddPrimePressure r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.threeDistinctOdd_inconsistent",
+   "file": "open_math/Beal_BilateralMinCut.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hPos : ∀ r : ReducedPrimitiveCandidate, ThreeDistinctOddPrimes r.x r.y r.z → False) (hNeg : AntiThreeDistinctOdd) : False"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoEqualOddPrimes_forces_base_pressure",
+   "file": "open_math/Beal_AllOddPrime_BasePressure.lean",
+   "line": 208,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (h : TwoEqualOddPrimes r.x r.y r.z) : AllOddPrimeBasePressure r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoEqualOddPrimes_forces_pressure",
+   "file": "open_math/Beal_AllOddPrime_CorePressure.lean",
+   "line": 91,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (h : TwoEqualOddPrimes r.x r.y r.z) : TwoEqualOddPrimePressure r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoEqualOdd_inconsistent",
+   "file": "open_math/Beal_BilateralMinCut.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hPos : ∀ r : ReducedPrimitiveCandidate, TwoEqualOddPrimes r.x r.y r.z → False) (hNeg : AntiTwoEqualOdd) : False"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFourPrime_eliminated_of_quartic_exclusions",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1558,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hSum : PrimitiveQuarticSumPrimeExclusion) (hDiff : PrimitiveQuarticDifferencePrimeExclusion) : ∀ r : ReducedPrimitiveCandidate, TwoFourPrime r.x r.y r.z → False"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFourPrime_forces_residue_pressure",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 281,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (h : TwoFourPrime r.x r.y r.z) : TwoFourResiduePressure r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFourPrime_inconsistent",
+   "file": "open_math/Beal_BilateralMinCut.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hPos : ∀ r : ReducedPrimitiveCandidate, TwoFourPrime r.x r.y r.z → False) (hNeg : AntiTwoFourPrime) : False"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFourPrime_reduces_to_three_orbits_of_denes",
+   "file": "open_math/Beal_Quartic_CoreFactorization.lean",
+   "line": 1261,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hDenes : DenesOddPrimePrimitiveExclusion) (r : ReducedPrimitiveCandidate) (h : TwoFourPrime r.x r.y r.z) : TwoFourResidualOrbit r"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFour_xy_rhs_not_even",
+   "file": "open_math/Beal_TwoFour_XY_CorePressure.lean",
+   "line": 123,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hy : r.y = 4) : ¬ Even r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFour_xy_rhs_not_even_atlas",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 207,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hy : r.y = 4) : ¬ Even r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFour_xy_rhs_pow_mod16",
+   "file": "open_math/Beal_TwoFour_XY_CorePressure.lean",
+   "line": 152,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hy : r.y = 4) : r.c ^ r.z % 16 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFour_xy_rhs_pow_mod16_atlas",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 235,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hy : r.y = 4) : r.c ^ r.z % 16 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFour_xz_b_even_pow_mod16_zero",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 405,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) (hb : Even r.b) : r.b ^ r.y % 16 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFour_xz_b_even_prime_split",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 460,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) (hyPrime : OddPrimeExponent r.y) (hb : Even r.b) : (r.y = 3 ∧ r.b % 4 = 0) ∨ 5 ≤ r.y"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFour_xz_c_even_forces_b_mod16_fifteen",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 367,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) (hyPrime : OddPrimeExponent r.y) (hc : Even r.c) : r.b % 16 = 15"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFour_xz_residue_atlas",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 85,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hz : r.z = 4) : (Even r.a → r.b ^ r.y % 16 = 1) ∧ (Even r.b → r.a ^ 4 % 16 = 1) ∧ (Even r.c → r.b ^ r.y % 16 = 15)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFour_yz_a_even_prime_split",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 482,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hy : r.y = 4) (hz : r.z = 4) (hxPrime : OddPrimeExponent r.x) (ha : Even r.a) : (r.x = 3 ∧ r.a % 4 = 0) ∨ 5 ≤ r.x"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFour_yz_c_even_forces_a_mod16_fifteen",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 386,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hy : r.y = 4) (hz : r.z = 4) (hxPrime : OddPrimeExponent r.x) (hc : Even r.c) : r.a % 16 = 15"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.twoFour_yz_residue_atlas",
+   "file": "open_math/Beal_TwoFour_Atlas_Core.lean",
+   "line": 132,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hy : r.y = 4) (hz : r.z = 4) : (Even r.a → r.b ^ 4 % 16 = 1) ∧ (Even r.b → r.a ^ r.x % 16 = 1) ∧ (Even r.c → r.a ^ r.x % 16 = 15)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xyFreyExactlyOneEven",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 51,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : ExactlyOneEven r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xyFreyPairwise",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 39,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : PairwisePrimitive r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xyFrey_dvd_add",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 353,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{q u v : Nat} (hu : q ∣ u) (hv : q ∣ v) : q ∣ u + v"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xyFrey_dvd_mul_left",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 335,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{q u v : Nat} (h : q ∣ u) : q ∣ u * v"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xyFrey_dvd_mul_right",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 344,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{q u v : Nat} (h : q ∣ v) : q ∣ u * v"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xyFrey_even_pow8",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 134,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n e : Nat} (hn : Even n) (he : 2 < e) : n ^ e % 8 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xyFrey_gcd_ab",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 56,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : Nat.gcd r.a r.b = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xyFrey_gcd_ac",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 75,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : Nat.gcd r.a r.c = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xyFrey_gcd_bc",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 94,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : Nat.gcd r.b r.c = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xyFrey_notEven_mod2_one",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 174,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : (¬ Even n) ↔ n % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xyFrey_not_dvd_other_of_gcd_one",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 248,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{q u v : Nat} (hq : IsPrime q) (hu : q ∣ u) (hG : Nat.gcd u v = 1) : ¬ q ∣ v"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xyFrey_odd_fourth8",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 157,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n ^ 4 % 8 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xyFrey_pow_mod_congr",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 147,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b m e : Nat} (h : a % m = b % m) : a ^ e % m = b ^ e % m"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xyFrey_rhs_not_even",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 187,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hy : r.y = 4) : ¬ Even r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xy_four_frey_discriminant_normal_form",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 228,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hy : r.y = 4) : XYFreyDiscriminantBeal r.a r.b r.c r.x r.y r.z = 16 * r.a ^ 8 * r.b ^ 8 * r.c ^ (2 * r.z)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xy_four_prime_forces_c_mod16_one",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 245,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hy : r.y = 4) (hzPrime : OddPrimeExponent r.z) : r.c % 16 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xy_frey_discriminant_rewrite",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b c x y z : Nat} (heq : a ^ x + b ^ y = c ^ z) : XYFreyDiscriminantKernel a b x y = XYFreyDiscriminantBeal a b c x y z"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xy_frey_odd_bad_prime_divides_a_or_b_or_c",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 260,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) {q : Nat} (hq : IsPrime q) (hq2 : q ≠ 2) (hDelta : q ∣ XYFreyDiscriminantBeal r.a r.b r.c r.x r.y r.z) : q ∣ r.a ∨ q ∣ r.b ∨ q ∣ r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xy_frey_odd_bad_prime_exactly_one_base",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 295,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) {q : Nat} (hq : IsPrime q) (hq2 : q ≠ 2) (hDelta : q ∣ XYFreyDiscriminantBeal r.a r.b r.c r.x r.y r.z) : (q ∣ r.a ∧ ¬ q ∣ r.b ∧ ¬ q ∣ r.c) ∨ (q ∣ r.b ∧ ¬ q ∣ r.a ∧ ¬ q ∣ r.c) ∨ (q ∣ r.c ∧ ¬ q ∣ r.a ∧ ¬ q ∣ r.b)"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xy_frey_odd_bad_prime_not_dvd_c4",
+   "file": "open_math/Beal_TwoFour_XY_FreyArithmetic.lean",
+   "line": 363,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) {q : Nat} (hq : IsPrime q) (hq2 : q ≠ 2) (hDelta : q ∣ XYFreyDiscriminantBeal r.a r.b r.c r.x r.y r.z) : ¬ q ∣ XYFreyC4Kernel r.a r.b r.x r.y"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xycpExactlyOneEven",
+   "file": "open_math/Beal_TwoFour_XY_CorePressure.lean",
+   "line": 118,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : ExactlyOneEven r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xycpPairwise",
+   "file": "open_math/Beal_TwoFour_XY_CorePressure.lean",
+   "line": 106,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : PairwisePrimitive r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xycp_pow_mod_congr",
+   "file": "open_math/Beal_TwoFour_XY_CorePressure.lean",
+   "line": 6,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b m e : Nat} (h : a % m = b % m) : a ^ e % m = b ^ e % m"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xysExactlyOneEven",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 116,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : ExactlyOneEven r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xysPairwise",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 105,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) : PairwisePrimitive r.a r.b r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xys_even_fourth16",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 58,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : Even n) : n ^ 4 % 16 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xys_even_pow8",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 77,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n e : Nat} (hn : Even n) (he : 2 < e) : n ^ e % 8 = 0"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xys_exp_mod4_repr",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 180,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{e r : Nat} (hr : e % 4 = r) : ∃ k : Nat, e = r + 4 * k"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xys_notEven_mod2_one",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 16,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : (¬ Even n) ↔ n % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xys_odd_exp_mod4_split",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 171,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{e : Nat} (he : e % 2 = 1) : e % 4 = 1 ∨ e % 4 = 3"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xys_odd_fourth16",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 47,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n ^ 4 % 16 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xys_odd_fourth8",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 66,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n ^ 4 % 8 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xys_odd_pow_reduce_mod4",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 189,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{u e r : Nat} (huOdd : u % 2 = 1) (hr : e % 4 = r) : u ^ e % 16 = u ^ r % 16"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xys_odd_residue16",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 28,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n % 16 = 1 ∨ n % 16 = 3 ∨ n % 16 = 5 ∨ n % 16 = 7 ∨ n % 16 = 9 ∨ n % 16 = 11 ∨ n % 16 = 13 ∨ n % 16 = 15"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xys_odd_residue8",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 38,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : n % 2 = 1) : n % 8 = 1 ∨ n % 8 = 3 ∨ n % 8 = 5 ∨ n % 8 = 7"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xys_pow_mod_congr",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 6,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b m e : Nat} (h : a % m = b % m) : a ^ e % m = b ^ e % m"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xys_rhs_not_even",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 120,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hy : r.y = 4) : ¬ Even r.c"
+  },
+  {
+   "name": "MCore.BealEffective.OpenMath.xys_rhs_pow16",
+   "file": "open_math/Beal_TwoFour_XY_SharpCore.lean",
+   "line": 145,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : ReducedPrimitiveCandidate) (hx : r.x = 4) (hy : r.y = 4) : r.c ^ r.z % 16 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.ab_pair_forces_common",
+   "file": "lean/MCore/BealEffective/PrimitiveConsequences.lean",
+   "line": 69,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), (∃ q, MCore.BealEffective.PairCommonDivisor q d.a d.b) → ∃ p, MCore.CommonDivisor p d.a d.b d.c"
+  },
+  {
+   "name": "MCore.BealEffective.ac_pair_forces_common",
+   "file": "lean/MCore/BealEffective/PrimitiveConsequences.lean",
+   "line": 84,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), (∃ q, MCore.BealEffective.PairCommonDivisor q d.a d.c) → ∃ p, MCore.CommonDivisor p d.a d.b d.c"
+  },
+  {
+   "name": "MCore.BealEffective.all_gcd3_ne_one_iff_beal",
+   "file": "lean/MCore/BealEffective/ExactRemainingObligation.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(∀ (d : MCore.BealData), MCore.BealEffective.gcd3 d ≠ 1) ↔ MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.BealEffective.all_gcd3_ne_one_iff_exact_remaining",
+   "file": "lean/MCore/BealEffective/ExactRemainingObligation.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(∀ (d : MCore.BealData), MCore.BealEffective.gcd3 d ≠ 1) ↔ MCore.BealEffective.ExactRemainingObligation"
+  },
+  {
+   "name": "MCore.BealEffective.bc_pair_forces_common",
+   "file": "lean/MCore/BealEffective/PrimitiveConsequences.lean",
+   "line": 105,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), (∃ q, MCore.BealEffective.PairCommonDivisor q d.b d.c) → ∃ p, MCore.CommonDivisor p d.a d.b d.c"
+  },
+  {
+   "name": "MCore.BealEffective.concrete_counterexample_refutes_remaining",
+   "file": "lean/MCore/BealEffectiveKernel.lean",
+   "line": 78,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {d : MCore.BealData}, MCore.BealCounterexample d → ¬MCore.BealEffective.ExactRemainingObligation"
+  },
+  {
+   "name": "MCore.BealEffective.counterexample_gives_failed_lowerBound",
+   "file": "lean/MCore/BealEffectiveKernel.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), MCore.BealCounterexample d → ¬1 < MCore.BealEffective.gcd3 d"
+  },
+  {
+   "name": "MCore.BealEffective.dvd_pow_of_dvd",
+   "file": "lean/MCore/BealEffective/PrimitiveConsequences.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p a n : Nat}, 0 < n → p ∣ a → p ∣ a ^ n"
+  },
+  {
+   "name": "MCore.BealEffective.exact_remaining_closes_beal",
+   "file": "lean/MCore/BealEffectiveKernel.lean",
+   "line": 71,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealEffective.ExactRemainingObligation → MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.BealEffective.exact_remaining_iff_gcdLowerBoundProducer",
+   "file": "lean/MCore/BealEffectiveKernel.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealEffective.ExactRemainingObligation ↔ MCore.GCDLowerBoundProducer"
+  },
+  {
+   "name": "MCore.BealEffective.exactlyOneEven_of_pairwise",
+   "file": "lean/MCore/BealEffective/PrimitiveConsequences.lean",
+   "line": 201,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData),   MCore.BealEffective.PairwisePrimitive d.a d.b d.c → MCore.BealEffective.ExactlyOneEven d.a d.b d.c"
+  },
+  {
+   "name": "MCore.BealEffective.exponent_reduction",
+   "file": "lean/MCore/BealEffective/ReducedFamilies.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {n : Nat}, 2 < n → MCore.BealEffective.ExponentReduces n"
+  },
+  {
+   "name": "MCore.BealEffective.failed_lowerBound_gives_counterexample",
+   "file": "lean/MCore/BealEffectiveKernel.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), ¬1 < MCore.BealEffective.gcd3 d → MCore.BealCounterexample d"
+  },
+  {
+   "name": "MCore.BealEffective.failed_lowerBound_profiles",
+   "file": "lean/MCore/BealEffective/PrimitiveConsequences.lean",
+   "line": 226,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), ¬1 < MCore.BealEffective.gcd3 d → MCore.BealEffective.PrimitiveCounterexampleProfile d"
+  },
+  {
+   "name": "MCore.BealEffective.failed_lowerBound_seven_family",
+   "file": "lean/MCore/BealEffective/ReducedFamilies.lean",
+   "line": 290,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), ¬1 < MCore.BealEffective.gcd3 d → ∃ r, MCore.BealEffective.SevenFamilySplit r.x r.y r.z"
+  },
+  {
+   "name": "MCore.BealEffective.failed_lowerBound_to_reduced",
+   "file": "lean/MCore/BealEffective/ReducedFamilies.lean",
+   "line": 89,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), ¬1 < MCore.BealEffective.gcd3 d → Nonempty MCore.BealEffective.ReducedPrimitiveCandidate"
+  },
+  {
+   "name": "MCore.BealEffective.gcd3_eq_one_of_not_lowerBound",
+   "file": "lean/MCore/BealEffectiveKernel.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), ¬1 < MCore.BealEffective.gcd3 d → MCore.BealEffective.gcd3 d = 1"
+  },
+  {
+   "name": "MCore.BealEffective.gcd3_ne_one_iff_commonPrime",
+   "file": "lean/MCore/BealEffective/ExactRemainingObligation.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), MCore.BealEffective.gcd3 d ≠ 1 ↔ MCore.CommonPrime d.a d.b d.c"
+  },
+  {
+   "name": "MCore.BealEffective.gcd3_ne_one_iff_lowerBound",
+   "file": "lean/MCore/BealEffective/ExactRemainingObligation.lean",
+   "line": 5,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), MCore.BealEffective.gcd3 d ≠ 1 ↔ 1 < MCore.BealEffective.gcd3 d"
+  },
+  {
+   "name": "MCore.BealEffective.gcd3_pos",
+   "file": "lean/MCore/BealEffectiveKernel.lean",
+   "line": 9,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), 0 < MCore.BealEffective.gcd3 d"
+  },
+  {
+   "name": "MCore.BealEffective.lowerBound_iff_commonPrime",
+   "file": "lean/MCore/BealEffectiveKernel.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), 1 < MCore.BealEffective.gcd3 d ↔ MCore.CommonPrime d.a d.b d.c"
+  },
+  {
+   "name": "MCore.BealEffective.not_even_iff_mod_two_eq_one",
+   "file": "lean/MCore/BealEffective/PrimitiveConsequences.lean",
+   "line": 153,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : (¬ Even n) ↔ n % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.oddPrime_of_reduced_ne_four",
+   "file": "lean/MCore/BealEffective/ReducedFamilies.lean",
+   "line": 182,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{r : Nat} (hr : ReducedExponent r) (hne : r ≠ 4) : OddPrimeExponent r"
+  },
+  {
+   "name": "MCore.BealEffective.odd_pow_mod_two",
+   "file": "lean/MCore/BealEffective/PrimitiveConsequences.lean",
+   "line": 165,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{a n : Nat} (ha : a % 2 = 1) : a ^ n % 2 = 1"
+  },
+  {
+   "name": "MCore.BealEffective.pairwisePrimitive_of_gcd3_eq_one",
+   "file": "lean/MCore/BealEffective/PrimitiveConsequences.lean",
+   "line": 126,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), MCore.BealEffective.gcd3 d = 1 → MCore.BealEffective.PairwisePrimitive d.a d.b d.c"
+  },
+  {
+   "name": "MCore.BealEffective.pow_mul_outer",
+   "file": "lean/MCore/BealEffective/ReducedFamilies.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (a k r : Nat), (a ^ k) ^ r = a ^ (k * r)"
+  },
+  {
+   "name": "MCore.BealEffective.powered_no_common",
+   "file": "lean/MCore/BealEffective/ReducedFamilies.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b c ka kb kc : Nat}, (¬∃ q, MCore.CommonDivisor q a b c) → ¬∃ q, MCore.CommonDivisor q (a ^ ka) (b ^ kb) (c ^ kc)"
+  },
+  {
+   "name": "MCore.BealEffective.prime_dvd_mul_local",
+   "file": "lean/MCore/BealEffective/PrimitiveConsequences.lean",
+   "line": 7,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p a b : Nat}, MCore.IsPrime p → p ∣ a * b → p ∣ a ∨ p ∣ b"
+  },
+  {
+   "name": "MCore.BealEffective.prime_dvd_pow_reflect",
+   "file": "lean/MCore/BealEffective/PrimitiveConsequences.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {p a n : Nat}, MCore.IsPrime p → p ∣ a ^ n → p ∣ a"
+  },
+  {
+   "name": "MCore.BealEffective.prime_not_dvd_one",
+   "file": "lean/MCore/BealEffective/PrimitiveConsequences.lean",
+   "line": 23,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{p : Nat} (hp : IsPrime p) : ¬ p ∣ 1"
+  },
+  {
+   "name": "MCore.BealEffective.reduced_signature_seven_family",
+   "file": "lean/MCore/BealEffective/ReducedFamilies.lean",
+   "line": 189,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x y z : Nat},   MCore.BealEffective.ReducedExponent x →     MCore.BealEffective.ReducedExponent y →       MCore.BealEffective.ReducedExponent z → MCore.BealEffective.SevenFamilySplit x y z"
+  },
+  {
+   "name": "MCore.BealEffective.some_base_even",
+   "file": "lean/MCore/BealEffective/PrimitiveConsequences.lean",
+   "line": 174,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), MCore.BealEffective.Even d.a ∨ MCore.BealEffective.Even d.b ∨ MCore.BealEffective.Even d.c"
+  },
+  {
+   "name": "MCore.BealEffective.terminal_pointwise_dichotomy",
+   "file": "lean/MCore/BealEffectiveKernel.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : MCore.BealData), 1 < MCore.BealEffective.gcd3 d ∨ MCore.BealCounterexample d"
+  },
+  {
+   "name": "MCore.BealEffective.two_factor_gt_one",
+   "file": "lean/MCore/BealEffective/ReducedFamilies.lean",
+   "line": 12,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{n k : Nat} (hk : n = 2 * k) (hn : 2 < n) : 1 < k"
+  }
+ ],
+ "closed": 138,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "ff71024013d8f21b4908035d9c3296be64c19b1a54ade041a62e9d7264a1a741",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BealEffective/ExactRemainingObligation.lean": "e51f28c12d915d3f3351cd60c159f021e3fa19b97decb1941cbc9906256f392c",
+  "lean/MCore/BealEffective/PrimitiveConsequences.lean": "b91955a5f8199f2de8f82aae079f6c025fa4fda5f5555c93e72e73acc1094e3f",
+  "lean/MCore/BealEffective/ReducedFamilies.lean": "7c3d774d27f8d8839141e3f63cfe4d8f90ac6f71aa7bfbe2ed59ec468093405e",
+  "lean/MCore/BealEffectiveKernel.lean": "f943e9ed78556a9eb99578d241bd91e71d0574c011ebe0b533c86cacdd16595c",
+  "lean/MCore/BealSpecification.lean": "6f880a8c71b13e46cfd2783a8d236ec03818ab7f379d0246dd2e5dfdfaf3a80a",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/GCDLowerBoundProducer.lean": "524c340829ede7037786a269987fd32587c5d22a7fed98078a3e4d3644fa34c8",
+  "lean/MCore/GCDSignature.lean": "3b763f780c5bbdd68b01acb1d233732448d38dfccda92339202b670a3dbcf0c7",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "f943d2541202fd0eecd99ae2539ca70ddbd59a9fd8438c2ed81046aa7e2441fb",
+  "lean/MCore/K10.lean": "53437ddea05e8fe41c63ebccba8211036998cab7b7ad3bb2bbb28b540ddc7f0c",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "0238d3ccaf8586df995d581e1b5528e362248b3cf570ce215cf9c7e5b5f3995e",
+  "lean/MCore/K8.lean": "b54676410879afbd8896e8196df63cd511c29973229010596e362e3bdecbf4cd",
+  "lean/MCore/K9.lean": "959c7c05f5c913be70bfc2ac6cc09c768f46b02dc9a82cec214363a7249b0975",
+  "lean/MCore/K9/Core/Arith.lean": "8b5e0a520afdec6b8a57e302ae16bac0ed24e874e8e775fb327cd7445abfac03",
+  "lean/MCore/Signature.lean": "b295056afe7d8b4832377e0cbc67ceede72688c344705474d3803dba5a0d15ad",
+  "open_math/Beal_ATK_ForcedQuestions.lean": "ff0920ede9c4460288e9abc2d6e23f66503beca2f80d8cc0d9c3d0d28daddc8a",
+  "open_math/Beal_AllOddPrime_BasePressure.lean": "5ab18c2a151223d401c145cdc57884b840c314534a3e5aad78f82beba0f07fe5",
+  "open_math/Beal_AllOddPrime_CorePressure.lean": "b47e2d9cedbe6b8071331d3a587ed21056660f719bda45221d566a4b118a793d",
+  "open_math/Beal_BilateralMinCut.lean": "b8396cfa058ace1073595ac733b1d52115563b3b3d1eabe6de88fb0d8383e0b0",
+  "open_math/Beal_Core_Mod16.lean": "8e4d79f9a0e807db8e13aa7844073c4864c40262680bf191c5995c3060ea260e",
+  "open_math/Beal_Fermat_Mining.lean": "b2ac76562e2df9289873df5e4b1996f5b2afbf3ae443b1f11f3a42fb9a9581d7",
+  "open_math/Beal_OneFourEqual_CorePressure.lean": "cd7b8c8843be6e241ce9d058701800e9eb21fed477b688acc8c2335b37ad2302",
+  "open_math/Beal_OneFour_GenericPressure.lean": "5b956bcd7490da0c9f73fa815c83e2300f59d3ad4107fc2a5c559ece3f2db1c1",
+  "open_math/Beal_PrimeExponent_Split.lean": "cb7113417f2505d47b6c7e535420ea970483441b795d3a9feafe1a59f89e7e74",
+  "open_math/Beal_Quartic_CoreFactorization.lean": "9dd1a0d57565f305cbd9fe77eb3f8ccb9d09e319081756b80c8c59a956e3dfed",
+  "open_math/Beal_Reduced_GCDPressure.lean": "a93e0264c16dfc95f802f2d5a7fe6ec1ceaf8b500549f18cc395e6ce62bd0d75",
+  "open_math/Beal_Reduced_ParityPressure.lean": "58d6cc1f2baa760ee05a118c268007354ae92f8b99d05632e7dae41c24ba0626",
+  "open_math/Beal_TwoFour_Atlas_Core.lean": "7ec4f894f5c4a3bbc07677e104c6845ffea573fb477d1a4962f3a57974228aef",
+  "open_math/Beal_TwoFour_XY_CorePressure.lean": "4407d8da70b1153501a2cf4e6675911c7c4053215e768ddb904bbb2d3b48ac63",
+  "open_math/Beal_TwoFour_XY_FreyArithmetic.lean": "9f81d9644bcc280e7ea2198c4950325d6dd1df107f93f68560ecc1c077eb8d80",
+  "open_math/Beal_TwoFour_XY_SharpCore.lean": "fdadbfab6b696a055a8d19cf1dd2a1945e7f86326369399c7a55976f32e73e28"
+ },
+ "published_at": "2026-10-28T19:19:15Z",
+ "certificate_sha256": "6ce45d875959f5bbcc1b5696345650a149b9bdf9623c7238a3ac162b81e29515"
+}

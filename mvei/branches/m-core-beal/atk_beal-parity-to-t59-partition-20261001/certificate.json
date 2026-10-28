@@ -1,0 +1,1086 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-beal",
+ "branch": "atk/beal-parity-to-t59-partition-20261001",
+ "branch_state": "parada",
+ "head_commit": "fbfad21bd642226300860b840d1283738eadb6a9",
+ "head_commit_date": "2026-10-01T20:09:34+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "fbfad21bd642226300860b840d1283738eadb6a9",
+   "date": "2026-10-01T20:09:34+02:00",
+   "subject": "beal: derive primitive local prime-support laws from pairwise primitiveness"
+  },
+  {
+   "commit": "07e1ae37c89b12838e79b890def2d12f3982d5b9",
+   "date": "2026-10-01T19:27:25+02:00",
+   "subject": "beal: connect T59 residual candidates to lowered-newform elimination"
+  },
+  {
+   "commit": "7489360970444808c522615c8bad42b67cd6c781",
+   "date": "2026-10-01T19:12:02+02:00",
+   "subject": "beal: fix namespace scope for compressed FLT3/4 frontier"
+  },
+  {
+   "commit": "0a64741a95eb5cb8c38ab5a608082743754131b8",
+   "date": "2026-10-01T19:11:51+02:00",
+   "subject": "beal: close FLT3/4 branches and compress frontier to prime>3 plus T59 residual"
+  },
+  {
+   "commit": "a3ecdbacd0b807f3f8b9ab5362a7b9927b7460dc",
+   "date": "2026-10-01T19:11:33+02:00",
+   "subject": "beal: import frozen FLT reduction component into material partition branch"
+  },
+  {
+   "commit": "30eda674324017e44d38f21aebbd1484e6a317f8",
+   "date": "2026-10-01T19:11:30+02:00",
+   "subject": "beal: import frozen FLT reduction component into material partition branch"
+  },
+  {
+   "commit": "67a0f3ab4e40a3103fc0d46986a587b5817a7e28",
+   "date": "2026-10-01T19:10:33+02:00",
+   "subject": "beal: partition every parity-reduced counterexample into classical or T59 residual branches"
+  },
+  {
+   "commit": "021311a89528494e1fca527585e00716e6f6f32b",
+   "date": "2026-09-28T21:40:14+01:00",
+   "subject": "atk: build refined material producer dependencies"
+  },
+  {
+   "commit": "f1e11f246ec414257f68d7d8602926cf488420e1",
+   "date": "2026-09-28T21:40:04+01:00",
+   "subject": "atk: promote strict producer reduction into material manifest"
+  },
+  {
+   "commit": "c28601a4fc5b54682c7a75e6d95de6f08d0aa0c7",
+   "date": "2026-09-28T21:39:50+01:00",
+   "subject": "atk: move Beal material probe to common-divisor producer"
+  },
+  {
+   "commit": "a73413b99348e2b34fb82a6de4068476782c876a",
+   "date": "2026-09-28T21:38:59+01:00",
+   "subject": "atk: refine Beal minimal inhabitant to common divisor producer"
+  },
+  {
+   "commit": "b4eaaa8063fbd23705ed9eb2970c1ecf32240409",
+   "date": "2026-09-28T21:38:56+01:00",
+   "subject": "atk: import compatible Beal minimal producer reduction"
+  },
+  {
+   "commit": "4231b50fe9daa1c05485e2b051090b569c8da5e4",
+   "date": "2026-09-28T21:30:12+01:00",
+   "subject": "atk: compile reduced material producer target"
+  },
+  {
+   "commit": "e2f6e648ef59f7655b6a053a18c6e6964c35c4e8",
+   "date": "2026-09-28T21:29:26+01:00",
+   "subject": "atk: point Beal direct probe at reduced producer"
+  },
+  {
+   "commit": "1a663e207e873039428f3eed457fe6867320acd8",
+   "date": "2026-09-28T21:29:21+01:00",
+   "subject": "atk: reduce Beal minimal inhabitant to common-divisor producer"
+  },
+  {
+   "commit": "4eff4905f76af55dbdc895bb61105edda09ccba3",
+   "date": "2026-09-28T21:29:17+01:00",
+   "subject": "atk: import exact Beal common-divisor producer reduction"
+  },
+  {
+   "commit": "5b72e821f0305b3671b75a28a2415e6b98cdfb62",
+   "date": "2026-09-28T21:16:53+01:00",
+   "subject": "atk: incorporate proved arsenal and exact next material producer"
+  },
+  {
+   "commit": "120931bc08d877e61f8279e8ecfb38d96e1a6f45",
+   "date": "2026-09-28T20:57:51+01:00",
+   "subject": "atk: build imported dependency before minimal inhabitant"
+  },
+  {
+   "commit": "31922422cf767dfe35745ccdc14c71a845411770",
+   "date": "2026-09-28T20:56:53+01:00",
+   "subject": "atk: make mathlib cache opportunistic"
+  },
+  {
+   "commit": "78734818c8c83f9bb951d6def3d3e04f8a5aa872",
+   "date": "2026-09-28T20:55:14+01:00",
+   "subject": "atk: unify material inhabitant protocol v2"
+  },
+  {
+   "commit": "318b0871d0f84e87a6ed56d4d4f5eeb1e4dcbf9f",
+   "date": "2026-09-28T20:55:12+01:00",
+   "subject": "atk: unify material inhabitant protocol v2"
+  },
+  {
+   "commit": "dfcc6df1a0a6225225d836f7290f1c094910c772",
+   "date": "2026-09-28T20:55:09+01:00",
+   "subject": "atk: unify material inhabitant protocol v2"
+  },
+  {
+   "commit": "4c5f6a92400cf56df13fc225776c8aa97a8b5c9b",
+   "date": "2026-09-28T20:55:07+01:00",
+   "subject": "atk: unify material inhabitant protocol v2"
+  },
+  {
+   "commit": "4dd1d0b70e92d16ec943c732302f67288a2ebe07",
+   "date": "2026-09-28T20:23:50+01:00",
+   "subject": "atk: enforce material expected-failure gate"
+  },
+  {
+   "commit": "190a4d8381f99188b5e4943a8f7727d3476f07d5",
+   "date": "2026-09-28T20:23:20+01:00",
+   "subject": "atk: make material probe fail on exact open obligation"
+  },
+  {
+   "commit": "0c5a217aa12a088671e965f4f60f7e7b7caa9154",
+   "date": "2026-09-28T20:20:20+01:00",
+   "subject": "atk: add Beal material producer gate"
+  },
+  {
+   "commit": "5a9529928aeb1c065bda3a50e09852743cdc601e",
+   "date": "2026-09-28T20:20:18+01:00",
+   "subject": "atk: add Beal material producer gate"
+  },
+  {
+   "commit": "bfc67bd88af7d7fd245bb5c8286fea6951dccc9d",
+   "date": "2026-09-28T20:20:15+01:00",
+   "subject": "atk: add Beal material producer gate"
+  },
+  {
+   "commit": "2d8bba2ac5bbaea01594bc631ac9fa614de75e39",
+   "date": "2026-09-28T20:20:13+01:00",
+   "subject": "atk: add Beal material producer gate"
+  },
+  {
+   "commit": "0a0819ea3800d1a9cf40c2888eb971ad35dda188",
+   "date": "2026-09-21T20:36:02+01:00",
+   "subject": "cert(atk): add SHA-256 for ATK_TERMINAL_BEAL_73f1fd7b.json"
+  },
+  {
+   "commit": "5439c4654828dbe2aff763822f359809151cb715",
+   "date": "2026-09-21T20:36:00+01:00",
+   "subject": "cert(atk): add frozen terminal certificate for CERTIFICATES/ATK_TERMINAL_BEAL_73f1fd7b.json"
+  },
+  {
+   "commit": "73f1fd7b2a692ea857acaea70e18745f08878c2a",
+   "date": "2026-09-21T19:54:21+01:00",
+   "subject": "ci(beal): certify triple-gcd equivalence attack"
+  },
+  {
+   "commit": "f26ba4e9a3e89f7eed6b42f30290e5f5807b929b",
+   "date": "2026-09-21T19:54:10+01:00",
+   "subject": "atk(beal): prove exact triple-gcd terminal equivalence"
+  },
+  {
+   "commit": "28c91aead437715f7e5938908e61347e5b4543e8",
+   "date": "2026-09-21T18:38:51+01:00",
+   "subject": "ci(beal): certify triple-gcd terminal reduction"
+  },
+  {
+   "commit": "2455db18ff0a4ba9fce124dc2fd4629bd812bf6b",
+   "date": "2026-09-21T18:38:43+01:00",
+   "subject": "atk(beal): normalize terminal producer to triple gcd lower bound"
+  },
+  {
+   "commit": "2d2d60dde21e9af41ce07e2e8d595017deef4ede",
+   "date": "2026-09-21T17:20:42+01:00",
+   "subject": "ci: build terminal producer through Lake module target"
+  },
+  {
+   "commit": "74c7976f4fa6c4ead3b05881760ae419e18e43c4",
+   "date": "2026-09-21T17:19:03+01:00",
+   "subject": "ci: repair terminal producer gate bootstrap"
+  },
+  {
+   "commit": "fb07906078b748cf1ded62e48ef8030b5ddcce93",
+   "date": "2026-09-21T17:16:33+01:00",
+   "subject": "ci: certify exact ATK terminal producer reduction"
+  },
+  {
+   "commit": "23136a7e29e34b0a467e2892af46833591984d9c",
+   "date": "2026-09-21T17:11:11+01:00",
+   "subject": "atk(beal): reduce endpoint to universal common divisor producer"
+  },
+  {
+   "commit": "d039136fe260d626fbf0974a3413d222e13d43f8",
+   "date": "2026-09-21T01:43:10+01:00",
+   "subject": "atk: reduce HARD sentinel to exact kernel lookup"
+  },
+  {
+   "commit": "15ece996dd436c35d2c68e7bd04a35e0089491a3",
+   "date": "2026-09-21T01:27:24+01:00",
+   "subject": "atk: remove doc-comment parser noise from HARD sentinel"
+  },
+  {
+   "commit": "736645ca97d3b046771b4af1fd2c70ff320e6ad0",
+   "date": "2026-09-21T01:25:10+01:00",
+   "subject": "atk: build local dependency graph before HARD kernel check"
+  },
+  {
+   "commit": "928c1cbb427a8e45726ff77506336636c55e4bf2",
+   "date": "2026-09-21T01:24:21+01:00",
+   "subject": "atk: enforce explicit fail-closed HARD gate"
+  },
+  {
+   "commit": "fe8349cf164e4af3a67e9a4fcdbadcebe8b8d28e",
+   "date": "2026-09-21T01:17:13+01:00",
+   "subject": "atk: advance to fail-closed HARD TheoremKernel gate"
+  },
+  {
+   "commit": "1d9217aa79afa92410a48fd8ef3d570f4b28edee",
+   "date": "2026-09-20T23:31:36+01:00",
+   "subject": "fix(beal): bind local reduction hypotheses explicitly"
+  },
+  {
+   "commit": "2fda84465a474298857bd0bc1072fff8d464d68c",
+   "date": "2026-09-20T23:23:10+01:00",
+   "subject": "ci(beal): run post-T36E bridge on T60 frontier v2"
+  },
+  {
+   "commit": "8bd75c6254c212dbb88f672b5f97835ac3d89c82",
+   "date": "2026-09-20T23:23:03+01:00",
+   "subject": "atk(beal): carry .github/workflows/post-t36e-conductor-bridge.yml onto T60 frontier"
+  },
+  {
+   "commit": "1d1e57748be742b147ed3b28f5b76f0b8845dddc",
+   "date": "2026-09-20T23:23:00+01:00",
+   "subject": "atk(beal): carry lean/MCore/PostT36EConductorBridge.lean onto T60 frontier"
+  },
+  {
+   "commit": "5c371f8b41407dfe3e117629291caa1d53cca2e8",
+   "date": "2026-09-20T23:22:56+01:00",
+   "subject": "atk(beal): carry t36e_mathlib/lean-toolchain onto T60 frontier"
+  },
+  {
+   "commit": "58dbd28212de170e68754ec888f483f972c1a8bb",
+   "date": "2026-09-20T23:22:53+01:00",
+   "subject": "atk(beal): carry t36e_mathlib/lake-manifest.json onto T60 frontier"
+  },
+  {
+   "commit": "b5365e450534eb3024142eb9d2d66b0390554992",
+   "date": "2026-09-20T23:22:49+01:00",
+   "subject": "atk(beal): carry t36e_mathlib/lakefile.toml onto T60 frontier"
+  },
+  {
+   "commit": "c30ee08732b152a204cc4a5fdbf68f0b87328da1",
+   "date": "2026-09-20T23:22:46+01:00",
+   "subject": "atk(beal): carry lean/MCore/T36E_MASTER.lean onto T60 frontier"
+  },
+  {
+   "commit": "cdac34c68eb500330f2aa5be66ae3a646ad12006",
+   "date": "2026-09-20T22:07:07+01:00",
+   "subject": "wire(T60): candidate odd-local arithmetic packet"
+  },
+  {
+   "commit": "b7d2b99389c3c23fe8b63a2e4480abefe4fda4ab",
+   "date": "2026-09-20T22:07:02+01:00",
+   "subject": "feat(T60): package odd-prime local arithmetic per residual candidate"
+  },
+  {
+   "commit": "489977197a82f867b34d63c23015e688d6dac6c9",
+   "date": "2026-09-20T22:06:27+01:00",
+   "subject": "wire(T59): candidate-keyed level table frontier"
+  },
+  {
+   "commit": "110df453a2c766b5596f3666cf258ca5cff046c2",
+   "date": "2026-09-20T22:06:21+01:00",
+   "subject": "feat(T59): key modular level tables by concrete residual candidate"
+  },
+  {
+   "commit": "b9e77ce6600a1d5af808f87ca04f0784b9478de9",
+   "date": "2026-09-20T21:04:55+01:00",
+   "subject": "wire(T52-T58): certified level interface and five-family elimination bundle"
+  },
+  {
+   "commit": "a01fa0f4c4fab302ba47a3835bea3e94d0cd54c6",
+   "date": "2026-09-20T21:04:48+01:00",
+   "subject": "feat(T58): aggregate five residual mixed-family eliminations"
+  },
+  {
+   "commit": "f8c5d904baa40d167f68090af3e44ac40ef8f5da",
+   "date": "2026-09-20T21:04:37+01:00",
+   "subject": "feat(T57): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "abd881ceaff4b4082d98b506e83cca9c0c036bee",
+   "date": "2026-09-20T21:04:35+01:00",
+   "subject": "feat(T56): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "38a4b4313551f450f10e5e59d7a67f114bcf9dd0",
+   "date": "2026-09-20T21:04:33+01:00",
+   "subject": "feat(T55): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "cc604e5993d19c9d68cbabe8df9efbe4b88c9b28",
+   "date": "2026-09-20T21:04:31+01:00",
+   "subject": "feat(T54): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "830d8919f024cf034fdc6d2057009ee400cd75de",
+   "date": "2026-09-20T21:04:29+01:00",
+   "subject": "feat(T53): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "961ea5ba613ec85e65f676df396b78cb5c91f4c3",
+   "date": "2026-09-20T21:04:08+01:00",
+   "subject": "feat(T52): certify signature-to-level table interface fail-closed"
+  },
+  {
+   "commit": "bc6e0f6a9f38a1a71d8a76d9ba0a261dcd2861a4",
+   "date": "2026-09-20T18:15:10+01:00",
+   "subject": "wire(T51): include five mixed signature families"
+  },
+  {
+   "commit": "facb71b1d2b35e3c6f02de31fce6839b6e7b0458",
+   "date": "2026-09-20T18:14:58+01:00",
+   "subject": "feat(T51): classify remaining mixed signatures into five families"
+  },
+  {
+   "commit": "ae7c3bc9475134a81a8715c57913c11e45997325",
+   "date": "2026-09-20T18:13:52+01:00",
+   "subject": "fix(T49): make FLT4 contract branch-local"
+  },
+  {
+   "commit": "bc161172fe78f980ad2521834ea721b621670240",
+   "date": "2026-09-20T18:11:47+01:00",
+   "subject": "wire(T49): include contains-four signature split"
+  },
+  {
+   "commit": "d598103d040055b29473cf859e49088bcfcbdd1b",
+   "date": "2026-09-20T18:11:40+01:00",
+   "subject": "feat(T49): split contains-four signatures and isolate FLT4 branch"
+  },
+  {
+   "commit": "88ea971cdb00fa7bba8307ab2217c7792c55d18c",
+   "date": "2026-09-20T18:08:56+01:00",
+   "subject": "wire(T48): include mixed signature family classification"
+  },
+  {
+   "commit": "163a540948adcbc4c7b1cc1437defe33bff2d494",
+   "date": "2026-09-20T18:08:45+01:00",
+   "subject": "feat(T48): classify mixed reduced signatures into three families"
+  },
+  {
+   "commit": "427cd1e5e1f63a8085ea26879d47c94f9be0a8b5",
+   "date": "2026-09-20T18:05:57+01:00",
+   "subject": "fix(T45): make signature router classical only"
+  },
+  {
+   "commit": "22bf6a3f3d10455ccb755102df8cdb74ba74927f",
+   "date": "2026-09-20T18:04:45+01:00",
+   "subject": "wire(T45): include residual signature classification"
+  },
+  {
+   "commit": "ea7b5887bb0de5eb7d0984b0e65fb1be9f07ea77",
+   "date": "2026-09-20T18:04:36+01:00",
+   "subject": "feat(T45): classify single-residual route as equal-prime signatures"
+  },
+  {
+   "commit": "cd9d99990170e351e8c4b69bff4a60fc7580ffed",
+   "date": "2026-09-20T18:02:05+01:00",
+   "subject": "wire(T43-T44): include residual and newform fail-proof frontiers"
+  },
+  {
+   "commit": "07271ed519b389f772a04b25dab5d8fc3808cfc9",
+   "date": "2026-09-20T18:01:57+01:00",
+   "subject": "feat(T44): split newform elimination into coverage and exclusion"
+  },
+  {
+   "commit": "97652f2f4d008beaedb5c7b7acf46010e5cc440c",
+   "date": "2026-09-20T18:01:33+01:00",
+   "subject": "feat(T43): isolate residual-prime compatibility and irreducibility frontier"
+  },
+  {
+   "commit": "5f2e37823d44362415d852eea509c00809499aa3",
+   "date": "2026-09-20T17:53:21+01:00",
+   "subject": "T36-T42: type every remaining fail-closed bridge"
+  },
+  {
+   "commit": "d9b294c8c77172ba3bab7a7fd077d55f1fcfd302",
+   "date": "2026-09-20T17:29:54+01:00",
+   "subject": "T35: certify all-gaps fail-proof ledger"
+  },
+  {
+   "commit": "02d65b72e24dcc5cf596fb0cfa53e196e010a1c8",
+   "date": "2026-09-20T16:54:03+01:00",
+   "subject": "T34: formalize Frey nodal root-collision pattern"
+  },
+  {
+   "commit": "d7228bdb7ea6236eedb131e96050d0dc02854a2b",
+   "date": "2026-09-20T16:51:16+01:00",
+   "subject": "T33: isolate odd-prime local reduction input contract"
+  },
+  {
+   "commit": "be1461c5e089f3dce2834f193ced3f11dd520459",
+   "date": "2026-09-20T16:48:18+01:00",
+   "subject": "fix(T32): make Nat subtraction cancellations explicit"
+  },
+  {
+   "commit": "26c53cbe85f2949373940161dbfb719b78a82e1f",
+   "date": "2026-09-20T16:46:42+01:00",
+   "subject": "T32: certify odd-prime Delta-c4 separation"
+  },
+  {
+   "commit": "7b3c0045326f5886bb545428a605b05c16ce6d7f",
+   "date": "2026-09-20T16:43:31+01:00",
+   "subject": "T31: sharpen Frey support to 2 and Beal bases"
+  },
+  {
+   "commit": "194b84d53c2e528160b8f0a1643fa6353bbf1117",
+   "date": "2026-09-20T16:41:17+01:00",
+   "subject": "T30: descend Frey prime support to Beal bases"
+  },
+  {
+   "commit": "96536b03001fb53e065ec05b40be48832b94590b",
+   "date": "2026-09-20T16:38:46+01:00",
+   "subject": "T29: prove local Euclid prime-product lemma"
+  },
+  {
+   "commit": "e5fa7d2a9319a887178f44a7e6ebf46dd370ef11",
+   "date": "2026-09-20T16:36:42+01:00",
+   "subject": "T28: isolate conditional prime-support frontier"
+  },
+  {
+   "commit": "0c84b8622dcc1ea2690e593c82f71b8be7c41811",
+   "date": "2026-09-20T16:34:47+01:00",
+   "subject": "T27: generalize Frey divisor-depth transport"
+  },
+  {
+   "commit": "24ccf11b75560cc6bc09828b9f61f2d02e3f0240",
+   "date": "2026-09-20T16:21:14+01:00",
+   "subject": "T26: certify fail-closed 38970-to-Beal bridge equivalence"
+  },
+  {
+   "commit": "80ca07f854c2522cb30a6f6ccc09ecb4259cc038",
+   "date": "2026-09-20T16:18:28+01:00",
+   "subject": "T25: add exact Frey two-adic depth transport"
+  },
+  {
+   "commit": "e01b67c3c77489f30b6357f4c0a22fb214af9bb1",
+   "date": "2026-09-20T16:16:16+01:00",
+   "subject": "wire(T24): include Frey discriminant frontier"
+  },
+  {
+   "commit": "2c7c931e122a4a352d54a3e3c489571cdbaa5444",
+   "date": "2026-09-20T16:16:05+01:00",
+   "subject": "feat(T24): formalize exact Frey discriminant bridge"
+  },
+  {
+   "commit": "9adaa8234023537c8536342f50bac86219e45de3",
+   "date": "2026-09-20T13:25:28+01:00",
+   "subject": "wire(T23): include equal-power gap depth frontier"
+  },
+  {
+   "commit": "9ccf52b2e39cdb560ffa918f56f470d32560b8b4",
+   "date": "2026-09-20T13:25:26+01:00",
+   "subject": "feat(T23): transfer two-adic exponent depth into equal-power gaps"
+  },
+  {
+   "commit": "0f5b5e11bbc48fd3ff6e133dcab3e506735eb3eb",
+   "date": "2026-09-20T13:23:40+01:00",
+   "subject": "fix(T22): generalize cancellation induction and remove solved goal"
+  },
+  {
+   "commit": "6284e7152ec3d7a2eb2e53930a67d5442aa8e08c",
+   "date": "2026-09-20T13:22:34+01:00",
+   "subject": "wire(T22): include LTE-like exactness frontier"
+  },
+  {
+   "commit": "41d04dbcb5cff6a59bc12ca60f54b66462dd70e7",
+   "date": "2026-09-20T13:22:32+01:00",
+   "subject": "feat(T22): prove elementary LTE-like two-adic exactness"
+  },
+  {
+   "commit": "e6955cfc82e72783581eb9992b45f46acbe37408",
+   "date": "2026-09-20T13:19:50+01:00",
+   "subject": "fix(T21): normalize additive terms in difference factorization"
+  },
+  {
+   "commit": "90079efac6a01a56712b4965736aeafd675823ad",
+   "date": "2026-09-20T13:18:57+01:00",
+   "subject": "wire(T21): include equal-exponent factor frontier"
+  },
+  {
+   "commit": "06db987708e941b601273c336516bf7d139aef72",
+   "date": "2026-09-20T13:18:54+01:00",
+   "subject": "feat(T21): factor equal-exponent difference branches"
+  },
+  {
+   "commit": "6d1a195b32281ca6e9d2092ad5c0bbe6c1cd4a42",
+   "date": "2026-09-20T13:15:17+01:00",
+   "subject": "wire(T20): include full two-adic depth scaling"
+  },
+  {
+   "commit": "30b4b52f848863d37de7713796a61bf31d793d9a",
+   "date": "2026-09-20T13:15:15+01:00",
+   "subject": "feat(T20): scale arbitrary two-adic depth through exponents"
+  },
+  {
+   "commit": "53e91b7927fdb6cbaa94135d94d9ba4f2d3dcafb",
+   "date": "2026-09-20T13:13:59+01:00",
+   "subject": "wire(T19): include variable two-adic frontier"
+  },
+  {
+   "commit": "7464a9f169701d581d175b9f9afcaf5b1d5db008",
+   "date": "2026-09-20T13:13:57+01:00",
+   "subject": "feat(T19): lift parity layer to variable two-adic divisibility"
+  },
+  {
+   "commit": "59c9e889aaadfa1aca54d1e78bdeaf8272b8c242",
+   "date": "2026-09-20T12:50:11+01:00",
+   "subject": "wire(T18): include full parity classifier"
+  },
+  {
+   "commit": "5390239cf1aa670194e461196c7116468a758463",
+   "date": "2026-09-20T12:50:07+01:00",
+   "subject": "feat(T18): complete exactly-one-even modulo-eight classification"
+  },
+  {
+   "commit": "d0284fcfacb55fa6640fd664413210dc8f536d9f",
+   "date": "2026-09-20T12:48:19+01:00",
+   "subject": "wire(T17): include classified C-even frontier"
+  },
+  {
+   "commit": "fc6b8b19acc8f7b723aa54e23e7fa1f7a985ca57",
+   "date": "2026-09-20T12:48:17+01:00",
+   "subject": "feat(T17): classify the C-even modulo-eight survivor"
+  },
+  {
+   "commit": "2e86aaf0f298ef0f0cf1b5314c4ba98937904ac2",
+   "date": "2026-09-20T12:46:51+01:00",
+   "subject": "fix(T16): classify odd residues mod eight constructively"
+  },
+  {
+   "commit": "044be86f1b58813549d5c6cb0d648f158a69bc08",
+   "date": "2026-09-20T12:44:36+01:00",
+   "subject": "wire(T16): include modulo-eight residual in aggregate build"
+  },
+  {
+   "commit": "393b6776a9972971eb97cef6d7f908207fb3dafd",
+   "date": "2026-09-20T12:44:34+01:00",
+   "subject": "feat(T16): add modulo-eight C-even residual constraints"
+  },
+  {
+   "commit": "7a1c6523346f85de92739867161ba3ceed44c59b",
+   "date": "2026-09-20T12:38:08+01:00",
+   "subject": "fix(T15): remove solved-goal residue simplification"
+  },
+  {
+   "commit": "2d55057b504725e2e6d0ed81fb929785a2b998d5",
+   "date": "2026-09-20T12:37:06+01:00",
+   "subject": "wire(T15): include base-residue frontier in aggregate build"
+  },
+  {
+   "commit": "9c6925b754b71cee3553951d1bac134f9cf62445",
+   "date": "2026-09-20T12:37:03+01:00",
+   "subject": "feat(T15): reduce C-even mixed-four branch to base residues"
+  },
+  {
+   "commit": "2f91f5fdc399f608e1f341547bc9be86902a4226",
+   "date": "2026-09-20T12:34:53+01:00",
+   "subject": "fix(T14): close bounded residue branches constructively"
+  },
+  {
+   "commit": "410bd124052c803bbb0be2b9cdaec0087ee9b179",
+   "date": "2026-09-20T12:33:35+01:00",
+   "subject": "wire(T14): include residue frontier in aggregate build"
+  },
+  {
+   "commit": "5828b3a4107992af36924c2358a657ca22144846",
+   "date": "2026-09-20T12:33:32+01:00",
+   "subject": "feat(T14): expose C-even mixed-four residue constraints"
+  },
+  {
+   "commit": "640073462f3329bb63d89742179e89d78cd95150",
+   "date": "2026-09-20T12:19:41+01:00",
+   "subject": "fix(T13): use core modulo simplification and mul divisibility"
+  },
+  {
+   "commit": "71272a0b77deea65cf2cf4718e9f810d4776bc97",
+   "date": "2026-09-20T12:18:24+01:00",
+   "subject": "fix(T13): use explicit modular forms and divisibility witness"
+  },
+  {
+   "commit": "f29813e811c0213cd64e69ceb47bc50805212deb",
+   "date": "2026-09-20T12:16:48+01:00",
+   "subject": "ATK wire T13 modular residual into MCore build"
+  },
+  {
+   "commit": "53371f297d3b4116b257149e17baaabf441fd77b",
+   "date": "2026-09-20T12:16:41+01:00",
+   "subject": "ATK T13: exclude C-even double-four signature modulo four"
+  },
+  {
+   "commit": "999bf7c8ec4b0e7f2f73b6740137f5a7c7e239d5",
+   "date": "2026-09-20T12:12:57+01:00",
+   "subject": "fix(T12): provide explicit constructive evenness decider"
+  },
+  {
+   "commit": "efe4fef064273971a3e5182be560c7efe186cde7",
+   "date": "2026-09-20T12:11:58+01:00",
+   "subject": "fix(T12): use constructive divisibility decisions"
+  },
+  {
+   "commit": "e91fe27c82d610b6fbd37279b8fbf2e6baf45b93",
+   "date": "2026-09-20T12:10:59+01:00",
+   "subject": "fix(T12): remove omega and keep parity proof constructive"
+  },
+  {
+   "commit": "bbd7455efec20e0a4a663ea06db2457000f5ba3f",
+   "date": "2026-09-20T12:09:55+01:00",
+   "subject": "ATK wire T12 parity residual into MCore build"
+  },
+  {
+   "commit": "4c3991c1c88cba64785b2feeff52bb0e3df0d1b6",
+   "date": "2026-09-20T12:09:47+01:00",
+   "subject": "ATK T12: expose exactly-one-even parity residual"
+  },
+  {
+   "commit": "d830ece3c1589ef63c2055af319fe6a64a623165",
+   "date": "2026-09-20T11:22:53+01:00",
+   "subject": "fix(T11): make Nat subtraction identities explicit"
+  },
+  {
+   "commit": "13f0146472c48709e77be681cda8a5be7eaad864",
+   "date": "2026-09-20T11:21:56+01:00",
+   "subject": "ATK wire T11 pairwise residual into MCore build"
+  },
+  {
+   "commit": "84bb450f991ec39e1af42f9bc07c217e096c3c96",
+   "date": "2026-09-20T11:21:48+01:00",
+   "subject": "ATK T11: strengthen reduced Beal residual to pairwise primitive bases"
+  },
+  {
+   "commit": "67e64379c4e93df6187597819115ead0550bf0ab",
+   "date": "2026-09-20T11:16:47+01:00",
+   "subject": "fix(T10): replace unavailable congrArg₂ with rw"
+  },
+  {
+   "commit": "4094b7098bc1ea766c6eec86fd9a8d26f25a1bd6",
+   "date": "2026-09-20T10:44:50+01:00",
+   "subject": "fix(T10): keep reduced candidate in Prop to avoid choice"
+  },
+  {
+   "commit": "136d81ac0303d0000efcedb0cc4d1b5b79d62509",
+   "date": "2026-09-20T10:43:42+01:00",
+   "subject": "ATK wire T10 reduced-signature normalization into MCore build"
+  },
+  {
+   "commit": "3371223ff10d790a2e148ec9da897cc260ed995c",
+   "date": "2026-09-20T10:43:34+01:00",
+   "subject": "ATK T10: normalize primitive Beal candidates to 4-or-prime signatures"
+  },
+  {
+   "commit": "cf7279eed0a306e298c777913b09acbcc9d3bd3d",
+   "date": "2026-09-20T10:42:57+01:00",
+   "subject": "cert: freeze T9 Euclid and prime-power closure"
+  },
+  {
+   "commit": "02477296f24b8a6fdd00c0e28a037f7da2b7072b",
+   "date": "2026-09-20T10:41:57+01:00",
+   "subject": "ATK wire T9 Euclid and prime-power closure into MCore build"
+  },
+  {
+   "commit": "d37ded73997e6d4f68a755f7f80addfcaa8dd97b",
+   "date": "2026-09-20T10:41:50+01:00",
+   "subject": "ATK T9: prove local Euclid kernel and prime-power reflection"
+  },
+  {
+   "commit": "782386cfce3b34366f4fbe1fe123432c444bf9e4",
+   "date": "2026-09-20T10:41:09+01:00",
+   "subject": "cert: freeze T8 powered-primitivity transport"
+  },
+  {
+   "commit": "53576120987c557bd86f5ee7730cf4b6ee19607f",
+   "date": "2026-09-20T10:40:19+01:00",
+   "subject": "ATK wire T8 powered-primitivity bridge into MCore build"
+  },
+  {
+   "commit": "8135c35a52e347e27e325921d8006420f1757282",
+   "date": "2026-09-20T10:40:12+01:00",
+   "subject": "ATK T8: isolate prime-power reflection and powered primitiveness"
+  },
+  {
+   "commit": "3774159e72ff1b2d9bed3a96c76e67239d5e7ad0",
+   "date": "2026-09-20T10:38:30+01:00",
+   "subject": "cert: freeze T7 exponent normalization"
+  },
+  {
+   "commit": "278ead2946e422708a465e2a9fe31332b0574446",
+   "date": "2026-09-20T10:37:36+01:00",
+   "subject": "ATK wire T7 exponent reduction into MCore build"
+  },
+  {
+   "commit": "f6ff2dd765997215ceb3542fca39ddd9a922d94c",
+   "date": "2026-09-20T10:37:30+01:00",
+   "subject": "ATK T7: reduce every exponent above two to 4 or a prime factor"
+  },
+  {
+   "commit": "3016cc9c919cdf0db50a7b72d8a79c6f62efee27",
+   "date": "2026-09-20T10:36:03+01:00",
+   "subject": "cert: freeze exact T6 primitive scientific frontier"
+  },
+  {
+   "commit": "466a6ec4cc3afe367408c76c5d085c42ee36c093",
+   "date": "2026-09-20T10:34:58+01:00",
+   "subject": "ATK T6: package exact primitive Beal scientific frontier"
+  },
+  {
+   "commit": "65e25ce22ab78a05f32dc354a4a936472a54420f",
+   "date": "2026-09-20T10:34:19+01:00",
+   "subject": "cert: freeze Beal T5 constructive equivalence"
+  },
+  {
+   "commit": "c836311f12b5e3570d251d41c449dc5889224b2f",
+   "date": "2026-09-20T10:33:22+01:00",
+   "subject": "fix(T5): expose bounded divisor predicate for decidability"
+  },
+  {
+   "commit": "eb182eaded66cd84d5c35f6d83566a9c4e2dfc50",
+   "date": "2026-09-20T10:32:21+01:00",
+   "subject": "ATK T5: constructively equate raw bridge with no-primitive-solution obstruction"
+  },
+  {
+   "commit": "58181aaee7ed231962e8cc0227235fa63f7d1890",
+   "date": "2026-09-20T10:31:49+01:00",
+   "subject": "cert: freeze Beal T3/T4 green checkpoint"
+  },
+  {
+   "commit": "d5689d11b8445ff902ba413431f739c2276b67a0",
+   "date": "2026-09-20T10:30:31+01:00",
+   "subject": "ATK T3/T4: expose raw Diophantine bridge and primitive obstruction"
+  },
+  {
+   "commit": "5f436b1dea00670fc41c776909a9ca1db2f24ab5",
+   "date": "2026-09-20T10:29:19+01:00",
+   "subject": "cert: freeze Beal V012/T012 green checkpoint"
+  },
+  {
+   "commit": "3dc9b61e579b131ed45d5d71e6d290459594d868",
+   "date": "2026-09-20T10:28:17+01:00",
+   "subject": "ATK wire V012 residue into MCore build"
+  },
+  {
+   "commit": "68418d9c238866f0ab98ce765d981c6602304667",
+   "date": "2026-09-20T10:28:09+01:00",
+   "subject": "ATK Beal V0/V1/V2: isolate exact common-divisor residue"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0",
+   "leanprover/lean4:v4.35.0-rc2"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Attack.bealConjecture_iff_universalCommonDivisor",
+   "file": "lean/MCore/Attack/TerminalProducer.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": BealConjecture ↔ UniversalCommonDivisor"
+  },
+  {
+   "name": "MCore.Attack.bealConjecture_iff_universalTripleGCDLowerBound",
+   "file": "lean/MCore/Attack/GCDTerminalProducer.lean",
+   "line": 71,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": BealConjecture ↔ UniversalTripleGCDLowerBound"
+  },
+  {
+   "name": "MCore.Attack.commonDivisor_closes_tripleGCD_gt_one",
+   "file": "lean/MCore/Attack/GCDTerminalProducer.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(d : BealData) (h : ∃ q : Nat, CommonDivisor q d.a d.b d.c) : 1 < TripleGCD d.a d.b d.c"
+  },
+  {
+   "name": "MCore.BackwardAudit.commonPrimeWitness_is_endpoint_projection",
+   "file": "lean/MCore/BackwardAudit/BealMaterialProducerGate.lean",
+   "line": 4,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(W : CommonPrimeWitnessContract) : BealConjecture"
+  },
+  {
+   "name": "MCore.T47_beal_equation_to_flt_equation",
+   "file": "lean/MCore/T47.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b c x y z ell : Nat} (hx : T7ReducedExponent x) (hy : T7ReducedExponent y) (hz : T7ReducedExponent z) (hcompat : T43SingleResidualPrimeCompatible ell x y z) (heq : a ^ x + b ^ y = c ^ z) : a ^ ell + b ^ ell = c ^ ell"
+  },
+  {
+   "name": "MCore.T47_family_certificate_eliminates_equal_prime_signature",
+   "file": "lean/MCore/T47.lean",
+   "line": 61,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b c x y z : Nat} (ha : 0 < a) (hb : 0 < b) (hc : 0 < c) (hx : T7ReducedExponent x) (hy : T7ReducedExponent y) (hz : T7ReducedExponent z) (heq : a ^ x + b ^ y = c ^ z) (hEqual : T45EqualOddPrimeSignature x y z) (cert : T47FLTFamilyCertificate) : False"
+  },
+  {
+   "name": "MCore.T47_flt_eliminates_single_residual_branch",
+   "file": "lean/MCore/T47.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b c x y z ell : Nat} (ha : 0 < a) (hb : 0 < b) (hc : 0 < c) (hx : T7ReducedExponent x) (hy : T7ReducedExponent y) (hz : T7ReducedExponent z) (hcompat : T43SingleResidualPrimeCompatible ell x y z) (heq : a ^ x + b ^ y = c ^ z) (hFLT : T47FLTAt ell) : False"
+  },
+  {
+   "name": "MCore.T50_eliminate_all_four",
+   "file": "lean/MCore/T50.lean",
+   "line": 38,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b c x y z : Nat} (ha : 0 < a) (hb : 0 < b) (hc : 0 < c) (h4 : T49AllFour x y z) (heq : a ^ x + b ^ y = c ^ z) : False"
+  },
+  {
+   "name": "MCore.T50_eliminate_equal_three",
+   "file": "lean/MCore/T50.lean",
+   "line": 30,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b c : Nat} (ha : 0 < a) (hb : 0 < b) (hc : 0 < c) (heq : a ^ 3 + b ^ 3 = c ^ 3) : False"
+  },
+  {
+   "name": "MCore.T50_mathlib_flt3",
+   "file": "lean/MCore/T50.lean",
+   "line": 6,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": T49FLTAt 3"
+  },
+  {
+   "name": "MCore.T50_mathlib_flt4",
+   "file": "lean/MCore/T50.lean",
+   "line": 22,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": T49FLTAt 4"
+  },
+  {
+   "name": "MCore.T50_small_certified_exponent_has_flt",
+   "file": "lean/MCore/T50.lean",
+   "line": 52,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (h : T50SmallCertifiedExponent n) : T49FLTAt n"
+  },
+  {
+   "name": "MCore.T59_allFourEliminator_proved",
+   "file": "lean/MCore/T59ParityPartition.lean",
+   "line": 170,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": T59AllFourEliminator"
+  },
+  {
+   "name": "MCore.T59_beyondThree_and_residual_close_beal",
+   "file": "lean/MCore/T59ParityPartition.lean",
+   "line": 187,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hBeyond : T59FLTBeyondThree) (hResidual : T59ResidualEliminator) : BealConjecture"
+  },
+  {
+   "name": "MCore.T59_equalOddPrimeEliminator_of_beyondThree",
+   "file": "lean/MCore/T59ParityPartition.lean",
+   "line": 177,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hBeyond : T59FLTBeyondThree) : T59EqualOddPrimeEliminator"
+  },
+  {
+   "name": "MCore.T59_modular_materializer_closes_beal",
+   "file": "lean/MCore/T59ModularMaterializer.lean",
+   "line": 55,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hBeyond : T59FLTBeyondThree) {Survives : T44LoweredNewformCase → Prop} (B : T59LoweredNewformBridge Survives) (hDomain : T58ResidualSurvivorDomain Survives) (bundle : T58MixedEliminationBundle Survives) : BealConjecture"
+  },
+  {
+   "name": "MCore.T59_residual_is_only_remaining_branch",
+   "file": "lean/MCore/T59ParityPartition.lean",
+   "line": 128,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hEq : T59EqualOddPrimeEliminator) (h4 : T59AllFourEliminator) : T59ResidualEliminator → BealConjecture"
+  },
+  {
+   "name": "MCore.T59_three_branch_elimination_closes_beal",
+   "file": "lean/MCore/T59ParityPartition.lean",
+   "line": 116,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hEq : T59EqualOddPrimeEliminator) (h4 : T59AllFourEliminator) (hResidual : T59ResidualEliminator) : BealConjecture"
+  },
+  {
+   "name": "MCore.T59_three_branch_elimination_closes_parity_frontier",
+   "file": "lean/MCore/T59ParityPartition.lean",
+   "line": 97,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hEq : T59EqualOddPrimeEliminator) (h4 : T59AllFourEliminator) (hResidual : T59ResidualEliminator) : T12ParityScientificFrontier"
+  },
+  {
+   "name": "MCore.T61_divisor_of_a_not_divide_b",
+   "file": "lean/MCore/T61PrimitiveLocalSupport.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{q a b c : Nat} (hq : 1 < q) (hpw : T11PairwisePrimitive a b c) (hqa : q ∣ a) : ¬ q ∣ b"
+  },
+  {
+   "name": "MCore.T61_divisor_of_a_not_divide_c",
+   "file": "lean/MCore/T61PrimitiveLocalSupport.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{q a b c : Nat} (hq : 1 < q) (hpw : T11PairwisePrimitive a b c) (hqa : q ∣ a) : ¬ q ∣ c"
+  },
+  {
+   "name": "MCore.T61_divisor_of_b_not_divide_c",
+   "file": "lean/MCore/T61PrimitiveLocalSupport.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{q a b c : Nat} (hq : 1 < q) (hpw : T11PairwisePrimitive a b c) (hqb : q ∣ b) : ¬ q ∣ c"
+  },
+  {
+   "name": "MCore.T61_divisor_of_c_is_disjoint_from_ab",
+   "file": "lean/MCore/T61PrimitiveLocalSupport.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{q a b c : Nat} (hq : 1 < q) (hpw : T11PairwisePrimitive a b c) (hqc : q ∣ c) : ¬ q ∣ a ∧ ¬ q ∣ b"
+  },
+  {
+   "name": "MCore.T61_local_support_a",
+   "file": "lean/MCore/T61PrimitiveLocalSupport.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{q a b c x y z : Nat} (hq : 1 < q) (hx : 0 < x) (hpw : T11PairwisePrimitive a b c) (hqa : q ∣ a) : q ∣ a ^ x ∧ ¬ q ∣ b ∧ ¬ q ∣ c"
+  },
+  {
+   "name": "MCore.T61_local_support_b",
+   "file": "lean/MCore/T61PrimitiveLocalSupport.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{q a b c x y z : Nat} (hq : 1 < q) (hy : 0 < y) (hpw : T11PairwisePrimitive a b c) (hqb : q ∣ b) : ¬ q ∣ a ∧ q ∣ b ^ y ∧ ¬ q ∣ c"
+  },
+  {
+   "name": "MCore.T61_local_support_c",
+   "file": "lean/MCore/T61PrimitiveLocalSupport.lean",
+   "line": 79,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{q a b c x y z : Nat} (hq : 1 < q) (hz : 0 < z) (hpw : T11PairwisePrimitive a b c) (hqc : q ∣ c) : ¬ q ∣ a ∧ ¬ q ∣ b ∧ q ∣ c ^ z"
+  },
+  {
+   "name": "MCore.T61_two_has_unique_base_support",
+   "file": "lean/MCore/T61PrimitiveLocalSupport.lean",
+   "line": 90,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{a b c : Nat} (hpar : T12ExactlyOneEven a b c) : (2 ∣ a ∧ ¬ 2 ∣ b ∧ ¬ 2 ∣ c) ∨ (¬ 2 ∣ a ∧ 2 ∣ b ∧ ¬ 2 ∣ c) ∨ (¬ 2 ∣ a ∧ ¬ 2 ∣ b ∧ 2 ∣ c)"
+  },
+  {
+   "name": "MCore.lowered_case_has_t59_signature",
+   "file": "lean/MCore/T59ModularMaterializer.lean",
+   "line": 75,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{Survives : T44LoweredNewformCase → Prop} (B : T59LoweredNewformBridge Survives) (d : T59ResidualCandidate) : T7ReducedExponent (B.lower d).x ∧ T7ReducedExponent (B.lower d).y ∧ T7ReducedExponent (B.lower d).z ∧ T45MixedReducedSignature (B.lower d).x (B.lower d).y (B.lower d).z ∧ ¬ T49AllFour (B.lower d).x (B.lower d).y (B.lower d).z"
+  },
+  {
+   "name": "MCore.minimalBealInhabitant_iff_BealConjecture",
+   "file": "lean/MCore/MinimalInhabitant.lean",
+   "line": 9,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": MinimalBealInhabitant ↔ BealConjecture"
+  }
+ ],
+ "closed": 15,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "ff71024013d8f21b4908035d9c3296be64c19b1a54ade041a62e9d7264a1a741",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Attack/GCDTerminalProducer.lean": "d35c4cad2bf66cfe9dde969f2f3d75204ac2a55e6da7fd49ee26afe0dc19ae4b",
+  "lean/MCore/Attack/TerminalProducer.lean": "5208138887a10104fc5d79a2397c107ac1908173a157442b7f88dcba52cb6375",
+  "lean/MCore/BealSpecification.lean": "6f880a8c71b13e46cfd2783a8d236ec03818ab7f379d0246dd2e5dfdfaf3a80a",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/GCDSignature.lean": "3b763f780c5bbdd68b01acb1d233732448d38dfccda92339202b670a3dbcf0c7",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "f943d2541202fd0eecd99ae2539ca70ddbd59a9fd8438c2ed81046aa7e2441fb",
+  "lean/MCore/K10.lean": "53437ddea05e8fe41c63ebccba8211036998cab7b7ad3bb2bbb28b540ddc7f0c",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "0238d3ccaf8586df995d581e1b5528e362248b3cf570ce215cf9c7e5b5f3995e",
+  "lean/MCore/K8.lean": "b54676410879afbd8896e8196df63cd511c29973229010596e362e3bdecbf4cd",
+  "lean/MCore/K9.lean": "959c7c05f5c913be70bfc2ac6cc09c768f46b02dc9a82cec214363a7249b0975",
+  "lean/MCore/K9/Core/Arith.lean": "8b5e0a520afdec6b8a57e302ae16bac0ed24e874e8e775fb327cd7445abfac03",
+  "lean/MCore/MinimalInhabitant.lean": "c4e00bb9420eef04c632fc1a50747c3a5cf41aeffc3778294c807482ad39c448",
+  "lean/MCore/Signature.lean": "b295056afe7d8b4832377e0cbc67ceede72688c344705474d3803dba5a0d15ad",
+  "lean/MCore/T10.lean": "7e63f4efcf0a4e379df608f489dff5b0524f3d7df1007eb7842a7e636b57ee23",
+  "lean/MCore/T11.lean": "61c75714abb7b3dcf9713192cfd446f6c68b7e30d7a3812bb6a72318f0f66a81",
+  "lean/MCore/T12.lean": "29c98b0401673e26e25652291b491af2e9a5bc33b4b7f32ad4c74800af37b20b",
+  "lean/MCore/T13.lean": "c7de4641f573d21d502415495194978d2850d50def4c0b6c040014b28d2871bd",
+  "lean/MCore/T14.lean": "48b23a543d91654fe4de36f21b909f959e9eff08b264a0f2e7f4623e63c9444b",
+  "lean/MCore/T15.lean": "78d8abd46a42322cc5f38a74db0064bf667dfeb27540df7617439755e21b65f2",
+  "lean/MCore/T16.lean": "f364397b82b33fae8ca1d0bbbc0ca7a2d94f20eba65721d1d5b272271bc647ff",
+  "lean/MCore/T17.lean": "61dae6a185a47c991383c0b27195638269aa60463d735ea8a5d25ce641c7d74d",
+  "lean/MCore/T18.lean": "9bdba3a32fc580c67f8a18113e132b589799ee76a8c2fcf5bb154690061958f7",
+  "lean/MCore/T19.lean": "5a4fcd3176fe17c710be8555b9e11918fa7deefba32f242e08e2486fb520dbf7",
+  "lean/MCore/T20.lean": "ef14b40bfe43c1f2d5ed87c0a8023b57815043e50e707bd708ffcbda1dc6c5ba",
+  "lean/MCore/T21.lean": "167d5953385e5616bacbf1337b076d26f67bf64d148169a7fe8a83e0cb09e0a9",
+  "lean/MCore/T22.lean": "58248f5949ebc7f6d28e6a92e735e10544046b25fd9d030678bede6c34fb0ab8",
+  "lean/MCore/T23.lean": "bba14d271fcb88a9073961deb5afe7f7fc0a5bad67b72efd93c4936f99c6f710",
+  "lean/MCore/T24.lean": "07945d2d11cb2722fbba3b5d7d9d9417b89436fa9956ed95785ff9f83d6b9e28",
+  "lean/MCore/T25.lean": "6958aa42ffb2cab6bf9c5186b8593ff327991916a3b51deed9294eb312a53bb8",
+  "lean/MCore/T26.lean": "2dacb545088422baa814634e1396ca1d661dfbf648ad8cca708664db8e643703",
+  "lean/MCore/T27.lean": "bb1816ad7e1e8a2533c7b5824a88a889fd09ac9b790ddefbb15549521f5618d1",
+  "lean/MCore/T28.lean": "ceaee2844bccca081e6676e55e389aefc840735ff9b0eae08a2e872f78482e82",
+  "lean/MCore/T29.lean": "e4a4bae5fd801ce9df7d5c3529d5e5b81a15109d127c1f098b59aff748c54d98",
+  "lean/MCore/T30.lean": "cbd3cb77f8bd58ea264093fe276b9a3f7aad5ae0547277404ca62e1d32d89b9b",
+  "lean/MCore/T31.lean": "8ca609e7bcad5ff43697ba842a12676314d210a6160724db78baff1d03b3ebd5",
+  "lean/MCore/T32.lean": "f7ed296eb04b5fce8c4c151fe8d38f0ef21966c1560da2a855d61d7c14c4dfcf",
+  "lean/MCore/T33.lean": "796230d0e8bdd8e51f66f1a847bedac4a1f7de70251e2a3edea07cf61aee8794",
+  "lean/MCore/T34.lean": "b3565f44243c0cc0315104f4998c53ad4173b0ab9517308d583c102c8bc7226a",
+  "lean/MCore/T35.lean": "6876cb2d19609753152a919ef041f7b35fc1be85007ac142985aca0a40317bf3",
+  "lean/MCore/T36.lean": "d59072d0898c51d77d8cdd2865ee0c21206543454254ffefbc440a8cbf1b3854",
+  "lean/MCore/T37.lean": "96678249a94b7bb3e0716a321c73d72b61aefedb0750775ffd9400d82d602c4f",
+  "lean/MCore/T38.lean": "3f31360c4ec89893b17bc60cb1934207325dfd73d42abbbf7fabcb5a40fbbc35",
+  "lean/MCore/T39.lean": "d149fac085699c372c5793c2e97d961d860a13e01130eb502130dd745dbf5676",
+  "lean/MCore/T40.lean": "8ac14be729b3a34afa88ec81aa6a3662ffc7cfbb4a38553dbf7e1d5e030df255",
+  "lean/MCore/T41.lean": "beefd09a0213d883077eb009c2fdab813fa8071d09f97f360fa35d21962782fb",
+  "lean/MCore/T42.lean": "f3ab16282d5acf7a6b6ec3221ccf966ab35dae8f7bc34c80464a6509b76e0475",
+  "lean/MCore/T43.lean": "ab5527d0811ff070be8a4989954daf26ffad42a77cd5fcee1f68766136c2893c",
+  "lean/MCore/T44.lean": "7fb59e5bb7f0b3f6b0e77f0b05075a923523e3f1cc30d802eafdfe1b4279edfd",
+  "lean/MCore/T45.lean": "c99190527134859c95530de9c72b45d83ad61e8ba53068305fe484b9b608ba4c",
+  "lean/MCore/T47.lean": "c08fcdefb568d2289cfc459e6fc564e41accd320e5209ba92be00fe543230d6e",
+  "lean/MCore/T61PrimitiveLocalSupport.lean": "585ff020638c9ece7619cf0fe7153bff92e28821fee1a7101ff1ddac64494fa5",
+  "lean/MCore/T7.lean": "db8ce8fcc174871673448c6cedfdde4660e1ca7b7c19d5ebcc36221843482062",
+  "lean/MCore/T8.lean": "8f773d2d3b81c4380559dfeaea65d017445cb1c9a6db37ffa4a42ebba6caf2ce",
+  "lean/MCore/T9.lean": "201cd28cf4ac3be419308bdc54a6266879494ad57be8247e01f1d83d824a86c9",
+  "lean/MCore/V012.lean": "7a89da38a61abb05bc5c0b774a4e1d7317d4234bedd2bcb005d9d4c34f39a188"
+ },
+ "published_at": "2026-10-28T19:19:15Z",
+ "certificate_sha256": "97a9329e0c5464855f89f0389d7eed836a35d84383b26c8c2213287a2dcbe77b"
+}
