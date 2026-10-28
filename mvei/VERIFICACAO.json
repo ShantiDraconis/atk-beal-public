@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T13:47:17+00:00",
+ "generated_at": "2026-10-28T16:41:02+00:00",
  "standard_axioms": [
   "Classical.choice",
   "Quot.sound",
@@ -15,7 +15,7 @@
    "toolchain_used": "leanprover/lean4:v4.19.0",
    "needs_mathlib": false,
    "build_ok": true,
-   "build_seconds": 13.8,
+   "build_seconds": 12.1,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -887,6 +887,85 @@
    ],
    "integrity": [],
    "note": "",
+   "corrections": [],
+   "lakefile_gerado": "",
+   "avulso": false,
+   "salvage": [
+    {
+     "arquivo": "audit/ATK_BEAL_MINIMAL_PRODUCER.lean",
+     "linha": 9,
+     "nome": "MCore.bealConjecture_iff_commonDivisorProducer",
+     "status": "fechado",
+     "axioms": [
+      "propext",
+      "Quot.sound"
+     ]
+    },
+    {
+     "arquivo": "audit/ATK_BEAL_MINIMAL_PRODUCER.lean",
+     "linha": 17,
+     "nome": "MCore.commonDivisorProducer_iff_gcdLowerBoundProducer",
+     "status": "fechado",
+     "axioms": [
+      "propext"
+     ]
+    },
+    {
+     "arquivo": "formal/DirectEndpointRule.lean",
+     "linha": 17,
+     "nome": "DirectEndpointRule.direct_endpoint",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "formal/DirectEndpointRule.lean",
+     "linha": 30,
+     "nome": "DirectEndpointRule.no_infinite_descent",
+     "status": "erro",
+     "axioms": [
+      "sorryAx"
+     ]
+    },
+    {
+     "arquivo": "formal/DirectEndpointRule.lean",
+     "linha": 52,
+     "nome": "DirectEndpointRule.forwardDependency_wellFounded",
+     "status": "erro",
+     "axioms": [
+      "sorryAx"
+     ]
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/HypotheticalClosureOracle.lean",
+     "linha": 6,
+     "nome": "MCore.BackwardAudit.hypothetical_common_prime",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/WithoutOracle.lean",
+     "linha": 7,
+     "nome": "MCore.BackwardAudit.witness_contract_closes_beal",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/BackwardAudit/WithoutOracle.lean",
+     "linha": 13,
+     "nome": "MCore.BackwardAudit.beal_without_oracle_still_open",
+     "status": "fechado",
+     "axioms": []
+    },
+    {
+     "arquivo": "lean/MCore/Material/GCDAdapter.lean",
+     "linha": 5,
+     "nome": "MCore.Material.beal_material_iff_endpoint",
+     "status": "nao_alcancado",
+     "axioms": [],
+     "motivo": "object file '././.lake/build/lib/lean/MCore/Material/Closure.olean' of module MCore.Material.Closure does not exist"
+    }
+   ],
+   "preenchimento": [],
    "summary": {
     "fechado": 118,
     "aberto-sorry": 0,
@@ -900,7 +979,7 @@
    "toolchain_used": "leanprover/lean4:v4.34.1",
    "needs_mathlib": true,
    "build_ok": true,
-   "build_seconds": 70.7,
+   "build_seconds": 61.5,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -921,6 +1000,11 @@
    ],
    "integrity": [],
    "note": "",
+   "corrections": [],
+   "lakefile_gerado": "",
+   "avulso": false,
+   "salvage": [],
+   "preenchimento": [],
    "summary": {
     "fechado": 1,
     "aberto-sorry": 0,
