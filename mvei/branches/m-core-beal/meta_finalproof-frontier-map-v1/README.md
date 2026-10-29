@@ -5,7 +5,7 @@ Lean sources from the branch `meta/finalproof-frontier-map-v1` of the private re
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 8 — closed 8, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 16 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `6f68f541fbd24e9ee47ff81414bd1014f0fd78138d54f8c22369925fd8f869f7`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/meta_finalproof-frontier-map-v1/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `08fbaf7485e4978e11c45487af7fa681dd1a8954464e01d997e28fedde42b10e`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/meta_finalproof-frontier-map-v1/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
