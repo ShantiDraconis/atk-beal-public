@@ -5,7 +5,7 @@ Lean sources from the branch `atk/power-sum-balance-identity-20261008` of the pr
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 10 — closed 2, conditional 0, open 0, proof error 3, not reached 5, no result 0.
 * History: 6 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `4d04fc38ecd57671d4ef25521ed96abada175352662c6579da299dbca3e3365c`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/atk_power-sum-balance-identity-20261008/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `108417b79e1bda6394edbf3be085d48e5197dc0769daf8e2cc2e6e55dd5d9e86`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/atk_power-sum-balance-identity-20261008/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

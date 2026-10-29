@@ -5,7 +5,7 @@ Lean sources from the branch `attack/t61-modern-reduction-port-20260920` of the 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 15 — closed 4, conditional 0, open 0, proof error 2, not reached 9, no result 0.
 * History: 110 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `4c88b67a7cc8ae66fe0eaca773a44c3b1ac85389baeb42d818f1393da299bf5f`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_t61-modern-reduction-port-20260920/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `7abd8752c3ac0dea2b6233f0e897b2c1d46c9808c618f937fe3d820ad609ec85`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_t61-modern-reduction-port-20260920/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
