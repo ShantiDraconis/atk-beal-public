@@ -1,0 +1,103 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-beal",
+ "branch": "atk/concrete-terminal-law",
+ "branch_state": "parada",
+ "head_commit": "baec1da93c59fab31b34643c20b5831d02e84e88",
+ "head_commit_date": "2026-10-04T17:51:02+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "baec1da93c59fab31b34643c20b5831d02e84e88",
+   "date": "2026-10-04T17:51:02+02:00",
+   "subject": "rewrite Beal terminal proofs with core Nat order lemmas"
+  },
+  {
+   "commit": "9c399d70dd9474d6b9f08e9557511be572f9892a",
+   "date": "2026-10-04T17:48:42+02:00",
+   "subject": "fix Beal terminal law without omega dependency"
+  },
+  {
+   "commit": "2cf4b041152e66854e18295a3768bf425a6f5ca7",
+   "date": "2026-10-03T17:03:58+02:00",
+   "subject": "wire concrete terminal law into default build"
+  },
+  {
+   "commit": "dae32efec9e853818ebcbb40aece202761f340a9",
+   "date": "2026-10-03T17:01:04+02:00",
+   "subject": "formalize concrete Beal terminal certification and refutation"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.beal_terminal_cert_refute_disjoint",
+   "file": "lean/MCore/BealTerminalLaw.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬(MCore.BealTerminalCertifies ∧ MCore.BealTerminalRefutes)"
+  },
+  {
+   "name": "MCore.beal_terminal_certifies_iff_gcdLowerBound",
+   "file": "lean/MCore/BealTerminalLaw.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealTerminalCertifies ↔ MCore.GCDLowerBoundProducer"
+  },
+  {
+   "name": "MCore.beal_terminal_refutes_iff_counterexample",
+   "file": "lean/MCore/BealTerminalLaw.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealTerminalRefutes ↔ ∃ d, MCore.BealCounterexample d"
+  },
+  {
+   "name": "MCore.not_beal_terminal_certifies_iff_refutes",
+   "file": "lean/MCore/BealTerminalLaw.lean",
+   "line": 44,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬MCore.BealTerminalCertifies ↔ MCore.BealTerminalRefutes"
+  }
+ ],
+ "closed": 4,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "ff71024013d8f21b4908035d9c3296be64c19b1a54ade041a62e9d7264a1a741",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BealDirectProducer.lean": "1be0ec747e37d7cfc6ba4ca291648b3ab3a7d6e2ff1cf51ae76b7787cec4b857",
+  "lean/MCore/BealSpecification.lean": "6f880a8c71b13e46cfd2783a8d236ec03818ab7f379d0246dd2e5dfdfaf3a80a",
+  "lean/MCore/BealTerminalLaw.lean": "0a85edd1182e4e3ece499427f7c0c7704957f29b0c4bd674142cfc1b83b09d17",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/GCDLowerBoundProducer.lean": "524c340829ede7037786a269987fd32587c5d22a7fed98078a3e4d3644fa34c8",
+  "lean/MCore/GCDSignature.lean": "3b763f780c5bbdd68b01acb1d233732448d38dfccda92339202b670a3dbcf0c7",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "f943d2541202fd0eecd99ae2539ca70ddbd59a9fd8438c2ed81046aa7e2441fb",
+  "lean/MCore/K10.lean": "53437ddea05e8fe41c63ebccba8211036998cab7b7ad3bb2bbb28b540ddc7f0c",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "0238d3ccaf8586df995d581e1b5528e362248b3cf570ce215cf9c7e5b5f3995e",
+  "lean/MCore/K8.lean": "b54676410879afbd8896e8196df63cd511c29973229010596e362e3bdecbf4cd",
+  "lean/MCore/K9.lean": "959c7c05f5c913be70bfc2ac6cc09c768f46b02dc9a82cec214363a7249b0975",
+  "lean/MCore/K9/Core/Arith.lean": "8b5e0a520afdec6b8a57e302ae16bac0ed24e874e8e775fb327cd7445abfac03",
+  "lean/MCore/Signature.lean": "b295056afe7d8b4832377e0cbc67ceede72688c344705474d3803dba5a0d15ad"
+ },
+ "published_at": "2026-10-29T01:37:28Z",
+ "certificate_sha256": "a0aad188dbfff150cc93ca52a865f32726286e7898dff8d54eb53b9bd0e8b2b8"
+}

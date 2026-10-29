@@ -1,0 +1,13 @@
+b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc  branches/m-core-beal/k7-BEAL/lake-manifest.json
+ff71024013d8f21b4908035d9c3296be64c19b1a54ade041a62e9d7264a1a741  branches/m-core-beal/k7-BEAL/lakefile.toml
+55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea  branches/m-core-beal/k7-BEAL/lean-toolchain
+e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a  branches/m-core-beal/k7-BEAL/lean/MCore/Boundary.lean
+487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4  branches/m-core-beal/k7-BEAL/lean/MCore/K0.lean
+f943d2541202fd0eecd99ae2539ca70ddbd59a9fd8438c2ed81046aa7e2441fb  branches/m-core-beal/k7-BEAL/lean/MCore/K1.lean
+3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343  branches/m-core-beal/k7-BEAL/lean/MCore/K2.lean
+dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f  branches/m-core-beal/k7-BEAL/lean/MCore/K3.lean
+c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533  branches/m-core-beal/k7-BEAL/lean/MCore/K4.lean
+ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9  branches/m-core-beal/k7-BEAL/lean/MCore/K5.lean
+9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e  branches/m-core-beal/k7-BEAL/lean/MCore/K6.lean
+edd7cd015d08bc26c314f8bbf019f5ab6b9d6c911e302b834bc4e8778480bd05  branches/m-core-beal/k7-BEAL/lean/MCore/K7.lean
+b295056afe7d8b4832377e0cbc67ceede72688c344705474d3803dba5a0d15ad  branches/m-core-beal/k7-BEAL/lean/MCore/Signature.lean

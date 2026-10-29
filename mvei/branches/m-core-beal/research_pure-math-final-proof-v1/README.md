@@ -5,7 +5,7 @@ Lean sources from the branch `research/pure-math-final-proof-v1` of the private 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 34 — closed 18, conditional 0, open 0, proof error 1, not reached 15, no result 0.
 * History: 60 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `37835522b723ed7ac30fab0e277ca6a8f7a19cb31ed32f6f9ca071dbeb8b2471`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/research_pure-math-final-proof-v1/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `88ed655e842c8ae495c817f98e9e896de58775dc825cef1fb66c489c196c4b1b`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/research_pure-math-final-proof-v1/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

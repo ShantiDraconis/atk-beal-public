@@ -5,7 +5,7 @@ Lean sources from the branch `attack/t36e2-c4-unit-minimality-20260920` of the p
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 35 — closed 14, conditional 0, open 0, proof error 4, not reached 17, no result 0.
 * History: 85 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `483d123198332b229cb5a82b46b4372b0513a88cdcef493763a35c15c80b19c1`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_t36e2-c4-unit-minimality-20260920/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `3d133645e1a5463bf0a11bc2ab123ff5a4f15f4b74683a17032b94372bed65e1`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_t36e2-c4-unit-minimality-20260920/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

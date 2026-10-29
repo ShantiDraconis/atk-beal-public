@@ -3,8 +3,8 @@ m-core-beal,atk-kernel/ATK/Beal.lean,17,ATK.Beal.exponent_gcd_le_two,fechado,,,a
 m-core-beal,audit/ATK_BEAL_MINIMAL_PRODUCER.lean,9,MCore.bealConjecture_iff_commonDivisorProducer,fechado,,,.,,,
 m-core-beal,audit/ATK_BEAL_MINIMAL_PRODUCER.lean,17,MCore.commonDivisorProducer_iff_gcdLowerBoundProducer,nao_checado,,"o projeto compilou, mas este arquivo não faz parte do alvo do lakefile",.,,,
 m-core-beal,formal/DirectEndpointRule.lean,17,DirectEndpointRule.direct_endpoint,fechado,arquivo a arquivo,,.,,,
-m-core-beal,formal/DirectEndpointRule.lean,30,DirectEndpointRule.no_infinite_descent,nao_checado,,testado arquivo a arquivo: a prova escrita não passa no kernel (o Lean deu erro nela),.,,,
-m-core-beal,formal/DirectEndpointRule.lean,52,DirectEndpointRule.forwardDependency_wellFounded,nao_checado,,testado arquivo a arquivo: a prova escrita não passa no kernel (o Lean deu erro nela),.,,,
+m-core-beal,formal/DirectEndpointRule.lean,30,DirectEndpointRule.no_infinite_descent,nao_checado,,testado arquivo a arquivo: a prova escrita não passa no kernel (o Lean deu erro nela),.,,,linha 35: application type mismatch InvImage.wf p.rank Nat.lt_wfRel argument Nat.lt_wfRel has type WellFoundedRelation Nat : Type but is expected to have type WellFounded LT.lt : Prop
+m-core-beal,formal/DirectEndpointRule.lean,52,DirectEndpointRule.forwardDependency_wellFounded,nao_checado,,testado arquivo a arquivo: a prova escrita não passa no kernel (o Lean deu erro nela),.,,,linha 54: application type mismatch InvImage.wf stageRank Nat.lt_wfRel argument Nat.lt_wfRel has type WellFoundedRelation Nat : Type but is expected to have type WellFounded LT.lt : Prop
 m-core-beal,lean/MCore/BealDirectProducer.lean,15,MCore.bealConjecture_iff_commonDivisorProducer,fechado,,,.,,,
 m-core-beal,lean/MCore/BealSpecification.lean,33,MCore.counterexample_refutes,fechado,,,.,,,
 m-core-beal,lean/MCore/BealSpecification.lean,37,MCore.conjecture_excludes_counterexamples,fechado,,,.,,,

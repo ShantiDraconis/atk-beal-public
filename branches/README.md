@@ -15,4 +15,8 @@ Each row is a branch of a private repository of ShantiDraconis with theorems tha
 | m-core-beal | `attack/beal-gcd-endpoint-equivalence-20260927` | 2026-09-27 | parada | 6 / 8 | 22 | 150 | [certificate](../mvei/branches/m-core-beal/attack_beal-gcd-endpoint-equivalence-20260927/README.md) |
 | m-core-beal | `attack/t46-newform-signature-split-20260920` | 2026-09-20 | parada | 5 / 5 | 60 | 83 | [certificate](../mvei/branches/m-core-beal/attack_t46-newform-signature-split-20260920/README.md) |
 | m-core-beal | `attack/t61-modern-reduction-port-20260920` | 2026-09-20 | parada | 4 / 15 | 72 | 110 | [certificate](../mvei/branches/m-core-beal/attack_t61-modern-reduction-port-20260920/README.md) |
+| m-core-beal | `atk-kernel-check` | 2026-10-12 | parada | 4 / 4 | 3 | 5 | [certificate](../mvei/branches/m-core-beal/atk-kernel-check/README.md) |
+| m-core-beal | `atk/concrete-terminal-law` | 2026-10-04 | parada | 4 / 4 | 22 | 4 | [certificate](../mvei/branches/m-core-beal/atk_concrete-terminal-law/README.md) |
+| m-core-beal | `k7-BEAL` | 2026-09-15 | parada | 3 / 3 | 13 | 2 | [certificate](../mvei/branches/m-core-beal/k7-BEAL/README.md) |
+| m-core-beal | `k7-preflight/Beal-OfficialSpec` | 2026-09-15 | parada | 3 / 3 | 13 | 1 | [certificate](../mvei/branches/m-core-beal/k7-preflight_Beal-OfficialSpec/README.md) |
 | m-core-beal | `atk/power-sum-balance-identity-20261008` | 2026-10-08 | parada | 2 / 10 | 21 | 6 | [certificate](../mvei/branches/m-core-beal/atk_power-sum-balance-identity-20261008/README.md) |

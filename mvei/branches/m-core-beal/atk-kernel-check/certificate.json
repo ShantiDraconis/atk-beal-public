@@ -1,0 +1,90 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-beal",
+ "branch": "atk-kernel-check",
+ "branch_state": "parada",
+ "head_commit": "36f4c915552bdd7057cacfc025eab2f531a52e69",
+ "head_commit_date": "2026-10-12T21:14:50+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "36f4c915552bdd7057cacfc025eab2f531a52e69",
+   "date": "2026-10-12T21:14:50+01:00",
+   "subject": "atk-ficha: FICHA de matemática nova formalizada (ISK refinado, leis de escala, portões por problema) + propostas de 12/10 avaliadas"
+  },
+  {
+   "commit": "69a4941c515b0bc4dedcd9259941de761e15e7b0",
+   "date": "2026-10-12T15:38:41+01:00",
+   "subject": "beal_search: busca exaustiva (parâmetro 42) — 0 soluções primitivas em três faixas"
+  },
+  {
+   "commit": "88dcabe942e041eda50fef0406c276886f9ac17b",
+   "date": "2026-10-12T01:46:26+01:00",
+   "subject": "atk-kernel: certificado v2 (5/5) do commit 48440ab"
+  },
+  {
+   "commit": "48440ab2871eb574009d09ca2f4e522f69eecd17",
+   "date": "2026-10-12T01:39:32+01:00",
+   "subject": "atk-kernel: BealDescent (verificado 48/48 no M-Core)"
+  },
+  {
+   "commit": "45ccef554c78c750a61ee4ba51d4b79f059f1aee",
+   "date": "2026-10-12T00:52:20+01:00",
+   "subject": "atk-kernel: certificado v1 (1/1) do commit 54876fc, congelado na tag atk-kernel-cert-v1"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0",
+   "leanprover/lean4:v4.34.1"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "ATK.BealDescent.beal_of_descent",
+   "file": "atk-kernel/ATK/BealDescent.lean",
+   "line": 55,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : ATK.BealDescent.WFDescent), ATK.BealDescent.BealStatement"
+  },
+  {
+   "name": "ATK.BealDescent.descent_iff_beal",
+   "file": "atk-kernel/ATK/BealDescent.lean",
+   "line": 71,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "Nonempty ATK.BealDescent.WFDescent ↔ ATK.BealDescent.BealStatement"
+  },
+  {
+   "name": "ATK.BealDescent.descent_of_beal",
+   "file": "atk-kernel/ATK/BealDescent.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "ATK.BealDescent.BealStatement → Nonempty ATK.BealDescent.WFDescent"
+  },
+  {
+   "name": "ATK.BealDescent.no_primitive_of_descent",
+   "file": "atk-kernel/ATK/BealDescent.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (d : ATK.BealDescent.WFDescent) (s : ATK.BealDescent.PrimitiveSolution), False"
+  }
+ ],
+ "closed": 4,
+ "files_sha256": {
+  "atk-kernel/ATK/BealDescent.lean": "51441c96a437b2244178dd6d879ebdc48a8138ffcb1265a2efe920c8202f5eb5",
+  "atk-kernel/lakefile.toml": "139e6ddf32cce30e56e879c1770e14aabcae182a42f8f740d7912fbe7fc4946d",
+  "atk-kernel/lean-toolchain": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+ },
+ "published_at": "2026-10-29T01:37:28Z",
+ "certificate_sha256": "7f130cc5e9bab8be85440ec1144df372d60fa903d99ff2f31022f5017cb5a360"
+}

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T19:11:15+00:00",
+ "generated_at": "2026-10-29T01:06:09+00:00",
  "standard_axioms": [
   "Classical.choice",
   "Quot.sound",
@@ -15,7 +15,7 @@
    "toolchain_used": "leanprover/lean4:v4.19.0",
    "needs_mathlib": false,
    "build_ok": true,
-   "build_seconds": 12.1,
+   "build_seconds": 13.0,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -924,7 +924,8 @@
      "status": "erro",
      "axioms": [
       "sorryAx"
-     ]
+     ],
+     "erro": "linha 35: application type mismatch InvImage.wf p.rank Nat.lt_wfRel argument Nat.lt_wfRel has type WellFoundedRelation Nat : Type but is expected to have type WellFounded LT.lt : Prop"
     },
     {
      "arquivo": "formal/DirectEndpointRule.lean",
@@ -933,7 +934,8 @@
      "status": "erro",
      "axioms": [
       "sorryAx"
-     ]
+     ],
+     "erro": "linha 54: application type mismatch InvImage.wf stageRank Nat.lt_wfRel argument Nat.lt_wfRel has type WellFoundedRelation Nat : Type but is expected to have type WellFounded LT.lt : Prop"
     },
     {
      "arquivo": "lean/MCore/BackwardAudit/HypotheticalClosureOracle.lean",
@@ -979,7 +981,7 @@
    "toolchain_used": "leanprover/lean4:v4.34.1",
    "needs_mathlib": true,
    "build_ok": true,
-   "build_seconds": 61.5,
+   "build_seconds": 58.9,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
