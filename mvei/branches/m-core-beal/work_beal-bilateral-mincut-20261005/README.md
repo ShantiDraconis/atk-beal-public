@@ -5,7 +5,7 @@ Lean sources from the branch `work/beal-bilateral-mincut-20261005` of the privat
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 247 — closed 138, conditional 0, open 2, proof error 1, not reached 0, no result 106.
 * History: 136 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `06463b05e218b0a5b7887f2b5ccfdc10b417197ca66730dccd6ae98d535d840d`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/work_beal-bilateral-mincut-20261005/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `a0d1fcc1454165f57784f9394b308be4be11ce765e69fd655f40705a6245da25`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/work_beal-bilateral-mincut-20261005/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

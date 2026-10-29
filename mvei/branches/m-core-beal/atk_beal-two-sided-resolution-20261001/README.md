@@ -5,7 +5,7 @@ Lean sources from the branch `atk/beal-two-sided-resolution-20261001` of the pri
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 164 — closed 58, conditional 0, open 1, proof error 3, not reached 102, no result 0.
 * History: 293 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `b6b4b85eee68b31eb0b43c0aba4ad41a02a027521500f1feee4ca0ca384213bd`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/atk_beal-two-sided-resolution-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `60eda418f8b5d243cbaa5bf779fc90c2673f2a0d58877fb9d9b327f791bbcc1d`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/atk_beal-two-sided-resolution-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
