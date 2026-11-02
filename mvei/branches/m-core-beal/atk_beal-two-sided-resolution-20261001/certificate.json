@@ -1473,7 +1473,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0",
    "leanprover/lean4:v4.35.0-rc2"
@@ -1490,7 +1490,7 @@
    "name": "MCore.Attack.commonDivisor_dvd_tripleGCD",
    "file": "lean/MCore/Attack/GCDTerminalProducer.lean",
    "line": 9,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{a b c d : Nat} (h : CommonDivisor d a b c) : d ∣ TripleGCD a b c"
   },
@@ -1498,7 +1498,7 @@
    "name": "MCore.Attack.tripleGCD_common_divides",
    "file": "lean/MCore/Attack/GCDTerminalProducer.lean",
    "line": 17,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(a b c : Nat) : TripleGCD a b c ∣ a ∧ TripleGCD a b c ∣ b ∧ TripleGCD a b c ∣ c"
   },
@@ -1506,7 +1506,7 @@
    "name": "MCore.Attack.tripleGCD_gt_one_closes_commonDivisor",
    "file": "lean/MCore/Attack/GCDTerminalProducer.lean",
    "line": 31,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : BealData) (hgt : 1 < TripleGCD d.a d.b d.c) : ∃ q : Nat, CommonDivisor q d.a d.b d.c"
   },
@@ -1514,7 +1514,7 @@
    "name": "MCore.Attack.universalTripleGCDLowerBound_closes_beal",
    "file": "lean/MCore/Attack/GCDTerminalProducer.lean",
    "line": 44,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : UniversalTripleGCDLowerBound) : BealConjecture"
   },
@@ -1522,7 +1522,7 @@
    "name": "MCore.AutoCompose.extract",
    "file": "lean/MCore/AutoCompose.lean",
    "line": 24,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (c : TheoremCertificate P) : P"
   },
@@ -1562,7 +1562,7 @@
    "name": "MCore.BealExternalProofPayload.closes",
    "file": "lean/MCore/BealFinalExternalCertificate.lean",
    "line": 50,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BealExternalProofPayload) : BealConjecture"
   },
@@ -1570,7 +1570,7 @@
    "name": "MCore.BealFastExternalProof.closes",
    "file": "lean/MCore/BealFastExternalEndpoint.lean",
    "line": 68,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BealFastExternalProof) : BealConjecture"
   },
@@ -1626,7 +1626,7 @@
    "name": "MCore.BealFinal.residual_closes_final",
    "file": "lean/MCore/FinalOpenMath.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : OpenMathResidual) : FinalExternalCertificate"
   },
@@ -1634,7 +1634,7 @@
    "name": "MCore.Beal_of_ABC_and_finite_check",
    "file": "lean/MCore/BealViaABC.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{ABCStatement : Prop} (hABC : ABCStatement) (R : ABCBealFiniteReduction ABCStatement) (C : BealFiniteCheck R.bound) : BealConjecture"
   },
@@ -1642,7 +1642,7 @@
    "name": "MCore.FINAL_PROOF_of_external_proof",
    "file": "lean/MCore/FinalRoot.lean",
    "line": 10,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BealExternalProofPayload) : BealConjecture"
   },
@@ -1650,7 +1650,7 @@
    "name": "MCore.T21DiffQuot_four",
    "file": "lean/MCore/BealQuarticFactorization.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(c a : Nat) : T21DiffQuot c a 4 = (c + a) * (c ^ 2 + a ^ 2)"
   },
@@ -1842,17 +1842,15 @@
    "name": "MCore.T59_no_rhs_even_when_x_y_four",
    "file": "lean/MCore/BealResidualMod8.lean",
    "line": 50,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hy : d.y = 4) : ¬ T12Even d.c"
   },
   {
    "name": "MCore.T59_quartic_factorization_packet",
    "file": "lean/MCore/BealQuarticFactorization.lean",
    "line": 70,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) : T59QuarticFactorizationPacket d where xz_four"
   },
@@ -1860,7 +1858,7 @@
    "name": "MCore.T59_quartic_odd_prime_support_packet",
    "file": "lean/MCore/BealQuarticPrimeSupport.lean",
    "line": 113,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) : T59QuarticOddPrimeSupportPacket d where xz_sub"
   },
@@ -1868,7 +1866,7 @@
    "name": "MCore.T59_two_four_forces_rhs_pow_mod_sixteen",
    "file": "lean/MCore/BealResidualMod16.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hy : d.y = 4) : d.c ^ d.z % 16 = 1"
   },
@@ -1876,7 +1874,7 @@
    "name": "MCore.T59_two_four_local_residue_constraint",
    "file": "lean/MCore/BealResidualMod16.lean",
    "line": 61,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) : T59TwoFourLocalResidueConstraint d"
   },
@@ -1884,7 +1882,7 @@
    "name": "MCore.T59_two_four_prime_residue_atlas",
    "file": "lean/MCore/BealTwoFourResidueAtlas.lean",
    "line": 110,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) : T59TwoFourPrimeResidueAtlas d"
   },
@@ -1892,7 +1890,7 @@
    "name": "MCore.T59_two_four_xy_forces_c_mod_sixteen_one",
    "file": "lean/MCore/BealTwoFourSharpResidues.lean",
    "line": 73,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hy : d.y = 4) (hzPrime : IsPrime d.z) (hzGt : 2 < d.z) : d.c % 16 = 1"
   },
@@ -1900,7 +1898,7 @@
    "name": "MCore.T59_two_four_xz_residue_atlas",
    "file": "lean/MCore/BealTwoFourResidueAtlas.lean",
    "line": 5,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) : (T12Even d.a -> d.b ^ d.y % 16 = 1) ∧ (T12Even d.b -> d.a ^ 4 % 16 = 1) ∧ (T12Even d.c -> d.b ^ d.y % 16 = 15)"
   },
@@ -1908,7 +1906,7 @@
    "name": "MCore.T59_two_four_xz_sharp_residues",
    "file": "lean/MCore/BealTwoFourSharpResidues.lean",
    "line": 93,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) (hyPrime : IsPrime d.y) (hyGt : 2 < d.y) : (T12Even d.a -> d.b % 16 = 1) ∧ (T12Even d.c -> d.b % 16 = 15)"
   },
@@ -1916,7 +1914,7 @@
    "name": "MCore.T59_two_four_yz_residue_atlas",
    "file": "lean/MCore/BealTwoFourResidueAtlas.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) : (T12Even d.a -> d.b ^ 4 % 16 = 1) ∧ (T12Even d.b -> d.a ^ d.x % 16 = 1) ∧ (T12Even d.c -> d.a ^ d.x % 16 = 15)"
   },
@@ -1924,7 +1922,7 @@
    "name": "MCore.T59_two_four_yz_sharp_residues",
    "file": "lean/MCore/BealTwoFourSharpResidues.lean",
    "line": 124,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) (hxPrime : IsPrime d.x) (hxGt : 2 < d.x) : (T12Even d.b -> d.a % 16 = 1) ∧ (T12Even d.c -> d.a % 16 = 15)"
   },
@@ -1932,7 +1930,7 @@
    "name": "MCore.T59_xz_four_a_even_base_product",
    "file": "lean/MCore/BealQuarticPurePowerParametrization.lean",
    "line": 84,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) (haEven : T12Even d.a) : ∃ u v w : Nat, d.c - d.a = u ^ d.y ∧ d.c + d.a = v ^ d.y ∧ d.c ^ 2 + d.a ^ 2 = w ^ d.y ∧ d.b = u * v * w"
   },
@@ -1940,7 +1938,7 @@
    "name": "MCore.T59_xz_four_a_even_eliminated_of_darmon_merel",
    "file": "lean/MCore/External/DarmonMerelDenesPort.lean",
    "line": 17,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(DM : DarmonMerelDenesTheorem) (d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) (haEven : T12Even d.a) : False"
   },
@@ -1948,7 +1946,7 @@
    "name": "MCore.T59_xz_four_a_even_generalized_fermat",
    "file": "lean/MCore/BealQuarticGeneralizedFermatReduction.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) (haEven : T12Even d.a) : ∃ u v w : Nat, d.c - d.a = u ^ d.y ∧ d.c + d.a = v ^ d.y ∧ d.c ^ 2 + d.a ^ 2 = w ^ d.y ∧ u ^ (2 * d.y) + v ^ (2 * d.y) = 2 * w ^ d.y"
   },
@@ -1956,7 +1954,7 @@
    "name": "MCore.T59_xz_four_a_even_generalized_fermat_squared_bases",
    "file": "lean/MCore/BealQuarticGeneralizedFermatReduction.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) (haEven : T12Even d.a) : ∃ X Y Z : Nat, X ^ d.y + Y ^ d.y = 2 * Z ^ d.y"
   },
@@ -1964,7 +1962,7 @@
    "name": "MCore.T59_xz_four_a_even_linear_factorization_two_zero",
    "file": "lean/MCore/BealQuarticParityPowerForms.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) (haEven : T12Even d.a) : (d.c - d.a).factorization 2 = 0 ∧ (d.c + d.a).factorization 2 = 0"
   },
@@ -1972,7 +1970,7 @@
    "name": "MCore.T59_xz_four_a_even_linear_factors_are_powers",
    "file": "lean/MCore/BealQuarticParityPowerForms.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) (haEven : T12Even d.a) : (∃ u : Nat, d.c - d.a = u ^ d.y) ∧ (∃ v : Nat, d.c + d.a = v ^ d.y)"
   },
@@ -1980,7 +1978,7 @@
    "name": "MCore.T59_xz_four_a_even_linear_factors_odd",
    "file": "lean/MCore/BealQuarticParityPowerForms.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) (haEven : T12Even d.a) : T12Odd (d.c - d.a) ∧ T12Odd (d.c + d.a)"
   },
@@ -1988,7 +1986,7 @@
    "name": "MCore.T59_xz_four_a_even_product_power_identity",
    "file": "lean/MCore/BealQuarticPurePowerParametrization.lean",
    "line": 65,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) (haEven : T12Even d.a) : ∃ u v w : Nat, d.c - d.a = u ^ d.y ∧ d.c + d.a = v ^ d.y ∧ d.c ^ 2 + d.a ^ 2 = w ^ d.y ∧ d.b ^ d.y = (u * v * w) ^ d.y"
   },
@@ -1996,7 +1994,7 @@
    "name": "MCore.T59_xz_four_a_even_quadratic_factor_odd",
    "file": "lean/MCore/BealQuarticPurePowerParametrization.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) (haEven : T12Even d.a) : T12Odd (d.c ^ 2 + d.a ^ 2)"
   },
@@ -2004,7 +2002,7 @@
    "name": "MCore.T59_xz_four_a_even_to_primitive_denes",
    "file": "lean/MCore/BealQuarticDenesAdapter.lean",
    "line": 16,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) (haEven : T12Even d.a) : Nonempty (PrimitiveDenesSolution d.y)"
   },
@@ -2012,7 +2010,7 @@
    "name": "MCore.T59_xz_four_a_even_uv_coprime",
    "file": "lean/MCore/BealQuarticGeneralizedFermatReduction.lean",
    "line": 62,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) (haEven : T12Even d.a) : ∃ u v : Nat, d.c - d.a = u ^ d.y ∧ d.c + d.a = v ^ d.y ∧ Nat.Coprime u v"
   },
@@ -2020,7 +2018,7 @@
    "name": "MCore.T59_xz_four_add_factorization_multiple",
    "file": "lean/MCore/BealQuarticValuationLaw.lean",
    "line": 85,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) {q : Nat} (hq : IsPrime q) (hq2 : q ≠ 2) (hqadd : q ∣ d.c + d.a) : d.y ∣ (d.c + d.a).factorization q"
   },
@@ -2028,7 +2026,7 @@
    "name": "MCore.T59_xz_four_add_quadratic_odd_prime_disjoint",
    "file": "lean/MCore/BealQuarticThreeBlockSeparation.lean",
    "line": 52,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) {p : Nat} (hp : IsPrime p) (hp2 : p ≠ 2) : ¬ (p ∣ d.c + d.a ∧ p ∣ d.c ^ 2 + d.a ^ 2)"
   },
@@ -2036,7 +2034,7 @@
    "name": "MCore.T59_xz_four_exact_factorization",
    "file": "lean/MCore/BealQuarticFactorization.lean",
    "line": 12,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) : d.b ^ d.y = (d.c - d.a) * ((d.c + d.a) * (d.c ^ 2 + d.a ^ 2))"
   },
@@ -2044,7 +2042,7 @@
    "name": "MCore.T59_xz_four_linear_factors_odd_prime_disjoint",
    "file": "lean/MCore/BealQuarticOddPrimeSeparation.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) {p : Nat} (hp : IsPrime p) (hp2 : p ≠ 2) : ¬ (p ∣ d.c - d.a ∧ p ∣ d.c + d.a)"
   },
@@ -2052,7 +2050,7 @@
    "name": "MCore.T59_xz_four_oddPart_add_is_power",
    "file": "lean/MCore/BealQuarticOddPartPowers.lean",
    "line": 84,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) : ∃ v : Nat, Nat.ordCompl 2 (d.c + d.a) = v ^ d.y"
   },
@@ -2060,7 +2058,7 @@
    "name": "MCore.T59_xz_four_oddPart_quad_is_power",
    "file": "lean/MCore/BealQuarticOddPartPowers.lean",
    "line": 98,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) : ∃ w : Nat, Nat.ordCompl 2 (d.c ^ 2 + d.a ^ 2) = w ^ d.y"
   },
@@ -2068,7 +2066,7 @@
    "name": "MCore.T59_xz_four_oddPart_sub_is_power",
    "file": "lean/MCore/BealQuarticOddPartPowers.lean",
    "line": 64,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) : ∃ u : Nat, Nat.ordCompl 2 (d.c - d.a) = u ^ d.y"
   },
@@ -2076,7 +2074,7 @@
    "name": "MCore.T59_xz_four_odd_prime_of_c_add_a_supports_b",
    "file": "lean/MCore/BealQuarticPrimeSupport.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) {p : Nat} (hp : IsPrime p) (hpdiv : p ∣ d.c + d.a) : p ∣ d.b"
   },
@@ -2084,7 +2082,7 @@
    "name": "MCore.T59_xz_four_odd_prime_of_c_sub_a_supports_b",
    "file": "lean/MCore/BealQuarticPrimeSupport.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) {p : Nat} (hp : IsPrime p) (hpdiv : p ∣ d.c - d.a) : p ∣ d.b"
   },
@@ -2092,7 +2090,7 @@
    "name": "MCore.T59_xz_four_odd_prime_of_quadratic_supports_b",
    "file": "lean/MCore/BealQuarticCompleteOddSupport.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) {p : Nat} (hp : IsPrime p) (hpdiv : p ∣ d.c ^ 2 + d.a ^ 2) : p ∣ d.b"
   },
@@ -2100,7 +2098,7 @@
    "name": "MCore.T59_xz_four_quad_factorization_multiple",
    "file": "lean/MCore/BealQuarticValuationLaw.lean",
    "line": 130,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) {q : Nat} (hq : IsPrime q) (hq2 : q ≠ 2) (hqquad : q ∣ d.c ^ 2 + d.a ^ 2) : d.y ∣ (d.c ^ 2 + d.a ^ 2).factorization q"
   },
@@ -2108,7 +2106,7 @@
    "name": "MCore.T59_xz_four_sub_factorization_multiple",
    "file": "lean/MCore/BealQuarticValuationLaw.lean",
    "line": 49,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) {q : Nat} (hq : IsPrime q) (hq2 : q ≠ 2) (hqsub : q ∣ d.c - d.a) : d.y ∣ (d.c - d.a).factorization q"
   },
@@ -2116,7 +2114,7 @@
    "name": "MCore.T59_xz_four_sub_quadratic_odd_prime_disjoint",
    "file": "lean/MCore/BealQuarticThreeBlockSeparation.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hx : d.x = 4) (hz : d.z = 4) {p : Nat} (hp : IsPrime p) (hp2 : p ≠ 2) : ¬ (p ∣ d.c - d.a ∧ p ∣ d.c ^ 2 + d.a ^ 2)"
   },
@@ -2124,7 +2122,7 @@
    "name": "MCore.T59_yz_four_add_factorization_multiple",
    "file": "lean/MCore/BealQuarticValuationPacket.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) {q : Nat} (hq : IsPrime q) (hq2 : q ≠ 2) (hqadd : q ∣ d.c + d.b) : d.x ∣ (d.c + d.b).factorization q"
   },
@@ -2132,7 +2130,7 @@
    "name": "MCore.T59_yz_four_add_quadratic_odd_prime_disjoint",
    "file": "lean/MCore/BealQuarticThreeBlockSeparation.lean",
    "line": 152,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) {p : Nat} (hp : IsPrime p) (hp2 : p ≠ 2) : ¬ (p ∣ d.c + d.b ∧ p ∣ d.c ^ 2 + d.b ^ 2)"
   },
@@ -2140,7 +2138,7 @@
    "name": "MCore.T59_yz_four_b_even_base_product",
    "file": "lean/MCore/BealQuarticPurePowerParametrization.lean",
    "line": 157,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) (hbEven : T12Even d.b) : ∃ u v w : Nat, d.c - d.b = u ^ d.x ∧ d.c + d.b = v ^ d.x ∧ d.c ^ 2 + d.b ^ 2 = w ^ d.x ∧ d.a = u * v * w"
   },
@@ -2148,7 +2146,7 @@
    "name": "MCore.T59_yz_four_b_even_generalized_fermat_squared_bases",
    "file": "lean/MCore/BealQuarticGeneralizedFermatReduction.lean",
    "line": 111,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) (hbEven : T12Even d.b) : ∃ X Y Z : Nat, X ^ d.x + Y ^ d.x = 2 * Z ^ d.x"
   },
@@ -2156,7 +2154,7 @@
    "name": "MCore.T59_yz_four_b_even_linear_factors_are_powers",
    "file": "lean/MCore/BealQuarticParityPowerForms.lean",
    "line": 65,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) (hbEven : T12Even d.b) : (∃ u : Nat, d.c - d.b = u ^ d.x) ∧ (∃ v : Nat, d.c + d.b = v ^ d.x)"
   },
@@ -2164,7 +2162,7 @@
    "name": "MCore.T59_yz_four_exact_factorization",
    "file": "lean/MCore/BealQuarticFactorization.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) : d.a ^ d.x = (d.c - d.b) * ((d.c + d.b) * (d.c ^ 2 + d.b ^ 2))"
   },
@@ -2172,7 +2170,7 @@
    "name": "MCore.T59_yz_four_linear_factors_odd_prime_disjoint",
    "file": "lean/MCore/BealQuarticOddPrimeSeparation.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) {p : Nat} (hp : IsPrime p) (hp2 : p ≠ 2) : ¬ (p ∣ d.c - d.b ∧ p ∣ d.c + d.b)"
   },
@@ -2180,7 +2178,7 @@
    "name": "MCore.T59_yz_four_oddPart_add_is_power",
    "file": "lean/MCore/BealQuarticOddPartPowers.lean",
    "line": 129,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) : ∃ v : Nat, Nat.ordCompl 2 (d.c + d.b) = v ^ d.x"
   },
@@ -2188,7 +2186,7 @@
    "name": "MCore.T59_yz_four_oddPart_quad_is_power",
    "file": "lean/MCore/BealQuarticOddPartPowers.lean",
    "line": 142,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) : ∃ w : Nat, Nat.ordCompl 2 (d.c ^ 2 + d.b ^ 2) = w ^ d.x"
   },
@@ -2196,7 +2194,7 @@
    "name": "MCore.T59_yz_four_oddPart_sub_is_power",
    "file": "lean/MCore/BealQuarticOddPartPowers.lean",
    "line": 113,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) : ∃ u : Nat, Nat.ordCompl 2 (d.c - d.b) = u ^ d.x"
   },
@@ -2204,7 +2202,7 @@
    "name": "MCore.T59_yz_four_odd_prime_of_c_add_b_supports_a",
    "file": "lean/MCore/BealQuarticPrimeSupport.lean",
    "line": 64,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) {p : Nat} (hp : IsPrime p) (hpdiv : p ∣ d.c + d.b) : p ∣ d.a"
   },
@@ -2212,7 +2210,7 @@
    "name": "MCore.T59_yz_four_odd_prime_of_c_sub_b_supports_a",
    "file": "lean/MCore/BealQuarticPrimeSupport.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) {p : Nat} (hp : IsPrime p) (hpdiv : p ∣ d.c - d.b) : p ∣ d.a"
   },
@@ -2220,7 +2218,7 @@
    "name": "MCore.T59_yz_four_odd_prime_of_quadratic_supports_a",
    "file": "lean/MCore/BealQuarticCompleteOddSupport.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) {p : Nat} (hp : IsPrime p) (hpdiv : p ∣ d.c ^ 2 + d.b ^ 2) : p ∣ d.a"
   },
@@ -2228,7 +2226,7 @@
    "name": "MCore.T59_yz_four_quad_factorization_multiple",
    "file": "lean/MCore/BealQuarticValuationPacket.lean",
    "line": 74,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) {q : Nat} (hq : IsPrime q) (hq2 : q ≠ 2) (hqquad : q ∣ d.c ^ 2 + d.b ^ 2) : d.x ∣ (d.c ^ 2 + d.b ^ 2).factorization q"
   },
@@ -2236,7 +2234,7 @@
    "name": "MCore.T59_yz_four_sub_factorization_multiple",
    "file": "lean/MCore/BealQuarticValuationPacket.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) {q : Nat} (hq : IsPrime q) (hq2 : q ≠ 2) (hqsub : q ∣ d.c - d.b) : d.x ∣ (d.c - d.b).factorization q"
   },
@@ -2244,7 +2242,7 @@
    "name": "MCore.T59_yz_four_sub_quadratic_odd_prime_disjoint",
    "file": "lean/MCore/BealQuarticThreeBlockSeparation.lean",
    "line": 107,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) (hy : d.y = 4) (hz : d.z = 4) {p : Nat} (hp : IsPrime p) (hp2 : p ≠ 2) : ¬ (p ∣ d.c - d.b ∧ p ∣ d.c ^ 2 + d.b ^ 2)"
   },
@@ -2276,7 +2274,7 @@
    "name": "MCore.b01_dense_green_prefix",
    "file": "lean/MCore/B01DenseScientificFrontier.lean",
    "line": 177,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) : T60GenuineOddMultiplicativeReduction d"
   },
@@ -2284,17 +2282,15 @@
    "name": "MCore.b01_exact_conductor_contract_exposes_actual",
    "file": "lean/MCore/B01ExactConductorContract.lean",
    "line": 20,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{ActualConductor : B01ActualConductorLevel} {d : T59ResidualCandidate} (C : B01ExactConductorContract ActualConductor d) : ∃ N : Nat, B01ConductorLevel d N ∧ ActualConductor d N"
   },
   {
    "name": "MCore.b02_dense_eliminates_all",
    "file": "lean/MCore/B02DenseScientificFrontier.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(H : B02DenseScientificInhabitant) : T44AllNewformsEliminated H.semantics.Survives"
   },
@@ -2310,7 +2306,7 @@
    "name": "MCore.bealData_is_admissible",
    "file": "lean/MCore/BealEndpointDenseFrontier.lean",
    "line": 13,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : BealData) : BealDatumAdmissible d"
   },
@@ -2326,7 +2322,7 @@
    "name": "MCore.beal_atomic_package_closes",
    "file": "lean/MCore/BealAtomicOpenMathObligations.lean",
    "line": 129,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BealAtomicOpenMathPackage) : BealConjecture"
   },
@@ -2342,7 +2338,7 @@
    "name": "MCore.beal_dense_open_math_package_closes",
    "file": "lean/MCore/BealDenseOpenMathPackage.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BealDenseOpenMathPackage) : BealConjecture"
   },
@@ -2350,7 +2346,7 @@
    "name": "MCore.beal_endpoint_is_logically_sufficient",
    "file": "lean/MCore/BealOpenMathInhabitants.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(E : BealUniversalCommonPrimeCertificate) : BealConjecture"
   },
@@ -2358,7 +2354,7 @@
    "name": "MCore.beal_even_fourth_mod_sixteen",
    "file": "lean/MCore/BealResidualMod16.lean",
    "line": 15,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{n : Nat} (heven : 2 ∣ n) : n ^ 4 % 16 = 0"
   },
@@ -2366,17 +2362,15 @@
    "name": "MCore.beal_even_pow_mod_eight",
    "file": "lean/MCore/BealResidualMod8.lean",
    "line": 16,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{n e : Nat} (heven : 2 ∣ n) (he : 2 < e) : n ^ e % 8 = 0"
   },
   {
    "name": "MCore.beal_external_payloads_exclusive",
    "file": "lean/MCore/BealFinalExternalAggregator.lean",
    "line": 60,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BealExternalProofPayload) (R : BealExternalRefutationPayload) : False"
   },
@@ -2384,7 +2378,7 @@
    "name": "MCore.beal_external_proof_refutation_exclusive",
    "file": "lean/MCore/BealFinalExternalCertificate.lean",
    "line": 66,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BealExternalProofPayload) (R : BealExternalRefutationPayload) : False"
   },
@@ -2392,7 +2386,7 @@
    "name": "MCore.beal_fast_gap_iff_beal",
    "file": "lean/MCore/BealFastClosureAudit.lean",
    "line": 15,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty BealFastOpenMathGap ↔ BealConjecture"
   },
@@ -2400,7 +2394,7 @@
    "name": "MCore.beal_iff_commonDivisorProducer",
    "file": "lean/MCore/BealFastExternalEndpoint.lean",
    "line": 56,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": BealConjecture ↔ Nonempty BealCommonDivisorProducer"
   },
@@ -2408,7 +2402,7 @@
    "name": "MCore.beal_iff_globalEliminationProducer",
    "file": "lean/MCore/BealFastEliminationEndpoint.lean",
    "line": 30,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": BealConjecture ↔ Nonempty BealGlobalEliminationProducer"
   },
@@ -2416,7 +2410,7 @@
    "name": "MCore.beal_iff_negative_elimination",
    "file": "lean/MCore/BealNegativeClosureRoute.lean",
    "line": 21,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": BealConjecture ↔ BealNegativeElimination"
   },
@@ -2424,7 +2418,7 @@
    "name": "MCore.beal_master_package_closes",
    "file": "lean/MCore/BealMasterExternalProof.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BealMasterProofPackage) : BealConjecture"
   },
@@ -2432,7 +2426,7 @@
    "name": "MCore.beal_master_proof_refutation_exclusive",
    "file": "lean/MCore/BealMasterExternalProof.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BealMasterProofPackage) (R : BealMasterRefutationPackage) : False"
   },
@@ -2448,7 +2442,7 @@
    "name": "MCore.beal_negative_closure_inhabitant_closes",
    "file": "lean/MCore/BealNegativeClosureRoute.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(H : BealNegativeClosureInhabitant) : BealConjecture"
   },
@@ -2456,7 +2450,7 @@
    "name": "MCore.beal_negative_green_odd_prefix",
    "file": "lean/MCore/BealNegativeClosureRoute.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) : T60GenuineOddMultiplicativeReduction d"
   },
@@ -2464,7 +2458,7 @@
    "name": "MCore.beal_odd_fourth_mod_eight",
    "file": "lean/MCore/BealResidualMod8.lean",
    "line": 5,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{n : Nat} (hodd : n % 2 = 1) : n ^ 4 % 8 = 1"
   },
@@ -2472,7 +2466,7 @@
    "name": "MCore.beal_odd_fourth_mod_sixteen",
    "file": "lean/MCore/BealResidualMod16.lean",
    "line": 5,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{n : Nat} (hodd : n % 2 = 1) : n ^ 4 % 16 = 1"
   },
@@ -2480,7 +2474,7 @@
    "name": "MCore.beal_open_math_inhabitants_close_beal",
    "file": "lean/MCore/BealOpenMathInhabitants.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(H : BealOpenMathInhabitants) : BealConjecture"
   },
@@ -2488,7 +2482,7 @@
    "name": "MCore.beal_prime_gt_two_mod_two_eq_one",
    "file": "lean/MCore/BealTwoFourSharpResidues.lean",
    "line": 5,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{p : Nat} (hp : IsPrime p) (h2 : 2 < p) : p % 2 = 1"
   },
@@ -2496,7 +2490,7 @@
    "name": "MCore.beal_single_residual_claim_contradiction",
    "file": "lean/MCore/BealFastEliminationEndpoint.lean",
    "line": 65,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": T43UniversalSingleResidualPrimeRule ∧ BealSingleResidualRequiredCondition → False"
   },
@@ -2504,7 +2498,7 @@
    "name": "MCore.beal_single_residual_formulation_falsified",
    "file": "lean/MCore/BealFastEliminationEndpoint.lean",
    "line": 59,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": T43UniversalSingleResidualPrimeRule → ¬ BealSingleResidualRequiredCondition"
   },
@@ -2512,7 +2506,7 @@
    "name": "MCore.beal_statement_frozen_exact",
    "file": "lean/MCore/BealStatementFrozen.lean",
    "line": 8,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": BealStatementFrozen ↔ BealConjecture"
   },
@@ -2520,7 +2514,7 @@
    "name": "MCore.beal_to_negative_elimination",
    "file": "lean/MCore/BealNegativeClosureRoute.lean",
    "line": 31,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : BealConjecture) : BealNegativeElimination"
   },
@@ -2528,7 +2522,7 @@
    "name": "MCore.beal_universal_witness_producer_closes",
    "file": "lean/MCore/BealEndpointDenseFrontier.lean",
    "line": 39,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BealUniversalWitnessProducer) : BealConjecture"
   },
@@ -2536,7 +2530,7 @@
    "name": "MCore.boundary_commonDivisor_to_beal",
    "file": "lean/MCore/BealBoundaryConnectivity.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BoundaryCommonDivisor) : BealConjecture"
   },
@@ -2544,7 +2538,7 @@
    "name": "MCore.boundary_commonDivisor_to_commonPrime",
    "file": "lean/MCore/BealBoundaryConnectivity.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BoundaryCommonDivisor) : ∀ d : BealData, CommonPrime d.a d.b d.c"
   },
@@ -2552,7 +2546,7 @@
    "name": "MCore.boundary_local_to_multiplicative",
    "file": "lean/MCore/BealBoundaryConnectivity.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) : T60GenuineOddMultiplicativeReduction d"
   },
@@ -2560,7 +2554,7 @@
    "name": "MCore.boundary_residual_to_newform_elimination",
    "file": "lean/MCore/BealBoundaryConnectivity.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(H : BoundaryResidualNewform) : T44AllNewformsEliminated H.semantics.Survives"
   },
@@ -2568,7 +2562,7 @@
    "name": "MCore.boundary_terminal_exact",
    "file": "lean/MCore/BealBoundaryConnectivity.lean",
    "line": 62,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": BealConjecture ↔ Nonempty BoundaryCommonDivisor"
   },
@@ -2576,7 +2570,7 @@
    "name": "MCore.commonDivisorProducer_closes_beal",
    "file": "lean/MCore/BealFastExternalEndpoint.lean",
    "line": 35,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BealCommonDivisorProducer) : BealConjecture"
   },
@@ -2584,7 +2578,7 @@
    "name": "MCore.commonDivisorProducer_to_commonPrime",
    "file": "lean/MCore/BealFastExternalEndpoint.lean",
    "line": 30,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BealCommonDivisorProducer) (d : BealData) : CommonPrime d.a d.b d.c"
   },
@@ -2592,7 +2586,7 @@
    "name": "MCore.currentBealFastExternalState_is_open",
    "file": "lean/MCore/BealFastClosureAudit.lean",
    "line": 43,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": currentBealFastExternalState = .openMath"
   },
@@ -2608,7 +2602,7 @@
    "name": "MCore.dense_package_refutation_exclusive",
    "file": "lean/MCore/BealDenseOpenMathPackage.lean",
    "line": 30,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BealDenseOpenMathPackage) (R : BealCounterexampleWitness) : False"
   },
@@ -2616,7 +2610,7 @@
    "name": "MCore.eq_twoPow_mul_pow_of_oddPart_pow",
    "file": "lean/MCore/BealQuarticFullPowerForms.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{n e m : Nat} (hodd : Nat.ordCompl 2 n = m ^ e) : n = 2 ^ n.factorization 2 * m ^ e"
   },
@@ -2624,7 +2618,7 @@
    "name": "MCore.every_T59_has_quartic_valuation_packet",
    "file": "lean/MCore/BealQuarticBilateralClosure.lean",
    "line": 69,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : T59ResidualCandidate) : T59QuarticValuationPacket d"
   },
@@ -2632,7 +2626,7 @@
    "name": "MCore.exists_eq_pow_of_factorization_multiples",
    "file": "lean/MCore/BealQuarticOddPartPowers.lean",
    "line": 5,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{n e : Nat} (hn : n ≠ 0) (he : 0 < e) (hdiv : ∀ p : Nat, e ∣ n.factorization p) : ∃ m : Nat, n = m ^ e"
   },
@@ -2640,7 +2634,7 @@
    "name": "MCore.exponent_dvd_isolated_factor_factorization",
    "file": "lean/MCore/BealQuarticValuationLaw.lean",
    "line": 34,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A B C b e q : Nat} (hA0 : A ≠ 0) (hB0 : B ≠ 0) (hC0 : C ≠ 0) (hb0 : b ≠ 0) (heq : b ^ e = A * (B * C)) (hqB : ¬ q ∣ B) (hqC : ¬ q ∣ C) : e ∣ A.factorization q"
   },
@@ -2672,7 +2666,7 @@
    "name": "MCore.isolated_factor_factorization_eq_power_multiple",
    "file": "lean/MCore/BealQuarticValuationLaw.lean",
    "line": 5,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A B C b e q : Nat} (hA0 : A ≠ 0) (hB0 : B ≠ 0) (hC0 : C ≠ 0) (hb0 : b ≠ 0) (heq : b ^ e = A * (B * C)) (hqB : ¬ q ∣ B) (hqC : ¬ q ∣ C) : A.factorization q = e * b.factorization q"
   },
@@ -2680,17 +2674,15 @@
    "name": "MCore.no_two_four_prime_with_even_rhs",
    "file": "lean/MCore/BealResidualMod8.lean",
    "line": 28,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{a b c z : Nat} (haOdd : ¬ T12Even a) (hbOdd : ¬ T12Even b) (hcEven : T12Even c) (hz : 2 < z) : a ^ 4 + b ^ 4 ≠ c ^ z"
   },
   {
    "name": "MCore.oddPart_eq_pow_of_odd_prime_factorization_multiples",
    "file": "lean/MCore/BealQuarticOddPartPowers.lean",
    "line": 29,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{n e : Nat} (hn : n ≠ 0) (he : 0 < e) (hodd : ∀ q : Nat, IsPrime q → q ≠ 2 → q ∣ n → e ∣ n.factorization q) : ∃ m : Nat, Nat.ordCompl 2 n = m ^ e"
   },
@@ -2698,7 +2690,7 @@
    "name": "MCore.odd_pow_mod16_eq_fifteen_forces_base_fifteen",
    "file": "lean/MCore/BealTwoFourSharpResidues.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{u p : Nat} (huOdd : u % 2 = 1) (hpOdd : p % 2 = 1) (hpow : u ^ p % 16 = 15) : u % 16 = 15"
   },
@@ -2706,7 +2698,7 @@
    "name": "MCore.odd_pow_mod16_eq_one_forces_base_one",
    "file": "lean/MCore/BealTwoFourSharpResidues.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{u p : Nat} (huOdd : u % 2 = 1) (hpOdd : p % 2 = 1) (hpow : u ^ p % 16 = 1) : u % 16 = 1"
   },
@@ -2714,7 +2706,7 @@
    "name": "MCore.proofProducer_counterexample_exclusive",
    "file": "lean/MCore/BealEndpointDenseFrontier.lean",
    "line": 52,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : BealUniversalWitnessProducer) (R : BealCounterexampleWitness) : False"
   },
@@ -2730,7 +2722,7 @@
    "name": "MCore.quartic_linear_square_sum",
    "file": "lean/MCore/BealQuarticGeneralizedFermatReduction.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{a c : Nat} (hac : a ≤ c) : (c - a) ^ 2 + (c + a) ^ 2 = 2 * (c ^ 2 + a ^ 2)"
   },
@@ -2738,7 +2730,7 @@
    "name": "MCore.singleResidualRule_breaks_345",
    "file": "lean/MCore/BealFastEliminationEndpoint.lean",
    "line": 55,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ BealSingleResidualRequiredCondition"
   },
@@ -2746,7 +2738,7 @@
    "name": "MCore.singleResidualRule_requires_345",
    "file": "lean/MCore/BealFastEliminationEndpoint.lean",
    "line": 49,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": T43UniversalSingleResidualPrimeRule → BealSingleResidualRequiredCondition"
   },
@@ -2754,7 +2746,7 @@
    "name": "MCore.twoFourElimination_closes_local_positive",
    "file": "lean/MCore/BealQuarticBilateralClosure.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : TwoFourResidualEliminationProducer) : ¬ T59TwoFourResidualExists"
   },
@@ -2762,7 +2754,7 @@
    "name": "MCore.twoFourResidual_bilateral_outcome",
    "file": "lean/MCore/BealQuarticBilateralClosure.lean",
    "line": 51,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : TwoFourResidualMateriallyResolved) : (¬ T59TwoFourResidualExists) ∨ T59TwoFourResidualExists"
   },
@@ -2770,7 +2762,7 @@
    "name": "MCore.twoFourResidual_both_routes_contradict",
    "file": "lean/MCore/BealQuarticBilateralClosure.lean",
    "line": 60,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hp : Nonempty TwoFourResidualEliminationProducer) (hn : Nonempty TwoFourResidualSurvivorProducer) : False"
   },
@@ -2778,7 +2770,7 @@
    "name": "MCore.twoFourSurvivor_closes_local_negative",
    "file": "lean/MCore/BealQuarticBilateralClosure.lean",
    "line": 31,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : TwoFourResidualSurvivorProducer) : T59TwoFourResidualExists"
   },
@@ -2786,7 +2778,7 @@
    "name": "MCore.twoFourSurvivor_refutes_beal",
    "file": "lean/MCore/BealQuarticBilateralClosure.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : TwoFourResidualSurvivorProducer) : ¬ BealConjecture"
   },
@@ -2807,20 +2799,15 @@
    "statement": "MCore.BealUniversalCommonPrimeCertificate → MCore.BealProofCertificate"
   }
  ],
- "closed": 58,
+ "closed": 47,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "b633e126fcc0162ac48f1fad2649396b93959a6599fc49a2b1d90441c617a7c4",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
-  "lean/MCore/Attack/GCDTerminalProducer.lean": "cbfd3e9e7fcc70937df20703e77074037895c7db3feb89f8b4a62df5cbad246b",
-  "lean/MCore/AutoCompose.lean": "82d237a328a26f6f2bd3fefd78eec2ed3f05d5db26e46f63bfee75658946a7de",
   "lean/MCore/B01ConductorLevel.lean": "7ead8da5ab522bad7250baeddce72990e31befd8b1192b618b5b92b8d5b627d4",
   "lean/MCore/B01ExactConductorLevelCertificate.lean": "469f731db3674b8ded779c3500e243678ac3f5a7c94f622aae42c7f3c6a6a598",
-  "lean/MCore/BealFastExternalEndpoint.lean": "28506ff5631db6cd86f1c243a475d9aa7a47a560fcf2d4b4e151460a5375ab51",
   "lean/MCore/BealFinalMathematicalChain.lean": "9e2812ca1c96a933de820e378c82badd719982d01a2139350b3344cfcd883c8a",
-  "lean/MCore/BealResidualMod8.lean": "cb0efca87666a18d6aac8ce7e563bd6a4ab27b456e875223956bd525444b784d",
   "lean/MCore/BealSpecification.lean": "6f880a8c71b13e46cfd2783a8d236ec03818ab7f379d0246dd2e5dfdfaf3a80a",
-  "lean/MCore/BealStatementFrozen.lean": "426f0c5ba3eccc377b07cbb2bd0a85badae27560fe227e4134706e68d6557a2c",
   "lean/MCore/BealThreeLaneClosure.lean": "0c7a6716410bd44a63a1001cfcdab2d78a5b2db69e753ee54a6d69e812cd9e36",
   "lean/MCore/BealTwoSidedResolution.lean": "b5c483c9c82ed9490298291eadba89005f796c624ed9c87cef6a520e8947e0f3",
   "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
@@ -2896,6 +2883,6 @@
   "lean/MCore/T9.lean": "201cd28cf4ac3be419308bdc54a6266879494ad57be8247e01f1d83d824a86c9",
   "lean/MCore/V012.lean": "7a89da38a61abb05bc5c0b774a4e1d7317d4234bedd2bcb005d9d4c34f39a188"
  },
- "published_at": "2026-10-29T20:15:54Z",
- "certificate_sha256": "c37b23f51c9a4f8a24be2293d85a2a632364e83cb9ca36f4d8a935ca9695577e"
+ "published_at": "2026-11-02T20:55:36Z",
+ "certificate_sha256": "5914aa50769a6f2c13263562d24114860508462a1d5a1a3ca94c219ea37a1171"
 }

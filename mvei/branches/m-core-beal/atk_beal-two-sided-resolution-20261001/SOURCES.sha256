@@ -1,15 +1,10 @@
 b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lake-manifest.json
 b633e126fcc0162ac48f1fad2649396b93959a6599fc49a2b1d90441c617a7c4  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lakefile.toml
 55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lean-toolchain
-cbfd3e9e7fcc70937df20703e77074037895c7db3feb89f8b4a62df5cbad246b  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lean/MCore/Attack/GCDTerminalProducer.lean
-82d237a328a26f6f2bd3fefd78eec2ed3f05d5db26e46f63bfee75658946a7de  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lean/MCore/AutoCompose.lean
 7ead8da5ab522bad7250baeddce72990e31befd8b1192b618b5b92b8d5b627d4  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lean/MCore/B01ConductorLevel.lean
 469f731db3674b8ded779c3500e243678ac3f5a7c94f622aae42c7f3c6a6a598  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lean/MCore/B01ExactConductorLevelCertificate.lean
-28506ff5631db6cd86f1c243a475d9aa7a47a560fcf2d4b4e151460a5375ab51  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lean/MCore/BealFastExternalEndpoint.lean
 9e2812ca1c96a933de820e378c82badd719982d01a2139350b3344cfcd883c8a  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lean/MCore/BealFinalMathematicalChain.lean
-cb0efca87666a18d6aac8ce7e563bd6a4ab27b456e875223956bd525444b784d  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lean/MCore/BealResidualMod8.lean
 6f880a8c71b13e46cfd2783a8d236ec03818ab7f379d0246dd2e5dfdfaf3a80a  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lean/MCore/BealSpecification.lean
-426f0c5ba3eccc377b07cbb2bd0a85badae27560fe227e4134706e68d6557a2c  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lean/MCore/BealStatementFrozen.lean
 0c7a6716410bd44a63a1001cfcdab2d78a5b2db69e753ee54a6d69e812cd9e36  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lean/MCore/BealThreeLaneClosure.lean
 b5c483c9c82ed9490298291eadba89005f796c624ed9c87cef6a520e8947e0f3  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lean/MCore/BealTwoSidedResolution.lean
 e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a  branches/m-core-beal/atk_beal-two-sided-resolution-20261001/lean/MCore/Boundary.lean

@@ -758,7 +758,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0",
    "leanprover/lean4:v4.35.0-rc2"
@@ -815,20 +815,16 @@
    "name": "MCore.gcdEndpoint_closes_beal",
    "file": "lean/MCore/BealGcdEndpoint.lean",
    "line": 21,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(h : BealGcdEndpoint) : BealConjecture"
   },
   {
    "name": "MCore.gcdEndpoint_to_commonDivisorEndpoint",
    "file": "lean/MCore/BealGcdEndpoint.lean",
    "line": 12,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(h : BealGcdEndpoint) : BealCommonDivisorEndpoint"
   },
   {
@@ -865,6 +861,6 @@
   "lean/MCore/K9/Core/Arith.lean": "8b5e0a520afdec6b8a57e302ae16bac0ed24e874e8e775fb327cd7445abfac03",
   "lean/MCore/Signature.lean": "b295056afe7d8b4832377e0cbc67ceede72688c344705474d3803dba5a0d15ad"
  },
- "published_at": "2026-10-29T20:15:55Z",
- "certificate_sha256": "7f5a72a4d9a7c5c12aeec9eb2bf88e113183f8f17fe1e496c1570ab273add55d"
+ "published_at": "2026-11-02T20:55:36Z",
+ "certificate_sha256": "ed5d8349a94dc792bbafd4ef2f80da17904e30fdb93dcc87827684b6be8120fa"
 }

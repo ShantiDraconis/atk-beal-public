@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T18:57:14+00:00",
+ "generated_at": "2026-10-30T16:50:26+00:00",
  "standard_axioms": [
   "Classical.choice",
   "Quot.sound",
@@ -15,7 +15,7 @@
    "toolchain_used": "leanprover/lean4:v4.19.0",
    "needs_mathlib": false,
    "build_ok": true,
-   "build_seconds": 13.0,
+   "build_seconds": 10.9,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -886,8 +886,10 @@
     }
    ],
    "integrity": [],
-   "note": "",
-   "corrections": [],
+   "note": "CORRIGIDO PELO MVEI (z-provas-reparadas): 2 prova(s) reescrita(s), conferidas no Lean do projeto: no_infinite_descent, forwardDependency_wellFounded.",
+   "corrections": [
+    "z-provas-reparadas"
+   ],
    "lakefile_gerado": "",
    "avulso": false,
    "salvage": [
@@ -921,21 +923,15 @@
      "arquivo": "formal/DirectEndpointRule.lean",
      "linha": 30,
      "nome": "DirectEndpointRule.no_infinite_descent",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 35: application type mismatch InvImage.wf p.rank Nat.lt_wfRel argument Nat.lt_wfRel has type WellFoundedRelation Nat : Type but is expected to have type WellFounded LT.lt : Prop"
+     "status": "fechado",
+     "axioms": []
     },
     {
      "arquivo": "formal/DirectEndpointRule.lean",
      "linha": 52,
      "nome": "DirectEndpointRule.forwardDependency_wellFounded",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 54: application type mismatch InvImage.wf stageRank Nat.lt_wfRel argument Nat.lt_wfRel has type WellFoundedRelation Nat : Type but is expected to have type WellFounded LT.lt : Prop"
+     "status": "fechado",
+     "axioms": []
     },
     {
      "arquivo": "lean/MCore/BackwardAudit/HypotheticalClosureOracle.lean",
@@ -962,9 +958,11 @@
      "arquivo": "lean/MCore/Material/GCDAdapter.lean",
      "linha": 5,
      "nome": "MCore.Material.beal_material_iff_endpoint",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "motivo": "object file '././.lake/build/lib/lean/MCore/Material/Closure.olean' of module MCore.Material.Closure does not exist"
+     "status": "fechado",
+     "axioms": [
+      "propext",
+      "Quot.sound"
+     ]
     }
    ],
    "preenchimento": [],
@@ -972,7 +970,8 @@
     "fechado": 118,
     "aberto-sorry": 0,
     "condicional": 0
-   }
+   },
+   "hora_commit_mvei": 1793349359
   },
   {
    "repo": "m-core-beal",
@@ -981,7 +980,7 @@
    "toolchain_used": "leanprover/lean4:v4.34.1",
    "needs_mathlib": true,
    "build_ok": true,
-   "build_seconds": 58.9,
+   "build_seconds": 66.3,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -1001,8 +1000,10 @@
     }
    ],
    "integrity": [],
-   "note": "",
-   "corrections": [],
+   "note": "CORRIGIDO PELO MVEI (z-provas-reparadas): 2 prova(s) reescrita(s), conferidas no Lean do projeto: no_infinite_descent, forwardDependency_wellFounded.",
+   "corrections": [
+    "z-provas-reparadas"
+   ],
    "lakefile_gerado": "",
    "avulso": false,
    "salvage": [],
@@ -1011,7 +1012,8 @@
     "fechado": 1,
     "aberto-sorry": 0,
     "condicional": 0
-   }
+   },
+   "hora_commit_mvei": 1793349359
   }
  ]
 }

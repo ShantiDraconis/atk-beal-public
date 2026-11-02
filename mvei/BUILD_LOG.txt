@@ -1,9 +1,13 @@
-MVEI — log consolidado da verificação (2026-10-29T18:57:14+00:00)
+MVEI — log consolidado da verificação (2026-10-30T16:50:26+00:00)
 Os logs completos de cada compilação no GitHub ficam na página da execução do workflow (Actions).
 
 == m-core-beal/.  [leanprover/lean4:v4.19.0 -> leanprover/lean4:v4.19.0]  OK
    teoremas: fechados 118, condicionais 0, abertos 0; axiomas declarados 0
+   correções do MVEI: z-provas-reparadas
+   nota: CORRIGIDO PELO MVEI (z-provas-reparadas): 2 prova(s) reescrita(s), conferidas no Lean do projeto: no_infinite_descent, forwardDependency_wellFounded.
 
 == m-core-beal/atk-kernel  [leanprover/lean4:v4.34.1 -> leanprover/lean4:v4.34.1]  OK
    teoremas: fechados 1, condicionais 0, abertos 0; axiomas declarados 0
+   correções do MVEI: z-provas-reparadas
+   nota: CORRIGIDO PELO MVEI (z-provas-reparadas): 2 prova(s) reescrita(s), conferidas no Lean do projeto: no_infinite_descent, forwardDependency_wellFounded.
 

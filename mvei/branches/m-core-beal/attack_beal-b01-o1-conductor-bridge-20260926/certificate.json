@@ -1,0 +1,1494 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-beal",
+ "branch": "attack/beal-b01-o1-conductor-bridge-20260926",
+ "branch_state": "parada",
+ "head_commit": "e9909baf5280144b497e9a0525758b896f037196",
+ "head_commit_date": "2026-09-26T23:45:05+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "e9909baf5280144b497e9a0525758b896f037196",
+   "date": "2026-09-26T23:45:05+01:00",
+   "subject": "ci(beal): validate parallel T53-T57 frontier"
+  },
+  {
+   "commit": "4e588f22a9b905afe0addf3e413ad132bdff603e",
+   "date": "2026-09-26T23:44:57+01:00",
+   "subject": "feat(beal): formalize parallel T53-T57 attack frontier"
+  },
+  {
+   "commit": "3276319d08f14b86ef25535c34dea2da67b95561",
+   "date": "2026-09-26T23:19:40+01:00",
+   "subject": "fix(beal): make F6 exclusion certificate data-valued"
+  },
+  {
+   "commit": "59aa3e13ab06bfbe45a5431651264415edf0b7d9",
+   "date": "2026-09-26T23:04:41+01:00",
+   "subject": "fix(beal): make unconditional claim certificate data-valued"
+  },
+  {
+   "commit": "934d305be8fe74e202123e5c2cdcd014fdda3c24",
+   "date": "2026-09-26T23:04:30+01:00",
+   "subject": "fix(beal): force unconditional claim certificate to Type"
+  },
+  {
+   "commit": "4abbebbb76d9532785bd44c2d54e857150a68506",
+   "date": "2026-09-26T22:58:59+01:00",
+   "subject": "fix(beal): remove redundant final-external import from unconditional claim"
+  },
+  {
+   "commit": "8740190216cc36a756c5cc55391e49e91ed5130a",
+   "date": "2026-09-26T22:51:55+01:00",
+   "subject": "fix(beal): namespace legacy external aggregator symbols"
+  },
+  {
+   "commit": "d25809913dc6669ee8634afed5353cb0960e8ac3",
+   "date": "2026-09-26T22:35:38+01:00",
+   "subject": "fix(beal): align B02 survivor domain in unified router"
+  },
+  {
+   "commit": "7c22e31f2fd78c8fdeb2c09b930bfeec0fc32ea4",
+   "date": "2026-09-26T22:10:52+01:00",
+   "subject": "ci(beal): validate single F6 inhabitant interface"
+  },
+  {
+   "commit": "6fc9b3ea411667cd70ab3cc348a8a00dd25ddb36",
+   "date": "2026-09-26T22:10:45+01:00",
+   "subject": "feat(beal): freeze single F6 coprime-exclusion inhabitant"
+  },
+  {
+   "commit": "0ed6933ca9531ef3237c6c310242b86a57869d4f",
+   "date": "2026-09-26T21:24:25+01:00",
+   "subject": "ci(beal): validate F6 exclusion terminal"
+  },
+  {
+   "commit": "35ca4169a50ee541b8484635f7b2746addd051f3",
+   "date": "2026-09-26T21:24:18+01:00",
+   "subject": "feat(beal): formalize F6 exclusion terminal certificate"
+  },
+  {
+   "commit": "03ced4541437709d7e707a81bedf5eb54d1ef86d",
+   "date": "2026-09-26T20:21:42+01:00",
+   "subject": "ci(beal): dependency-aware closure builds and standard axiom policy"
+  },
+  {
+   "commit": "80e01217223bb97cb8370d1299a0ff2ba48a9a05",
+   "date": "2026-09-26T20:20:40+01:00",
+   "subject": "audit(beal): classify safe external reuse and citation sources"
+  },
+  {
+   "commit": "7994e6cbb9346e1e42f294eb8dba1903576f0242",
+   "date": "2026-09-26T20:04:14+01:00",
+   "subject": "ci: validate exact unconditional Beal kernel obligation"
+  },
+  {
+   "commit": "86a4326bfacfbeedac8a85b948c1785d1996cb63",
+   "date": "2026-09-26T20:04:07+01:00",
+   "subject": "feat(beal): isolate exact unconditional kernel obligation"
+  },
+  {
+   "commit": "9456dab562f9ba69cb372289f62bcefc20af93fd",
+   "date": "2026-09-26T20:02:17+01:00",
+   "subject": "ci: validate unconditional Beal claim certificate"
+  },
+  {
+   "commit": "1db23226c18eba5dfd7bf13d70377742eda76dd8",
+   "date": "2026-09-26T20:02:10+01:00",
+   "subject": "feat(beal): freeze unconditional theorem claim certificate"
+  },
+  {
+   "commit": "cdfd5dd09a3e2687a00ca4b1568161e37586ef87",
+   "date": "2026-09-26T20:00:32+01:00",
+   "subject": "ci: validate unified Beal closure router in v4.30 gate"
+  },
+  {
+   "commit": "2058054ccca868665d09ea4759c3d64882b04f61",
+   "date": "2026-09-26T20:00:15+01:00",
+   "subject": "feat(beal): unify certified routes around exact terminal producer"
+  },
+  {
+   "commit": "6f54ebcf9945f7b74dbd1460c9c9f9810e77b154",
+   "date": "2026-09-26T19:57:05+01:00",
+   "subject": "fix(beal): specialize B01 odd scientific delta semantics"
+  },
+  {
+   "commit": "f1e605a532500ba80d3671966dd9b9a6871bf7f6",
+   "date": "2026-09-26T19:48:55+01:00",
+   "subject": "fix(beal): emit native B01 odd scientific delta"
+  },
+  {
+   "commit": "c370fdd84023104008a69c34a8d9e3c364c49212",
+   "date": "2026-09-26T19:44:06+01:00",
+   "subject": "fix(beal): construct B01 O1 certificate explicitly"
+  },
+  {
+   "commit": "8245357a585192e571dad007cbfb3611c31dd339",
+   "date": "2026-09-26T19:40:12+01:00",
+   "subject": "ci: align B01 conductor bridge with mathlib v4.30 API"
+  },
+  {
+   "commit": "94d3cc297a9cf36cb2bb79e49c93a75203b103e4",
+   "date": "2026-09-26T19:36:38+01:00",
+   "subject": "ci: run B01 conductor bridge on mathlib v4.23 toolchain"
+  },
+  {
+   "commit": "ec05ec57665c7b56f7d95ab566d2d090dda12e47",
+   "date": "2026-09-26T19:31:58+01:00",
+   "subject": "ci: isolate dependencies for beal-producer-router.yml"
+  },
+  {
+   "commit": "c4bc8594489177094f1484d1ed318cd9431fa9e4",
+   "date": "2026-09-26T19:31:56+01:00",
+   "subject": "ci: isolate dependencies for beal-b01-o1-conductor-bridge.yml"
+  },
+  {
+   "commit": "2199edc226106825a0fc6be107a750c62f09f2c2",
+   "date": "2026-09-26T19:31:37+01:00",
+   "subject": "build(beal): keep canonical package dependency-free"
+  },
+  {
+   "commit": "41225cd90fb7667f7bf6b6b896948676f615b04b",
+   "date": "2026-09-26T19:31:08+01:00",
+   "subject": "ci: build Beal producer dependency with pinned mathlib"
+  },
+  {
+   "commit": "6eeddf9795f9bee09229d45d1b616618d5332802",
+   "date": "2026-09-26T19:30:47+01:00",
+   "subject": "ci: fetch pinned mathlib before B01 O1 conductor gate"
+  },
+  {
+   "commit": "52b314ec9c4c878a0b69b10d029f5dd7b0dea159",
+   "date": "2026-09-26T19:30:41+01:00",
+   "subject": "build(beal): pin mathlib v4.19.0 for genuine conductor bridge"
+  },
+  {
+   "commit": "32df752a1e81765ad5ae688606e84512e72c9551",
+   "date": "2026-09-26T19:30:22+01:00",
+   "subject": "ci: make Beal producer gate self-contained"
+  },
+  {
+   "commit": "ec7c7ed3317c17311abe769d8d1f4a509280fa50",
+   "date": "2026-09-26T19:28:09+01:00",
+   "subject": "fix(beal): make producer endpoint self-contained and fail-closed"
+  },
+  {
+   "commit": "07cc2db4ef941be20e3df1e7cd58d07818f17dc4",
+   "date": "2026-09-26T19:26:23+01:00",
+   "subject": "ci: fix literal newline in beal-b01-o1-conductor-bridge.yml"
+  },
+  {
+   "commit": "5031b85042396c65fbc0dff42e02a59d1626d919",
+   "date": "2026-09-26T19:26:21+01:00",
+   "subject": "ci: fix literal newline in beal-producer-router.yml"
+  },
+  {
+   "commit": "49848d014b19418a170285c64ff2f9c84d8de8f7",
+   "date": "2026-09-26T17:23:49+01:00",
+   "subject": "ci: build producer router dependencies explicitly"
+  },
+  {
+   "commit": "edbf994a490cd26ef9436ce6ab312a976dbaafb5",
+   "date": "2026-09-26T17:23:38+01:00",
+   "subject": "ci: build B01 dense dependency before O1 gate"
+  },
+  {
+   "commit": "4eaef4f2cee2575dc8a9220ade7f0591bb6b6bc7",
+   "date": "2026-09-26T17:22:56+01:00",
+   "subject": "ci: gate four-lane Beal producer router"
+  },
+  {
+   "commit": "005be5ada3c8e79fc8df497223104470187d31cf",
+   "date": "2026-09-26T17:22:46+01:00",
+   "subject": "beal: add four-lane fail-closed producer router"
+  },
+  {
+   "commit": "5a554e69477b25695d2f51ad9920a841ed3b607d",
+   "date": "2026-09-26T16:56:46+01:00",
+   "subject": "beal: isolate irreducible B01 O1 conductor theorem"
+  },
+  {
+   "commit": "f2138f3003dd4c53a2e532c223cc737b6932de52",
+   "date": "2026-09-26T16:56:30+01:00",
+   "subject": "ci: add B01 O1 conductor bridge gate"
+  },
+  {
+   "commit": "5507b02eeb54e4a77111b7bd1868d8350f7589da",
+   "date": "2026-09-26T10:38:14+01:00",
+   "subject": "fix(beal): make negative closure frontier a nonempty proposition"
+  },
+  {
+   "commit": "801a8bf1f27450d12d06ab514eb668263a5b7106",
+   "date": "2026-09-26T09:23:01+01:00",
+   "subject": "fix(beal): classify negative closure frontier as Prop"
+  },
+  {
+   "commit": "41e79f49074beee12f99ffc4960cb0b1e13edc2f",
+   "date": "2026-09-26T08:49:49+01:00",
+   "subject": "ci(atl): validate canonical graph and router in Beal gate"
+  },
+  {
+   "commit": "9280b87683b115eab8c4febd5f9f4f517ba0e82d",
+   "date": "2026-09-26T08:49:39+01:00",
+   "subject": "atl: validate canonical graph and derived router"
+  },
+  {
+   "commit": "364f6e7318a120c00338ad6734476444a658f6f9",
+   "date": "2026-09-26T08:49:37+01:00",
+   "subject": "atl: add canonical independent-error gate reporter"
+  },
+  {
+   "commit": "0e84cc2d986e94ebe2df58354b03671a5e9356dc",
+   "date": "2026-09-26T08:06:08+01:00",
+   "subject": "ci(atl): validate canonical graph and cut router in Beal batch"
+  },
+  {
+   "commit": "322e6f6619841cfb77d3298e8df2f835a1d1d57a",
+   "date": "2026-09-26T08:05:57+01:00",
+   "subject": "atl: add fail-closed EGC schema v3"
+  },
+  {
+   "commit": "39d8064915425b0ec845f97596e208468cb05f62",
+   "date": "2026-09-26T08:05:54+01:00",
+   "subject": "atl: initialize empirical cost history"
+  },
+  {
+   "commit": "65f2e9d3f37f10d5eee4f6bf66e06b76cca6b1a6",
+   "date": "2026-09-26T08:05:52+01:00",
+   "subject": "atl(beal): add canonical graph v3"
+  },
+  {
+   "commit": "4d34571beed501dd8c348646c11939ec2b0c8951",
+   "date": "2026-09-26T08:05:24+01:00",
+   "subject": "atl: collapse swarm to five roles with bounded retry"
+  },
+  {
+   "commit": "570fa467b3f473e75d94e2a5bae1be2a866de58f",
+   "date": "2026-09-26T08:05:22+01:00",
+   "subject": "atl: split firewall into five checks"
+  },
+  {
+   "commit": "7b76c1e3a30f531bb176d7bfc07d17e90644e9f2",
+   "date": "2026-09-26T08:05:19+01:00",
+   "subject": "atl: add empirical cut-value router"
+  },
+  {
+   "commit": "1b62e0597949489795b9e842f15f7ee564ea608a",
+   "date": "2026-09-26T08:05:17+01:00",
+   "subject": "atl: derive graph state at read time"
+  },
+  {
+   "commit": "7b02d78938215bfc8253da007d5737a91a42316d",
+   "date": "2026-09-26T08:05:15+01:00",
+   "subject": "atl: add canonical node schema v3"
+  },
+  {
+   "commit": "89d4956a9a9857788be336e7c7b3b7125083044b",
+   "date": "2026-09-26T07:56:35+01:00",
+   "subject": "fix(beal): compile all ABC fast-lane files in full batch"
+  },
+  {
+   "commit": "a08327b241c760a4cefa922fceff8b87d816816c",
+   "date": "2026-09-26T07:56:19+01:00",
+   "subject": "ci(beal): include ABC fast lane and evidence index in full batch"
+  },
+  {
+   "commit": "899255306c70b200f228b0854d9fc8ef6eb8375d",
+   "date": "2026-09-26T07:56:10+01:00",
+   "subject": "cert(beal): link ABC conditional fast lane into final external manifest"
+  },
+  {
+   "commit": "5b5248144afb67fcb93e917548919f0ddd6dbb85",
+   "date": "2026-09-26T07:56:01+01:00",
+   "subject": "cert(beal): add E1-E5 evidence index for ABC fast lane"
+  },
+  {
+   "commit": "d0f853f548cedf0a088c63f2e5f28f390c23c73e",
+   "date": "2026-09-26T07:55:45+01:00",
+   "subject": "formal(beal): register generalized-Fermat route barriers"
+  },
+  {
+   "commit": "4dd6476b825be26e54f19c5eadb81150da838308",
+   "date": "2026-09-26T07:55:43+01:00",
+   "subject": "formal(beal): add honest ABC plus finite-check conditional lane"
+  },
+  {
+   "commit": "db3db75204c7f0e51c7bff77f18bedee526ccaa7",
+   "date": "2026-09-26T07:55:40+01:00",
+   "subject": "formal(beal): freeze canonical Beal statement alias"
+  },
+  {
+   "commit": "dd5cfb18c47eb08c3d482a06c2c17dff1c0e2e3f",
+   "date": "2026-09-26T07:53:40+01:00",
+   "subject": "ci(beal): add elimination fastlane and negative route mold to batch"
+  },
+  {
+   "commit": "34ecff886b3d2eba63d6584bd0f510c85722b60e",
+   "date": "2026-09-26T07:53:30+01:00",
+   "subject": "cert(beal): record exact elimination fastlane and falsified residual route"
+  },
+  {
+   "commit": "f38aa8711e0bb7b49e61ad705eca43fa275ca931",
+   "date": "2026-09-26T07:53:16+01:00",
+   "subject": "formal(beal): promote exact T35 elimination endpoint and T43 negative mold"
+  },
+  {
+   "commit": "5ae9ea69929e86fd157e3975e9bd4d25b698aec9",
+   "date": "2026-09-26T01:26:12+01:00",
+   "subject": "ci(beal): include exact negative closure route in full gate batch"
+  },
+  {
+   "commit": "e75316e72a5b161a9673743cd668e896df9311d9",
+   "date": "2026-09-26T01:26:01+01:00",
+   "subject": "cert(beal): record exact negative closure frontier"
+  },
+  {
+   "commit": "0448b37c320608ff833dc0af48d54865fa633bbc",
+   "date": "2026-09-26T01:25:52+01:00",
+   "subject": "formal(beal): instantiate exact negative elimination route"
+  },
+  {
+   "commit": "113c20a85c57f017561a286e9c3156f0493dd8bc",
+   "date": "2026-09-26T00:22:46+01:00",
+   "subject": "ci(beal): include boundary connectivity in full gate batch"
+  },
+  {
+   "commit": "a679b3335262925de888c47f8b116250bb65476e",
+   "date": "2026-09-26T00:22:38+01:00",
+   "subject": "cert(beal): map reusable evidence across formal boundaries"
+  },
+  {
+   "commit": "1b6116cca71db0eed13d53fa558b8c10082c14c1",
+   "date": "2026-09-26T00:22:21+01:00",
+   "subject": "formal(beal): link reusable boundaries to terminal endpoint"
+  },
+  {
+   "commit": "2bb823b179f2a85a24d7da3e44f12b6c7e5f40f4",
+   "date": "2026-09-26T00:21:36+01:00",
+   "subject": "fix(beal): use direct proof certificate in final external exclusivity"
+  },
+  {
+   "commit": "f6122c27ec12a2086dd7222e190105b8768deb1d",
+   "date": "2026-09-26T00:00:05+01:00",
+   "subject": "ci(beal): test entire gate in one batch"
+  },
+  {
+   "commit": "a61a99a58cacc04be3a639a0202bdcf472e54c72",
+   "date": "2026-09-25T22:32:20+01:00",
+   "subject": "ci(beal): pin unified final external manifest schema"
+  },
+  {
+   "commit": "3c840faa7cee9af08c6356bf16392b1806fb406e",
+   "date": "2026-09-25T22:32:16+01:00",
+   "subject": "fix(beal): order dense before atomic and unify manifest validation"
+  },
+  {
+   "commit": "61e39bbb1166e8b8f6f2a1e7caa81e5bc7600925",
+   "date": "2026-09-25T22:32:13+01:00",
+   "subject": "cert(beal): unify final external manifest schema"
+  },
+  {
+   "commit": "64ed2825520fa1b67d1df9de63384f8630476379",
+   "date": "2026-09-25T22:26:29+01:00",
+   "subject": "ci(beal): add final external aggregator"
+  },
+  {
+   "commit": "4646600497fa922dde00d98b72ac1a64730b4225",
+   "date": "2026-09-25T22:26:12+01:00",
+   "subject": "cert(beal): update final external claim manifest"
+  },
+  {
+   "commit": "9480bd7af43df6e232b33a4626ba81b915eaae72",
+   "date": "2026-09-25T22:25:56+01:00",
+   "subject": "external(beal): add typed final claim aggregator"
+  },
+  {
+   "commit": "6e1957e095d489bcc3d0cd3bd3b519e7d3a8be02",
+   "date": "2026-09-25T21:47:14+01:00",
+   "subject": "ci(beal): make beal-fast-external-endpoint.yml manual behind final-external fastlane"
+  },
+  {
+   "commit": "623fb47ad8bdd1ae466808489983e9fbd9f0ce82",
+   "date": "2026-09-25T21:47:12+01:00",
+   "subject": "ci(beal): make beal-three-gate.yml manual behind final-external fastlane"
+  },
+  {
+   "commit": "d465349a76f4e1d58ebfabe11e9b5c2537bd783f",
+   "date": "2026-09-25T21:47:09+01:00",
+   "subject": "ci(beal): make beal-open-math-inhabitants.yml manual behind final-external fastlane"
+  },
+  {
+   "commit": "1cf360622c6c2da5979eb1b7028e60afe3fc200c",
+   "date": "2026-09-25T21:46:46+01:00",
+   "subject": "ci(beal): add final external fail-closed certification workflow"
+  },
+  {
+   "commit": "c094b04bd3a655af65190193b277f52d727b402f",
+   "date": "2026-09-25T21:46:31+01:00",
+   "subject": "external(beal): add final external fail-closed manifest"
+  },
+  {
+   "commit": "5a3a861d0aef981f63bb4a2f76cd34cce4a73909",
+   "date": "2026-09-25T21:46:21+01:00",
+   "subject": "external(beal): create fail-closed final external claim aggregator"
+  },
+  {
+   "commit": "7e6732d81ee93a7bca7818771c50f0d48fe46450",
+   "date": "2026-09-25T21:40:47+01:00",
+   "subject": "fix(beal): build full dense dependencies before fast endpoint"
+  },
+  {
+   "commit": "7e94d75e67d6e7c0f0066ce79f98c2bc00c08b24",
+   "date": "2026-09-25T21:40:38+01:00",
+   "subject": "fix(beal): build dense dependency chain in G2 and G3"
+  },
+  {
+   "commit": "fa8d041b1f983dc49177ccce25355e25a4a188ac",
+   "date": "2026-09-25T21:40:36+01:00",
+   "subject": "fix(beal): use classical choice for Prop-to-data endpoint converse"
+  },
+  {
+   "commit": "6de342dd045f94a944d05e0b1b98cd0c5135eecb",
+   "date": "2026-09-25T21:31:35+01:00",
+   "subject": "fix(beal): build B02 dense dependency before fast endpoint"
+  },
+  {
+   "commit": "316eb1b238b5157a761a958872e5ae69804ac7ef",
+   "date": "2026-09-25T21:24:25+01:00",
+   "subject": "ci(beal): verify fast closure audit and single-gap endpoint"
+  },
+  {
+   "commit": "35d5f9329d56fa2444549427092ee4305bed9a9d",
+   "date": "2026-09-25T21:24:15+01:00",
+   "subject": "cert(beal): record single exact fast-route OPEN_MATH gap"
+  },
+  {
+   "commit": "e4f166e28e717f3dea7acd75ed30a487788f69ba",
+   "date": "2026-09-25T21:24:07+01:00",
+   "subject": "attack(beal): pin single exact OPEN_MATH gap for fastest external route"
+  },
+  {
+   "commit": "044dd0fcdaccf46ed42c482d25088043e577a722",
+   "date": "2026-09-25T21:23:31+01:00",
+   "subject": "opt(beal): make fast endpoint workflow independent of B01/B02"
+  },
+  {
+   "commit": "f26ea4d1d60ba5473be3fc9e23455509b8ebebc3",
+   "date": "2026-09-25T21:23:23+01:00",
+   "subject": "opt(beal): cut B01/B02 dependencies from exact fast endpoint"
+  },
+  {
+   "commit": "7c245d9d5ef665383fbed277b753182c6420d7cd",
+   "date": "2026-09-25T21:18:38+01:00",
+   "subject": "fix(beal): build PostT36E before fast endpoint certificate"
+  },
+  {
+   "commit": "2c6fb343f3b898ff95ed37c556a72a8eb753cbf6",
+   "date": "2026-09-25T21:18:35+01:00",
+   "subject": "fix(beal): build PostT36E dependency in G2 and G3"
+  },
+  {
+   "commit": "a2d8a03b853acbd3f8d14813531d9f19365ba9c3",
+   "date": "2026-09-25T21:06:46+01:00",
+   "subject": "ci(beal): add shortest exact external endpoint workflow"
+  },
+  {
+   "commit": "98a0361230a827c3b725ca0837aa7571976e2975",
+   "date": "2026-09-25T21:06:33+01:00",
+   "subject": "cert(beal): record shortest exact external endpoint"
+  },
+  {
+   "commit": "5350a39d35aaf2346d5ff42d9ffe7ee4d5e016ce",
+   "date": "2026-09-25T21:06:23+01:00",
+   "subject": "attack(beal): reduce external endpoint to common-divisor producer via K10"
+  },
+  {
+   "commit": "28c5a5fe01572f2108dc071d8103c31f4f7437ec",
+   "date": "2026-09-25T21:03:04+01:00",
+   "subject": "ci(beal): group B01 B02 endpoint into parallel three-gate workflow"
+  },
+  {
+   "commit": "f700928888298f9f509382cbf82d9ac4ad00198e",
+   "date": "2026-09-25T20:27:03+01:00",
+   "subject": "ci(beal): verify master external proof structure"
+  },
+  {
+   "commit": "24e23aa8eeae0d327b126bb70d5fcdc41c0788be",
+   "date": "2026-09-25T20:26:54+01:00",
+   "subject": "cert(beal): add master fail-closed proof ledger"
+  },
+  {
+   "commit": "e7044b5215ac2798d0587b392c74e7affed6ad21",
+   "date": "2026-09-25T20:26:46+01:00",
+   "subject": "attack(beal): build master proof/refutation external structure"
+  },
+  {
+   "commit": "ca34435c1cabf5ac2b6ebfe8ca98ad6efafefed2",
+   "date": "2026-09-25T20:23:28+01:00",
+   "subject": "fix(beal): import dense open-math package into atomic layer"
+  },
+  {
+   "commit": "b728166f7bc32cfe686179ca4491f95d44c34bad",
+   "date": "2026-09-25T20:13:42+01:00",
+   "subject": "ci(beal): verify atomic open-math obligations"
+  },
+  {
+   "commit": "10099b5e4e9a1d075818d1e2b5a0fc739a0efec3",
+   "date": "2026-09-25T20:13:33+01:00",
+   "subject": "cert(beal): record atomic open-math obligations"
+  },
+  {
+   "commit": "b91dcfb7176931539c7929307c8c2b6c1494e167",
+   "date": "2026-09-25T20:13:25+01:00",
+   "subject": "attack(beal): formalize atomic B01 B02 endpoint obligations"
+  },
+  {
+   "commit": "63902da05ac02f6979111a783e20731978fb7478",
+   "date": "2026-09-25T20:11:51+01:00",
+   "subject": "ci(beal): verify complete dense B01 B02 endpoint structure"
+  },
+  {
+   "commit": "4017951f1a488e50a42fbeec7b6b73e70b76cd6e",
+   "date": "2026-09-25T20:11:37+01:00",
+   "subject": "cert(beal): record fully formalized dense open-math package"
+  },
+  {
+   "commit": "873a56b9d167cb11b0c587a2ce9a24dfc4f3926c",
+   "date": "2026-09-25T20:11:26+01:00",
+   "subject": "attack(beal): connect dense B01 B02 endpoint to final package"
+  },
+  {
+   "commit": "3b1921dfb90df0d2146ba3e63ac0c9c6378a7165",
+   "date": "2026-09-25T20:11:14+01:00",
+   "subject": "attack(beal): formalize dense universal CommonPrime endpoint"
+  },
+  {
+   "commit": "55ef023de636d01778bffdef0ece97ffb4c1e5bb",
+   "date": "2026-09-25T20:10:49+01:00",
+   "subject": "attack(beal): formalize dense B02 residual-elimination frontier"
+  },
+  {
+   "commit": "42b094161f0c63c97def38795599d958794fac90",
+   "date": "2026-09-25T20:07:35+01:00",
+   "subject": "ci(beal): verify dense B01 scientific frontier"
+  },
+  {
+   "commit": "3883e4bd3bc91e462f0aec0769fa5f187af8b655",
+   "date": "2026-09-25T20:07:22+01:00",
+   "subject": "cert(beal): record dense B01 scientific frontier"
+  },
+  {
+   "commit": "29a315cd5b2f1cde4f58ded6055e0d2489d36ba2",
+   "date": "2026-09-25T20:07:09+01:00",
+   "subject": "attack(beal): build dense semantic B01 frontier"
+  },
+  {
+   "commit": "969cfb48d1cf321343fe880e8d7fee50321eb581",
+   "date": "2026-09-25T20:06:00+01:00",
+   "subject": "fix(beal): type B01 universal inhabitant as data"
+  },
+  {
+   "commit": "e103162f8296540c510adc8445f8598a5de53323",
+   "date": "2026-09-25T19:53:29+01:00",
+   "subject": "ci(beal): kernel-check genuine B01 scientific frontier"
+  },
+  {
+   "commit": "6d4e68518012443187f7319b85afd9678d74337b",
+   "date": "2026-09-25T19:53:17+01:00",
+   "subject": "fix(beal): make weak B01 adapter definitionally valid"
+  },
+  {
+   "commit": "e27a1136541dbcbb815f8d3431fa890ae5d56f0c",
+   "date": "2026-09-25T19:52:53+01:00",
+   "subject": "attack(beal): isolate genuine B01 scientific inhabitant"
+  },
+  {
+   "commit": "3cc642c493ab19299d9ef162570db10266d577eb",
+   "date": "2026-09-25T19:40:13+01:00",
+   "subject": "ci(beal): verify exact remaining OPEN_MATH frontier"
+  },
+  {
+   "commit": "2c233603deb5ba8aa17f578dd1b588b0ff5e6a55",
+   "date": "2026-09-25T19:39:58+01:00",
+   "subject": "cert(beal): record exact remaining OPEN_MATH inhabitants"
+  },
+  {
+   "commit": "e30897af4bf8db83b9db2a33f2d7f8325b149164",
+   "date": "2026-09-25T19:39:49+01:00",
+   "subject": "attack(beal): isolate exact remaining mathematical inhabitants"
+  },
+  {
+   "commit": "213c5dc100611578c5b7a9e5a28400d9a4fd670f",
+   "date": "2026-09-25T19:18:01+01:00",
+   "subject": "fix(beal): make refutation certificate constructor a definition"
+  },
+  {
+   "commit": "052326dca6f38dbbbbc8e068dc31a1c04acde2e5",
+   "date": "2026-09-25T19:05:26+01:00",
+   "subject": "fix(beal): mirror new final-chain sources inside Lean project root"
+  },
+  {
+   "commit": "453609a35d50f3950dbba02aee105ea848ecb7e9",
+   "date": "2026-09-25T18:56:44+01:00",
+   "subject": "fix(beal): persist B01 contract olean for final chain import"
+  },
+  {
+   "commit": "e705c04565797cc2e22d78a62bb61396784b38be",
+   "date": "2026-09-25T18:36:48+01:00",
+   "subject": "ci(beal): verify complete final mathematical chain"
+  },
+  {
+   "commit": "f9315c19d52af3988c5f6649d27c6994b5557639",
+   "date": "2026-09-25T18:36:34+01:00",
+   "subject": "cert(beal): record complete fail-closed final math chain"
+  },
+  {
+   "commit": "467ff630c4621fb4817d685b5f5eb72e30c4c7d4",
+   "date": "2026-09-25T18:36:22+01:00",
+   "subject": "attack(beal): construct complete final mathematical certificate chain"
+  },
+  {
+   "commit": "917afda47d33d44bc23e27404f103c7a58998b49",
+   "date": "2026-09-25T18:35:34+01:00",
+   "subject": "fix(beal): kernel-check B01 contract from project source path"
+  },
+  {
+   "commit": "2cb22e8feb8546df7eef421191b27badb8319d89",
+   "date": "2026-09-25T18:26:11+01:00",
+   "subject": "fix(beal): run B01 contract in pinned Mathlib environment"
+  },
+  {
+   "commit": "bef181af4c02270a672b5456c2eef387268fa763",
+   "date": "2026-09-25T18:24:53+01:00",
+   "subject": "ci(beal): check exact conductor-level frontier contract"
+  },
+  {
+   "commit": "24fdceb97a9231fa41bb387572962cba1a6cc1d3",
+   "date": "2026-09-25T18:24:42+01:00",
+   "subject": "attack(beal): compress B01 exact conductor and lowered-level frontier"
+  },
+  {
+   "commit": "c4fd0f508adff4b3e53749f8dce6b7410187ea99",
+   "date": "2026-09-25T18:20:24+01:00",
+   "subject": "fix(beal): build imported specification before three-lane kernel check"
+  },
+  {
+   "commit": "4c6915b4e770407a5747e4a1366aeb85c31f5099",
+   "date": "2026-09-25T18:15:20+01:00",
+   "subject": "ci(beal): validate three-lane final claim fail-closed"
+  },
+  {
+   "commit": "ff19c00d5946c6601022ac157a8b6e750e64e0c5",
+   "date": "2026-09-25T18:15:02+01:00",
+   "subject": "cert(beal): add fail-closed three-lane final claim record"
+  },
+  {
+   "commit": "ef01d012bce6ffd4fb6c88d1cd33438a63158d6e",
+   "date": "2026-09-25T18:14:52+01:00",
+   "subject": "claim(beal): formalize proof/refutation/unresolved three-lane closure"
+  },
+  {
+   "commit": "3d8da613f46201c8750df3c5f2ea96ce144a1770",
+   "date": "2026-09-22T14:11:42+01:00",
+   "subject": "ci(final-fail): validate terminal external record"
+  },
+  {
+   "commit": "106d62f65a6ed221cd57a397e616610ee091f609",
+   "date": "2026-09-22T14:11:13+01:00",
+   "subject": "final-fail: add terminal external audit record"
+  },
+  {
+   "commit": "4246435eddd340131cc74df03de1f567a91b538e",
+   "date": "2026-09-21T21:15:39+01:00",
+   "subject": "atk(beal): isolate exact conductor semantic contract above structural level"
+  },
+  {
+   "commit": "b6667e63a2c28c32cee0ab17714f9d772a0b4768",
+   "date": "2026-09-21T12:03:53+01:00",
+   "subject": "fix(b01): keep conductor-level bookkeeping core-only"
+  },
+  {
+   "commit": "fae423108ccc79dee705f114a8149770a9e1cd82",
+   "date": "2026-09-21T12:02:15+01:00",
+   "subject": "formal(b01): include conductor-level interface"
+  },
+  {
+   "commit": "538070c23bee1531c21b5a150011f985d682608a",
+   "date": "2026-09-21T12:02:12+01:00",
+   "subject": "formal(b01): add mixed-exponent conductor-level interface"
+  },
+  {
+   "commit": "e3b48ef0b726c951667b315efbc921450ad091a6",
+   "date": "2026-09-21T11:05:54+01:00",
+   "subject": "atk: advance B01 to genuine conductor frontier"
+  },
+  {
+   "commit": "87fa283f1a80f7d2f4af484b64a95cac1aebb139",
+   "date": "2026-09-21T10:57:22+01:00",
+   "subject": "atk: isolate B01 conductor API frontier"
+  },
+  {
+   "commit": "badce4dae8fa23699b02bfc020b43cb776cd60dc",
+   "date": "2026-09-21T10:32:46+01:00",
+   "subject": "atk: add fail-closed semantic promotion gate"
+  },
+  {
+   "commit": "d039136fe260d626fbf0974a3413d222e13d43f8",
+   "date": "2026-09-21T01:43:10+01:00",
+   "subject": "atk: reduce HARD sentinel to exact kernel lookup"
+  },
+  {
+   "commit": "15ece996dd436c35d2c68e7bd04a35e0089491a3",
+   "date": "2026-09-21T01:27:24+01:00",
+   "subject": "atk: remove doc-comment parser noise from HARD sentinel"
+  },
+  {
+   "commit": "736645ca97d3b046771b4af1fd2c70ff320e6ad0",
+   "date": "2026-09-21T01:25:10+01:00",
+   "subject": "atk: build local dependency graph before HARD kernel check"
+  },
+  {
+   "commit": "928c1cbb427a8e45726ff77506336636c55e4bf2",
+   "date": "2026-09-21T01:24:21+01:00",
+   "subject": "atk: enforce explicit fail-closed HARD gate"
+  },
+  {
+   "commit": "fe8349cf164e4af3a67e9a4fcdbadcebe8b8d28e",
+   "date": "2026-09-21T01:17:13+01:00",
+   "subject": "atk: advance to fail-closed HARD TheoremKernel gate"
+  },
+  {
+   "commit": "1d9217aa79afa92410a48fd8ef3d570f4b28edee",
+   "date": "2026-09-20T23:31:36+01:00",
+   "subject": "fix(beal): bind local reduction hypotheses explicitly"
+  },
+  {
+   "commit": "2fda84465a474298857bd0bc1072fff8d464d68c",
+   "date": "2026-09-20T23:23:10+01:00",
+   "subject": "ci(beal): run post-T36E bridge on T60 frontier v2"
+  },
+  {
+   "commit": "8bd75c6254c212dbb88f672b5f97835ac3d89c82",
+   "date": "2026-09-20T23:23:03+01:00",
+   "subject": "atk(beal): carry .github/workflows/post-t36e-conductor-bridge.yml onto T60 frontier"
+  },
+  {
+   "commit": "1d1e57748be742b147ed3b28f5b76f0b8845dddc",
+   "date": "2026-09-20T23:23:00+01:00",
+   "subject": "atk(beal): carry lean/MCore/PostT36EConductorBridge.lean onto T60 frontier"
+  },
+  {
+   "commit": "5c371f8b41407dfe3e117629291caa1d53cca2e8",
+   "date": "2026-09-20T23:22:56+01:00",
+   "subject": "atk(beal): carry t36e_mathlib/lean-toolchain onto T60 frontier"
+  },
+  {
+   "commit": "58dbd28212de170e68754ec888f483f972c1a8bb",
+   "date": "2026-09-20T23:22:53+01:00",
+   "subject": "atk(beal): carry t36e_mathlib/lake-manifest.json onto T60 frontier"
+  },
+  {
+   "commit": "b5365e450534eb3024142eb9d2d66b0390554992",
+   "date": "2026-09-20T23:22:49+01:00",
+   "subject": "atk(beal): carry t36e_mathlib/lakefile.toml onto T60 frontier"
+  },
+  {
+   "commit": "c30ee08732b152a204cc4a5fdbf68f0b87328da1",
+   "date": "2026-09-20T23:22:46+01:00",
+   "subject": "atk(beal): carry lean/MCore/T36E_MASTER.lean onto T60 frontier"
+  },
+  {
+   "commit": "cdac34c68eb500330f2aa5be66ae3a646ad12006",
+   "date": "2026-09-20T22:07:07+01:00",
+   "subject": "wire(T60): candidate odd-local arithmetic packet"
+  },
+  {
+   "commit": "b7d2b99389c3c23fe8b63a2e4480abefe4fda4ab",
+   "date": "2026-09-20T22:07:02+01:00",
+   "subject": "feat(T60): package odd-prime local arithmetic per residual candidate"
+  },
+  {
+   "commit": "489977197a82f867b34d63c23015e688d6dac6c9",
+   "date": "2026-09-20T22:06:27+01:00",
+   "subject": "wire(T59): candidate-keyed level table frontier"
+  },
+  {
+   "commit": "110df453a2c766b5596f3666cf258ca5cff046c2",
+   "date": "2026-09-20T22:06:21+01:00",
+   "subject": "feat(T59): key modular level tables by concrete residual candidate"
+  },
+  {
+   "commit": "b9e77ce6600a1d5af808f87ca04f0784b9478de9",
+   "date": "2026-09-20T21:04:55+01:00",
+   "subject": "wire(T52-T58): certified level interface and five-family elimination bundle"
+  },
+  {
+   "commit": "a01fa0f4c4fab302ba47a3835bea3e94d0cd54c6",
+   "date": "2026-09-20T21:04:48+01:00",
+   "subject": "feat(T58): aggregate five residual mixed-family eliminations"
+  },
+  {
+   "commit": "f8c5d904baa40d167f68090af3e44ac40ef8f5da",
+   "date": "2026-09-20T21:04:37+01:00",
+   "subject": "feat(T57): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "abd881ceaff4b4082d98b506e83cca9c0c036bee",
+   "date": "2026-09-20T21:04:35+01:00",
+   "subject": "feat(T56): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "38a4b4313551f450f10e5e59d7a67f114bcf9dd0",
+   "date": "2026-09-20T21:04:33+01:00",
+   "subject": "feat(T55): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "cc604e5993d19c9d68cbabe8df9efbe4b88c9b28",
+   "date": "2026-09-20T21:04:31+01:00",
+   "subject": "feat(T54): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "830d8919f024cf034fdc6d2057009ee400cd75de",
+   "date": "2026-09-20T21:04:29+01:00",
+   "subject": "feat(T53): add fail-closed family elimination certificate"
+  },
+  {
+   "commit": "961ea5ba613ec85e65f676df396b78cb5c91f4c3",
+   "date": "2026-09-20T21:04:08+01:00",
+   "subject": "feat(T52): certify signature-to-level table interface fail-closed"
+  },
+  {
+   "commit": "bc6e0f6a9f38a1a71d8a76d9ba0a261dcd2861a4",
+   "date": "2026-09-20T18:15:10+01:00",
+   "subject": "wire(T51): include five mixed signature families"
+  },
+  {
+   "commit": "facb71b1d2b35e3c6f02de31fce6839b6e7b0458",
+   "date": "2026-09-20T18:14:58+01:00",
+   "subject": "feat(T51): classify remaining mixed signatures into five families"
+  },
+  {
+   "commit": "ae7c3bc9475134a81a8715c57913c11e45997325",
+   "date": "2026-09-20T18:13:52+01:00",
+   "subject": "fix(T49): make FLT4 contract branch-local"
+  },
+  {
+   "commit": "bc161172fe78f980ad2521834ea721b621670240",
+   "date": "2026-09-20T18:11:47+01:00",
+   "subject": "wire(T49): include contains-four signature split"
+  },
+  {
+   "commit": "d598103d040055b29473cf859e49088bcfcbdd1b",
+   "date": "2026-09-20T18:11:40+01:00",
+   "subject": "feat(T49): split contains-four signatures and isolate FLT4 branch"
+  },
+  {
+   "commit": "88ea971cdb00fa7bba8307ab2217c7792c55d18c",
+   "date": "2026-09-20T18:08:56+01:00",
+   "subject": "wire(T48): include mixed signature family classification"
+  },
+  {
+   "commit": "163a540948adcbc4c7b1cc1437defe33bff2d494",
+   "date": "2026-09-20T18:08:45+01:00",
+   "subject": "feat(T48): classify mixed reduced signatures into three families"
+  },
+  {
+   "commit": "427cd1e5e1f63a8085ea26879d47c94f9be0a8b5",
+   "date": "2026-09-20T18:05:57+01:00",
+   "subject": "fix(T45): make signature router classical only"
+  },
+  {
+   "commit": "22bf6a3f3d10455ccb755102df8cdb74ba74927f",
+   "date": "2026-09-20T18:04:45+01:00",
+   "subject": "wire(T45): include residual signature classification"
+  },
+  {
+   "commit": "ea7b5887bb0de5eb7d0984b0e65fb1be9f07ea77",
+   "date": "2026-09-20T18:04:36+01:00",
+   "subject": "feat(T45): classify single-residual route as equal-prime signatures"
+  },
+  {
+   "commit": "cd9d99990170e351e8c4b69bff4a60fc7580ffed",
+   "date": "2026-09-20T18:02:05+01:00",
+   "subject": "wire(T43-T44): include residual and newform fail-proof frontiers"
+  },
+  {
+   "commit": "07271ed519b389f772a04b25dab5d8fc3808cfc9",
+   "date": "2026-09-20T18:01:57+01:00",
+   "subject": "feat(T44): split newform elimination into coverage and exclusion"
+  },
+  {
+   "commit": "97652f2f4d008beaedb5c7b7acf46010e5cc440c",
+   "date": "2026-09-20T18:01:33+01:00",
+   "subject": "feat(T43): isolate residual-prime compatibility and irreducibility frontier"
+  },
+  {
+   "commit": "5f2e37823d44362415d852eea509c00809499aa3",
+   "date": "2026-09-20T17:53:21+01:00",
+   "subject": "T36-T42: type every remaining fail-closed bridge"
+  },
+  {
+   "commit": "d9b294c8c77172ba3bab7a7fd077d55f1fcfd302",
+   "date": "2026-09-20T17:29:54+01:00",
+   "subject": "T35: certify all-gaps fail-proof ledger"
+  },
+  {
+   "commit": "02d65b72e24dcc5cf596fb0cfa53e196e010a1c8",
+   "date": "2026-09-20T16:54:03+01:00",
+   "subject": "T34: formalize Frey nodal root-collision pattern"
+  },
+  {
+   "commit": "d7228bdb7ea6236eedb131e96050d0dc02854a2b",
+   "date": "2026-09-20T16:51:16+01:00",
+   "subject": "T33: isolate odd-prime local reduction input contract"
+  },
+  {
+   "commit": "be1461c5e089f3dce2834f193ced3f11dd520459",
+   "date": "2026-09-20T16:48:18+01:00",
+   "subject": "fix(T32): make Nat subtraction cancellations explicit"
+  },
+  {
+   "commit": "26c53cbe85f2949373940161dbfb719b78a82e1f",
+   "date": "2026-09-20T16:46:42+01:00",
+   "subject": "T32: certify odd-prime Delta-c4 separation"
+  },
+  {
+   "commit": "7b3c0045326f5886bb545428a605b05c16ce6d7f",
+   "date": "2026-09-20T16:43:31+01:00",
+   "subject": "T31: sharpen Frey support to 2 and Beal bases"
+  },
+  {
+   "commit": "194b84d53c2e528160b8f0a1643fa6353bbf1117",
+   "date": "2026-09-20T16:41:17+01:00",
+   "subject": "T30: descend Frey prime support to Beal bases"
+  },
+  {
+   "commit": "96536b03001fb53e065ec05b40be48832b94590b",
+   "date": "2026-09-20T16:38:46+01:00",
+   "subject": "T29: prove local Euclid prime-product lemma"
+  },
+  {
+   "commit": "e5fa7d2a9319a887178f44a7e6ebf46dd370ef11",
+   "date": "2026-09-20T16:36:42+01:00",
+   "subject": "T28: isolate conditional prime-support frontier"
+  },
+  {
+   "commit": "0c84b8622dcc1ea2690e593c82f71b8be7c41811",
+   "date": "2026-09-20T16:34:47+01:00",
+   "subject": "T27: generalize Frey divisor-depth transport"
+  },
+  {
+   "commit": "24ccf11b75560cc6bc09828b9f61f2d02e3f0240",
+   "date": "2026-09-20T16:21:14+01:00",
+   "subject": "T26: certify fail-closed 38970-to-Beal bridge equivalence"
+  },
+  {
+   "commit": "80ca07f854c2522cb30a6f6ccc09ecb4259cc038",
+   "date": "2026-09-20T16:18:28+01:00",
+   "subject": "T25: add exact Frey two-adic depth transport"
+  },
+  {
+   "commit": "e01b67c3c77489f30b6357f4c0a22fb214af9bb1",
+   "date": "2026-09-20T16:16:16+01:00",
+   "subject": "wire(T24): include Frey discriminant frontier"
+  },
+  {
+   "commit": "2c7c931e122a4a352d54a3e3c489571cdbaa5444",
+   "date": "2026-09-20T16:16:05+01:00",
+   "subject": "feat(T24): formalize exact Frey discriminant bridge"
+  },
+  {
+   "commit": "9adaa8234023537c8536342f50bac86219e45de3",
+   "date": "2026-09-20T13:25:28+01:00",
+   "subject": "wire(T23): include equal-power gap depth frontier"
+  },
+  {
+   "commit": "9ccf52b2e39cdb560ffa918f56f470d32560b8b4",
+   "date": "2026-09-20T13:25:26+01:00",
+   "subject": "feat(T23): transfer two-adic exponent depth into equal-power gaps"
+  },
+  {
+   "commit": "0f5b5e11bbc48fd3ff6e133dcab3e506735eb3eb",
+   "date": "2026-09-20T13:23:40+01:00",
+   "subject": "fix(T22): generalize cancellation induction and remove solved goal"
+  },
+  {
+   "commit": "6284e7152ec3d7a2eb2e53930a67d5442aa8e08c",
+   "date": "2026-09-20T13:22:34+01:00",
+   "subject": "wire(T22): include LTE-like exactness frontier"
+  },
+  {
+   "commit": "41d04dbcb5cff6a59bc12ca60f54b66462dd70e7",
+   "date": "2026-09-20T13:22:32+01:00",
+   "subject": "feat(T22): prove elementary LTE-like two-adic exactness"
+  },
+  {
+   "commit": "e6955cfc82e72783581eb9992b45f46acbe37408",
+   "date": "2026-09-20T13:19:50+01:00",
+   "subject": "fix(T21): normalize additive terms in difference factorization"
+  },
+  {
+   "commit": "90079efac6a01a56712b4965736aeafd675823ad",
+   "date": "2026-09-20T13:18:57+01:00",
+   "subject": "wire(T21): include equal-exponent factor frontier"
+  },
+  {
+   "commit": "06db987708e941b601273c336516bf7d139aef72",
+   "date": "2026-09-20T13:18:54+01:00",
+   "subject": "feat(T21): factor equal-exponent difference branches"
+  },
+  {
+   "commit": "6d1a195b32281ca6e9d2092ad5c0bbe6c1cd4a42",
+   "date": "2026-09-20T13:15:17+01:00",
+   "subject": "wire(T20): include full two-adic depth scaling"
+  },
+  {
+   "commit": "30b4b52f848863d37de7713796a61bf31d793d9a",
+   "date": "2026-09-20T13:15:15+01:00",
+   "subject": "feat(T20): scale arbitrary two-adic depth through exponents"
+  },
+  {
+   "commit": "53e91b7927fdb6cbaa94135d94d9ba4f2d3dcafb",
+   "date": "2026-09-20T13:13:59+01:00",
+   "subject": "wire(T19): include variable two-adic frontier"
+  },
+  {
+   "commit": "7464a9f169701d581d175b9f9afcaf5b1d5db008",
+   "date": "2026-09-20T13:13:57+01:00",
+   "subject": "feat(T19): lift parity layer to variable two-adic divisibility"
+  },
+  {
+   "commit": "59c9e889aaadfa1aca54d1e78bdeaf8272b8c242",
+   "date": "2026-09-20T12:50:11+01:00",
+   "subject": "wire(T18): include full parity classifier"
+  },
+  {
+   "commit": "5390239cf1aa670194e461196c7116468a758463",
+   "date": "2026-09-20T12:50:07+01:00",
+   "subject": "feat(T18): complete exactly-one-even modulo-eight classification"
+  },
+  {
+   "commit": "d0284fcfacb55fa6640fd664413210dc8f536d9f",
+   "date": "2026-09-20T12:48:19+01:00",
+   "subject": "wire(T17): include classified C-even frontier"
+  },
+  {
+   "commit": "fc6b8b19acc8f7b723aa54e23e7fa1f7a985ca57",
+   "date": "2026-09-20T12:48:17+01:00",
+   "subject": "feat(T17): classify the C-even modulo-eight survivor"
+  },
+  {
+   "commit": "2e86aaf0f298ef0f0cf1b5314c4ba98937904ac2",
+   "date": "2026-09-20T12:46:51+01:00",
+   "subject": "fix(T16): classify odd residues mod eight constructively"
+  },
+  {
+   "commit": "044be86f1b58813549d5c6cb0d648f158a69bc08",
+   "date": "2026-09-20T12:44:36+01:00",
+   "subject": "wire(T16): include modulo-eight residual in aggregate build"
+  },
+  {
+   "commit": "393b6776a9972971eb97cef6d7f908207fb3dafd",
+   "date": "2026-09-20T12:44:34+01:00",
+   "subject": "feat(T16): add modulo-eight C-even residual constraints"
+  },
+  {
+   "commit": "7a1c6523346f85de92739867161ba3ceed44c59b",
+   "date": "2026-09-20T12:38:08+01:00",
+   "subject": "fix(T15): remove solved-goal residue simplification"
+  },
+  {
+   "commit": "2d55057b504725e2e6d0ed81fb929785a2b998d5",
+   "date": "2026-09-20T12:37:06+01:00",
+   "subject": "wire(T15): include base-residue frontier in aggregate build"
+  },
+  {
+   "commit": "9c6925b754b71cee3553951d1bac134f9cf62445",
+   "date": "2026-09-20T12:37:03+01:00",
+   "subject": "feat(T15): reduce C-even mixed-four branch to base residues"
+  },
+  {
+   "commit": "2f91f5fdc399f608e1f341547bc9be86902a4226",
+   "date": "2026-09-20T12:34:53+01:00",
+   "subject": "fix(T14): close bounded residue branches constructively"
+  },
+  {
+   "commit": "410bd124052c803bbb0be2b9cdaec0087ee9b179",
+   "date": "2026-09-20T12:33:35+01:00",
+   "subject": "wire(T14): include residue frontier in aggregate build"
+  },
+  {
+   "commit": "5828b3a4107992af36924c2358a657ca22144846",
+   "date": "2026-09-20T12:33:32+01:00",
+   "subject": "feat(T14): expose C-even mixed-four residue constraints"
+  },
+  {
+   "commit": "640073462f3329bb63d89742179e89d78cd95150",
+   "date": "2026-09-20T12:19:41+01:00",
+   "subject": "fix(T13): use core modulo simplification and mul divisibility"
+  },
+  {
+   "commit": "71272a0b77deea65cf2cf4718e9f810d4776bc97",
+   "date": "2026-09-20T12:18:24+01:00",
+   "subject": "fix(T13): use explicit modular forms and divisibility witness"
+  },
+  {
+   "commit": "f29813e811c0213cd64e69ceb47bc50805212deb",
+   "date": "2026-09-20T12:16:48+01:00",
+   "subject": "ATK wire T13 modular residual into MCore build"
+  },
+  {
+   "commit": "53371f297d3b4116b257149e17baaabf441fd77b",
+   "date": "2026-09-20T12:16:41+01:00",
+   "subject": "ATK T13: exclude C-even double-four signature modulo four"
+  },
+  {
+   "commit": "999bf7c8ec4b0e7f2f73b6740137f5a7c7e239d5",
+   "date": "2026-09-20T12:12:57+01:00",
+   "subject": "fix(T12): provide explicit constructive evenness decider"
+  },
+  {
+   "commit": "efe4fef064273971a3e5182be560c7efe186cde7",
+   "date": "2026-09-20T12:11:58+01:00",
+   "subject": "fix(T12): use constructive divisibility decisions"
+  },
+  {
+   "commit": "e91fe27c82d610b6fbd37279b8fbf2e6baf45b93",
+   "date": "2026-09-20T12:10:59+01:00",
+   "subject": "fix(T12): remove omega and keep parity proof constructive"
+  },
+  {
+   "commit": "bbd7455efec20e0a4a663ea06db2457000f5ba3f",
+   "date": "2026-09-20T12:09:55+01:00",
+   "subject": "ATK wire T12 parity residual into MCore build"
+  },
+  {
+   "commit": "4c3991c1c88cba64785b2feeff52bb0e3df0d1b6",
+   "date": "2026-09-20T12:09:47+01:00",
+   "subject": "ATK T12: expose exactly-one-even parity residual"
+  },
+  {
+   "commit": "d830ece3c1589ef63c2055af319fe6a64a623165",
+   "date": "2026-09-20T11:22:53+01:00",
+   "subject": "fix(T11): make Nat subtraction identities explicit"
+  },
+  {
+   "commit": "13f0146472c48709e77be681cda8a5be7eaad864",
+   "date": "2026-09-20T11:21:56+01:00",
+   "subject": "ATK wire T11 pairwise residual into MCore build"
+  },
+  {
+   "commit": "84bb450f991ec39e1af42f9bc07c217e096c3c96",
+   "date": "2026-09-20T11:21:48+01:00",
+   "subject": "ATK T11: strengthen reduced Beal residual to pairwise primitive bases"
+  },
+  {
+   "commit": "67e64379c4e93df6187597819115ead0550bf0ab",
+   "date": "2026-09-20T11:16:47+01:00",
+   "subject": "fix(T10): replace unavailable congrArg₂ with rw"
+  },
+  {
+   "commit": "4094b7098bc1ea766c6eec86fd9a8d26f25a1bd6",
+   "date": "2026-09-20T10:44:50+01:00",
+   "subject": "fix(T10): keep reduced candidate in Prop to avoid choice"
+  },
+  {
+   "commit": "136d81ac0303d0000efcedb0cc4d1b5b79d62509",
+   "date": "2026-09-20T10:43:42+01:00",
+   "subject": "ATK wire T10 reduced-signature normalization into MCore build"
+  },
+  {
+   "commit": "3371223ff10d790a2e148ec9da897cc260ed995c",
+   "date": "2026-09-20T10:43:34+01:00",
+   "subject": "ATK T10: normalize primitive Beal candidates to 4-or-prime signatures"
+  },
+  {
+   "commit": "cf7279eed0a306e298c777913b09acbcc9d3bd3d",
+   "date": "2026-09-20T10:42:57+01:00",
+   "subject": "cert: freeze T9 Euclid and prime-power closure"
+  },
+  {
+   "commit": "02477296f24b8a6fdd00c0e28a037f7da2b7072b",
+   "date": "2026-09-20T10:41:57+01:00",
+   "subject": "ATK wire T9 Euclid and prime-power closure into MCore build"
+  },
+  {
+   "commit": "d37ded73997e6d4f68a755f7f80addfcaa8dd97b",
+   "date": "2026-09-20T10:41:50+01:00",
+   "subject": "ATK T9: prove local Euclid kernel and prime-power reflection"
+  },
+  {
+   "commit": "782386cfce3b34366f4fbe1fe123432c444bf9e4",
+   "date": "2026-09-20T10:41:09+01:00",
+   "subject": "cert: freeze T8 powered-primitivity transport"
+  },
+  {
+   "commit": "53576120987c557bd86f5ee7730cf4b6ee19607f",
+   "date": "2026-09-20T10:40:19+01:00",
+   "subject": "ATK wire T8 powered-primitivity bridge into MCore build"
+  },
+  {
+   "commit": "8135c35a52e347e27e325921d8006420f1757282",
+   "date": "2026-09-20T10:40:12+01:00",
+   "subject": "ATK T8: isolate prime-power reflection and powered primitiveness"
+  },
+  {
+   "commit": "3774159e72ff1b2d9bed3a96c76e67239d5e7ad0",
+   "date": "2026-09-20T10:38:30+01:00",
+   "subject": "cert: freeze T7 exponent normalization"
+  },
+  {
+   "commit": "278ead2946e422708a465e2a9fe31332b0574446",
+   "date": "2026-09-20T10:37:36+01:00",
+   "subject": "ATK wire T7 exponent reduction into MCore build"
+  },
+  {
+   "commit": "f6ff2dd765997215ceb3542fca39ddd9a922d94c",
+   "date": "2026-09-20T10:37:30+01:00",
+   "subject": "ATK T7: reduce every exponent above two to 4 or a prime factor"
+  },
+  {
+   "commit": "3016cc9c919cdf0db50a7b72d8a79c6f62efee27",
+   "date": "2026-09-20T10:36:03+01:00",
+   "subject": "cert: freeze exact T6 primitive scientific frontier"
+  },
+  {
+   "commit": "466a6ec4cc3afe367408c76c5d085c42ee36c093",
+   "date": "2026-09-20T10:34:58+01:00",
+   "subject": "ATK T6: package exact primitive Beal scientific frontier"
+  },
+  {
+   "commit": "65e25ce22ab78a05f32dc354a4a936472a54420f",
+   "date": "2026-09-20T10:34:19+01:00",
+   "subject": "cert: freeze Beal T5 constructive equivalence"
+  },
+  {
+   "commit": "c836311f12b5e3570d251d41c449dc5889224b2f",
+   "date": "2026-09-20T10:33:22+01:00",
+   "subject": "fix(T5): expose bounded divisor predicate for decidability"
+  },
+  {
+   "commit": "eb182eaded66cd84d5c35f6d83566a9c4e2dfc50",
+   "date": "2026-09-20T10:32:21+01:00",
+   "subject": "ATK T5: constructively equate raw bridge with no-primitive-solution obstruction"
+  },
+  {
+   "commit": "58181aaee7ed231962e8cc0227235fa63f7d1890",
+   "date": "2026-09-20T10:31:49+01:00",
+   "subject": "cert: freeze Beal T3/T4 green checkpoint"
+  },
+  {
+   "commit": "d5689d11b8445ff902ba413431f739c2276b67a0",
+   "date": "2026-09-20T10:30:31+01:00",
+   "subject": "ATK T3/T4: expose raw Diophantine bridge and primitive obstruction"
+  },
+  {
+   "commit": "5f436b1dea00670fc41c776909a9ca1db2f24ab5",
+   "date": "2026-09-20T10:29:19+01:00",
+   "subject": "cert: freeze Beal V012/T012 green checkpoint"
+  },
+  {
+   "commit": "3dc9b61e579b131ed45d5d71e6d290459594d868",
+   "date": "2026-09-20T10:28:17+01:00",
+   "subject": "ATK wire V012 residue into MCore build"
+  },
+  {
+   "commit": "68418d9c238866f0ab98ce765d981c6602304667",
+   "date": "2026-09-20T10:28:09+01:00",
+   "subject": "ATK Beal V0/V1/V2: isolate exact common-divisor residue"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-30T16:50:26+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0",
+   "leanprover/lean4:v4.35.0-rc2"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.BealFamilyControlCertificate.excludes",
+   "file": "lean/MCore/BealProducer.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {Family : MCore.BealFamily},   MCore.BealFamilyControlCertificate Family → ∀ (d : MCore.BealData), Family d → ¬MCore.BealCounterexample d"
+  },
+  {
+   "name": "MCore.BealFiveFamilyAttack.eliminatesResidualSurvivors",
+   "file": "lean/MCore/BealFiveFamilyAttack.lean",
+   "line": 32,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{Survives : T44LoweredNewformCase → Prop} (A : BealFiveFamilyAttack Survives) : T44AllNewformsEliminated Survives"
+  },
+  {
+   "name": "MCore.BealUnconditionalClaimCertificate.enableTheorem",
+   "file": "lean/MCore/BealUnconditionalClaimCertificate.lean",
+   "line": 18,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(C : BealUnconditionalClaimCertificate) : BealConjecture"
+  },
+  {
+   "name": "MCore.BealUnifiedClosurePayload.closes",
+   "file": "lean/MCore/BealUnifiedClosureRouter.lean",
+   "line": 35,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(P : BealUnifiedClosurePayload) : BealConjecture"
+  },
+  {
+   "name": "MCore.BealUniversalControl.closes",
+   "file": "lean/MCore/BealProducer.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealUniversalControl → MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.b01_o1_from_genuine_multiplicative_conductor_theorem",
+   "file": "lean/MCore/B01O1ConductorBridge.lean",
+   "line": 28,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(S : B01ConductorExponentSemantics) (hConductor : B01GenuineMultiplicativeConductorTheorem S) : B01OddExponentOneLaw S"
+  },
+  {
+   "name": "MCore.beal_iff_exclusion_certificate",
+   "file": "lean/MCore/BealF6Exclusion.lean",
+   "line": 48,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": BealConjecture ↔ Nonempty BealExclusionCertificate"
+  },
+  {
+   "name": "MCore.beal_iff_habitant",
+   "file": "lean/MCore/BealHabitant.lean",
+   "line": 37,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": BealConjecture ↔ Nonempty BealHabitant"
+  },
+  {
+   "name": "MCore.beal_iff_unconditional_claim_certificate",
+   "file": "lean/MCore/BealUnconditionalClaimCertificate.lean",
+   "line": 53,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": BealConjecture ↔ Nonempty BealUnconditionalClaimCertificate"
+  },
+  {
+   "name": "MCore.beal_iff_unconditional_kernel_obligation",
+   "file": "lean/MCore/BealUnconditionalClaimAttack.lean",
+   "line": 18,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": BealConjecture ↔ BealUnconditionalKernelObligation"
+  },
+  {
+   "name": "MCore.beal_of_exclusion",
+   "file": "lean/MCore/BealF6Exclusion.lean",
+   "line": 38,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(C : BealExclusionCertificate) : BealConjecture"
+  },
+  {
+   "name": "MCore.beal_of_habitant",
+   "file": "lean/MCore/BealHabitant.lean",
+   "line": 22,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : BealHabitant) : BealConjecture"
+  },
+  {
+   "name": "MCore.beal_theorem_enabled_iff_terminal_producer",
+   "file": "lean/MCore/BealUnifiedClosureRouter.lean",
+   "line": 47,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": BealConjecture ↔ Nonempty BealTerminalOpenMath"
+  },
+  {
+   "name": "MCore.enable_beal_from_unconditional_kernel_obligation",
+   "file": "lean/MCore/BealUnconditionalClaimAttack.lean",
+   "line": 29,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : BealUnconditionalKernelObligation) : BealConjecture"
+  },
+  {
+   "name": "MCore.five_family_attack_is_exact_route_input",
+   "file": "lean/MCore/BealFiveFamilyAttack.lean",
+   "line": 52,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "{Survives : T44LoweredNewformCase → Prop} (A : BealFiveFamilyAttack Survives) : Nonempty (T58MixedEliminationBundle Survives)"
+  },
+  {
+   "name": "MCore.producer_closes_beal",
+   "file": "lean/MCore/BealProducer.lean",
+   "line": 201,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.BealUniversalProducer → MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.producer_cover_closes_beal",
+   "file": "lean/MCore/BealProducer.lean",
+   "line": 229,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {C : MCore.BealProducerCover}, MCore.BealProducerSelector C → MCore.BealConjecture"
+  },
+  {
+   "name": "MCore.terminal_open_math_closes",
+   "file": "lean/MCore/BealUnifiedClosureRouter.lean",
+   "line": 52,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(P : BealTerminalOpenMath) : BealConjecture"
+  },
+  {
+   "name": "MCore.unconditional_kernel_obligation_of_beal",
+   "file": "lean/MCore/BealUnconditionalClaimAttack.lean",
+   "line": 41,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : BealConjecture) : BealUnconditionalKernelObligation"
+  }
+ ],
+ "closed": 4,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "ff71024013d8f21b4908035d9c3296be64c19b1a54ade041a62e9d7264a1a741",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BealFastExternalEndpoint.lean": "28506ff5631db6cd86f1c243a475d9aa7a47a560fcf2d4b4e151460a5375ab51",
+  "lean/MCore/BealProducer.lean": "1f6285c005f17cbba4da1ce85e38034465fcd0ac37728ffcf8674b68bd059029",
+  "lean/MCore/BealSpecification.lean": "6f880a8c71b13e46cfd2783a8d236ec03818ab7f379d0246dd2e5dfdfaf3a80a",
+  "lean/MCore/BealThreeLaneClosure.lean": "0c7a6716410bd44a63a1001cfcdab2d78a5b2db69e753ee54a6d69e812cd9e36",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/GCDSignature.lean": "3b763f780c5bbdd68b01acb1d233732448d38dfccda92339202b670a3dbcf0c7",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "f943d2541202fd0eecd99ae2539ca70ddbd59a9fd8438c2ed81046aa7e2441fb",
+  "lean/MCore/K10.lean": "53437ddea05e8fe41c63ebccba8211036998cab7b7ad3bb2bbb28b540ddc7f0c",
+  "lean/MCore/K2.lean": "3f1a0e012517f9e673b49f4c422b992ba480adfe768f7c36314a80a3bc753343",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "0238d3ccaf8586df995d581e1b5528e362248b3cf570ce215cf9c7e5b5f3995e",
+  "lean/MCore/K8.lean": "b54676410879afbd8896e8196df63cd511c29973229010596e362e3bdecbf4cd",
+  "lean/MCore/K9.lean": "959c7c05f5c913be70bfc2ac6cc09c768f46b02dc9a82cec214363a7249b0975",
+  "lean/MCore/K9/Core/Arith.lean": "8b5e0a520afdec6b8a57e302ae16bac0ed24e874e8e775fb327cd7445abfac03",
+  "lean/MCore/Signature.lean": "b295056afe7d8b4832377e0cbc67ceede72688c344705474d3803dba5a0d15ad"
+ },
+ "published_at": "2026-11-02T20:55:36Z",
+ "certificate_sha256": "de2afc292a15f1340c1090c4a274d0f32f0e8c8cb1a8fcee6829b229b9f649af"
+}

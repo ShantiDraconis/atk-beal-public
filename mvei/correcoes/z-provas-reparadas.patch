@@ -1,0 +1,19 @@
+--- a/formal/DirectEndpointRule.lean
++++ b/formal/DirectEndpointRule.lean
+@@ -32,7 +32,7 @@
+     {State : Type u}
+     (p : StrictProgress State) :
+     WellFounded (fun a b => p.rank a < p.rank b) :=
+-  InvImage.wf p.rank Nat.lt_wfRel
++  InvImage.wf p.rank Nat.lt_wfRel.wf
+ 
+ inductive Stage
+   | source
+@@ -51,6 +51,6 @@
+   stageRank a < stageRank b
+ 
+ theorem forwardDependency_wellFounded : WellFounded forwardDependency :=
+-  InvImage.wf stageRank Nat.lt_wfRel
++  InvImage.wf stageRank Nat.lt_wfRel.wf
+ 
+ end DirectEndpointRule

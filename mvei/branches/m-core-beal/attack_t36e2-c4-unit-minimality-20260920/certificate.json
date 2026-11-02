@@ -433,7 +433,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.29.0-rc6"
   ],
@@ -513,37 +513,31 @@
    "name": "MCore.T36C_hasMultiplicativeReduction_of_local_data",
    "file": "lean/MCore/T36C.lean",
    "line": 67,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{R K : Type*} [CommRing R] [IsDomain R] [IsDiscreteValuationRing R] [Field K] [Algebra R K] [IsFractionRing R K] {W : WeierstrassCurve K} [WeierstrassCurve.IsMinimal R W] (hDelta : valuation K (IsLocalRing.maximalIdeal R) W.Δ < 1) (hc4 : valuation K (IsLocalRing.maximalIdeal R) W.c₄ = 1) : W.HasMultiplicativeReduction R"
   },
   {
    "name": "MCore.T36C_localData_to_multiplicative",
    "file": "lean/MCore/T36C.lean",
    "line": 100,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{R K : Type*} [CommRing R] [IsDomain R] [IsDiscreteValuationRing R] [Field K] [Algebra R K] [IsFractionRing R K] {W : WeierstrassCurve K} (h : T36CLocalData R K W) : W.HasMultiplicativeReduction R"
   },
   {
    "name": "MCore.T36C_localization_isDVR",
    "file": "lean/MCore/T36C.lean",
    "line": 45,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{p : Nat} (hp : IsPrime p) : IsDiscreteValuationRing (T36CLocalRing p)"
   },
   {
    "name": "MCore.T36C_natPrime_of_projectPrime",
    "file": "lean/MCore/T36C.lean",
    "line": 10,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{p : Nat} (hp : IsPrime p) : Nat.Prime p"
   },
@@ -551,7 +545,7 @@
    "name": "MCore.T36C_primeIdeal_isPrime",
    "file": "lean/MCore/T36C.lean",
    "line": 22,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{p : Nat} (hp : IsPrime p) : (T36CPrimeIdeal p).IsPrime"
   },
@@ -559,7 +553,7 @@
    "name": "MCore.T36C_primeIdeal_ne_bot",
    "file": "lean/MCore/T36C.lean",
    "line": 32,
-   "state": "erro",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{p : Nat} (hp : IsPrime p) : T36CPrimeIdeal p ≠ (⊥ : Ideal ℤ)"
   },
@@ -567,7 +561,7 @@
    "name": "MCore.T36D_dvd_iff_valuation_lt_one",
    "file": "lean/MCore/T36D.lean",
    "line": 16,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{p n : Nat} (hp : IsPrime p) : (T36DHeightOne p hp).valuation (FractionRing ℤ) (algebraMap ℤ (FractionRing ℤ) (n : ℤ)) < 1 ↔ p ∣ n"
   },
@@ -575,7 +569,7 @@
    "name": "MCore.T36D_not_dvd_iff_valuation_eq_one",
    "file": "lean/MCore/T36D.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{p n : Nat} (hp : IsPrime p) : (T36DHeightOne p hp).valuation (FractionRing ℤ) (algebraMap ℤ (FractionRing ℤ) (n : ℤ)) = 1 ↔ ¬ p ∣ n"
   },
@@ -583,7 +577,7 @@
    "name": "MCore.T36D_package_c4_valuation",
    "file": "lean/MCore/T36D.lean",
    "line": 51,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{a b c x y z p : Nat} (hPkg : T36OddLocalArithmeticPackage a b c x y z p) : (T36DHeightOne p hPkg.input.1).valuation (FractionRing ℤ) (algebraMap ℤ (FractionRing ℤ) (T32FreyC4Kernel a b x y : ℤ)) = 1"
   },
@@ -591,7 +585,7 @@
    "name": "MCore.T36D_package_delta_valuation",
    "file": "lean/MCore/T36D.lean",
    "line": 39,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{a b c x y z p : Nat} (hPkg : T36OddLocalArithmeticPackage a b c x y z p) : (T36DHeightOne p hPkg.input.1).valuation (FractionRing ℤ) (algebraMap ℤ (FractionRing ℤ) (T24FreyDiscriminantBeal a b c x y z : ℤ)) < 1"
   },
@@ -599,7 +593,7 @@
    "name": "MCore.T36E1_freyFrac_c4_eq_nat_kernel",
    "file": "lean/MCore/T36E1.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(a b x y : Nat) : (T36CFreyCurveFrac a b x y).c₄ = algebraMap ℤ (FractionRing ℤ) (T32FreyC4Kernel a b x y : ℤ)"
   },
@@ -607,7 +601,7 @@
    "name": "MCore.T36E1_freyFrac_delta_eq_nat_beal",
    "file": "lean/MCore/T36E1.lean",
    "line": 43,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{a b c x y z : Nat} (heq : a ^ x + b ^ y = c ^ z) : (T36CFreyCurveFrac a b x y).Δ = algebraMap ℤ (FractionRing ℤ) (T24FreyDiscriminantBeal a b c x y z : ℤ)"
   },
@@ -615,7 +609,7 @@
    "name": "MCore.T36E1_freyZ_c4_eq_nat_kernel",
    "file": "lean/MCore/T36E1.lean",
    "line": 9,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(a b x y : Nat) : (T36CFreyCurveZ a b x y).c₄ = (T32FreyC4Kernel a b x y : ℤ)"
   },
@@ -623,7 +617,7 @@
    "name": "MCore.T36E1_freyZ_delta_eq_nat_beal",
    "file": "lean/MCore/T36E1.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{a b c x y z : Nat} (heq : a ^ x + b ^ y = c ^ z) : (T36CFreyCurveZ a b x y).Δ = (T24FreyDiscriminantBeal a b c x y z : ℤ)"
   },
@@ -631,7 +625,7 @@
    "name": "MCore.T36E1_localDVR_dvd_iff_valuation_lt_one",
    "file": "lean/MCore/T36E1.lean",
    "line": 52,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{p n : Nat} (hp : IsPrime p) [hP : (T36CPrimeIdeal p).IsPrime] [hDVR : IsDiscreteValuationRing (T36CLocalRing p)] : (IsDiscreteValuationRing.maximalIdeal (T36CLocalRing p)).valuation (FractionRing ℤ) (algebraMap ℤ (FractionRing ℤ) (n : ℤ)) < 1 ↔ p ∣ n"
   },
@@ -639,7 +633,7 @@
    "name": "MCore.T36E1_localDVR_not_dvd_iff_valuation_eq_one",
    "file": "lean/MCore/T36E1.lean",
    "line": 70,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{p n : Nat} (hp : IsPrime p) [hP : (T36CPrimeIdeal p).IsPrime] [hDVR : IsDiscreteValuationRing (T36CLocalRing p)] : (IsDiscreteValuationRing.maximalIdeal (T36CLocalRing p)).valuation (FractionRing ℤ) (algebraMap ℤ (FractionRing ℤ) (n : ℤ)) = 1 ↔ ¬ p ∣ n"
   },
@@ -647,7 +641,7 @@
    "name": "MCore.T36E1_package_c4_localDVR",
    "file": "lean/MCore/T36E1.lean",
    "line": 101,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{a b c x y z p : Nat} (hPkg : T36OddLocalArithmeticPackage a b c x y z p) [hP : (T36CPrimeIdeal p).IsPrime] [hDVR : IsDiscreteValuationRing (T36CLocalRing p)] : (IsDiscreteValuationRing.maximalIdeal (T36CLocalRing p)).valuation (FractionRing ℤ) (T36CFreyCurveFrac a b x y).c₄ = 1"
   },
@@ -655,7 +649,7 @@
    "name": "MCore.T36E1_package_delta_localDVR",
    "file": "lean/MCore/T36E1.lean",
    "line": 86,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{a b c x y z p : Nat} (hPkg : T36OddLocalArithmeticPackage a b c x y z p) [hP : (T36CPrimeIdeal p).IsPrime] [hDVR : IsDiscreteValuationRing (T36CLocalRing p)] : (IsDiscreteValuationRing.maximalIdeal (T36CLocalRing p)).valuation (FractionRing ℤ) (T36CFreyCurveFrac a b x y).Δ < 1"
   },
@@ -663,7 +657,7 @@
    "name": "MCore.T36E2_freyFrac_isIntegral",
    "file": "lean/MCore/T36E2.lean",
    "line": 74,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{a b x y p : Nat} [hP : (T36CPrimeIdeal p).IsPrime] : WeierstrassCurve.IsIntegral (T36CLocalRing p) (T36CFreyCurveFrac a b x y)"
   },
@@ -671,7 +665,7 @@
    "name": "MCore.T36E2_isMinimal_of_integral_c4_unit",
    "file": "lean/MCore/T36E2.lean",
    "line": 9,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{R K : Type*} [CommRing R] [IsDomain R] [IsDiscreteValuationRing R] [Field K] [Algebra R K] [IsFractionRing R K] {W : WeierstrassCurve K} (hInt : WeierstrassCurve.IsIntegral R W) (hc4 : (IsDiscreteValuationRing.maximalIdeal R).valuation K W.c₄ = 1) : WeierstrassCurve.IsMinimal R W"
   },
@@ -679,7 +673,7 @@
    "name": "MCore.T36E2_local_baseChange_eq_frac",
    "file": "lean/MCore/T36E2.lean",
    "line": 64,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{a b x y p : Nat} [hP : (T36CPrimeIdeal p).IsPrime] : (T36E2FreyCurveLocal a b x y p).baseChange (FractionRing ℤ) = T36CFreyCurveFrac a b x y"
   },
@@ -687,7 +681,7 @@
    "name": "MCore.T36E2_package_minimal",
    "file": "lean/MCore/T36E2.lean",
    "line": 86,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{a b c x y z p : Nat} (hPkg : T36OddLocalArithmeticPackage a b c x y z p) [hP : (T36CPrimeIdeal p).IsPrime] [hDVR : IsDiscreteValuationRing (T36CLocalRing p)] : WeierstrassCurve.IsMinimal (T36CLocalRing p) (T36CFreyCurveFrac a b x y)"
   },
@@ -695,7 +689,7 @@
    "name": "MCore.T36E2_package_multiplicative",
    "file": "lean/MCore/T36E2.lean",
    "line": 101,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{a b c x y z p : Nat} (hPkg : T36OddLocalArithmeticPackage a b c x y z p) [hP : (T36CPrimeIdeal p).IsPrime] [hDVR : IsDiscreteValuationRing (T36CLocalRing p)] : (T36CFreyCurveFrac a b x y).HasMultiplicativeReduction (T36CLocalRing p)"
   },
@@ -732,7 +726,7 @@
    "statement": "∀ (S : MCore.T36OddLocalSemantics), MCore.T36OddLocalSemanticGoal S ↔ MCore.T36OddLocalSemanticCriterion S"
   }
  ],
- "closed": 14,
+ "closed": 12,
  "files_sha256": {
   "lake-manifest.json": "c1ac62bf4eca52c0356f6b5a7abb6b23971b503ef13daf3bcd1dc62c8966c0f6",
   "lakefile.toml": "773fb70c2762b240b7f62361f86fef0b648bbec57b68e892bb1faa6cd0c98f70",
@@ -782,12 +776,11 @@
   "lean/MCore/T36.lean": "47b01cf17ff9ab8484147101485a45c124de77fe478e784fa0fa246e436c5ebc",
   "lean/MCore/T36A.lean": "007f87d3bd0345cced04e697edcf9d3c22c5810806e1078ede4eb4ff62d3f752",
   "lean/MCore/T36B.lean": "4b737f8fca8a43b436199853ec566d9b816f736a4c3cd96c32858f9b4d388ff6",
-  "lean/MCore/T36C.lean": "a6644d204658d940f035e2564b5c17a742dfe43811c79d1206fbaad935b57595",
   "lean/MCore/T7.lean": "db8ce8fcc174871673448c6cedfdde4660e1ca7b7c19d5ebcc36221843482062",
   "lean/MCore/T8.lean": "8f773d2d3b81c4380559dfeaea65d017445cb1c9a6db37ffa4a42ebba6caf2ce",
   "lean/MCore/T9.lean": "201cd28cf4ac3be419308bdc54a6266879494ad57be8247e01f1d83d824a86c9",
   "lean/MCore/V012.lean": "7a89da38a61abb05bc5c0b774a4e1d7317d4234bedd2bcb005d9d4c34f39a188"
  },
- "published_at": "2026-10-29T20:15:54Z",
- "certificate_sha256": "7f85e54add395bdec4550799a02804469782d4605cc23c1f1909d992de911f83"
+ "published_at": "2026-11-02T20:55:36Z",
+ "certificate_sha256": "623e85230e52dacaad390f804083aa0c8a3ac2d497460ea476c5485877d05442"
 }

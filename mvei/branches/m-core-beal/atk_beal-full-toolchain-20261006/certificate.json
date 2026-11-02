@@ -1018,7 +1018,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.33.1"
   ],
@@ -1034,7 +1034,7 @@
    "name": "MCore.Beal.materialPrimitiveExclusion_eliminates",
    "file": "open_math/P02RejectionBealInvariantProbe.lean",
    "line": 121,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : MaterialPrimitiveExclusion) (d : MCore.BealData) (hd : observedDefect d = 1) : False"
   },
@@ -1042,7 +1042,7 @@
    "name": "MCore.Beal.observedDefect_swap",
    "file": "open_math/P02RejectionBealInvariantProbe.lean",
    "line": 44,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : MCore.BealData) : observedDefect (swapAB d) = observedDefect d"
   },
@@ -1050,7 +1050,7 @@
    "name": "MCore.Beal.primitive_swap_iff",
    "file": "open_math/P02RejectionBealInvariantProbe.lean",
    "line": 132,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : MCore.BealData) : observedDefect (swapAB d) = 1 ↔ observedDefect d = 1"
   },
@@ -1058,7 +1058,7 @@
    "name": "MCore.Beal.structural_schema_allows_defect_one",
    "file": "open_math/P02RejectionBealInvariantProbe.lean",
    "line": 101,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∃ (M : BealRejectionModel) (x : M.Point), M.defect x = 1"
   },
@@ -1066,7 +1066,7 @@
    "name": "MCore.Beal.swapAB_involutive",
    "file": "open_math/P02RejectionBealInvariantProbe.lean",
    "line": 38,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(d : MCore.BealData) : swapAB (swapAB d) = d"
   },
@@ -1074,7 +1074,7 @@
    "name": "MCore.Beal.toyCoprime_has_defect_one",
    "file": "open_math/P02RejectionBealInvariantProbe.lean",
    "line": 97,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∃ x : toyCoprime.Point, toyCoprime.defect x = 1"
   },
@@ -1082,7 +1082,7 @@
    "name": "MCore.OpenMath.Beal.close_from_first_real_open_math",
    "file": "lean/MCore/OpenMath/ForcingKernel.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : FirstRealOpenMath) : MCore.BealConjecture"
   },
@@ -1090,7 +1090,7 @@
    "name": "MCore.OpenMath.Beal.first_real_open_math_iff_beal",
    "file": "lean/MCore/OpenMath/ForcingKernel.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": FirstRealOpenMath ↔ MCore.BealConjecture"
   },
@@ -1202,7 +1202,7 @@
    "name": "MCore.OpenMath.BealQ10.canonJoin_closed_idempotent",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 77,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": canonJoin .closedOnly .closedOnly = .closedOnly"
   },
@@ -1210,7 +1210,7 @@
    "name": "MCore.OpenMath.BealQ10.canonJoin_full_absorbing_left",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 85,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(x : CanonicalEndpointState) : canonJoin .full x = .full"
   },
@@ -1218,7 +1218,7 @@
    "name": "MCore.OpenMath.BealQ10.canonJoin_full_absorbing_right",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 90,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(x : CanonicalEndpointState) : canonJoin x .full = .full"
   },
@@ -1226,7 +1226,7 @@
    "name": "MCore.OpenMath.BealQ10.canonJoin_open_closed_full",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 81,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": canonJoin .openOnly .closedOnly = .full"
   },
@@ -1234,7 +1234,7 @@
    "name": "MCore.OpenMath.BealQ10.canonJoin_open_idempotent",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 73,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": canonJoin .openOnly .openOnly = .openOnly"
   },
@@ -1258,7 +1258,7 @@
    "name": "MCore.OpenMath.BealQ10.closedBridge_iff_mathRoot",
    "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
    "line": 21,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ClosedBridge ↔ MathRoot"
   },
@@ -1266,7 +1266,7 @@
    "name": "MCore.OpenMath.BealQ10.closedMath_iff_closedBridge",
    "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
    "line": 15,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ClosedMath ↔ ClosedBridge"
   },
@@ -1274,7 +1274,7 @@
    "name": "MCore.OpenMath.BealQ10.closedMath_iff_notOpenMath_iff_endpoint_self_negation",
    "file": "lean/MCore/OpenMath/BealQ10FinalPolarity.lean",
    "line": 15,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (ClosedMath ↔ ¬ OpenMath) ↔ (Endpoint ↔ ¬ Endpoint)"
   },
@@ -1282,7 +1282,7 @@
    "name": "MCore.OpenMath.BealQ10.closedMath_to_openMath",
    "file": "lean/MCore/OpenMath/BealQ10TerminalClosureTransition.lean",
    "line": 10,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ClosedMath → OpenMath"
   },
@@ -1290,7 +1290,7 @@
    "name": "MCore.OpenMath.BealQ10.closed_add_closed",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 21,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": EndpointMultiset.add CLOSED1 CLOSED1 = ⟨0, 2⟩"
   },
@@ -1298,7 +1298,7 @@
    "name": "MCore.OpenMath.BealQ10.closed_self_inequality_collapses",
    "file": "lean/MCore/OpenMath/BealQ10FinalReflexivity.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hC : ClosedMath ≠ ClosedMath) : False"
   },
@@ -1306,7 +1306,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_CLOSED",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 61,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_CLOSED = .closedOnly"
   },
@@ -1314,7 +1314,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_CLOSED_CLOSED",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 66,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_CLOSED_CLOSED = .closedOnly"
   },
@@ -1322,7 +1322,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_CLOSED_CLOSED_CLOSED",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 69,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_CLOSED_CLOSED_CLOSED = .closedOnly"
   },
@@ -1330,7 +1330,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_CLOSED_CLOSED_OPEN",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 75,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_CLOSED_CLOSED_OPEN = .full"
   },
@@ -1338,7 +1338,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_CLOSED_OPEN",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 64,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_CLOSED_OPEN = .full"
   },
@@ -1346,7 +1346,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_CLOSED_OPEN_CLOSED",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 74,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_CLOSED_OPEN_CLOSED = .full"
   },
@@ -1354,7 +1354,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_CLOSED_OPEN_OPEN",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 72,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_CLOSED_OPEN_OPEN = .full"
   },
@@ -1362,7 +1362,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_FULL",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 76,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_FULL = .full"
   },
@@ -1370,7 +1370,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_OPEN",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 59,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_OPEN = .openOnly"
   },
@@ -1378,7 +1378,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_OPEN_CLOSED",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 62,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_OPEN_CLOSED = .full"
   },
@@ -1386,7 +1386,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_OPEN_CLOSED_CLOSED",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 73,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_OPEN_CLOSED_CLOSED = .full"
   },
@@ -1394,7 +1394,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_OPEN_CLOSED_OPEN",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 71,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_OPEN_CLOSED_OPEN = .full"
   },
@@ -1402,7 +1402,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_OPEN_OPEN",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 65,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_OPEN_OPEN = .openOnly"
   },
@@ -1410,7 +1410,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_OPEN_OPEN_CLOSED",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 70,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_OPEN_OPEN_CLOSED = .full"
   },
@@ -1418,7 +1418,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_W_OPEN_OPEN_OPEN",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 67,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": wordCollapse W_OPEN_OPEN_OPEN = .openOnly"
   },
@@ -1426,7 +1426,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_closed",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": EndpointMultiset.collapse ⟨0, 1⟩ = .closedOnly"
   },
@@ -1434,7 +1434,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_full",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 57,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": EndpointMultiset.collapse ⟨1, 1⟩ = .full"
   },
@@ -1442,7 +1442,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_open",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 49,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": EndpointMultiset.collapse ⟨1, 0⟩ = .openOnly"
   },
@@ -1450,7 +1450,7 @@
    "name": "MCore.OpenMath.BealQ10.collapse_zero_zero",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": EndpointMultiset.collapse ⟨0, 0⟩ = .empty"
   },
@@ -1458,7 +1458,7 @@
    "name": "MCore.OpenMath.BealQ10.core012Certificate",
    "file": "lean/MCore/OpenMath/BealQ10Core012Dynamics.lean",
    "line": 75,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Core012Certificate"
   },
@@ -1466,7 +1466,7 @@
    "name": "MCore.OpenMath.BealQ10.cycle_inhabited_iff_endpoint",
    "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty Endpoint ↔ Nonempty Inhabitant"
   },
@@ -1474,7 +1474,7 @@
    "name": "MCore.OpenMath.BealQ10.dualEndpointState_iff_endpoint",
    "file": "lean/MCore/OpenMath/BealQ10DualEndpointState.lean",
    "line": 75,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty DualEndpointState ↔ Nonempty Endpoint"
   },
@@ -1482,7 +1482,7 @@
    "name": "MCore.OpenMath.BealQ10.dualEndpointState_to_endpoint",
    "file": "lean/MCore/OpenMath/BealQ10DualEndpointState.lean",
    "line": 68,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(D : DualEndpointState) : Endpoint"
   },
@@ -1490,7 +1490,7 @@
    "name": "MCore.OpenMath.BealQ10.endpointCube3Certificate",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 107,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": EndpointCube3Certificate"
   },
@@ -1498,7 +1498,7 @@
    "name": "MCore.OpenMath.BealQ10.endpointGapFixedPointCertificate",
    "file": "lean/MCore/OpenMath/BealQ10EndpointGapFixedPoint.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": EndpointGapFixedPointCertificate"
   },
@@ -1506,7 +1506,7 @@
    "name": "MCore.OpenMath.BealQ10.endpointLatticeCertificate",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 128,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": EndpointLatticeCertificate"
   },
@@ -1514,7 +1514,7 @@
    "name": "MCore.OpenMath.BealQ10.endpoint_gap_iff",
    "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Endpoint ↔ Gap"
   },
@@ -1522,7 +1522,7 @@
    "name": "MCore.OpenMath.BealQ10.endpoint_payload_equiv",
    "file": "lean/MCore/OpenMath/BealQ10DualEndpointState.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OpenMath ↔ ClosedMath"
   },
@@ -1530,7 +1530,7 @@
    "name": "MCore.OpenMath.BealQ10.endpoint_tags_distinct",
    "file": "lean/MCore/OpenMath/BealQ10DualEndpointState.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OpenEndpoint.tag ≠ ClosedEndpoint.tag"
   },
@@ -1538,7 +1538,7 @@
    "name": "MCore.OpenMath.BealQ10.endpoint_to_dualEndpointState",
    "file": "lean/MCore/OpenMath/BealQ10DualEndpointState.lean",
    "line": 54,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : Endpoint) : DualEndpointState"
   },
@@ -1546,7 +1546,7 @@
    "name": "MCore.OpenMath.BealQ10.endpoint_to_gap",
    "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
    "line": 9,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Endpoint → Gap"
   },
@@ -1554,7 +1554,7 @@
    "name": "MCore.OpenMath.BealQ10.endpoint_to_rpaDualConfirmation",
    "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : Endpoint) : RPADualConfirmation"
   },
@@ -1562,7 +1562,7 @@
    "name": "MCore.OpenMath.BealQ10.equalOddPrime_eliminated_external",
    "file": "lean/MCore/OpenMath/BealQ10ExternalFLT.lean",
    "line": 5,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": EqualOddPrimeEliminated"
   },
@@ -1578,7 +1578,7 @@
    "name": "MCore.OpenMath.BealQ10.finalMixedExclusion_closes_Q10",
    "file": "lean/MCore/OpenMath/BealQ10FinalMixedLeaf.lean",
    "line": 16,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : FinalMixedExclusion) : MCore.OpenMath.BealProbe.MaterialPrimitiveExclusion"
   },
@@ -1586,7 +1586,7 @@
    "name": "MCore.OpenMath.BealQ10.finalMixedProducer_closes_Q10",
    "file": "lean/MCore/OpenMath/BealQ10FinalMixedLeaf.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : FinalMixedProducer) : MCore.OpenMath.BealProbe.MaterialPrimitiveExclusion"
   },
@@ -1594,7 +1594,7 @@
    "name": "MCore.OpenMath.BealQ10.finalPolarityCertificate",
    "file": "lean/MCore/OpenMath/BealQ10FinalPolarity.lean",
    "line": 50,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": FinalPolarityCertificate"
   },
@@ -1602,7 +1602,7 @@
    "name": "MCore.OpenMath.BealQ10.finalReflexivityCertificate",
    "file": "lean/MCore/OpenMath/BealQ10FinalReflexivity.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": FinalReflexivityCertificate"
   },
@@ -1610,7 +1610,7 @@
    "name": "MCore.OpenMath.BealQ10.finalRoot_closes_beal",
    "file": "lean/MCore/OpenMath/BealQ10FinalRoot.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : FinalRoot) : MCore.BealConjecture"
   },
@@ -1618,7 +1618,7 @@
    "name": "MCore.OpenMath.BealQ10.finalRoot_iff_globalExternal",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 111,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": FinalRootState ↔ GlobalExternalCertificateState"
   },
@@ -1626,7 +1626,7 @@
    "name": "MCore.OpenMath.BealQ10.finalRoot_iff_globalExternalCertificate",
    "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": FinalRootView ↔ GlobalExternalCertificate"
   },
@@ -1634,7 +1634,7 @@
    "name": "MCore.OpenMath.BealQ10.fiveMixedFamilyMinCut_closes_Q10",
    "file": "lean/MCore/OpenMath/BealQ10ExternalFLT.lean",
    "line": 31,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(K : FiveMixedFamilyMinCut) : MCore.OpenMath.BealProbe.MaterialPrimitiveExclusion"
   },
@@ -1642,7 +1642,7 @@
    "name": "MCore.OpenMath.BealQ10.fullMaterial_iff_endpoint",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 114,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty FullMaterialState ↔ Nonempty Endpoint"
   },
@@ -1650,7 +1650,7 @@
    "name": "MCore.OpenMath.BealQ10.full_iff_math",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 105,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": FullMaterialState ↔ MathState"
   },
@@ -1658,7 +1658,7 @@
    "name": "MCore.OpenMath.BealQ10.gap_habitant_iff",
    "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
    "line": 16,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Gap ↔ Habitant"
   },
@@ -1666,7 +1666,7 @@
    "name": "MCore.OpenMath.BealQ10.gap_to_habitant",
    "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
    "line": 11,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Gap → Habitant"
   },
@@ -1674,7 +1674,7 @@
    "name": "MCore.OpenMath.BealQ10.globalExternalRoot_closes_beal",
    "file": "lean/MCore/OpenMath/BealQ10FinalRoot.lean",
    "line": 55,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : GlobalExternalRoot) : MCore.BealConjecture"
   },
@@ -1682,7 +1682,7 @@
    "name": "MCore.OpenMath.BealQ10.habitant_inhabitant_iff",
    "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
    "line": 17,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Habitant ↔ Inhabitant"
   },
@@ -1690,7 +1690,7 @@
    "name": "MCore.OpenMath.BealQ10.habitant_to_inhabitant",
    "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
    "line": 12,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Habitant → Inhabitant"
   },
@@ -1698,7 +1698,7 @@
    "name": "MCore.OpenMath.BealQ10.inhabitantBehavior_of_orbit",
    "file": "lean/MCore/OpenMath/BealQ10TerminalInhabitantBehavior.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(_ : TerminalOrbitCertificate) : TerminalInhabitantBehavior"
   },
@@ -1706,7 +1706,7 @@
    "name": "MCore.OpenMath.BealQ10.inhabitant_endpoint_iff",
    "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Inhabitant ↔ Endpoint"
   },
@@ -1714,7 +1714,7 @@
    "name": "MCore.OpenMath.BealQ10.inhabitant_to_endpoint",
    "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
    "line": 13,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Inhabitant → Endpoint"
   },
@@ -1722,7 +1722,7 @@
    "name": "MCore.OpenMath.BealQ10.materialPrimitiveExclusion_closes_beal",
    "file": "lean/MCore/OpenMath/BealQ10FinalRoot.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : MaterialPrimitiveExclusion) : MCore.BealConjecture"
   },
@@ -1738,7 +1738,7 @@
    "name": "MCore.OpenMath.BealQ10.mathRoot_iff_finalRoot",
    "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MathRoot ↔ FinalRootView"
   },
@@ -1746,7 +1746,7 @@
    "name": "MCore.OpenMath.BealQ10.math_iff_finalRoot",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 108,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MathState ↔ FinalRootState"
   },
@@ -1754,7 +1754,7 @@
    "name": "MCore.OpenMath.BealQ10.normalizePair_01",
    "file": "lean/MCore/OpenMath/BealQ10PairNormalization.lean",
    "line": 29,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": normalizePair ⟨0, 1⟩ = ⟨1, 1⟩"
   },
@@ -1762,7 +1762,7 @@
    "name": "MCore.OpenMath.BealQ10.normalizePair_02",
    "file": "lean/MCore/OpenMath/BealQ10PairNormalization.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": normalizePair ⟨0, 2⟩ = ⟨2, 2⟩"
   },
@@ -1770,7 +1770,7 @@
    "name": "MCore.OpenMath.BealQ10.normalizePair_11_fixed",
    "file": "lean/MCore/OpenMath/BealQ10PairNormalization.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": normalizePair ⟨1, 1⟩ = ⟨1, 1⟩"
   },
@@ -1778,7 +1778,7 @@
    "name": "MCore.OpenMath.BealQ10.normalizePair_22_fixed",
    "file": "lean/MCore/OpenMath/BealQ10PairNormalization.lean",
    "line": 41,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": normalizePair ⟨2, 2⟩ = ⟨2, 2⟩"
   },
@@ -1786,7 +1786,7 @@
    "name": "MCore.OpenMath.BealQ10.normalizeTerminal_idempotent",
    "file": "lean/MCore/OpenMath/BealQ10TerminalFixedPoint.lean",
    "line": 34,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": normalizeTerminal (normalizeTerminal FinalRoot) = normalizeTerminal FinalRoot"
   },
@@ -1794,7 +1794,7 @@
    "name": "MCore.OpenMath.BealQ10.not_closedMath_iff_notOpenMath",
    "file": "lean/MCore/OpenMath/BealQ10FinalPolarity.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ (ClosedMath ↔ ¬ OpenMath)"
   },
@@ -1802,7 +1802,7 @@
    "name": "MCore.OpenMath.BealQ10.not_closedMath_ne_self",
    "file": "lean/MCore/OpenMath/BealQ10FinalReflexivity.lean",
    "line": 10,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ (ClosedMath ≠ ClosedMath)"
   },
@@ -1810,7 +1810,7 @@
    "name": "MCore.OpenMath.BealQ10.not_endpoint_iff_not_endpoint",
    "file": "lean/MCore/OpenMath/BealQ10FinalPolarity.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ (Endpoint ↔ ¬ Endpoint)"
   },
@@ -1826,7 +1826,7 @@
    "name": "MCore.OpenMath.BealQ10.not_openMath_ne_self",
    "file": "lean/MCore/OpenMath/BealQ10FinalReflexivity.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ (OpenMath ≠ OpenMath)"
   },
@@ -1858,7 +1858,7 @@
    "name": "MCore.OpenMath.BealQ10.openBridge_iff_mathRoot",
    "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OpenBridge ↔ MathRoot"
   },
@@ -1866,7 +1866,7 @@
    "name": "MCore.OpenMath.BealQ10.openMath_iff_closedMath",
    "file": "lean/MCore/OpenMath/BealQ10FinalPolarity.lean",
    "line": 11,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OpenMath ↔ ClosedMath"
   },
@@ -1874,7 +1874,7 @@
    "name": "MCore.OpenMath.BealQ10.openMath_iff_openBridge",
    "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
    "line": 12,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OpenMath ↔ OpenBridge"
   },
@@ -1882,7 +1882,7 @@
    "name": "MCore.OpenMath.BealQ10.openMath_to_closedMath",
    "file": "lean/MCore/OpenMath/BealQ10TerminalClosureTransition.lean",
    "line": 4,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OpenMath → ClosedMath"
   },
@@ -1890,7 +1890,7 @@
    "name": "MCore.OpenMath.BealQ10.open_add_closed",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": EndpointMultiset.add OPEN1 CLOSED1 = ⟨1, 1⟩"
   },
@@ -1898,7 +1898,7 @@
    "name": "MCore.OpenMath.BealQ10.open_add_open",
    "file": "lean/MCore/OpenMath/BealQ10EndpointLattice.lean",
    "line": 17,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": EndpointMultiset.add OPEN1 OPEN1 = ⟨2, 0⟩"
   },
@@ -1906,7 +1906,7 @@
    "name": "MCore.OpenMath.BealQ10.open_closed_equiv",
    "file": "lean/MCore/OpenMath/BealQ10TerminalClosureTransition.lean",
    "line": 13,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": OpenMath ↔ ClosedMath"
   },
@@ -1914,7 +1914,7 @@
    "name": "MCore.OpenMath.BealQ10.open_closed_order_distinct",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 78,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_OPEN_CLOSED ≠ W_CLOSED_OPEN"
   },
@@ -1922,7 +1922,7 @@
    "name": "MCore.OpenMath.BealQ10.pairNormalizationCertificate",
    "file": "lean/MCore/OpenMath/BealQ10PairNormalization.lean",
    "line": 51,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": PairNormalizationCertificate"
   },
@@ -2066,7 +2066,7 @@
    "name": "MCore.OpenMath.BealQ10.reopenIter_succ_terminal",
    "file": "lean/MCore/OpenMath/BealQ10TerminalOrbit.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (P : Prop) : reopenIter (n + 1) P = TerminalGapSignature"
   },
@@ -2074,7 +2074,7 @@
    "name": "MCore.OpenMath.BealQ10.reopenStep_idempotent",
    "file": "lean/MCore/OpenMath/BealQ10TerminalOrbit.lean",
    "line": 10,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : Prop) : reopenStep (reopenStep P) = reopenStep P"
   },
@@ -2082,7 +2082,7 @@
    "name": "MCore.OpenMath.BealQ10.reopenTerminal_no_new_information",
    "file": "lean/MCore/OpenMath/BealQ10EndpointGapFixedPoint.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : TerminalGapSignature) : reopenTerminal h ↔ TerminalGapSignature"
   },
@@ -2090,7 +2090,7 @@
    "name": "MCore.OpenMath.BealQ10.repulsion_collapses",
    "file": "lean/MCore/OpenMath/BealQ10Core012Dynamics.lean",
    "line": 52,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : CoreState) : CoreState.repulseThenTension s = .core"
   },
@@ -2098,7 +2098,7 @@
    "name": "MCore.OpenMath.BealQ10.reverse_core",
    "file": "lean/MCore/OpenMath/BealQ10Core012Dynamics.lean",
    "line": 48,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CoreState.reverse .core = .core"
   },
@@ -2106,7 +2106,7 @@
    "name": "MCore.OpenMath.BealQ10.reverse_involutive",
    "file": "lean/MCore/OpenMath/BealQ10Core012Dynamics.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : CoreState) : CoreState.reverse (CoreState.reverse s) = s"
   },
@@ -2114,7 +2114,7 @@
    "name": "MCore.OpenMath.BealQ10.rpaDualConfirmation_iff_endpoint",
    "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
    "line": 67,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty RPADualConfirmation ↔ Nonempty Endpoint"
   },
@@ -2122,7 +2122,7 @@
    "name": "MCore.OpenMath.BealQ10.rpaDualConfirmation_to_endpoint",
    "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
    "line": 57,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(R : RPADualConfirmation) : Endpoint"
   },
@@ -2130,7 +2130,7 @@
    "name": "MCore.OpenMath.BealQ10.rpaEndpointCertificate_of_endpoint",
    "file": "lean/MCore/OpenMath/BealQ10DualEndpointState.lean",
    "line": 93,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : Endpoint) : RPAEndpointCertificate"
   },
@@ -2138,7 +2138,7 @@
    "name": "MCore.OpenMath.BealQ10.rpaEndpointCertificate_to_endpoint",
    "file": "lean/MCore/OpenMath/BealQ10DualEndpointState.lean",
    "line": 103,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(C : RPAEndpointCertificate) : Endpoint"
   },
@@ -2146,7 +2146,7 @@
    "name": "MCore.OpenMath.BealQ10.rpaFiveViewCertificate",
    "file": "lean/MCore/OpenMath/BealQ10RPAFiveView.lean",
    "line": 88,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": RPAFiveViewCertificate"
   },
@@ -2154,7 +2154,7 @@
    "name": "MCore.OpenMath.BealQ10.self_inequality_collapses",
    "file": "lean/MCore/OpenMath/BealQ10FinalReflexivity.lean",
    "line": 15,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hO : OpenMath ≠ OpenMath) : False"
   },
@@ -2178,7 +2178,7 @@
    "name": "MCore.OpenMath.BealQ10.structuralAllCertificate",
    "file": "lean/MCore/OpenMath/BealQ10StructuralAll.lean",
    "line": 16,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": StructuralAllCertificate"
   },
@@ -2194,7 +2194,7 @@
    "name": "MCore.OpenMath.BealQ10.tension_idempotent",
    "file": "lean/MCore/OpenMath/BealQ10Core012Dynamics.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : CoreState) : CoreState.tension (CoreState.tension s) = CoreState.tension s"
   },
@@ -2202,7 +2202,7 @@
    "name": "MCore.OpenMath.BealQ10.tension_to_core",
    "file": "lean/MCore/OpenMath/BealQ10Core012Dynamics.lean",
    "line": 40,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : CoreState) : CoreState.tension s = .core"
   },
@@ -2210,7 +2210,7 @@
    "name": "MCore.OpenMath.BealQ10.terminalClosureCertificate",
    "file": "lean/MCore/OpenMath/BealQ10TerminalClosureTransition.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalClosureCertificate"
   },
@@ -2218,7 +2218,7 @@
    "name": "MCore.OpenMath.BealQ10.terminalClosureTransition",
    "file": "lean/MCore/OpenMath/BealQ10TerminalClosureTransition.lean",
    "line": 21,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalClosureTransition"
   },
@@ -2226,7 +2226,7 @@
    "name": "MCore.OpenMath.BealQ10.terminalClosure_idempotent",
    "file": "lean/MCore/OpenMath/BealQ10TerminalClosureTransition.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : OpenMath) : openMath_to_closedMath h = h"
   },
@@ -2234,7 +2234,7 @@
    "name": "MCore.OpenMath.BealQ10.terminalCycleClosed",
    "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
    "line": 47,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalCycleClosed"
   },
@@ -2242,7 +2242,7 @@
    "name": "MCore.OpenMath.BealQ10.terminalInhabitantBehavior",
    "file": "lean/MCore/OpenMath/BealQ10TerminalInhabitantBehavior.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalInhabitantBehavior"
   },
@@ -2250,7 +2250,7 @@
    "name": "MCore.OpenMath.BealQ10.terminalInhabitantBehavior_minimal",
    "file": "lean/MCore/OpenMath/BealQ10TerminalInhabitantBehavior.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty TerminalInhabitantBehavior"
   },
@@ -2258,7 +2258,7 @@
    "name": "MCore.OpenMath.BealQ10.terminalOrbitCertificate",
    "file": "lean/MCore/OpenMath/BealQ10TerminalOrbit.lean",
    "line": 63,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalOrbitCertificate"
   },
@@ -2266,7 +2266,7 @@
    "name": "MCore.OpenMath.BealQ10.terminalTruncationCertificate",
    "file": "lean/MCore/OpenMath/BealQ10TerminalFixedPoint.lean",
    "line": 51,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalTruncationCertificate"
   },
@@ -2274,7 +2274,7 @@
    "name": "MCore.OpenMath.BealQ10.terminal_cycle",
    "file": "lean/MCore/OpenMath/BealQ10TerminalCycle.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (Endpoint ↔ Gap) ∧ (Gap ↔ Habitant) ∧ (Habitant ↔ Inhabitant) ∧ (Inhabitant ↔ Endpoint)"
   },
@@ -2282,7 +2282,7 @@
    "name": "MCore.OpenMath.BealQ10.terminal_gap_eq_final_root",
    "file": "lean/MCore/OpenMath/BealQ10EndpointGapFixedPoint.lean",
    "line": 10,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalGapSignature ↔ FinalRoot"
   },
@@ -2290,7 +2290,7 @@
    "name": "MCore.OpenMath.BealQ10.terminal_gap_eq_global_external",
    "file": "lean/MCore/OpenMath/BealQ10EndpointGapFixedPoint.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalGapSignature ↔ GlobalExternalRoot"
   },
@@ -2298,7 +2298,7 @@
    "name": "MCore.OpenMath.BealQ10.terminal_gap_eq_terminal_signature",
    "file": "lean/MCore/OpenMath/BealQ10EndpointGapFixedPoint.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalGapSignature ↔ TerminalSignature"
   },
@@ -2306,7 +2306,7 @@
    "name": "MCore.OpenMath.BealQ10.terminal_global_fixed_point",
    "file": "lean/MCore/OpenMath/BealQ10TerminalFixedPoint.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": GlobalExternalRoot ↔ TerminalSignature"
   },
@@ -2314,7 +2314,7 @@
    "name": "MCore.OpenMath.BealQ10.terminal_meets_reverse",
    "file": "lean/MCore/OpenMath/BealQ10TerminalOrbit.lean",
    "line": 38,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": reopenStep TerminalGapSignature = reverseTerminal TerminalGapSignature"
   },
@@ -2322,7 +2322,7 @@
    "name": "MCore.OpenMath.BealQ10.terminal_orbit_collapses",
    "file": "lean/MCore/OpenMath/BealQ10TerminalOrbit.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": reopenStep TerminalGapSignature = TerminalGapSignature ∧ reverseTerminal TerminalGapSignature = TerminalGapSignature ∧ reopenStep (reverseTerminal TerminalGapSignature) = TerminalGapSignature"
   },
@@ -2330,7 +2330,7 @@
    "name": "MCore.OpenMath.BealQ10.terminal_signature_fixed_point",
    "file": "lean/MCore/OpenMath/BealQ10TerminalFixedPoint.lean",
    "line": 10,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalSignature ↔ FinalRoot"
   },
@@ -2338,7 +2338,7 @@
    "name": "MCore.OpenMath.BealQ10.torsion_collapses",
    "file": "lean/MCore/OpenMath/BealQ10Core012Dynamics.lean",
    "line": 56,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(s : CoreState) : CoreState.torsion s = .core"
   },
@@ -2346,7 +2346,7 @@
    "name": "MCore.OpenMath.BealQ10.triple_mixed_words_pairwise_examples",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 81,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_OPEN_OPEN_CLOSED ≠ W_OPEN_CLOSED_OPEN ∧ W_OPEN_CLOSED_OPEN ≠ W_CLOSED_OPEN_OPEN ∧ W_OPEN_CLOSED_CLOSED ≠ W_CLOSED_OPEN_CLOSED ∧ W_CLOSED_OPEN_CLOSED ≠ W_CLOSED_CLOSED_OPEN"
   },
@@ -2362,7 +2362,7 @@
    "name": "MCore.OpenMath.BealQ10.word_closed",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 32,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_CLOSED = [.closed]"
   },
@@ -2370,7 +2370,7 @@
    "name": "MCore.OpenMath.BealQ10.word_closed_closed",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_CLOSED_CLOSED = [.closed, .closed]"
   },
@@ -2378,7 +2378,7 @@
    "name": "MCore.OpenMath.BealQ10.word_closed_closed_closed",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 40,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_CLOSED_CLOSED_CLOSED = [.closed, .closed, .closed]"
   },
@@ -2386,7 +2386,7 @@
    "name": "MCore.OpenMath.BealQ10.word_closed_closed_open",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_CLOSED_CLOSED_OPEN = [.closed, .closed, .open]"
   },
@@ -2394,7 +2394,7 @@
    "name": "MCore.OpenMath.BealQ10.word_closed_open",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_CLOSED_OPEN = [.closed, .open]"
   },
@@ -2402,7 +2402,7 @@
    "name": "MCore.OpenMath.BealQ10.word_closed_open_closed",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_CLOSED_OPEN_CLOSED = [.closed, .open, .closed]"
   },
@@ -2410,7 +2410,7 @@
    "name": "MCore.OpenMath.BealQ10.word_closed_open_open",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 43,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_CLOSED_OPEN_OPEN = [.closed, .open, .open]"
   },
@@ -2418,7 +2418,7 @@
    "name": "MCore.OpenMath.BealQ10.word_full",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 47,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_FULL = [.open, .open, .closed, .closed]"
   },
@@ -2426,7 +2426,7 @@
    "name": "MCore.OpenMath.BealQ10.word_open",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 30,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_OPEN = [.open]"
   },
@@ -2434,7 +2434,7 @@
    "name": "MCore.OpenMath.BealQ10.word_open_closed",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_OPEN_CLOSED = [.open, .closed]"
   },
@@ -2442,7 +2442,7 @@
    "name": "MCore.OpenMath.BealQ10.word_open_closed_closed",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_OPEN_CLOSED_CLOSED = [.open, .closed, .closed]"
   },
@@ -2450,7 +2450,7 @@
    "name": "MCore.OpenMath.BealQ10.word_open_closed_open",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_OPEN_CLOSED_OPEN = [.open, .closed, .open]"
   },
@@ -2458,7 +2458,7 @@
    "name": "MCore.OpenMath.BealQ10.word_open_open",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_OPEN_OPEN = [.open, .open]"
   },
@@ -2466,7 +2466,7 @@
    "name": "MCore.OpenMath.BealQ10.word_open_open_closed",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 41,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_OPEN_OPEN_CLOSED = [.open, .open, .closed]"
   },
@@ -2474,7 +2474,7 @@
    "name": "MCore.OpenMath.BealQ10.word_open_open_open",
    "file": "lean/MCore/OpenMath/BealQ10EndpointCube3.lean",
    "line": 38,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": W_OPEN_OPEN_OPEN = [.open, .open, .open]"
   },
@@ -2482,7 +2482,7 @@
    "name": "MCore.OpenMath.BealQ10.zero_one_tends_one_one",
    "file": "lean/MCore/OpenMath/BealQ10PairNormalization.lean",
    "line": 13,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (CorePair.mk 0 1) ≠ normalize01 ∧ normalize01 = CorePair.mk 1 1"
   },
@@ -2490,7 +2490,7 @@
    "name": "MCore.OpenMath.BealQ10.zero_two_tends_two_two",
    "file": "lean/MCore/OpenMath/BealQ10PairNormalization.lean",
    "line": 18,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (CorePair.mk 0 2) ≠ normalize02 ∧ normalize02 = CorePair.mk 2 2"
   },
@@ -4687,7 +4687,7 @@
    "statement": "{p : Nat} (hp : IsPrime p) : ¬ p ∣ 1"
   }
  ],
- "closed": 304,
+ "closed": 298,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "5fd758300206a4dcc8c225ff796c563ca0a82d67d9f6c06a9a9a29c59cfc2080",
@@ -4767,9 +4767,8 @@
   "lean/MCore/T7.lean": "db8ce8fcc174871673448c6cedfdde4660e1ca7b7c19d5ebcc36221843482062",
   "lean/MCore/T8.lean": "8f773d2d3b81c4380559dfeaea65d017445cb1c9a6db37ffa4a42ebba6caf2ce",
   "lean/MCore/T9.lean": "201cd28cf4ac3be419308bdc54a6266879494ad57be8247e01f1d83d824a86c9",
-  "lean/MCore/V012.lean": "7a89da38a61abb05bc5c0b774a4e1d7317d4234bedd2bcb005d9d4c34f39a188",
-  "open_math/P02RejectionBealInvariantProbe.lean": "0c91a2cc146997ae6093c79aeb3bc4eb4a6d3e25ca97c1d16683fc7b48dbfed3"
+  "lean/MCore/V012.lean": "7a89da38a61abb05bc5c0b774a4e1d7317d4234bedd2bcb005d9d4c34f39a188"
  },
- "published_at": "2026-10-29T20:15:54Z",
- "certificate_sha256": "ee185b2add8a05f1eaaef8d83eeecae67f9bb8661c9a7272995576b3dd14c959"
+ "published_at": "2026-11-02T20:55:35Z",
+ "certificate_sha256": "97c5727635ff9966715ced95bbbd04eb2507cfee39970460270aef784dd58bea"
 }
