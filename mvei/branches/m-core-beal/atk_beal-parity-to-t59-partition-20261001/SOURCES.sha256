@@ -62,6 +62,17 @@ c08fcdefb568d2289cfc459e6fc564e41accd320e5209ba92be00fe543230d6e  branches/m-cor
 e9d20721d42a65bfa65c718d7843f9ed6b4d76a594839c77c4d3dd4361c1d928  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T48.lean
 2c5c84b86757caa198bff162fe87dad3760edeeec7df6611e3bc9b752923f62a  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T49.lean
 b58a0b8e1e7b60e1b9b9226473d6810d292598ee642edf33265649f2cb6ebe40  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T50.lean
+32ff9712f2d463f89f0989cfce633b164b57c7d4d6c90ee541eabd5ddf3226d2  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T51.lean
+282369c9aa0a615aff149f609df930076823874a12909da23ab27f06732325af  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T52.lean
+f84dc2d6374013a4a550e8e5d04c6297ae5db7585748eaf97cc46a4a54cb6039  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T53.lean
+5637d0fb9cee6d3a2b4abd93505c0c36205c417ef4dae870a02369ded5cdef58  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T54.lean
+53253553d9b1530077035da530bcba1808f2d9877ba78e70e9e2e53ec2d5af2f  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T55.lean
+6eceda88a631498d54f819cd7bb470111228f9620464f7854f2835ba9f2b3b86  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T56.lean
+8c6ccdb17f487309f313fda4f39f860b7ad028f385e15c36cb6da95b676fee3f  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T57.lean
+f71cdf94f37d47dab4fd1c2db6540bba75459ca02a792e3704491201172aaf2a  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T58.lean
+c789655b7dd53236539df8adef30e08cb6d5023d1d14d0bc42aff6d042393804  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T59.lean
+963744f4728818c2aac9eeebe2025ba0427bf9625fffbc034f7d8f671bfb6d73  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T59ModularMaterializer.lean
+69b286145faba53a0b22bb4580254e817e7a2985ba0a32851cc3730bb298a98f  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T59ParityPartition.lean
 585ff020638c9ece7619cf0fe7153bff92e28821fee1a7101ff1ddac64494fa5  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T61PrimitiveLocalSupport.lean
 db8ce8fcc174871673448c6cedfdde4660e1ca7b7c19d5ebcc36221843482062  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T7.lean
 8f773d2d3b81c4380559dfeaea65d017445cb1c9a6db37ffa4a42ebba6caf2ce  branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/lean/MCore/T8.lean

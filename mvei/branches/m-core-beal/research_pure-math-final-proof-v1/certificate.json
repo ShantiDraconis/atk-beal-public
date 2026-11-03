@@ -308,7 +308,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-30T16:50:26+00:00",
+  "generated_at": "2026-11-03T08:19:01+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -436,16 +436,20 @@
    "name": "MCore.V5.beal_of_arithmeticResidue",
    "file": "lean/MCore/V5/BealReduction.lean",
    "line": 48,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hR : ArithmeticResidue) : BealConjecture"
   },
   {
    "name": "MCore.V5.bot_absorbs_add",
    "file": "lean/MCore/V5/Algebra.lean",
    "line": 30,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(b : OmegaBottom α) (x : ExtendedElem α) : add (.bot b) x = .bot b"
   },
   {
@@ -476,7 +480,7 @@
    "name": "MCore.V5.model_distinguishes",
    "file": "lean/MCore/V5/Algebra.lean",
    "line": 40,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": (ExtendedElem.ofNat 0 : WOmegaModel) ≠ .bot (omegaBottom ())"
   },
@@ -500,7 +504,7 @@
    "name": "MCore.V5.omega_ne_bot",
    "file": "lean/MCore/V5/Algebra.lean",
    "line": 33,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(a : α) : (ExtendedElem.omega (omegaPoint a) : ExtendedElem α) ≠ .bot (omegaBottom a)"
   },
@@ -508,7 +512,7 @@
    "name": "MCore.V5.omega_preserves_counterexample_payload",
    "file": "lean/MCore/V5/BealReduction.lean",
    "line": 16,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(ce : BealCounterexamplePayload) : (pointOfCounterexample ce).payload = ce.val"
   },
@@ -516,15 +520,17 @@
    "name": "MCore.V5.prime_dvd_cpow_of_dvd_a_b",
    "file": "lean/MCore/V5/BealReduction.lean",
    "line": 19,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(d : BealData) {p : Nat} (ha : p ∣ d.a) (hb : p ∣ d.b) : p ∣ d.c ^ d.z"
   },
   {
    "name": "MCore.V5.zero_mul_omega_eq_bot",
    "file": "lean/MCore/V5/Algebra.lean",
    "line": 27,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(a : α) : mul (.ofNat 0) (.omega (omegaPoint a)) = .bot (omegaBottom a)"
   },
@@ -532,7 +538,7 @@
    "name": "MCore.commonDivisorResidual_holds",
    "file": "lean/MCore/V24CommonDivisorResidual.lean",
    "line": 21,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": CommonDivisorResidual"
   },
@@ -548,7 +554,7 @@
    "name": "MCore.noCommonPrimeCandidate_iff_primitive",
    "file": "lean/MCore/BealResidualSystem.lean",
    "line": 9,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": NoCommonPrimeCandidate ↔ Nonempty PrimitiveBealCandidate"
   },
@@ -556,7 +562,7 @@
    "name": "MCore.no_independent_truth_state_v24",
    "file": "lean/MCore/V24MiddleIndependence.lean",
    "line": 38,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : MiddleCandidateV24) : ¬ MiddleHasIndependentWitnessV24 M"
   },
@@ -564,7 +570,7 @@
    "name": "MCore.normalized_has_no_common_divisor",
    "file": "lean/MCore/V24CommonDivisorResidual.lean",
    "line": 12,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(d : NormalizedBealCandidate) : ¬ ∃ k : Nat, CommonDivisor k d.data.a d.data.b d.data.c"
   },
@@ -572,15 +578,17 @@
    "name": "MCore.primitiveObstruction_iff_beal",
    "file": "lean/MCore/BealResidualSystem.lean",
    "line": 40,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": PrimitiveObstruction ↔ BealConjecture"
   },
   {
    "name": "MCore.primitive_has_no_common_divisor",
    "file": "lean/MCore/V24CommonDivisorResidual.lean",
    "line": 4,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(d : PrimitiveBealCandidate) : ¬ ∃ k : Nat, CommonDivisor k d.data.a d.data.b d.data.c"
   },
@@ -588,17 +596,18 @@
    "name": "MCore.primitive_iff_normalized",
    "file": "lean/MCore/BealResidualSystem.lean",
    "line": 28,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty PrimitiveBealCandidate ↔ Nonempty NormalizedBealCandidate"
   }
  ],
- "closed": 20,
+ "closed": 30,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "ff71024013d8f21b4908035d9c3296be64c19b1a54ade041a62e9d7264a1a741",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
   "lean/MCore/Audit8x5.lean": "a845342badf6bb437e1b89581946ea856d284e54d499114dd1d407ba6f150b7f",
+  "lean/MCore/BealResidualSystem.lean": "13dcf2f63407b47fb3e50613543ee2e1562e6f6f8e1cfe4110d23467f2fcefb9",
   "lean/MCore/BealSpecification.lean": "312f1ac0cdb64d317731d11113d70203ab4de79d84d1a5fc42685617ed36b145",
   "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
   "lean/MCore/GCDSignature.lean": "3b763f780c5bbdd68b01acb1d233732448d38dfccda92339202b670a3dbcf0c7",
@@ -616,13 +625,17 @@
   "lean/MCore/K9/Core/Arith.lean": "8b5e0a520afdec6b8a57e302ae16bac0ed24e874e8e775fb327cd7445abfac03",
   "lean/MCore/Research/ParallelClosure.lean": "0f9b91a26222e1fe7299d37a24d394082889720616d5a6944d1ddacf97177b6a",
   "lean/MCore/Signature.lean": "b295056afe7d8b4832377e0cbc67ceede72688c344705474d3803dba5a0d15ad",
+  "lean/MCore/V24CommonDivisorResidual.lean": "02d6352392f7ac7ed6ebf966700c029131da4682c073c02373be8ebed75a6234",
+  "lean/MCore/V24MiddleIndependence.lean": "5e17c0810120578a9375e5a8115c6b1440cd6ad0bdbe1a8c15d3760e98ae0cb3",
+  "lean/MCore/V5/Algebra.lean": "8e339f1652bce3c40a62866aef55ab85ceeffaa0db66ac1a9dabff7f67b2614a",
   "lean/MCore/V5/ArithmeticFrontier.lean": "4313a6d8635c11fecae1eaab5c20394fa8da79a6cad199100447319f7872f49f",
   "lean/MCore/V5/BealPayload.lean": "278281be83f885bb64f3f61196d735667b031512b2aad6e02b4f5dbb08cf05cb",
+  "lean/MCore/V5/BealReduction.lean": "c19d57090b7f3051df46a797260758a33323c35c13860598ed85aaefb15fb20d",
   "lean/MCore/V5/Firewall.lean": "87606a4e85eadaecaa9df97de97ae24fb1b3d4f52faa7778888a787e17537d32",
   "lean/MCore/V5/OmegaBottom.lean": "3a79e614ec02c72391d30308bc7383fbed83c424977792f6937f4fcdaf57c0d4",
   "lean/MCore/V5/OmegaPoint.lean": "80969b68ded4785d2606103e2b5e64ef7ba5ab5221a173a32d4b488a5d6da2a7",
   "lean/MCore/V5/Surgery.lean": "ad038e5a50ff5f1c676071f84d7d9bd6c5061020e3e22c89a5e4dfe840de14cf"
  },
- "published_at": "2026-11-02T20:55:36Z",
- "certificate_sha256": "a0c866710e2c82e0a1477f6a1bd7c2a0df8207337ffae86ad49da725bc290f5a"
+ "published_at": "2026-11-03T11:28:01Z",
+ "certificate_sha256": "7d7331d9b88fb6e0a086a956c4fa6a408abea46ff3dc51df15b74c0a07381bb1"
 }

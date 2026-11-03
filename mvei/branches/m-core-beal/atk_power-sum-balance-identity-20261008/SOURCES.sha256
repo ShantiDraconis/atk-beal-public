@@ -1,8 +1,14 @@
 b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lake-manifest.json
 ff71024013d8f21b4908035d9c3296be64c19b1a54ade041a62e9d7264a1a741  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lakefile.toml
 55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean-toolchain
+c6b970fec82a5c3d0abb4be4df4564fd4fe530df1d0ccde3c970847de6398521  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore.lean
+c76c177447069d02936aaf3bcc243225459baf94c756d8ce11313ea63d57eaf1  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/AttackDAG/K3AlgebraAttacks.lean
+2073dffa499a29e19d8171c07d175606a327263f81e52c3e34b8adb183efe7c6  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/Audit.lean
+1be0ec747e37d7cfc6ba4ca291648b3ab3a7d6e2ff1cf51ae76b7787cec4b857  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/BealDirectProducer.lean
 6f880a8c71b13e46cfd2783a8d236ec03818ab7f379d0246dd2e5dfdfaf3a80a  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/BealSpecification.lean
 e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/Boundary.lean
+d44d3a0ada1efbf5c27306e53cd73e0888fe1ea787d548770f990f488ada8ca9  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/DiscreteBoundary.lean
+02d594363d98ebade1bd21a486c49129fe1fe780f58b18ce925fd28a2da7fbd0  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/Frontier/K3Gaps.lean
 524c340829ede7037786a269987fd32587c5d22a7fed98078a3e4d3644fa34c8  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/GCDLowerBoundProducer.lean
 3b763f780c5bbdd68b01acb1d233732448d38dfccda92339202b670a3dbcf0c7  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/GCDSignature.lean
 487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/K0.lean
@@ -17,5 +23,7 @@ ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9  branches/m-cor
 b54676410879afbd8896e8196df63cd511c29973229010596e362e3bdecbf4cd  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/K8.lean
 959c7c05f5c913be70bfc2ac6cc09c768f46b02dc9a82cec214363a7249b0975  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/K9.lean
 8b5e0a520afdec6b8a57e302ae16bac0ed24e874e8e775fb327cd7445abfac03  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/K9/Core/Arith.lean
+6cb71b1c40ffb7175693b737db0c2bf96cd43bd854bacf29237b9c3616557d94  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/Material/Closure.lean
+f7d46144b884afe42db05308186869b3865838382b70cef877ae07c036042dcf  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/Material/StateIteration.lean
 62ad8bef379e45bc1349efee101e2614a62c93d794357fa83ff4bba81279daf9  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/PowerSumBalance.lean
 b295056afe7d8b4832377e0cbc67ceede72688c344705474d3803dba5a0d15ad  branches/m-core-beal/atk_power-sum-balance-identity-20261008/lean/MCore/Signature.lean

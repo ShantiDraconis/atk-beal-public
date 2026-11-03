@@ -768,7 +768,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-30T16:50:26+00:00",
+  "generated_at": "2026-11-03T08:19:01+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0",
    "leanprover/lean4:v4.35.0-rc2"
@@ -881,7 +881,7 @@
    "name": "MCore.T59_allFourEliminator_proved",
    "file": "lean/MCore/T59ParityPartition.lean",
    "line": 170,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": T59AllFourEliminator"
   },
@@ -889,15 +889,17 @@
    "name": "MCore.T59_beyondThree_and_residual_close_beal",
    "file": "lean/MCore/T59ParityPartition.lean",
    "line": 187,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hBeyond : T59FLTBeyondThree) (hResidual : T59ResidualEliminator) : BealConjecture"
   },
   {
    "name": "MCore.T59_equalOddPrimeEliminator_of_beyondThree",
    "file": "lean/MCore/T59ParityPartition.lean",
    "line": 177,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(hBeyond : T59FLTBeyondThree) : T59EqualOddPrimeEliminator"
   },
@@ -905,32 +907,40 @@
    "name": "MCore.T59_modular_materializer_closes_beal",
    "file": "lean/MCore/T59ModularMaterializer.lean",
    "line": 55,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hBeyond : T59FLTBeyondThree) {Survives : T44LoweredNewformCase → Prop} (B : T59LoweredNewformBridge Survives) (hDomain : T58ResidualSurvivorDomain Survives) (bundle : T58MixedEliminationBundle Survives) : BealConjecture"
   },
   {
    "name": "MCore.T59_residual_is_only_remaining_branch",
    "file": "lean/MCore/T59ParityPartition.lean",
    "line": 128,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hEq : T59EqualOddPrimeEliminator) (h4 : T59AllFourEliminator) : T59ResidualEliminator → BealConjecture"
   },
   {
    "name": "MCore.T59_three_branch_elimination_closes_beal",
    "file": "lean/MCore/T59ParityPartition.lean",
    "line": 116,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hEq : T59EqualOddPrimeEliminator) (h4 : T59AllFourEliminator) (hResidual : T59ResidualEliminator) : BealConjecture"
   },
   {
    "name": "MCore.T59_three_branch_elimination_closes_parity_frontier",
    "file": "lean/MCore/T59ParityPartition.lean",
    "line": 97,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hEq : T59EqualOddPrimeEliminator) (h4 : T59AllFourEliminator) (hResidual : T59ResidualEliminator) : T12ParityScientificFrontier"
   },
   {
@@ -1001,7 +1011,7 @@
    "name": "MCore.lowered_case_has_t59_signature",
    "file": "lean/MCore/T59ModularMaterializer.lean",
    "line": 75,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{Survives : T44LoweredNewformCase → Prop} (B : T59LoweredNewformBridge Survives) (d : T59ResidualCandidate) : T7ReducedExponent (B.lower d).x ∧ T7ReducedExponent (B.lower d).y ∧ T7ReducedExponent (B.lower d).z ∧ T45MixedReducedSignature (B.lower d).x (B.lower d).y (B.lower d).z ∧ ¬ T49AllFour (B.lower d).x (B.lower d).y (B.lower d).z"
   },
@@ -1014,7 +1024,7 @@
    "statement": "MCore.MinimalBealInhabitant ↔ MCore.BealConjecture"
   }
  ],
- "closed": 21,
+ "closed": 24,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "ff71024013d8f21b4908035d9c3296be64c19b1a54ade041a62e9d7264a1a741",
@@ -1080,12 +1090,23 @@
   "lean/MCore/T48.lean": "e9d20721d42a65bfa65c718d7843f9ed6b4d76a594839c77c4d3dd4361c1d928",
   "lean/MCore/T49.lean": "2c5c84b86757caa198bff162fe87dad3760edeeec7df6611e3bc9b752923f62a",
   "lean/MCore/T50.lean": "b58a0b8e1e7b60e1b9b9226473d6810d292598ee642edf33265649f2cb6ebe40",
+  "lean/MCore/T51.lean": "32ff9712f2d463f89f0989cfce633b164b57c7d4d6c90ee541eabd5ddf3226d2",
+  "lean/MCore/T52.lean": "282369c9aa0a615aff149f609df930076823874a12909da23ab27f06732325af",
+  "lean/MCore/T53.lean": "f84dc2d6374013a4a550e8e5d04c6297ae5db7585748eaf97cc46a4a54cb6039",
+  "lean/MCore/T54.lean": "5637d0fb9cee6d3a2b4abd93505c0c36205c417ef4dae870a02369ded5cdef58",
+  "lean/MCore/T55.lean": "53253553d9b1530077035da530bcba1808f2d9877ba78e70e9e2e53ec2d5af2f",
+  "lean/MCore/T56.lean": "6eceda88a631498d54f819cd7bb470111228f9620464f7854f2835ba9f2b3b86",
+  "lean/MCore/T57.lean": "8c6ccdb17f487309f313fda4f39f860b7ad028f385e15c36cb6da95b676fee3f",
+  "lean/MCore/T58.lean": "f71cdf94f37d47dab4fd1c2db6540bba75459ca02a792e3704491201172aaf2a",
+  "lean/MCore/T59.lean": "c789655b7dd53236539df8adef30e08cb6d5023d1d14d0bc42aff6d042393804",
+  "lean/MCore/T59ModularMaterializer.lean": "963744f4728818c2aac9eeebe2025ba0427bf9625fffbc034f7d8f671bfb6d73",
+  "lean/MCore/T59ParityPartition.lean": "69b286145faba53a0b22bb4580254e817e7a2985ba0a32851cc3730bb298a98f",
   "lean/MCore/T61PrimitiveLocalSupport.lean": "585ff020638c9ece7619cf0fe7153bff92e28821fee1a7101ff1ddac64494fa5",
   "lean/MCore/T7.lean": "db8ce8fcc174871673448c6cedfdde4660e1ca7b7c19d5ebcc36221843482062",
   "lean/MCore/T8.lean": "8f773d2d3b81c4380559dfeaea65d017445cb1c9a6db37ffa4a42ebba6caf2ce",
   "lean/MCore/T9.lean": "201cd28cf4ac3be419308bdc54a6266879494ad57be8247e01f1d83d824a86c9",
   "lean/MCore/V012.lean": "7a89da38a61abb05bc5c0b774a4e1d7317d4234bedd2bcb005d9d4c34f39a188"
  },
- "published_at": "2026-11-02T20:55:36Z",
- "certificate_sha256": "cb772f94b7113f391042f863acf0f2d845ead3882d47d62a670d3af969842c14"
+ "published_at": "2026-11-03T11:28:01Z",
+ "certificate_sha256": "3a5411dd8bb5cc32bc4e2cd8750b60a7f2a80b6a59bc3838abbd16a668a02b2e"
 }

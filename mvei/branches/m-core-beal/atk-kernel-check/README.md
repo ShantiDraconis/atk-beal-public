@@ -5,7 +5,7 @@ Lean sources from the branch `atk-kernel-check` of the private repository `Shant
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 4 — closed 4, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 5 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `8df444021d5c1ab8a33e77d447cfff80428a358c1f80e9211a7c1eef303c6c03`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/atk-kernel-check/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `96086777b2b32fa0e81c0bb1e00428794dd3f459602cc1cf656b5dedc925095e`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/atk-kernel-check/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

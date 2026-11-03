@@ -558,7 +558,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-11-03T08:19:01+00:00",
   "lean": [
    "leanprover/lean4:v4.29.0-rc6"
   ],
@@ -623,7 +623,9 @@
    "file": "lean/MCore/T62.lean",
    "line": 146,
    "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(a b x y p : Nat) (hp : Nat.Prime p) : WeierstrassCurve.IsIntegral (T62LocalRing p hp) (T61FreyCurveQ a b x y)"
   },
   {
@@ -631,14 +633,16 @@
    "file": "lean/MCore/T62.lean",
    "line": 100,
    "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "{R K : Type*} [CommRing R] [IsDomain R] [IsDiscreteValuationRing R] [Field K] [Algebra R K] [IsFractionRing R K] (W : WeierstrassCurve K) [IsIntegral R W] (hc4 : IsDedekindDomain.HeightOneSpectrum.valuation K (IsDiscreteValuationRing.maximalIdeal R) W.c₄ = 1) : IsMinimal R W"
   },
   {
    "name": "MCore.T62_natPrime_to_corePrime",
    "file": "lean/MCore/T62.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{p : Nat} (hp : Nat.Prime p) : MCore.IsPrime p"
   },
@@ -646,7 +650,7 @@
    "name": "MCore.T62_primePlace_natGenerator",
    "file": "lean/MCore/T62.lean",
    "line": 40,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(p : Nat) (hp : Nat.Prime p) : Rat.HeightOneSpectrum.natGenerator (T62PrimePlace p hp) = p"
   },
@@ -654,16 +658,20 @@
    "name": "MCore.T63_freyCurveQ_c4_eq_natKernel",
    "file": "lean/MCore/T63.lean",
    "line": 53,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(a b x y : Nat) : (T61FreyCurveQ a b x y).c₄ = (T32FreyC4Kernel a b x y : ℚ)"
   },
   {
    "name": "MCore.T63_freyCurveQ_delta_eq_natKernel",
    "file": "lean/MCore/T63.lean",
    "line": 60,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(d : T59ResidualCandidate) : (T61FreyCurveQ d.a d.b d.x d.y).Δ = (T24FreyDiscriminantBeal d.a d.b d.c d.x d.y d.z : ℚ)"
   },
   {
@@ -671,14 +679,16 @@
    "file": "lean/MCore/T63.lean",
    "line": 67,
    "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(d : T59ResidualCandidate) {q : Nat} (hq : Nat.Prime q) (hq2 : q ≠ 2) (hDelta : q ∣ T24FreyDiscriminantBeal d.a d.b d.c d.x d.y d.z) : (T61FreyCurveQ d.a d.b d.x d.y).HasMultiplicativeReduction (T62LocalRing q hq)"
   },
   {
    "name": "MCore.T63_isUnit_natCast_localRing",
    "file": "lean/MCore/T63.lean",
    "line": 38,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{p n : Nat} (hp : Nat.Prime p) (hndvd : ¬ p ∣ n) : IsUnit ((n : T62LocalRing p hp))"
   },
@@ -686,12 +696,12 @@
    "name": "MCore.T63_natCast_mem_primePlace_iff",
    "file": "lean/MCore/T63.lean",
    "line": 20,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{p n : Nat} (hp : Nat.Prime p) : ((n : 𝓞 ℚ) ∈ (T62PrimePlace p hp).asIdeal) ↔ p ∣ n"
   }
  ],
- "closed": 4,
+ "closed": 8,
  "files_sha256": {
   "lake-manifest.json": "c1ac62bf4eca52c0356f6b5a7abb6b23971b503ef13daf3bcd1dc62c8966c0f6",
   "lakefile.toml": "773fb70c2762b240b7f62361f86fef0b648bbec57b68e892bb1faa6cd0c98f70",
@@ -761,11 +771,13 @@
   "lean/MCore/T59.lean": "c789655b7dd53236539df8adef30e08cb6d5023d1d14d0bc42aff6d042393804",
   "lean/MCore/T60.lean": "05cef6a4a563bcac7c5e62faf5339e42f632c8bae370bc03a2cdeed6c61f7171",
   "lean/MCore/T61.lean": "7d2f19ce7309f0356186b413d9b9bc0196dda69c3c3d5f1b56dd10e597f28357",
+  "lean/MCore/T62.lean": "df2c2785684f771c28a74a3cd934bd3f9670a4b9aabf1151033de5676fa8dbcf",
+  "lean/MCore/T63.lean": "07e4a20f16bea284d58a663dd106e348587c153e18aca603a97fa97beff5d202",
   "lean/MCore/T7.lean": "db8ce8fcc174871673448c6cedfdde4660e1ca7b7c19d5ebcc36221843482062",
   "lean/MCore/T8.lean": "8f773d2d3b81c4380559dfeaea65d017445cb1c9a6db37ffa4a42ebba6caf2ce",
   "lean/MCore/T9.lean": "201cd28cf4ac3be419308bdc54a6266879494ad57be8247e01f1d83d824a86c9",
   "lean/MCore/V012.lean": "7a89da38a61abb05bc5c0b774a4e1d7317d4234bedd2bcb005d9d4c34f39a188"
  },
- "published_at": "2026-10-29T20:15:55Z",
- "certificate_sha256": "f3c086631be68527eb288a384f1ce427978717d2e6081cb25db4791093bb72b5"
+ "published_at": "2026-11-03T11:28:01Z",
+ "certificate_sha256": "4e560800f14d5339cad28956ebcbe1bb1785a423218d20a866777e5f884577a0"
 }
