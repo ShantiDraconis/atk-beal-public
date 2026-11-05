@@ -5,7 +5,7 @@ Lean sources from the branch `attack/beal-gcd-endpoint-equivalence-20260927` of 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 8 — closed 6, conditional 0, open 1, proof error 1, not reached 0, no result 0.
 * History: 150 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `f487d8a21a8877147be52e1724d07ac70643f97325dda3cc57e57d535c3d8485`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_beal-gcd-endpoint-equivalence-20260927/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `07aa14ae244d93b61cacf98e47ce17c6df92681a4500db2788232962985844b4`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_beal-gcd-endpoint-equivalence-20260927/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

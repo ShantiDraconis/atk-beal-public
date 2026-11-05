@@ -5,7 +5,7 @@ Lean sources from the branch `attack/beal-b01-o1-conductor-bridge-20260926` of t
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 19 — closed 18, conditional 0, open 1, proof error 0, not reached 0, no result 0.
 * History: 258 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `450a7ac21851b8b088e769a50cd4f83c63f0b3d83325418a1d860fa7d545c933`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_beal-b01-o1-conductor-bridge-20260926/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `a938a4acd466cfd6722a9bca1e539bcc99fbc2e007d45a6063575d94c5b8883b`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_beal-b01-o1-conductor-bridge-20260926/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

@@ -1,0 +1,129 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-beal",
+ "branch": "atk/tristable-eisenstein-research-20261007",
+ "branch_state": "parada",
+ "head_commit": "9b8b0c778b4e78cd57fd641a8919450d2026d1d0",
+ "head_commit_date": "2026-10-07T22:02:30+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "9b8b0c778b4e78cd57fd641a8919450d2026d1d0",
+   "date": "2026-10-07T22:02:30+02:00",
+   "subject": "research: add Beal research aggregate"
+  },
+  {
+   "commit": "e0ea1c500455ab3448bc58ae31e2aa60e1b39354",
+   "date": "2026-10-07T22:01:55+02:00",
+   "subject": "research: scaffold lean/MCore/Research/Beal/Targets.lean"
+  },
+  {
+   "commit": "c9dbca2dbb145ee8269e89f24e74592b81a5e86e",
+   "date": "2026-10-07T22:01:53+02:00",
+   "subject": "research: scaffold lean/MCore/Research/Beal/Counterprobes.lean"
+  },
+  {
+   "commit": "03ea3619031a5f3b1a53adb14ce29becbd6aa2c7",
+   "date": "2026-10-07T22:01:51+02:00",
+   "subject": "research: scaffold lean/MCore/Research/Beal/TernaryDefect.lean"
+  },
+  {
+   "commit": "aad288c1e8fde90d32bdcf46a9bedfc886c6d3cc",
+   "date": "2026-10-07T22:01:49+02:00",
+   "subject": "research: scaffold lean/MCore/Research/Tristable/Algebra.lean"
+  },
+  {
+   "commit": "5f5fc135b0094b54a3b0519bf10ba49acf756de4",
+   "date": "2026-10-07T22:01:47+02:00",
+   "subject": "research: scaffold research/tristable/RouteLedger.md"
+  },
+  {
+   "commit": "2ae03f64e7558aaa174b522f3220a79b47dd2b70",
+   "date": "2026-10-07T22:01:45+02:00",
+   "subject": "research: scaffold research/tristable/CHAIN.md"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-11-05T15:19:16+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Research.Beal.counterprobe_one_three",
+   "file": "lean/MCore/Research/Beal/Counterprobes.lean",
+   "line": 6,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.Research.Beal.ternaryD 1 3 = 7"
+  },
+  {
+   "name": "MCore.Research.Beal.counterprobe_one_two",
+   "file": "lean/MCore/Research/Beal/Counterprobes.lean",
+   "line": 4,
+   "state": "condicional",
+   "axioms_beyond_standard": [
+    "Lean.ofReduceBool"
+   ],
+   "statement": "MCore.Research.Beal.ternaryD 1 2 = 3"
+  },
+  {
+   "name": "MCore.Research.Beal.four_mul_ternaryD",
+   "file": "lean/MCore/Research/Beal/TernaryDefect.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (a b : ℤ), 4 * MCore.Research.Beal.ternaryD a b = (2 * a - b) ^ 2 + 3 * b ^ 2"
+  },
+  {
+   "name": "MCore.Research.Beal.ternaryD_eq_sum_form",
+   "file": "lean/MCore/Research/Beal/TernaryDefect.lean",
+   "line": 7,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (a b : ℤ), MCore.Research.Beal.ternaryD a b = (a + b) ^ 2 - 3 * a * b"
+  },
+  {
+   "name": "MCore.Research.Beal.ternaryD_pos",
+   "file": "lean/MCore/Research/Beal/TernaryDefect.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {a b : ℤ}, 0 < a → 0 < b → 0 < MCore.Research.Beal.ternaryD a b"
+  },
+  {
+   "name": "MCore.Research.Tristable.realDefectSq_eq_pairwise",
+   "file": "lean/MCore/Research/Tristable/Algebra.lean",
+   "line": 13,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (a b c : ℝ), 2 * MCore.Research.Tristable.realDefectSq a b c = (a - b) ^ 2 + (b - c) ^ 2 + (c - a) ^ 2"
+  },
+  {
+   "name": "MCore.Research.Tristable.realDefectSq_nonneg",
+   "file": "lean/MCore/Research/Tristable/Algebra.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (a b c : ℝ), 0 ≤ MCore.Research.Tristable.realDefectSq a b c"
+  }
+ ],
+ "closed": 5,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "ff71024013d8f21b4908035d9c3296be64c19b1a54ade041a62e9d7264a1a741",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Research/Beal/TernaryDefect.lean": "9fd35bd6d7fefe4b5eaff5b185597ec5f4f33eadeb5cbd6dfa553dd025da38a4",
+  "lean/MCore/Research/Tristable/Algebra.lean": "2d7252bd68c0c6612681a201398441ed957b08c5760842353420c4cc4ee5af22"
+ },
+ "published_at": "2026-11-05T17:43:10Z",
+ "certificate_sha256": "05961e32d960d11fa1722c949cfc31c3666d8854f568e3d0f6cebaadf46c98e2"
+}

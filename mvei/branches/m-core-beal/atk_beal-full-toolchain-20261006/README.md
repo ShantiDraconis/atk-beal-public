@@ -5,7 +5,7 @@ Lean sources from the branch `atk/beal-full-toolchain-20261006` of the private r
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 457 — closed 304, conditional 0, open 0, proof error 0, not reached 135, no result 18.
 * History: 202 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `135523b63bf87824193fb26de7698372fd4b66081ae27f2c9cd75d51825fab0d`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/atk_beal-full-toolchain-20261006/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `8063cd5e9e58ca56467b089a7acd34751c8b9e50c130289898eac0e9d5ca831e`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/atk_beal-full-toolchain-20261006/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

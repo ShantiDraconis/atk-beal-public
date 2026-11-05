@@ -5,7 +5,7 @@ Lean sources from the branch `atk/concrete-terminal-law` of the private reposito
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 4 — closed 4, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 4 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `8b4760688933709241a3ed7eb88b2db7115d3ce3ec4dedbd534976f34f62a898`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/atk_concrete-terminal-law/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `c8cf0f920edd052f1e4c565797342dfab013bdf5cafd76b2aeb559aa562f6067`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/atk_concrete-terminal-law/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
