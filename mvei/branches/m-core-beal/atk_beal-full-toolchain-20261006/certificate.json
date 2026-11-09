@@ -1018,7 +1018,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-05T15:19:16+00:00",
+  "generated_at": "2026-11-06T00:22:08+00:00",
   "lean": [
    "leanprover/lean4:v4.33.1"
   ],
@@ -4770,6 +4770,6 @@
   "lean/MCore/V012.lean": "7a89da38a61abb05bc5c0b774a4e1d7317d4234bedd2bcb005d9d4c34f39a188",
   "open_math/P02RejectionBealInvariantProbe.lean": "0c91a2cc146997ae6093c79aeb3bc4eb4a6d3e25ca97c1d16683fc7b48dbfed3"
  },
- "published_at": "2026-11-05T17:43:01Z",
- "certificate_sha256": "8063cd5e9e58ca56467b089a7acd34751c8b9e50c130289898eac0e9d5ca831e"
+ "published_at": "2026-11-09T23:12:57Z",
+ "certificate_sha256": "6647393e13af6d8bf3e9fb3e13fc177c3836cbf37aa611e0fd993cd77a07b33d"
 }

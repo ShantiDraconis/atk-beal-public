@@ -5,7 +5,7 @@ Lean sources from the branch `attack/t46-newform-signature-split-20260920` of th
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 5 — closed 5, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 83 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `c5227a5f39db021e56751f25ad09fc602a9d5e39a050ecfb4e55cabb7df04fb3`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_t46-newform-signature-split-20260920/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `6460bbbe7796119c9933fec4a3444accf10f288ecdbc97f3cf37d8b67b1f1107`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_t46-newform-signature-split-20260920/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

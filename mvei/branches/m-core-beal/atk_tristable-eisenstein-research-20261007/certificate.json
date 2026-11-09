@@ -43,7 +43,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-05T15:19:16+00:00",
+  "generated_at": "2026-11-06T00:22:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -124,6 +124,6 @@
   "lean/MCore/Research/Beal/TernaryDefect.lean": "9fd35bd6d7fefe4b5eaff5b185597ec5f4f33eadeb5cbd6dfa553dd025da38a4",
   "lean/MCore/Research/Tristable/Algebra.lean": "2d7252bd68c0c6612681a201398441ed957b08c5760842353420c4cc4ee5af22"
  },
- "published_at": "2026-11-05T17:43:10Z",
- "certificate_sha256": "05961e32d960d11fa1722c949cfc31c3666d8854f568e3d0f6cebaadf46c98e2"
+ "published_at": "2026-11-09T23:13:07Z",
+ "certificate_sha256": "15a386b9be016277069e9411edfe9795adf3f73eaa5962e8d251afca7838598c"
 }

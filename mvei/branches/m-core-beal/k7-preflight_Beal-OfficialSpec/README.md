@@ -5,7 +5,7 @@ Lean sources from the branch `k7-preflight/Beal-OfficialSpec` of the private rep
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 3 — closed 3, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 1 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `40d08d0913d4567677311f4bb8c6cd249c3e625aa79bf9468066f781522f3446`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/k7-preflight_Beal-OfficialSpec/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `1b1feaa7fd73299c91dfe2962ffca7752bae1539514d578a7b8009df1e187cd9`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/k7-preflight_Beal-OfficialSpec/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

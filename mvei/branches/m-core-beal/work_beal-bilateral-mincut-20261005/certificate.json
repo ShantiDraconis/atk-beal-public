@@ -688,7 +688,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-05T15:19:16+00:00",
+  "generated_at": "2026-11-06T00:22:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -2726,6 +2726,6 @@
   "open_math/Beal_TwoFour_XY_FreyArithmetic.lean": "9f81d9644bcc280e7ea2198c4950325d6dd1df107f93f68560ecc1c077eb8d80",
   "open_math/Beal_TwoFour_XY_SharpCore.lean": "fdadbfab6b696a055a8d19cf1dd2a1945e7f86326369399c7a55976f32e73e28"
  },
- "published_at": "2026-11-05T17:43:01Z",
- "certificate_sha256": "2a33570cb097c191a646b21f7b0fcb7cc1c21884e8fb2317d59465f22a4c2f7e"
+ "published_at": "2026-11-09T23:12:57Z",
+ "certificate_sha256": "30ec501d3175de11a75f16d2bee6f94819a667caf9efacbc97992dd8acc44cf3"
 }
