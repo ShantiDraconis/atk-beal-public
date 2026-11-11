@@ -5,7 +5,7 @@ Lean sources from the branch `attack/witness-kernel-v1` of the private repositor
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 5 — closed 5, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 3 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `8894356520c27ad437829f6947b2c9bb24cc80b01ba625f7c17646c17ab6f4c5`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_witness-kernel-v1/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `55d76326569762bc9ba0cc67a7be6c5718511688a2b71753c3fd38bc3e016aaa`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_witness-kernel-v1/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

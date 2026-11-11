@@ -5,7 +5,7 @@ Lean sources from the branch `k7-BEAL` of the private repository `ShantiDraconis
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 3 — closed 3, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 2 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `161b1734eab7fc4fdd58c4dc4c27f097a32d675e9b3f246e024af5a978d95cd3`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/k7-BEAL/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `e7176698feadb0528444c8e4598c65f7e16a83dae9d29afc5e3bd3575c91a9fb`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/k7-BEAL/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

@@ -5,7 +5,7 @@ Lean sources from the branch `attack/post-t36e-conductor-level-20260920` of the 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 4 — closed 1, conditional 0, open 0, proof error 3, not reached 0, no result 0.
 * History: 85 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `79e4ab6eb563f44d1ea1730b2b747617be2eea286e66113d80f277dd6bd8216d`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_post-t36e-conductor-level-20260920/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `188b1d7cb61fd9bf74831ee153dd0d251456387e55a925b07dcbae599d146407`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_post-t36e-conductor-level-20260920/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

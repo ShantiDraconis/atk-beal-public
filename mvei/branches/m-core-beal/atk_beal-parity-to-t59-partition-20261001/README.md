@@ -5,7 +5,7 @@ Lean sources from the branch `atk/beal-parity-to-t59-partition-20261001` of the 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 29 — closed 24, conditional 0, open 5, proof error 0, not reached 0, no result 0.
 * History: 152 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `624a0dd0c35bdebc03db1be74a767b868e68689fc84ddbf8c7d533193a5c914f`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `cbc5ad4f64bf131becba69e18a641d2eee73e2239003e93e21e75b4856942b3e`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/atk_beal-parity-to-t59-partition-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

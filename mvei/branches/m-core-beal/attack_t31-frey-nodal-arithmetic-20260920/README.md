@@ -5,7 +5,7 @@ Lean sources from the branch `attack/t31-frey-nodal-arithmetic-20260920` of the 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 29 — closed 29, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 75 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `5522e9acd72fea616f2811748045233568d66ab016febe4ef11f62d98e46ae69`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_t31-frey-nodal-arithmetic-20260920/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `fe7a7a7a28570264ccd3c9d67ef05f5fe9c03c69644e19b26aadc000369f5c3d`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/attack_t31-frey-nodal-arithmetic-20260920/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

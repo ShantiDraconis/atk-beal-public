@@ -5,7 +5,7 @@ Lean sources from the branch `atk/tristable-eisenstein-research-20261007` of the
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 7 — closed 5, conditional 2, open 0, proof error 0, not reached 0, no result 0.
 * History: 7 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `15a386b9be016277069e9411edfe9795adf3f73eaa5962e8d251afca7838598c`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/atk_tristable-eisenstein-research-20261007/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `19a645ce4b8f5f17d732393040a32100f85d455156dbe17a78deacaaa3503053`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-beal/atk_tristable-eisenstein-research-20261007/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
